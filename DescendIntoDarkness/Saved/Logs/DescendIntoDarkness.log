@@ -1,4 +1,4 @@
-﻿Log file open, 06/27/19 17:17:55
+﻿Log file open, 06/30/19 10:42:43
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: DescendIntoDarkness
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.166315
+LogStats: Stats thread started at 0.175488
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -156,397 +156,495 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
-[2019.06.28-00.17.56:070][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.06.28-00.17.56:070][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
-[2019.06.28-00.17.56:070][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
-[2019.06.28-00.17.56:084][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.06.28-00.17.56:084][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.06.28-00.17.56:084][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.06.28-00.17.56:084][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.06.28-00.17.56:084][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.06.28-00.17.56:084][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.06.28-00.17.56:084][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.06.28-00.17.56:084][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.06.28-00.17.56:084][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.06.28-00.17.56:084][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.06.28-00.17.56:084][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.06.28-00.17.56:084][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.06.28-00.17.56:084][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.06.28-00.17.56:084][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.06.28-00.17.56:085][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.06.28-00.17.56:085][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.06.28-00.17.56:085][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.06.28-00.17.56:085][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.06.28-00.17.56:085][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.06.28-00.17.56:085][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.06.28-00.17.56:085][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.06.28-00.17.56:085][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.06.28-00.17.56:085][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.06.28-00.17.56:085][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.06.28-00.17.56:085][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.06.28-00.17.56:085][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.06.28-00.17.56:085][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.06.28-00.17.56:085][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.06.28-00.17.56:085][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.06.28-00.17.56:085][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.06.28-00.17.56:085][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.06.28-00.17.56:085][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.06.28-00.17.56:085][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.06.28-00.17.56:085][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.06.28-00.17.56:085][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.06.28-00.17.56:085][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.06.28-00.17.56:085][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.06.28-00.17.56:086][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.06.28-00.17.56:087][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.06.28-00.17.56:087][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.06.28-00.17.56:087][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.06.28-00.17.56:087][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.06.28-00.17.56:087][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.06.28-00.17.56:087][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.06.28-00.17.56:087][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.06.28-00.17.56:087][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.06.28-00.17.56:087][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.06.28-00.17.56:087][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.06.28-00.17.56:087][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.06.28-00.17.56:087][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.06.28-00.17.56:087][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.06.28-00.17.56:087][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.06.28-00.17.56:087][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.06.28-00.17.56:087][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.06.28-00.17.56:087][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.06.28-00.17.56:087][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.06.28-00.17.56:087][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.06.28-00.17.56:087][  0]LogInit: Selected Device Profile: [Windows]
-[2019.06.28-00.17.56:088][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.06.28-00.17.56:113][  0]LogHAL: Display: Platform has ~ 8 GB [8490000384 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2019.06.28-00.17.56:114][  0]LogInit: Going up to parent DeviceProfile []
-[2019.06.28-00.17.56:114][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
-[2019.06.28-00.17.56:114][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
-[2019.06.28-00.17.56:115][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.06.28-00.17.56:116][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.06.28-00.17.56:116][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.06.28-00.17.56:116][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
-[2019.06.28-00.17.56:116][  0]LogInit: Computer: NICOLAE-LAPTOP
-[2019.06.28-00.17.56:116][  0]LogInit: User: Nico
-[2019.06.28-00.17.56:116][  0]LogInit: CPU Page size=4096, Cores=2
-[2019.06.28-00.17.56:116][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.06.28-00.17.56:116][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.06.28-00.17.56:116][  0]LogMemory: Platform Memory Stats for Windows
-[2019.06.28-00.17.56:116][  0]LogMemory: Process Physical Memory: 96.71 MB used, 96.71 MB peak
-[2019.06.28-00.17.56:116][  0]LogMemory: Process Virtual Memory: 91.71 MB used, 91.71 MB peak
-[2019.06.28-00.17.56:116][  0]LogMemory: Physical Memory: 6219.57 MB used,  1877.12 MB free, 8096.70 MB total
-[2019.06.28-00.17.56:116][  0]LogMemory: Virtual Memory: 4643.12 MB used,  134213088.00 MB free, 134217728.00 MB total
-[2019.06.28-00.17.56:145][  0]LogInit: Using OS detected language (en-US).
-[2019.06.28-00.17.56:145][  0]LogInit: Using OS detected locale (en-US).
-[2019.06.28-00.17.56:146][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.06.28-00.17.56:432][  0]LogInit: Setting process to per monitor DPI aware
-[2019.06.28-00.17.56:522][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.06.28-00.17.56:522][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.06.28-00.17.56:968][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.06.28-00.17.56:968][  0]LogD3D11RHI: D3D11 adapters:
-[2019.06.28-00.17.56:981][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
-[2019.06.28-00.17.56:981][  0]LogD3D11RHI:       128/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x8086
-[2019.06.28-00.17.56:985][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.06.28-00.17.56:985][  0]LogD3D11RHI:       0/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.06.28-00.17.56:988][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.06.28-00.17.56:989][  0]LogD3D11RHI:       0/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.06.28-00.17.56:993][  0]LogD3D11RHI:    3. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.06.28-00.17.56:993][  0]LogD3D11RHI:       0/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.06.28-00.17.56:993][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.06.28-00.17.57:005][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.06.28-00.17.57:005][  0]LogD3D11RHI:     GPU DeviceId: 0x1616 (for the marketing name, search the web for "GPU Device Id")
-[2019.06.28-00.17.57:005][  0]LogWindows: EnumDisplayDevices:
-[2019.06.28-00.17.57:005][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
-[2019.06.28-00.17.57:006][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2019.06.28-00.17.57:007][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2019.06.28-00.17.57:008][  0]LogWindows:    3. 'DisplayLink USB Device' (P:0 D:0)
-[2019.06.28-00.17.57:008][  0]LogWindows:    4. 'DisplayLink USB Device' (P:0 D:1)
-[2019.06.28-00.17.57:009][  0]LogWindows:    5. 'DisplayLink USB Device' (P:0 D:1)
-[2019.06.28-00.17.57:009][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
-[2019.06.28-00.17.57:010][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 5500
-[2019.06.28-00.17.57:010][  0]LogD3D11RHI:   Driver Version: 20.19.15.4531 (internal:20.19.15.4531, unified:20.19.15.4531)
-[2019.06.28-00.17.57:010][  0]LogD3D11RHI:      Driver Date: 9-29-2016
-[2019.06.28-00.17.57:010][  0]LogRHI: Texture pool is 1506 MB (70% of 2152 MB)
-[2019.06.28-00.17.57:018][  0]LogD3D11RHI: Async texture creation enabled
-[2019.06.28-00.17.57:033][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.06.28-00.17.57:035][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.06.28-00.17.57:035][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.06.28-00.17.57:043][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
-[2019.06.28-00.17.57:760][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.06.28-00.17.57:786][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.06.28-00.17.57:807][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.06.28-00.17.57:828][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.06.28-00.17.57:854][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.06.28-00.17.57:884][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.06.28-00.17.57:917][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.06.28-00.17.57:953][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.06.28-00.17.57:967][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.06.28-00.17.58:088][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.06.28-00.17.58:088][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.06.28-00.17.58:088][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.06.28-00.17.58:088][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.06.28-00.17.58:088][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.06.28-00.17.58:088][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.06.28-00.17.58:088][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.06.28-00.17.58:088][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.06.28-00.17.58:088][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.06.28-00.17.58:088][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.06.28-00.17.58:088][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.06.28-00.17.58:088][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.06.28-00.17.58:088][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.06.28-00.17.58:088][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.06.28-00.17.58:088][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.06.28-00.17.58:088][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.06.28-00.17.58:088][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.06.28-00.17.58:088][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.06.28-00.17.58:090][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.06.28-00.17.58:160][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.06.28-00.17.58:160][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.06.28-00.17.58:202][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.06.28-00.17.58:202][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.06.28-00.17.58:224][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.06.28-00.17.58:244][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.06.28-00.17.58:266][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.06.28-00.17.58:286][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.06.28-00.17.58:364][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.06.28-00.17.58:364][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.06.28-00.17.58:365][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.06.28-00.17.58:381][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.06.28-00.17.58:455][  0]LogShaderCompilers: Guid format shader working directory is -54 characters bigger than the processId version (../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Intermediate/Shaders/WorkingDirectory/11308/).
-[2019.06.28-00.17.58:455][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nico/AppData/Local/Temp/UnrealShaderWorkingDir/EA0BFBC74D43518254769C923967EE5F/'.
-[2019.06.28-00.17.58:458][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.06.28-00.17.58:458][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.06.28-00.17.58:458][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.06.28-00.17.59:254][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.06.28-00.17.59:329][  0]LogDerivedDataCache: Loaded boot cache 0.07s 75MB C:/Users/Nico/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.06.28-00.17.59:329][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nico/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2019.06.28-00.17.59:329][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.06.28-00.17.59:329][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.06.28-00.17.59:329][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.06.28-00.17.59:329][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.06.28-00.17.59:349][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.06.28-00.17.59:349][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.06.28-00.17.59:349][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.06.28-00.17.59:361][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nico/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.06.28-00.17.59:361][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.06.28-00.17.59:361][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.06.28-00.17.59:401][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.06.28-00.17.59:403][  0]LogSlate: Using FreeType 2.6.0
-[2019.06.28-00.17.59:403][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.06.28-00.17.59:515][  0]LogAssetRegistry: FAssetRegistry took 0.0402 seconds to start up
-[2019.06.28-00.18.00:087][  0]LogInit: Selected Device Profile: [Windows]
-[2019.06.28-00.18.00:385][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.06.28-00.18.00:385][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.06.28-00.18.00:385][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.06.28-00.18.00:385][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.06.28-00.18.00:385][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.06.28-00.18.00:404][  0]LogNetVersion: DescendIntoDarkness 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1140046260)
-[2019.06.28-00.18.01:119][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.099433 seconds
-[2019.06.28-00.18.01:135][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
-[2019.06.28-00.18.01:135][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
-[2019.06.28-00.18.01:135][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.06.28-00.18.02:546][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.06.28-00.18.02:560][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.06.28-00.18.03:194][  0]SourceControl: Source control is disabled
-[2019.06.28-00.18.03:194][  0]SourceControl: Source control is disabled
-[2019.06.28-00.18.03:197][  0]SourceControl: Source control is disabled
-[2019.06.28-00.18.03:198][  0]SourceControl: Source control is disabled
-[2019.06.28-00.18.03:344][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.06.28-00.18.03:460][  0]LogOcInput: OculusInput pre-init called
-[2019.06.28-00.18.04:574][  0]LogEngine: Initializing Engine...
-[2019.06.28-00.18.04:575][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.06.28-00.18.04:576][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.06.28-00.18.04:921][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.06.28-00.18.04:946][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.06.28-00.18.04:960][  0]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.06.28-00.18.04:977][  0]LogInit: FAudioDevice initialized.
-[2019.06.28-00.18.04:977][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.06.28-00.18.05:364][  0]LogDerivedDataCache: Saved boot cache 0.39s 75MB C:/Users/Nico/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.06.28-00.18.05:390][  0]LogInit: Texture streaming: Enabled
-[2019.06.28-00.18.05:418][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.06.28-00.18.05:469][  0]LogInit: Transaction tracking system initialized
-[2019.06.28-00.18.05:506][  0]BlueprintLog: New page: Editor Load
-[2019.06.28-00.18.05:619][  0]LocalizationService: Localization service is disabled
-[2019.06.28-00.18.06:882][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/' took 0.01s
-[2019.06.28-00.18.06:882][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.06.28-00.18.06:882][  0]LogCook: Display: Mobile HDR setting 1
-[2019.06.28-00.18.07:175][  0]SourceControl: Source control is disabled
-[2019.06.28-00.18.07:182][  0]LightingResults: New page: Lighting Build
-[2019.06.28-00.18.07:186][  0]MapCheck: New page: Map Check
-[2019.06.28-00.18.07:186][  0]LightingResults: New page: Lighting Build
-[2019.06.28-00.18.07:218][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
-[2019.06.28-00.18.07:419][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2019.06.28-00.18.07:453][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.06.28-00.18.07:526][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
-[2019.06.28-00.18.07:526][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.06.28-00.18.07:526][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.173ms to complete.
-[2019.06.28-00.18.07:526][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.351
-[2019.06.28-00.18.07:802][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.28-00.18.07:819][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.28-00.18.07:836][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.28-00.18.07:851][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.28-00.18.07:875][  0]LogCollectionManager: Loaded 0 collections in 0.002496 seconds
-[2019.06.28-00.18.07:911][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Collections/' took 0.01s
-[2019.06.28-00.18.07:911][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Developers/Nico/Collections/' took 0.00s
-[2019.06.28-00.18.07:911][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Collections/' took 0.00s
-[2019.06.28-00.18.07:911][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.06.28-00.18.07:927][  0]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 2735 classes and 663 folders.
-[2019.06.28-00.18.07:943][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.06.28-00.18.07:959][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.07:972][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.07:995][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:003][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:011][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:018][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:025][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:032][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:040][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:049][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:056][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:063][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:071][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:078][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:085][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:093][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:141][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:150][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:158][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:165][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:172][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:179][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:188][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:195][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:202][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:227][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.28-00.18.08:596][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2019.06.28-00.18.08:667][  0]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.06.28-00.18.08:678][  0]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.06.28-00.18.08:701][  0]LogSlate: Took 0.017456 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.06.28-00.18.08:932][  0]LogRenderer: Reallocating scene render targets to support 764x284 Format 9 NumSamples 1 (Frame:1).
-[2019.06.28-00.18.09:703][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.06.28-00.18.09:704][  0]LogLoad: (Engine Initialization) Total time: 15.65 seconds
-[2019.06.28-00.18.09:704][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.06.28-00.18.09:952][  0]LogContentStreaming: Texture pool size now 400 MB
-[2019.06.28-00.18.23:462][367]LogAssetRegistry: Asset discovery search completed in 23.9697 seconds
-[2019.06.28-00.18.23:468][367]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2019.06.28-00.18.23:468][367]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000156 seconds (updated 0 objects)
-[2019.06.28-00.18.24:724][413]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
+[2019.06.30-17.42.44:187][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.06.30-17.42.44:187][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
+[2019.06.30-17.42.44:187][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
+[2019.06.30-17.42.44:192][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.06.30-17.42.44:192][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.06.30-17.42.44:192][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.06.30-17.42.44:192][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.06.30-17.42.44:192][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.06.30-17.42.44:192][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.06.30-17.42.44:192][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.06.30-17.42.44:192][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.06.30-17.42.44:192][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.06.30-17.42.44:192][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.06.30-17.42.44:192][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.06.30-17.42.44:192][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.06.30-17.42.44:193][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.06.30-17.42.44:194][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.06.30-17.42.44:194][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.30-17.42.44:194][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.06.30-17.42.44:218][  0]LogHAL: Display: Platform has ~ 8 GB [8490000384 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.06.30-17.42.44:218][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.06.30-17.42.44:218][  0]LogInit: Going up to parent DeviceProfile []
+[2019.06.30-17.42.44:218][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.06.30-17.42.44:218][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2019.06.30-17.42.44:218][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2019.06.30-17.42.44:218][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.06.30-17.42.44:218][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2019.06.30-17.42.44:218][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2019.06.30-17.42.44:219][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.06.30-17.42.44:219][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2019.06.30-17.42.44:220][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2019.06.30-17.42.44:220][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.06.30-17.42.44:220][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.06.30-17.42.44:220][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.06.30-17.42.44:220][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
+[2019.06.30-17.42.44:220][  0]LogInit: Computer: NICOLAE-LAPTOP
+[2019.06.30-17.42.44:220][  0]LogInit: User: Nico
+[2019.06.30-17.42.44:220][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.06.30-17.42.44:220][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.06.30-17.42.44:220][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.06.30-17.42.44:220][  0]LogMemory: Platform Memory Stats for Windows
+[2019.06.30-17.42.44:220][  0]LogMemory: Process Physical Memory: 96.44 MB used, 96.44 MB peak
+[2019.06.30-17.42.44:220][  0]LogMemory: Process Virtual Memory: 83.99 MB used, 83.99 MB peak
+[2019.06.30-17.42.44:220][  0]LogMemory: Physical Memory: 6757.45 MB used,  1339.25 MB free, 8096.70 MB total
+[2019.06.30-17.42.44:220][  0]LogMemory: Virtual Memory: 4635.12 MB used,  134213096.00 MB free, 134217728.00 MB total
+[2019.06.30-17.42.44:243][  0]LogInit: Using OS detected language (en-US).
+[2019.06.30-17.42.44:243][  0]LogInit: Using OS detected locale (en-US).
+[2019.06.30-17.42.44:245][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.06.30-17.42.44:470][  0]LogInit: Setting process to per monitor DPI aware
+[2019.06.30-17.42.44:538][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.06.30-17.42.44:538][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.06.30-17.42.44:940][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.30-17.42.44:940][  0]LogD3D11RHI: D3D11 adapters:
+[2019.06.30-17.42.44:952][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2019.06.30-17.42.44:952][  0]LogD3D11RHI:       128/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x8086
+[2019.06.30-17.42.44:957][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.06.30-17.42.44:957][  0]LogD3D11RHI:       0/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.06.30-17.42.44:961][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.06.30-17.42.44:961][  0]LogD3D11RHI:       0/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.06.30-17.42.44:966][  0]LogD3D11RHI:    3. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.06.30-17.42.44:966][  0]LogD3D11RHI:       0/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.06.30-17.42.44:966][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.06.30-17.42.44:978][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.06.30-17.42.44:979][  0]LogD3D11RHI:     GPU DeviceId: 0x1616 (for the marketing name, search the web for "GPU Device Id")
+[2019.06.30-17.42.44:979][  0]LogWindows: EnumDisplayDevices:
+[2019.06.30-17.42.44:979][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2019.06.30-17.42.44:979][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2019.06.30-17.42.44:980][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2019.06.30-17.42.44:981][  0]LogWindows:    3. 'DisplayLink USB Device' (P:0 D:0)
+[2019.06.30-17.42.44:981][  0]LogWindows:    4. 'DisplayLink USB Device' (P:0 D:1)
+[2019.06.30-17.42.44:982][  0]LogWindows:    5. 'DisplayLink USB Device' (P:0 D:1)
+[2019.06.30-17.42.44:982][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
+[2019.06.30-17.42.44:982][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 5500
+[2019.06.30-17.42.44:982][  0]LogD3D11RHI:   Driver Version: 20.19.15.4531 (internal:20.19.15.4531, unified:20.19.15.4531)
+[2019.06.30-17.42.44:982][  0]LogD3D11RHI:      Driver Date: 9-29-2016
+[2019.06.30-17.42.44:982][  0]LogRHI: Texture pool is 1506 MB (70% of 2152 MB)
+[2019.06.30-17.42.44:990][  0]LogD3D11RHI: Async texture creation enabled
+[2019.06.30-17.42.45:000][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.06.30-17.42.45:001][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.06.30-17.42.45:001][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.06.30-17.42.45:008][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2019.06.30-17.42.45:786][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.06.30-17.42.45:807][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.06.30-17.42.45:828][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.06.30-17.42.45:847][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.06.30-17.42.45:867][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.06.30-17.42.45:886][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.06.30-17.42.45:905][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.06.30-17.42.45:923][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.06.30-17.42.45:932][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.06.30-17.42.46:044][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.06.30-17.42.46:044][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.06.30-17.42.46:044][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.06.30-17.42.46:044][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.06.30-17.42.46:044][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.06.30-17.42.46:044][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.06.30-17.42.46:044][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.06.30-17.42.46:044][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.06.30-17.42.46:044][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.06.30-17.42.46:044][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.06.30-17.42.46:044][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.06.30-17.42.46:044][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.06.30-17.42.46:044][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.06.30-17.42.46:044][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.06.30-17.42.46:044][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.06.30-17.42.46:044][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.06.30-17.42.46:044][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.06.30-17.42.46:044][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.06.30-17.42.46:047][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.06.30-17.42.46:105][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.06.30-17.42.46:105][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.06.30-17.42.46:137][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.06.30-17.42.46:137][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.06.30-17.42.46:154][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.06.30-17.42.46:171][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.06.30-17.42.46:187][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.06.30-17.42.46:205][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.06.30-17.42.46:266][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.06.30-17.42.46:266][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.06.30-17.42.46:266][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.06.30-17.42.46:278][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.06.30-17.42.46:353][  0]LogShaderCompilers: Guid format shader working directory is -54 characters bigger than the processId version (../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Intermediate/Shaders/WorkingDirectory/10680/).
+[2019.06.30-17.42.46:353][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nico/AppData/Local/Temp/UnrealShaderWorkingDir/1BF44FC14AC9A0162C7F119F32185B05/'.
+[2019.06.30-17.42.46:363][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.06.30-17.42.46:363][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.06.30-17.42.46:364][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.06.30-17.42.47:189][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.06.30-17.42.47:256][  0]LogDerivedDataCache: Loaded boot cache 0.07s 75MB C:/Users/Nico/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.06.30-17.42.47:256][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nico/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.06.30-17.42.47:256][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.06.30-17.42.47:256][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.06.30-17.42.47:257][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.30-17.42.47:257][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.06.30-17.42.47:274][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.06.30-17.42.47:274][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.30-17.42.47:274][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.06.30-17.42.47:287][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nico/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.06.30-17.42.47:287][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.06.30-17.42.47:287][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.06.30-17.42.47:318][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.06.30-17.42.47:320][  0]LogSlate: Using FreeType 2.6.0
+[2019.06.30-17.42.47:320][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.06.30-17.42.47:429][  0]LogAssetRegistry: FAssetRegistry took 0.0378 seconds to start up
+[2019.06.30-17.42.48:009][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.30-17.42.48:256][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.06.30-17.42.48:256][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.06.30-17.42.48:256][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.06.30-17.42.48:256][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.06.30-17.42.48:256][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.06.30-17.42.48:274][  0]LogNetVersion: DescendIntoDarkness 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1140046260)
+[2019.06.30-17.42.48:898][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.078709 seconds
+[2019.06.30-17.42.48:906][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.06.30-17.42.48:906][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.06.30-17.42.48:906][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.06.30-17.42.50:099][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.06.30-17.42.50:114][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.06.30-17.42.51:171][  0]SourceControl: Source control is disabled
+[2019.06.30-17.42.51:171][  0]SourceControl: Source control is disabled
+[2019.06.30-17.42.51:172][  0]SourceControl: Source control is disabled
+[2019.06.30-17.42.51:174][  0]SourceControl: Source control is disabled
+[2019.06.30-17.42.51:270][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.06.30-17.42.51:362][  0]LogOcInput: OculusInput pre-init called
+[2019.06.30-17.42.52:258][  0]LogEngine: Initializing Engine...
+[2019.06.30-17.42.52:259][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.30-17.42.52:260][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.06.30-17.42.52:676][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.06.30-17.42.52:707][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.06.30-17.42.52:723][  0]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.30-17.42.52:755][  0]LogInit: FAudioDevice initialized.
+[2019.06.30-17.42.52:755][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.06.30-17.42.53:446][  0]LogDerivedDataCache: Saved boot cache 0.69s 75MB C:/Users/Nico/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.06.30-17.42.53:470][  0]LogInit: Texture streaming: Enabled
+[2019.06.30-17.42.53:501][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.06.30-17.42.53:618][  0]LogInit: Transaction tracking system initialized
+[2019.06.30-17.42.53:660][  0]BlueprintLog: New page: Editor Load
+[2019.06.30-17.42.53:837][  0]LocalizationService: Localization service is disabled
+[2019.06.30-17.42.55:409][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/' took 0.02s
+[2019.06.30-17.42.55:409][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.06.30-17.42.55:409][  0]LogCook: Display: Mobile HDR setting 1
+[2019.06.30-17.42.55:727][  0]SourceControl: Source control is disabled
+[2019.06.30-17.42.55:736][  0]LightingResults: New page: Lighting Build
+[2019.06.30-17.42.55:742][  0]MapCheck: New page: Map Check
+[2019.06.30-17.42.55:742][  0]LightingResults: New page: Lighting Build
+[2019.06.30-17.42.55:852][  0]LogUObjectHash: Compacting FUObjectHashTables data took   6.01ms
+[2019.06.30-17.42.56:213][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.06.30-17.42.56:252][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.30-17.42.56:343][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2019.06.30-17.42.56:343][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.30-17.42.56:344][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.243ms to complete.
+[2019.06.30-17.42.56:344][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.617
+[2019.06.30-17.42.56:619][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.30-17.42.56:635][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.30-17.42.56:650][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.30-17.42.56:662][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.30-17.42.56:687][  0]LogCollectionManager: Loaded 0 collections in 0.002900 seconds
+[2019.06.30-17.42.56:738][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Collections/' took 0.01s
+[2019.06.30-17.42.56:738][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Developers/Nico/Collections/' took 0.00s
+[2019.06.30-17.42.56:738][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Collections/' took 0.01s
+[2019.06.30-17.42.56:738][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.06.30-17.42.56:758][  0]LogContentBrowser: Native class hierarchy populated in 0.0179 seconds. Added 2735 classes and 663 folders.
+[2019.06.30-17.42.56:778][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.06.30-17.42.56:800][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.56:815][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.56:845][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.56:853][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.56:861][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.56:869][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.56:877][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.56:887][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.56:896][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.56:912][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.56:941][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.56:970][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.56:979][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.56:987][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.56:994][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.57:003][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.57:046][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.57:054][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.57:062][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.57:069][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.57:077][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.57:084][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.57:092][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.57:100][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.57:108][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.57:115][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.30-17.42.57:343][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.06.30-17.42.57:423][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.06.30-17.42.57:434][  0]LogSlate: Took 0.000353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.06.30-17.42.57:449][  0]LogSlate: Took 0.009338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.06.30-17.42.57:630][  0]LogRenderer: Reallocating scene render targets to support 764x288 Format 9 NumSamples 1 (Frame:1).
+[2019.06.30-17.42.59:326][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.06.30-17.42.59:327][  0]LogLoad: (Engine Initialization) Total time: 17.36 seconds
+[2019.06.30-17.42.59:327][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.06.30-17.42.59:377][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.30-17.42.59:411][  0]LogAssetRegistry: Asset discovery search completed in 12.0047 seconds
+[2019.06.30-17.42.59:414][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.06.30-17.42.59:414][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000091 seconds (updated 0 objects)
+[2019.06.30-17.42.59:417][  0]LogContentStreaming: Texture pool size now 400 MB
+[2019.06.30-17.47.02:946][205]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.06.30-17.56.47:044][ 42]LogSlate: Window 'New Channel' being destroyed
+[2019.06.30-17.57.00:203][173]LogSlate: Window 'Project Settings' being destroyed
+[2019.06.30-17.57.25:620][899]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2019.06.30-17.57.27:569][899]LogSlate: Window 'Delete Assets' being destroyed
+[2019.06.30-17.57.27:589][899]LogSlate: Took 0.009504 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.30-17.57.27:731][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2019.06.30-17.57.27:769][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2019.06.30-17.57.27:801][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2019.06.30-17.58.59:529][513]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/GrabPointWidget.GrabPointWidget
+[2019.06.30-17.59.00:166][513]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 121 classes and 0 folders.
+[2019.06.30-17.59.01:282][513]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)
+[2019.06.30-17.59.01:841][513]LogSlate: Took 0.005682 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.06.30-17.59.04:387][605]LogSlate: Window 'GrabPointWidget' being destroyed
+[2019.06.30-18.00.22:237][758]BlueprintLog: New page: Compile GrabPointWidget
+[2019.06.30-18.00.22:532][758]LogUObjectHash: Compacting FUObjectHashTables data took   7.58ms
+[2019.06.30-18.00.23:321][792]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/GrabPointWidgetD0090ADA448030BF110DF98739A5E80D.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/GrabPointWidget.uasset'
+[2019.06.30-18.00.52:697][583]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.06.30-18.01.29:891][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   6.62ms
+[2019.06.30-18.01.29:892][ 95]LogMetaData: Removing '/Game/Blueprints/GrabPoint.GrabPoint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.06.30-18.01.29:892][ 95]LogMetaData: Removing '/Game/Blueprints/GrabPoint.SKEL_GrabPoint_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.06.30-18.01.29:892][ 95]LogMetaData: Removing '/Game/Blueprints/GrabPoint.GrabPoint_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.06.30-18.01.29:892][ 95]LogMetaData: Removing '/Game/Blueprints/GrabPoint.GrabPoint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.06.30-18.01.29:892][ 95]LogMetaData: Removing '/Game/Blueprints/GrabPoint.GrabPoint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.06.30-18.01.29:892][ 95]LogMetaData: Removing '/Game/Blueprints/GrabPoint.GrabPoint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.06.30-18.01.29:937][ 95]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/GrabPoint56D634984F6B74D159351AAB5F2EDD9B.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/GrabPoint.uasset'
+[2019.06.30-18.01.30:157][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   5.42ms
+[2019.06.30-18.01.30:199][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2019.06.30-18.01.30:232][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.06.30-18.01.47:272][212]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/GrabPoint.GrabPoint
+[2019.06.30-18.01.48:074][213]LogRenderer: Reallocating scene render targets to support 764x296 Format 9 NumSamples 1 (Frame:1).
+[2019.06.30-18.01.59:851][267]LogRenderer: Reallocating scene render targets to support 764x424 Format 9 NumSamples 1 (Frame:19).
+[2019.06.30-18.02.00:389][296]LogSlate: Window 'GrabPoint' being destroyed
+[2019.06.30-18.02.04:611][434]LogSlate: Took 0.009891 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.06.30-18.02.17:300][511]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.30-18.02.25:714][928]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.30-18.03.55:097][308]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.30-18.06.49:540][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   5.22ms
+[2019.06.30-18.06.49:540][ 86]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap' took 0.049
+[2019.06.30-18.06.49:545][ 86]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/GrabPoint] ([1] browsable assets)...
+[2019.06.30-18.06.49:546][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/GrabPoint]
+[2019.06.30-18.06.49:574][ 86]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/GrabPoint_Auto19DFD632A4BC8E1554E82F68EA8650EFB.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Autosaves/Game/Blueprints/GrabPoint_Auto1.uasset'
+[2019.06.30-18.06.49:575][ 86]LogFileHelpers: Auto-saving content packages took 0.034
+[2019.06.30-18.09.03:512][110]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.30-18.09.05:917][188]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/GrabPointWidget.GrabPointWidget
+[2019.06.30-18.10.11:712][901]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.30-18.10.17:215][ 75]LogEditorTransaction: Undo Modify Component(s)
+[2019.06.30-18.10.18:640][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.30-18.12.15:316][673]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.06.30-18.13.32:111][174]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.30-18.14.25:424][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.30-18.14.31:911][639]LogEditorTransaction: Undo Edit Y
+[2019.06.30-18.14.34:214][724]Cmd: TRANSACTION UNDO
+[2019.06.30-18.14.34:215][724]LogEditorTransaction: Undo Edit X
+[2019.06.30-18.14.54:202][295]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.30-18.14.54:305][299]Cmd: MODE GRID=0
+[2019.06.30-18.15.03:289][571]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.30-18.15.03:507][581]Cmd: MODE GRID=1
+[2019.06.30-18.15.37:033][167]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.30-18.15.37:191][173]BlueprintLog: New page: Compile GrabPoint
+[2019.06.30-18.15.37:534][173]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2019.06.30-18.15.38:376][196]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/GrabPoint69D63F7A4F37A4996CF0A291C6378425.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/GrabPoint.uasset'
+[2019.06.30-18.15.45:392][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge4)
+[2019.06.30-18.15.52:328][646]Cmd: TRANSACTION UNDO
+[2019.06.30-18.15.52:328][646]LogEditorTransaction: Undo Move Actors
+[2019.06.30-18.15.53:494][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge3)
+[2019.06.30-18.15.54:941][739]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge4)
+[2019.06.30-18.15.55:884][765]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.30-18.16.05:355][ 43]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.30-18.16.31:898][859]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.30-18.16.32:074][864]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/GrabPointWidget.GrabPointWidget
+[2019.06.30-18.16.38:258][143]LogEditorTransaction: Undo Resize Widget
+[2019.06.30-18.17.32:553][555]BlueprintLog: New page: Compile GrabPointWidget
+[2019.06.30-18.17.32:848][555]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2019.06.30-18.17.33:373][579]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/GrabPointWidget395B5EBE45ED9485162FC59C8371F2F8.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/GrabPointWidget.uasset'
+[2019.06.30-18.17.37:979][744]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2019.06.30-18.17.39:121][774]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.06.30-18.17.40:330][803]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.30-18.17.46:797][980]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.30-18.17.47:627][  6]Cmd: DELETE
+[2019.06.30-18.17.47:627][  6]Cmd: ACTOR DELETE
+[2019.06.30-18.17.47:639][  6]LogEditorActor: Deleted Actor: GrabPoint_C
+[2019.06.30-18.17.47:724][  6]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2019.06.30-18.17.47:725][  6]LogEditorActor: Deleted 1 Actors (0.097 secs)
+[2019.06.30-18.17.49:075][ 51]Cmd: DELETE
+[2019.06.30-18.17.49:075][ 51]Cmd: ACTOR DELETE
+[2019.06.30-18.17.49:085][ 51]LogEditorActor: Deleted Actor: GrabPoint_C
+[2019.06.30-18.17.49:184][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2019.06.30-18.17.49:185][ 51]LogEditorActor: Deleted 1 Actors (0.109 secs)
+[2019.06.30-18.17.52:758][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.30-18.18.03:581][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge4)
+[2019.06.30-18.18.04:735][524]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.30-18.18.08:829][644]LogEditorViewport: Clicking on Actor (LMB): GrabPoint_C (GrabPoint)
+[2019.06.30-18.18.10:406][691]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.30-18.18.35:894][446]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.30-18.18.36:140][452]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2019.06.30-18.18.36:392][452]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMapA8198EA14234729BF6BD7C88B0067069.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap'
+[2019.06.30-18.18.36:810][452]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap_BuiltDataD019C69B4B6807DB06C00CB128973AEE.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap_BuiltData.uasset'
