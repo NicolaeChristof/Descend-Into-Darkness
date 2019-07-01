@@ -5350,3 +5350,195 @@ Script Stack (0 frames):
 [2019.07.01-18.16.23:506][709]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
 [2019.07.01-18.16.23:849][709]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap421A09F0451CEE52368B29A6D536C0A7.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap'
 [2019.07.01-18.16.24:356][709]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap_BuiltDataC201A9FF4C2AB775D54ECFAC47EB9A4B.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2019.07.01-18.17.34:654][ 47]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.01-18.17.34:689][ 47]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.17.34:689][ 47]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.01-18.17.34:690][ 47]PIE: New page: PIE session: SideScrollerExampleMap (Jul 1, 2019, 4:17:34 AM)
+[2019.07.01-18.17.34:692][ 47]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.01-18.17.34:720][ 47]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026729s)
+[2019.07.01-18.17.34:721][ 47]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.01-18.17.34:721][ 47]LogPlayLevel: PIE: World Init took: (0.001179s)
+[2019.07.01-18.17.34:721][ 47]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.028570s)
+[2019.07.01-18.17.34:781][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2019.07.01-18.17.34:790][ 47]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.01-18.17.34:797][ 47]LogInit: FAudioDevice initialized.
+[2019.07.01-18.17.34:800][ 47]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.01-18.17.34:833][ 47]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.01-18.17.34:836][ 47]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.01-11.17.34
+[2019.07.01-18.17.34:836][ 47]LogWorld: Bringing up level for play took: 0.002848
+[2019.07.01-18.17.34:850][ 47]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap -0.266
+[2019.07.01-18.17.34:851][ 47]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.18.09:490][445]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.18.09:491][445]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.01-18.18.09:559][445]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.01-18.18.09:559][445]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.18.09:619][445]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.01-18.18.09:627][445]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2019.07.01-18.18.09:664][446]LogPlayLevel: Display: Destroying online subsystem :Context_142
+[2019.07.01-18.18.48:477][622]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.01-18.29.14:669][807]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.01-18.29.14:719][807]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.29.14:719][807]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.01-18.29.14:720][807]PIE: New page: PIE session: SideScrollerExampleMap (Jul 1, 2019, 4:29:14 AM)
+[2019.07.01-18.29.14:727][807]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.01-18.29.14:751][807]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023469s)
+[2019.07.01-18.29.14:752][807]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.01-18.29.14:753][807]LogPlayLevel: PIE: World Init took: (0.001620s)
+[2019.07.01-18.29.14:753][807]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.025438s)
+[2019.07.01-18.29.14:815][807]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2019.07.01-18.29.14:823][807]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.01-18.29.14:832][807]LogInit: FAudioDevice initialized.
+[2019.07.01-18.29.14:865][807]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.01-18.29.14:869][807]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.01-11.29.14
+[2019.07.01-18.29.14:869][807]LogWorld: Bringing up level for play took: 0.003895
+[2019.07.01-18.29.14:883][807]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap -0.233
+[2019.07.01-18.29.14:884][807]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.29.40:649][851]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.29.40:650][851]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.01-18.29.40:751][851]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.01-18.29.40:752][851]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.29.40:809][851]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.01-18.29.40:816][851]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2019.07.01-18.29.40:855][852]LogPlayLevel: Display: Destroying online subsystem :Context_143
+[2019.07.01-18.30.32:906][271]LogEditorViewport: Clicking on Actor (LMB): Player_C (SideScrollerCharacter)
+[2019.07.01-18.30.37:155][357]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.01-18.31.18:242][898]BlueprintLog: New page: Compile Player
+[2019.07.01-18.31.18:917][898]LogUObjectHash: Compacting FUObjectHashTables data took   5.76ms
+[2019.07.01-18.31.20:861][920]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/PlayerB8F9F94B4CFC6771E629AB8F43CF5274.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Blueprints/Player.uasset'
+[2019.07.01-18.31.21:619][947]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.01-18.31.22:199][947]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.31.22:200][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.01-18.31.22:200][947]PIE: New page: PIE session: SideScrollerExampleMap (Jul 1, 2019, 4:31:22 AM)
+[2019.07.01-18.31.22:362][947]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.01-18.31.22:609][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.245977s)
+[2019.07.01-18.31.22:610][947]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.01-18.31.22:610][947]LogPlayLevel: PIE: World Init took: (0.001481s)
+[2019.07.01-18.31.22:610][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.247888s)
+[2019.07.01-18.31.22:689][947]LogUObjectHash: Compacting FUObjectHashTables data took   8.52ms
+[2019.07.01-18.31.22:727][947]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.01-18.31.22:753][947]LogInit: FAudioDevice initialized.
+[2019.07.01-18.31.24:187][947]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.01-18.31.24:412][947]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.01-18.31.24:415][947]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.01-11.31.24
+[2019.07.01-18.31.24:416][947]LogWorld: Bringing up level for play took: 0.003507
+[2019.07.01-18.31.25:006][947]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap 1.89
+[2019.07.01-18.31.25:006][947]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.31.34:563][219]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.31.34:564][219]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.01-18.31.34:609][219]LogSlate: Window 'DescendIntoDarkness Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.01-18.31.34:722][219]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.01-18.31.34:722][219]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.31.34:794][219]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2019.07.01-18.31.34:921][220]LogPlayLevel: Display: Destroying online subsystem :Context_144
+[2019.07.01-18.31.36:873][284]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.01-18.31.36:945][284]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.31.36:945][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.01-18.31.36:945][284]PIE: New page: PIE session: SideScrollerExampleMap (Jul 1, 2019, 4:31:36 AM)
+[2019.07.01-18.31.36:946][284]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.01-18.31.36:965][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018352s)
+[2019.07.01-18.31.36:966][284]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.01-18.31.36:966][284]LogPlayLevel: PIE: World Init took: (0.000975s)
+[2019.07.01-18.31.36:966][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.019635s)
+[2019.07.01-18.31.37:027][284]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2019.07.01-18.31.37:038][284]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.01-18.31.37:045][284]LogInit: FAudioDevice initialized.
+[2019.07.01-18.31.37:079][284]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.01-18.31.37:083][284]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.01-11.31.37
+[2019.07.01-18.31.37:084][284]LogWorld: Bringing up level for play took: 0.004313
+[2019.07.01-18.31.37:099][284]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap -0.017
+[2019.07.01-18.31.37:099][284]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.32.26:674][113]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.32.26:675][113]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.01-18.32.26:793][113]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.01-18.32.26:794][113]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.32.26:865][113]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.01-18.32.26:873][113]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2019.07.01-18.32.26:914][114]LogPlayLevel: Display: Destroying online subsystem :Context_145
+[2019.07.01-18.32.28:038][150]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.01-18.32.28:088][150]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.32.28:088][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.01-18.32.28:088][150]PIE: New page: PIE session: SideScrollerExampleMap (Jul 1, 2019, 4:32:28 AM)
+[2019.07.01-18.32.28:089][150]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.01-18.32.28:118][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028639s)
+[2019.07.01-18.32.28:119][150]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.01-18.32.28:120][150]LogPlayLevel: PIE: World Init took: (0.001443s)
+[2019.07.01-18.32.28:120][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.030614s)
+[2019.07.01-18.32.28:174][150]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2019.07.01-18.32.28:182][150]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.01-18.32.28:191][150]LogInit: FAudioDevice initialized.
+[2019.07.01-18.32.28:192][150]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.01-18.32.28:220][150]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.01-18.32.28:225][150]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.01-11.32.28
+[2019.07.01-18.32.28:226][150]LogWorld: Bringing up level for play took: 0.005166
+[2019.07.01-18.32.28:239][150]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap 1.123
+[2019.07.01-18.32.28:239][150]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.32.58:786][343]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.32.58:786][343]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.01-18.32.58:861][343]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.01-18.32.58:861][343]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.32.58:922][343]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.01-18.32.58:930][343]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
+[2019.07.01-18.32.58:967][344]LogPlayLevel: Display: Destroying online subsystem :Context_146
+[2019.07.01-18.33.01:399][419]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.01-18.33.03:468][474]LogEditorViewport: Clicking on Actor (LMB): GrabPoint_C (GrabPoint)
+[2019.07.01-18.33.04:444][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.01-18.33.06:693][568]LogEditorViewport: Clicking on Actor (LMB): GrabPoint_C (GrabPoint5)
+[2019.07.01-18.33.07:916][604]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.01-18.33.24:193][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.01-18.33.24:483][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   8.36ms
+[2019.07.01-18.33.24:832][ 83]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMapC1659DB245DA34EDDB74A394E1A03561.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap'
+[2019.07.01-18.33.25:226][ 83]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap_BuiltDataEF74FAA74313E8474F7A0480E1614D00.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2019.07.01-18.33.26:370][118]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.01-18.33.26:452][118]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.33.26:452][118]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.01-18.33.26:452][118]PIE: New page: PIE session: SideScrollerExampleMap (Jul 1, 2019, 4:33:26 AM)
+[2019.07.01-18.33.26:454][118]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.01-18.33.26:482][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028406s)
+[2019.07.01-18.33.26:483][118]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.01-18.33.26:484][118]LogPlayLevel: PIE: World Init took: (0.001535s)
+[2019.07.01-18.33.26:484][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.030355s)
+[2019.07.01-18.33.26:569][118]LogUObjectHash: Compacting FUObjectHashTables data took   8.71ms
+[2019.07.01-18.33.26:648][118]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.01-18.33.26:674][118]LogInit: FAudioDevice initialized.
+[2019.07.01-18.33.26:674][118]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.01-18.33.26:706][118]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.01-18.33.26:710][118]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.01-11.33.26
+[2019.07.01-18.33.26:711][118]LogWorld: Bringing up level for play took: 0.004187
+[2019.07.01-18.33.26:726][118]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap -0.39
+[2019.07.01-18.33.26:726][118]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.33.56:906][259]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.33.56:907][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.01-18.33.56:979][259]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.01-18.33.56:980][259]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.33.57:047][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.01-18.33.57:054][259]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2019.07.01-18.33.57:090][260]LogPlayLevel: Display: Destroying online subsystem :Context_147
+[2019.07.01-18.33.58:256][297]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.01-18.33.58:307][297]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.33.58:307][297]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.01-18.33.58:308][297]PIE: New page: PIE session: SideScrollerExampleMap (Jul 1, 2019, 4:33:58 AM)
+[2019.07.01-18.33.58:309][297]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.01-18.33.58:340][297]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030226s)
+[2019.07.01-18.33.58:341][297]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.01-18.33.58:341][297]LogPlayLevel: PIE: World Init took: (0.001175s)
+[2019.07.01-18.33.58:341][297]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.031785s)
+[2019.07.01-18.33.58:403][297]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2019.07.01-18.33.58:411][297]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.01-18.33.58:419][297]LogInit: FAudioDevice initialized.
+[2019.07.01-18.33.58:419][297]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.01-18.33.58:447][297]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.01-18.33.58:452][297]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.01-11.33.58
+[2019.07.01-18.33.58:452][297]LogWorld: Bringing up level for play took: 0.004526
+[2019.07.01-18.33.58:469][297]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap -0.647
+[2019.07.01-18.33.58:469][297]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.34.13:959][860]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.34.13:960][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.01-18.34.14:034][860]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.01-18.34.14:034][860]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.01-18.34.14:094][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.01-18.34.14:102][860]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2019.07.01-18.34.14:142][861]LogPlayLevel: Display: Destroying online subsystem :Context_148
+[2019.07.01-18.34.16:052][921]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.01-18.34.16:158][921]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2019.07.01-18.34.16:498][921]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap715422A749A1FC9541968F94B19BDD3C.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap'
+[2019.07.01-18.34.16:899][921]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap_BuiltDataCAC4FBCA485DA5F45EB9EEBA0CBD0FFA.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap_BuiltData.uasset'
