@@ -928,3 +928,60 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.07.04-19.26.15:239][211]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
 [2019.07.04-19.26.15:546][211]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap3073C3824BE14F397DCE94B87D7994C8.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap'
 [2019.07.04-19.26.15:915][211]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap_BuiltDataD6BEC4FE45BA9419F449138BBA7F054C.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2019.07.04-19.27.19:617][754]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge12)
+[2019.07.04-19.27.25:117][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.04-19.27.30:797][ 73]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge13)
+[2019.07.04-19.27.31:076][ 81]Cmd: TRANSACTION UNDO
+[2019.07.04-19.27.31:076][ 81]LogEditorTransaction: Undo Clicking on Actors
+[2019.07.04-19.27.31:904][104]Cmd: TRANSACTION UNDO
+[2019.07.04-19.27.31:904][104]LogEditorTransaction: Undo Set Location
+[2019.07.04-19.27.34:256][176]LogEditorViewport: Clicking on Actor (LMB): Player_C (SideScrollerCharacter)
+[2019.07.04-19.27.35:383][196]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.04-19.27.48:567][508]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2019.07.04-19.27.49:243][525]Cmd: TRANSACTION UNDO
+[2019.07.04-19.27.49:243][525]LogEditorTransaction: Undo Clicking on Actors
+[2019.07.04-19.27.49:880][534]Cmd: TRANSACTION UNDO
+[2019.07.04-19.27.49:880][534]LogEditorTransaction: Undo Set Location
+[2019.07.04-19.27.51:228][563]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2019.07.04-19.27.52:215][588]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.07.04-19.27.54:155][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge12)
+[2019.07.04-19.27.55:939][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2019.07.04-19.27.57:077][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.04-19.28.01:758][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge14)
+[2019.07.04-19.28.03:264][857]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.04-19.28.06:636][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge15)
+[2019.07.04-19.28.07:697][964]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.04-19.28.10:368][ 27]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge13)
+[2019.07.04-19.28.13:436][ 98]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.04-19.28.24:506][362]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge12)
+[2019.07.04-19.28.25:648][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge13)
+[2019.07.04-19.28.27:362][443]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge14)
+[2019.07.04-19.28.28:403][472]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge13)
+[2019.07.04-19.28.32:950][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.04-19.28.35:008][657]Cmd: TRANSACTION UNDO
+[2019.07.04-19.28.35:008][657]LogEditorTransaction: Undo Move Actors
+[2019.07.04-19.28.35:645][671]Cmd: TRANSACTION UNDO
+[2019.07.04-19.28.35:645][671]LogEditorTransaction: Undo Clicking on Actors
+[2019.07.04-19.28.37:950][729]Cmd: TRANSACTION UNDO
+[2019.07.04-19.28.37:950][729]LogEditorTransaction: Undo Clicking on Actors
+[2019.07.04-19.28.39:283][767]Cmd: TRANSACTION UNDO
+[2019.07.04-19.28.39:284][767]LogEditorTransaction: Undo Clicking on Actors
+[2019.07.04-19.28.39:841][781]Cmd: TRANSACTION UNDO
+[2019.07.04-19.28.39:841][781]LogEditorTransaction: Undo Clicking on Actors
+[2019.07.04-19.28.40:295][794]Cmd: TRANSACTION UNDO
+[2019.07.04-19.28.40:295][794]LogEditorTransaction: Undo Set Location
+[2019.07.04-19.28.47:693][ 10]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.07.04-19.28.48:750][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.04-19.28.56:213][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge13)
+[2019.07.04-19.29.14:446][760]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.04-19.29.20:323][903]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge12)
+[2019.07.04-19.29.26:958][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.04-19.29.34:692][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2019.07.04-19.29.40:349][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.04-19.29.45:989][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2019.07.04-19.29.46:712][582]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.04-19.30.10:272][246]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2019.07.04-19.30.26:470][725]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.04-19.30.26:548][725]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2019.07.04-19.30.26:839][725]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMapDDCA1FFD4848949B0A08ACA0B380D7E7.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap'
+[2019.07.04-19.30.27:201][725]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap_BuiltData2075ED224C8FBB26EEB2A88C2C519499.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap_BuiltData.uasset'
