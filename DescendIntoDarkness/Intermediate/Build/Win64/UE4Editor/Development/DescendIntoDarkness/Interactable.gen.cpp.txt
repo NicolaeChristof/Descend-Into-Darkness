@@ -1,5 +1,0 @@
-C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\Definitions.DescendIntoDarkness.h
-D:\Epic\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\Epic\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Source\DescendIntoDarkness/Interactable.h
-C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Inc\DescendIntoDarkness\Interactable.generated.h

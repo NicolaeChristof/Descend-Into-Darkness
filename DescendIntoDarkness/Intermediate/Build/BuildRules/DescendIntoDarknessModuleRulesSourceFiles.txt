@@ -1,3 +1,0 @@
-C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Source\DescendIntoDarkness\DescendIntoDarkness.Build.cs
-C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Source\DescendIntoDarkness.Target.cs
-C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Source\DescendIntoDarknessEditor.Target.cs

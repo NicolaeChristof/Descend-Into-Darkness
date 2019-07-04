@@ -1,2 +1,0 @@
-C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\Definitions.DescendIntoDarkness.h
-C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Source\DescendIntoDarkness\DescendIntoDarkness.h
