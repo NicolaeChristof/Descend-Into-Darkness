@@ -1,0 +1,13 @@
+C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\Definitions.DescendIntoDarkness.h
+C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Source\DescendIntoDarkness\DescendIntoDarknessGameMode.h
+D:\Epic\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\Epic\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\Epic\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\Epic\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Inc\DescendIntoDarkness\DescendIntoDarknessGameMode.generated.h
+C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Source\DescendIntoDarkness\DescendIntoDarknessCharacter.h
+D:\Epic\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\Epic\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\Epic\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\Epic\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Inc\DescendIntoDarkness\DescendIntoDarknessCharacter.generated.h

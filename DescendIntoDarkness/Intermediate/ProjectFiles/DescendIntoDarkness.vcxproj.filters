@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\DescendIntoDarkness.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{07FD5C0A-9253-4751-851C-61B773029E12}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DescendIntoDarkness.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DescendIntoDarknessEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{60EF0828-FAB8-4066-9AC8-E65C35E7C965}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\DescendIntoDarkness">
+      <UniqueIdentifier>{31725B95-424F-481F-9F4C-00DD20EA81EF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DescendIntoDarkness\DescendIntoDarkness.Build.cs">
+      <Filter>Source\DescendIntoDarkness</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\DescendIntoDarkness\DescendIntoDarkness.cpp">
+      <Filter>Source\DescendIntoDarkness</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DescendIntoDarkness\DescendIntoDarkness.h">
+      <Filter>Source\DescendIntoDarkness</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DescendIntoDarkness\DescendIntoDarknessCharacter.cpp">
+      <Filter>Source\DescendIntoDarkness</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DescendIntoDarkness\DescendIntoDarknessCharacter.h">
+      <Filter>Source\DescendIntoDarkness</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DescendIntoDarkness\DescendIntoDarknessGameMode.cpp">
+      <Filter>Source\DescendIntoDarkness</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DescendIntoDarkness\DescendIntoDarknessGameMode.h">
+      <Filter>Source\DescendIntoDarkness</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DescendIntoDarkness\Interactable.cpp">
+      <Filter>Source\DescendIntoDarkness</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DescendIntoDarkness\Interactable.h">
+      <Filter>Source\DescendIntoDarkness</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
