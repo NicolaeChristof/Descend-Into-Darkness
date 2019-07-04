@@ -1888,3 +1888,16 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.07.04-20.04.48:708][981]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
 [2019.07.04-20.04.48:989][981]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMapB8CF76A04389F89D88FEE8BB348BB728.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap'
 [2019.07.04-20.04.49:362][981]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap_BuiltDataFEB881684196176DC393AC846A5D42CC.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2019.07.04-20.08.30:161][309]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.04-20.08.53:114][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.04-20.09.42:945][531]LogConsoleManager: Warning: Console object named 'ActorComponents.Enable' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
+[2019.07.04-20.10.37:963][229]Cmd: DELETE
+[2019.07.04-20.10.37:963][229]Cmd: ACTOR DELETE
+[2019.07.04-20.10.38:063][229]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
+[2019.07.04-20.10.38:063][229]LogEditorActor: Deleted 0 Actors (0.100 secs)
+[2019.07.04-20.11.58:706][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2019.07.04-20.11.59:000][712]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap478FE3204CA343CB455EA18FB0ABDD21.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap'
+[2019.07.04-20.11.59:369][712]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap_BuiltData5807D6F4465382A8C07152A3BB4C4D64.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2019.07.04-20.12.17:816][284]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2019.07.04-20.12.18:095][284]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMapD5DE9B914D1B5240B6F5B98C61766610.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap'
+[2019.07.04-20.12.18:458][284]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap_BuiltDataE00BF5FF4CF5941689648790461264BF.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap_BuiltData.uasset'
