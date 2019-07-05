@@ -65,6 +65,12 @@ void ADescendIntoDarknessCharacter::MoveRight(float Value)
 	AddMovementInput(FVector(0.f,-1.f,0.f), Value);
 }
 
+void ADescendIntoDarknessCharacter::ClimbRope(float value)
+{
+    // add movement in that direction
+    AddMovementInput(FVector(0.f,0.f,1.f), value);
+}
+
 void ADescendIntoDarknessCharacter::TouchStarted(const ETouchIndex::Type FingerIndex, const FVector Location)
 {
 	// jump on any touch
