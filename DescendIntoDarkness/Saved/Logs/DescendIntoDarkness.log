@@ -581,3 +581,53 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.07.06-23.49.51:401][328]Candidate modules for hot reload:
 [2019.07.06-23.49.51:401][328]  DescendIntoDarkness
 [2019.07.06-23.49.51:401][328]Launching UnrealBuildTool... [D:/Epic/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DescendIntoDarkness,8014 Win64 Development -TargetType=Editor -Project="C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DescendIntoDarkness.uproject" "C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DescendIntoDarkness.uproject"  -IgnoreJunk]
+[2019.07.06-23.50.18:562][328]CompilerResultsLog: New page: Compilation - Jul 6, 2019, 9:50:18 AM
+[2019.07.06-23.50.18:563][328]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Chris\Documents\Descend\Descend-Into-Darkness).
+[2019.07.06-23.50.18:563][328]CompilerResultsLog: Creating makefile for DescendIntoDarknessEditor (no existing makefile)
+[2019.07.06-23.50.18:563][328]CompilerResultsLog: Parsing headers for DescendIntoDarknessEditor
+[2019.07.06-23.50.18:563][328]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\DescendIntoDarkness.uproject" "C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\DescendIntoDarknessEditor\Development\DescendIntoDarknessEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.06-23.50.18:563][328]CompilerResultsLog: Reflection code generated for DescendIntoDarknessEditor in 15.0522452 seconds
+[2019.07.06-23.50.18:563][328]CompilerResultsLog: Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.06-23.50.18:563][328]CompilerResultsLog: Building 9 actions with 8 processes...
+[2019.07.06-23.50.18:563][328]CompilerResultsLog:   [1/9] DescendIntoDarkness.init.gen.cpp
+[2019.07.06-23.50.18:563][328]CompilerResultsLog:   [2/9] GameplayController.cpp
+[2019.07.06-23.50.18:563][328]CompilerResultsLog:   [3/9] DescendIntoDarknessGameMode.cpp
+[2019.07.06-23.50.18:563][328]CompilerResultsLog:   [4/9] DescendIntoDarknessCharacter.gen.cpp
+[2019.07.06-23.50.18:563][328]CompilerResultsLog:   [5/9] GameplayController.gen.cpp
+[2019.07.06-23.50.18:563][328]CompilerResultsLog:   [6/9] DescendIntoDarknessCharacter.cpp
+[2019.07.06-23.50.18:563][328]CompilerResultsLog:   [7/9] UE4Editor-DescendIntoDarkness-8014.lib
+[2019.07.06-23.50.18:563][328]CompilerResultsLog:      Creating library C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-8014.lib and object C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-8014.exp
+[2019.07.06-23.50.18:563][328]CompilerResultsLog:   [8/9] UE4Editor-DescendIntoDarkness-8014.dll
+[2019.07.06-23.50.18:563][328]CompilerResultsLog:      Creating library C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-8014.suppressed.lib and object C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-8014.suppressed.exp
+[2019.07.06-23.50.18:563][328]CompilerResultsLog:   [9/9] DescendIntoDarknessEditor.target
+[2019.07.06-23.50.18:563][328]CompilerResultsLog: Total time in Parallel executor: 7.93 seconds
+[2019.07.06-23.50.18:563][328]CompilerResultsLog: Total execution time: 27.04 seconds
+[2019.07.06-23.50.18:564][328]LogMainFrame: MainFrame: Module compiling took 27.247 seconds
+[2019.07.06-23.50.18:596][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2019.07.06-23.50.19:004][328]LogClass: Could not find existing class GameplayController in package /Script/DescendIntoDarkness for HotReload, assuming new class
+[2019.07.06-23.50.19:020][328]LogContentBrowser: Native class hierarchy updated for 'DescendIntoDarkness' in 0.0010 seconds. Added 5 classes and 2 folders.
+[2019.07.06-23.50.19:023][328]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.06-23.50.19:214][328]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2019.07.06-23.50.19:233][328]LogContentBrowser: Native class hierarchy populated in 0.0134 seconds. Added 2738 classes and 663 folders.
+[2019.07.06-23.50.19:240][328]Display: HotReload took 27.9s.
+[2019.07.06-23.50.19:242][328]Warning: HotReload operation took 27.9s.
+[2019.07.06-23.50.19:277][328]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.07.06-23.50.19:290][328]LogHotReload: New module detected: UE4Editor-DescendIntoDarkness-8014.dll
+[2019.07.06-23.50.19:347][329]LogHotReload: Starting Hot-Reload from IDE
+[2019.07.06-23.50.19:422][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.07.06-23.50.19:428][329]LogContentBrowser: Native class hierarchy updated for 'DescendIntoDarkness' in 0.0012 seconds. Added 5 classes and 2 folders.
+[2019.07.06-23.50.19:436][329]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.06-23.50.19:467][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2019.07.06-23.50.19:488][329]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 2738 classes and 663 folders.
+[2019.07.06-23.50.19:491][329]Display: HotReload took  0.1s.
+[2019.07.06-23.50.43:654][335]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (24.156 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.06-23.51.23:467][521]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/WB_Inventory.WB_Inventory
+[2019.07.06-23.51.23:850][521]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 121 classes and 0 folders.
+[2019.07.06-23.51.24:935][521]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)
+[2019.07.06-23.53.08:283][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WB_Inventory" FILE="C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/UI/WB_Inventory.uasset" SILENT=true
+[2019.07.06-23.53.08:390][227]LogSavePackage: Moving 'C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/WB_Inventory7AFA9EAF41360AC8682D27BE61183645.tmp' to 'C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/UI/WB_Inventory.uasset'
+[2019.07.06-23.55.57:673][282]LogSlate: Took 0.013475 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.07.06-23.56.02:221][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WB_Inventory" FILE="C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/UI/WB_Inventory.uasset" SILENT=true
+[2019.07.06-23.56.02:248][543]LogSavePackage: Moving 'C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/WB_InventoryB65A0B1C4764574352B6CDA476700493.tmp' to 'C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/UI/WB_Inventory.uasset'
+[2019.07.06-23.57.01:097][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WB_Inventory" FILE="C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/UI/WB_Inventory.uasset" SILENT=true
+[2019.07.06-23.57.01:121][384]LogSavePackage: Moving 'C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/WB_Inventory9696574B4589394DE5D54888956AEAE2.tmp' to 'C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/UI/WB_Inventory.uasset'
