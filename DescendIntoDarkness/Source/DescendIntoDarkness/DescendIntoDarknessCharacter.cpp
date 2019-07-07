@@ -71,8 +71,10 @@ void ADescendIntoDarknessCharacter::CheckForInteractables()
 {
 	//get all overlapping actors and store them in an array
 	TArray<AActor*> CollectedActors;
-	CollectionSphere->GetOverlappingActors(CollectedActors);
+	CollectionSphere->GetOverlappingActors(CollectedActors, AInteractable::StaticClass());
 
+	UE_LOG(LogClass, Log, TEXT("OverlappingActors: %d"), CollectedActors.Num());
+	
 	//For each actor we collect 
 	for (int32 iCollected = 0; iCollected < CollectedActors.Num(); ++iCollected) {
 		//Cast the actor to APickup
@@ -87,6 +89,8 @@ void ADescendIntoDarknessCharacter::CheckForInteractables()
 		}
 
 	}
+
+
 }
 void ADescendIntoDarknessCharacter::MoveRight(float Value)
 {
