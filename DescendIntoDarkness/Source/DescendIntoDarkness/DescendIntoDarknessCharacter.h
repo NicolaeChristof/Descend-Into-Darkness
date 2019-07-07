@@ -121,6 +121,9 @@ protected:
 public:
 	ADescendIntoDarknessCharacter();
 
+	virtual void Tick(float DeltaTime) override;
+	
+	
 	/** Returns SideViewCameraComponent subobject **/
 	FORCEINLINE class UCameraComponent* GetSideViewCameraComponent() const { return SideViewCameraComponent; }
 	/** Returns CameraBoom subobject **/

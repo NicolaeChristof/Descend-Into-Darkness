@@ -67,14 +67,35 @@ void ADescendIntoDarknessCharacter::SetupPlayerInputComponent(class UInputCompon
 	PlayerInputComponent->BindTouch(IE_Released, this, &ADescendIntoDarknessCharacter::TouchStopped);
 }
 
+//tick function
+void ADescendIntoDarknessCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+}
+
 void ADescendIntoDarknessCharacter::CheckForInteractables() 
 {
+
 	//get all overlapping actors and store them in an array
 	TArray<AActor*> CollectedActors;
 	CollectionSphere->GetOverlappingActors(CollectedActors, AInteractable::StaticClass());
-
-	UE_LOG(LogClass, Log, TEXT("OverlappingActors: %d"), CollectedActors.Num());
 	
+	//UE_LOG(LogClass, Log, TEXT("OverlappingActors: %d"), CollectedActors.Num());
+	
+
+	if (CollectedActors.Num() >= 1) {
+		AInteractable* const TestPickup = Cast<AInteractable>(CollectedActors[0]);
+		if (TestPickup && !TestPickup->IsPendingKill() && TestPickup->IsActive())
+		{
+			// Call the Pickup was collected
+			TestPickup->WasCollected();
+			//Deactivate the pickup
+			TestPickup->SetActive(false);
+		}
+	}
+
+	
+	/**
 	//For each actor we collect 
 	for (int32 iCollected = 0; iCollected < CollectedActors.Num(); ++iCollected) {
 		//Cast the actor to APickup
@@ -89,7 +110,10 @@ void ADescendIntoDarknessCharacter::CheckForInteractables()
 		}
 
 	}
+	*/
 
+
+	
 
 }
 void ADescendIntoDarknessCharacter::MoveRight(float Value)

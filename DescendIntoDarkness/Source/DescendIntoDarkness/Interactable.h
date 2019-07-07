@@ -23,9 +23,27 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Interactable")
 	void SetActive(bool NewState);
 
+	UFUNCTION(BlueprintImplementableEvent)
+    void Interact(APlayerController* Controller);
+
 	UFUNCTION(BlueprintNativeEvent)
 	void WasCollected();
+
 	virtual void WasCollected_Implementation();
+
+	UFUNCTION(BlueprintCallable, Category = "Interactable")
+	FString GetUseText() const { return FString::Printf(TEXT("%s : Press C to %s"), *Name, *Action); }
+
+	UFUNCTION(BlueprintCallable, Category = "Interactable")
+	FString GetItemName();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FString Name;
+
+	UPROPERTY(EditDefaultsOnly)
+	FString Action;
+
+	
 
 protected:
 	// Called when the game starts or when spawned

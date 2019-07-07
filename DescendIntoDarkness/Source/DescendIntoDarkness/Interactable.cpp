@@ -8,7 +8,8 @@
 AInteractable::AInteractable()
 {
  	
-
+	Name = "Name not set";
+	Action = "Interact";
 	bIsActive = true;
 	PickupMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PickupMesh"));
 	RootComponent = PickupMesh;
@@ -37,5 +38,10 @@ void AInteractable::WasCollected_Implementation()
 {
 	FString PickupDebugString = GetName();
 	UE_LOG(LogClass, Log, TEXT("You have collected %s"), *PickupDebugString);
+}
+
+FString AInteractable::GetItemName()
+{
+	return Name;
 }
 

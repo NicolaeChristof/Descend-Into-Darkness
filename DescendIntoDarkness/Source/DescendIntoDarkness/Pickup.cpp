@@ -6,6 +6,7 @@
 APickup::APickup()
 {
 
+	ItemID = FName("Please enter an ID");
 }
 
 //destroy when picked up
