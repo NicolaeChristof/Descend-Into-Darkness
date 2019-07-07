@@ -96,6 +96,10 @@ class ADescendIntoDarknessCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
 
+	/** CollectionSphere*/
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = CollectionSphere, meta = (AllowPrivateAccess = "true"))
+		class USphereComponent* CollectionSphere;
+
 protected:
 
 	void CheckForInteractables();

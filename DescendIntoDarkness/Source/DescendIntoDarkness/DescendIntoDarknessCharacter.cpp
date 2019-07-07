@@ -6,6 +6,8 @@
 #include "Components/InputComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Runtime/Engine/Classes/Components/SphereComponent.h"
+#include "Engine/World.h"
 #include "Interactable.h"
 
 ADescendIntoDarknessCharacter::ADescendIntoDarknessCharacter()
@@ -42,6 +44,9 @@ ADescendIntoDarknessCharacter::ADescendIntoDarknessCharacter()
 	GetCharacterMovement()->MaxWalkSpeed = 600.f;
 	GetCharacterMovement()->MaxFlySpeed = 600.f;
 
+	CollectionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("CollectionSphere"));
+	CollectionSphere->AttachTo(RootComponent);
+	CollectionSphere->SetSphereRadius(200.f);
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 }
@@ -54,15 +59,34 @@ void ADescendIntoDarknessCharacter::SetupPlayerInputComponent(class UInputCompon
 	// set up gameplay key bindings
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &ADescendIntoDarknessCharacter::CheckForInteractables);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ADescendIntoDarknessCharacter::MoveRight);
 
+	
 	PlayerInputComponent->BindTouch(IE_Pressed, this, &ADescendIntoDarknessCharacter::TouchStarted);
 	PlayerInputComponent->BindTouch(IE_Released, this, &ADescendIntoDarknessCharacter::TouchStopped);
 }
 
 void ADescendIntoDarknessCharacter::CheckForInteractables() 
 {
+	//get all overlapping actors and store them in an array
+	TArray<AActor*> CollectedActors;
+	CollectionSphere->GetOverlappingActors(CollectedActors);
 
+	//For each actor we collect 
+	for (int32 iCollected = 0; iCollected < CollectedActors.Num(); ++iCollected) {
+		//Cast the actor to APickup
+		AInteractable* const TestPickup = Cast<AInteractable>(CollectedActors[iCollected]);
+		// If the cast is sucessful and the pickup in valid and active
+		if (TestPickup && !TestPickup->IsPendingKill() && TestPickup->IsActive())
+		{
+			// Call the Pickup was collected
+			TestPickup->WasCollected();
+			//Deactivate the pickup
+			TestPickup->SetActive(false);
+		}
+
+	}
 }
 void ADescendIntoDarknessCharacter::MoveRight(float Value)
 {

@@ -15,12 +15,29 @@ public:
 	// Sets default values for this actor's properties
 	AInteractable();
 
+	FORCEINLINE class UStaticMeshComponent* GetMesh() const { return PickupMesh; }
+
+	UFUNCTION(BlueprintPure, Category = "Interactable")
+	bool IsActive();
+
+	UFUNCTION(BlueprintCallable, Category = "Interactable")
+	void SetActive(bool NewState);
+
+	UFUNCTION(BlueprintNativeEvent)
+	void WasCollected();
+	virtual void WasCollected_Implementation();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	bool bIsActive;
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+private:
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Interactable", meta = (AllowPrivateAccess = "true"))
+	class UStaticMeshComponent* PickupMesh;
 
 };

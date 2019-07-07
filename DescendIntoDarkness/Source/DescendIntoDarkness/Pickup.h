@@ -14,4 +14,9 @@ class DESCENDINTODARKNESS_API APickup : public AInteractable
 {
 	GENERATED_BODY()
 	
+    public:
+		APickup();
+
+	/** Override the WasCollected function - use Implementation because it's a Blueprint Native Event */
+	void WasCollected_Implementation() override;
 };
