@@ -6,6 +6,7 @@
 #include "Components/InputComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Interactable.h"
 
 ADescendIntoDarknessCharacter::ADescendIntoDarknessCharacter()
 {
@@ -59,6 +60,10 @@ void ADescendIntoDarknessCharacter::SetupPlayerInputComponent(class UInputCompon
 	PlayerInputComponent->BindTouch(IE_Released, this, &ADescendIntoDarknessCharacter::TouchStopped);
 }
 
+void ADescendIntoDarknessCharacter::CheckForInteractables() 
+{
+
+}
 void ADescendIntoDarknessCharacter::MoveRight(float Value)
 {
 	// add movement in that direction
