@@ -14,7 +14,7 @@ class ADescendIntoDarknessGameMode : public AGameModeBase
 public:
 	ADescendIntoDarknessGameMode();
 
-	class UDataTable* GetItemDB() const { return ItemDB; }
+	//class UDataTable* GetItemDB() const { return ItemDB; }
 
 protected:
 

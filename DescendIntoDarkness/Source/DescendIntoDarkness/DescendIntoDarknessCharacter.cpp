@@ -80,7 +80,7 @@ void ADescendIntoDarknessCharacter::CheckForInteractables()
 	TArray<AActor*> CollectedActors;
 	CollectionSphere->GetOverlappingActors(CollectedActors, AInteractable::StaticClass());
 	
-	//UE_LOG(LogClass, Log, TEXT("OverlappingActors: %d"), CollectedActors.Num());
+    UE_LOG(LogClass, Log, TEXT("OverlappingActors: %d"), CollectedActors.Num());
 	
 
 	if (CollectedActors.Num() >= 1) {

@@ -652,16 +652,3 @@ Script Stack (0 frames):
 [2019.07.08-23.07.29:210][866]LogOutputDevice: Error: [Callstack] 0x00007ffbf0b23691 ntdll.dll!UnknownFunction []
 [2019.07.08-23.07.29:210][866]LogOutputDevice: Error: 
 [2019.07.08-23.07.29:222][866]LogStats:                SubmitErrorReport -  0.000 s
-[2019.07.08-23.07.30:614][866]LogStats:                    SendNewReport -  1.391 s
-[2019.07.08-23.07.30:615][866]LogStats:             FDebug::EnsureFailed -  3.126 s
-[2019.07.08-23.07.49:425][995]LogClass: OverlappingActors: 1
-[2019.07.08-23.07.49:425][995]LogClass: You have collected MyPickup4
-[2019.07.08-23.07.51:133][ 97]LogClass: OverlappingActors: 1
-[2019.07.08-23.07.51:133][ 97]LogClass: You have collected MyPickup5
-[2019.07.08-23.07.59:368][591]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2019.07.08-23.07.59:369][591]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.08-23.07.59:396][591]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.08-23.07.59:397][591]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2019.07.08-23.07.59:431][591]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.08-23.07.59:435][591]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
-[2019.07.08-23.07.59:472][592]LogPlayLevel: Display: Destroying online subsystem :Context_1
