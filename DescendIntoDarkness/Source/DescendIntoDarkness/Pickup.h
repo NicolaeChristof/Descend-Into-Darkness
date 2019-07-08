@@ -14,15 +14,19 @@ class DESCENDINTODARKNESS_API APickup : public AInteractable
 {
 	GENERATED_BODY()
 	
-    public:
+public:
 
-		APickup();
+    APickup();
 
-    protected:
+	void Show(bool visible);
+protected:
 
-		UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FName ItemID;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FName ItemID;
 
 	/** Override the WasCollected function - use Implementation because it's a Blueprint Native Event */
 	void WasCollected_Implementation() override;
+
+private:
+	
 };

@@ -73,15 +73,15 @@ void ADescendIntoDarknessCharacter::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
-void ADescendIntoDarknessCharacter::CheckForInteractables() 
+void ADescendIntoDarknessCharacter::CheckForInteractables()
 {
 
 	//get all overlapping actors and store them in an array
 	TArray<AActor*> CollectedActors;
 	CollectionSphere->GetOverlappingActors(CollectedActors, AInteractable::StaticClass());
-	
-    UE_LOG(LogClass, Log, TEXT("OverlappingActors: %d"), CollectedActors.Num());
-	
+
+	UE_LOG(LogClass, Log, TEXT("OverlappingActors: %d"), CollectedActors.Num());
+
 
 	if (CollectedActors.Num() >= 1) {
 		AInteractable* const TestPickup = Cast<AInteractable>(CollectedActors[0]);
@@ -94,9 +94,9 @@ void ADescendIntoDarknessCharacter::CheckForInteractables()
 		}
 	}
 
-	
+
 	/**
-	//For each actor we collect 
+	//For each actor we collect
 	for (int32 iCollected = 0; iCollected < CollectedActors.Num(); ++iCollected) {
 		//Cast the actor to APickup
 		AInteractable* const TestPickup = Cast<AInteractable>(CollectedActors[iCollected]);
@@ -112,10 +112,26 @@ void ADescendIntoDarknessCharacter::CheckForInteractables()
 	}
 	*/
 
-
-	
-
 }
+
+void ADescendIntoDarknessCharacter::AddToInventory(APickup* actor)
+{
+	_inventory.Add(actor);
+}
+
+void ADescendIntoDarknessCharacter::PrintInventory() 
+{
+	FString sInventory = "";
+
+	for (APickup* actor : _inventory)
+	{
+		sInventory.Append(actor->Name);
+		sInventory.Append(" | ");
+	}
+
+	GEngine->AddOnScreenDebugMessage(1, 3, FColor::White, *sInventory);
+}
+
 void ADescendIntoDarknessCharacter::MoveRight(float Value)
 {
 	// add movement in that direction

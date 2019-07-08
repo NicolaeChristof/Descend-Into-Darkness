@@ -665,3 +665,385 @@ Script Stack (0 frames):
 [2019.07.08-23.07.59:431][591]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.07.08-23.07.59:435][591]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
 [2019.07.08-23.07.59:472][592]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.07.08-23.09.06:360][935]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.08-23.09.08:530][ 46]LogSlate: Took 0.000726 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.08-23.09.08:542][ 46]LogAssetEditorManager: Opening Asset editor for Class /Script/DescendIntoDarkness.DescendIntoDarknessGameMode
+[2019.07.08-23.09.41:931][592]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2019.07.08-23.09.44:729][592]LogSlate: Window 'Delete Assets' being destroyed
+[2019.07.08-23.09.44:815][592]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2019.07.08-23.09.44:846][592]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2019.07.08-23.09.44:872][592]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2019.07.08-23.12.33:126][254]Candidate modules for hot reload:
+[2019.07.08-23.12.33:126][254]  DescendIntoDarkness
+[2019.07.08-23.12.33:126][254]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DescendIntoDarkness,2110 Win64 Development -TargetType=Editor -Project="C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DescendIntoDarkness.uproject" "C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DescendIntoDarkness.uproject"  -IgnoreJunk]
+[2019.07.08-23.12.33:140][254]Warning: Starting HotReload took  0.0s.
+[2019.07.08-23.12.56:455][628]CompilerResultsLog: New page: Compilation - Jul 8, 2019, 9:12:56 AM
+[2019.07.08-23.12.56:456][628]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Chris\Documents\Descend\Descend-Into-Darkness).
+[2019.07.08-23.12.56:456][628]CompilerResultsLog: Creating makefile for DescendIntoDarknessEditor (ini files are newer than makefile)
+[2019.07.08-23.12.56:456][628]CompilerResultsLog: Parsing headers for DescendIntoDarknessEditor
+[2019.07.08-23.12.56:456][628]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\DescendIntoDarkness.uproject" "C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\DescendIntoDarknessEditor\Development\DescendIntoDarknessEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.08-23.12.56:457][628]CompilerResultsLog: Reflection code generated for DescendIntoDarknessEditor in 12.9934803 seconds
+[2019.07.08-23.12.56:457][628]CompilerResultsLog: Failed to delete file 'C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Binaries\Win64\UE4Editor-DescendIntoDarkness.pdb'
+[2019.07.08-23.12.56:457][628]CompilerResultsLog:     Exception: Access to the path 'C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Binaries\Win64\UE4Editor-DescendIntoDarkness.pdb' is denied.
+[2019.07.08-23.12.56:457][628]CompilerResultsLog: Attempting to retry...
+[2019.07.08-23.12.56:458][628]CompilerResultsLog: Failed to delete file 'C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Binaries\Win64\UE4Editor-DescendIntoDarkness.pdb'
+[2019.07.08-23.12.56:458][628]CompilerResultsLog:     Exception: Access to the path 'C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Binaries\Win64\UE4Editor-DescendIntoDarkness.pdb' is denied.
+[2019.07.08-23.12.56:458][628]CompilerResultsLog: Attempting to retry...
+[2019.07.08-23.12.56:458][628]CompilerResultsLog: Failed to delete file 'C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Binaries\Win64\UE4Editor-DescendIntoDarkness.pdb'
+[2019.07.08-23.12.56:458][628]CompilerResultsLog:     Exception: Access to the path 'C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Binaries\Win64\UE4Editor-DescendIntoDarkness.pdb' is denied.
+[2019.07.08-23.12.56:459][628]CompilerResultsLog: ERROR: Exhausted all retries!
+[2019.07.08-23.12.56:459][628]CompilerResultsLog: Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.08-23.12.56:459][628]CompilerResultsLog: Building 7 actions with 8 processes...
+[2019.07.08-23.12.56:459][628]CompilerResultsLog:   [1/7] DescendIntoDarkness.init.gen.cpp
+[2019.07.08-23.12.56:459][628]CompilerResultsLog:   [2/7] DescendIntoDarknessCharacter.gen.cpp
+[2019.07.08-23.12.56:459][628]CompilerResultsLog:   [3/7] DescendIntoDarknessGameMode.cpp
+[2019.07.08-23.12.56:460][628]CompilerResultsLog:   [4/7] DescendIntoDarknessCharacter.cpp
+[2019.07.08-23.12.56:460][628]CompilerResultsLog:   C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Source\DescendIntoDarkness\DescendIntoDarknessCharacter.cpp(48): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.07.08-23.12.56:460][628]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: see declaration of 'USceneComponent::AttachTo'
+[2019.07.08-23.12.56:461][628]CompilerResultsLog:   [5/7] UE4Editor-DescendIntoDarkness-2110.lib
+[2019.07.08-23.12.56:461][628]CompilerResultsLog:      Creating library C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-2110.lib and object C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-2110.exp
+[2019.07.08-23.12.56:461][628]CompilerResultsLog:   [6/7] UE4Editor-DescendIntoDarkness-2110.dll
+[2019.07.08-23.12.56:461][628]CompilerResultsLog:      Creating library C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-2110.suppressed.lib and object C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-2110.suppressed.exp
+[2019.07.08-23.12.56:462][628]CompilerResultsLog:   [7/7] DescendIntoDarknessEditor.target
+[2019.07.08-23.12.56:462][628]CompilerResultsLog: Total time in Parallel executor: 4.25 seconds
+[2019.07.08-23.12.56:462][628]CompilerResultsLog: Total execution time: 23.14 seconds
+[2019.07.08-23.12.56:463][628]LogMainFrame: MainFrame: Module compiling took 23.343 seconds
+[2019.07.08-23.12.56:492][628]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2019.07.08-23.12.56:765][628]LogContentBrowser: Native class hierarchy updated for 'DescendIntoDarkness' in 0.0010 seconds. Added 4 classes and 2 folders.
+[2019.07.08-23.12.56:769][628]Display: HotReload successful (5 functions remapped  2 scriptstructs remapped)
+[2019.07.08-23.12.56:902][628]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2019.07.08-23.12.56:922][628]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2737 classes and 663 folders.
+[2019.07.08-23.12.56:926][628]Display: HotReload took 23.8s.
+[2019.07.08-23.19.14:447][618]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Pickup_BP.Pickup_BP
+[2019.07.08-23.19.14:929][618]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 121 classes and 0 folders.
+[2019.07.08-23.19.16:096][618]LogSlate: Took 0.001129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.07.08-23.19.16:202][619]LogSlate: Took 0.001592 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.07.08-23.19.21:593][936]LogSlate: Window 'Pickup_BP' being destroyed
+[2019.07.08-23.19.21:599][936]LogSlate: Window 'Pickup_BP' being destroyed
+[2019.07.08-23.43.09:094][257]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.08-23.43.09:114][257]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.43.09:115][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.08-23.43.09:115][257]PIE: New page: PIE session: SideScrollerExampleMap (Jul 8, 2019, 9:43:09 AM)
+[2019.07.08-23.43.09:116][257]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.08-23.43.09:146][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030012s)
+[2019.07.08-23.43.09:147][257]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.08-23.43.09:148][257]LogPlayLevel: PIE: World Init took: (0.001578s)
+[2019.07.08-23.43.09:148][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.032411s)
+[2019.07.08-23.43.09:197][257]LogUObjectHash: Compacting FUObjectHashTables data took   4.57ms
+[2019.07.08-23.43.09:209][257]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.08-23.43.09:298][257]LogInit: FAudioDevice initialized.
+[2019.07.08-23.43.09:339][257]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.08-23.43.09:344][257]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.08-16.43.09
+[2019.07.08-23.43.09:345][257]LogWorld: Bringing up level for play took: 0.004379
+[2019.07.08-23.43.09:360][257]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap -0.09
+[2019.07.08-23.43.09:361][257]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.43.10:464][322]LogClass: OverlappingActors: 1
+[2019.07.08-23.43.10:464][322]LogClass: You have collected MyPickup_2
+[2019.07.08-23.43.12:515][445]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.43.12:516][445]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-23.43.12:548][445]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.08-23.43.12:548][445]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.43.12:589][445]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-23.43.12:595][445]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2019.07.08-23.43.12:620][446]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.07.08-23.43.25:884][505]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.08-23.43.26:847][553]Candidate modules for hot reload:
+[2019.07.08-23.43.26:847][553]  DescendIntoDarkness
+[2019.07.08-23.43.26:847][553]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DescendIntoDarkness,748 Win64 Development -TargetType=Editor -Project="C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DescendIntoDarkness.uproject" "C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DescendIntoDarkness.uproject"  -IgnoreJunk]
+[2019.07.08-23.43.26:860][553]Warning: Starting HotReload took  0.0s.
+[2019.07.08-23.44.04:978][720]CompilerResultsLog: New page: Compilation - Jul 8, 2019, 9:44:04 AM
+[2019.07.08-23.44.04:978][720]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Chris\Documents\Descend\Descend-Into-Darkness).
+[2019.07.08-23.44.04:978][720]CompilerResultsLog: Creating makefile for DescendIntoDarknessEditor (ini files are newer than makefile)
+[2019.07.08-23.44.04:978][720]CompilerResultsLog: Parsing headers for DescendIntoDarknessEditor
+[2019.07.08-23.44.04:978][720]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\DescendIntoDarkness.uproject" "C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\DescendIntoDarknessEditor\Development\DescendIntoDarknessEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.08-23.44.04:979][720]CompilerResultsLog: Reflection code generated for DescendIntoDarknessEditor in 12.4850882 seconds
+[2019.07.08-23.44.04:979][720]CompilerResultsLog: Failed to delete file 'C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Binaries\Win64\UE4Editor-DescendIntoDarkness.pdb'
+[2019.07.08-23.44.04:979][720]CompilerResultsLog:     Exception: Access to the path 'C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Binaries\Win64\UE4Editor-DescendIntoDarkness.pdb' is denied.
+[2019.07.08-23.44.04:980][720]CompilerResultsLog: Attempting to retry...
+[2019.07.08-23.44.04:980][720]CompilerResultsLog: Failed to delete file 'C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Binaries\Win64\UE4Editor-DescendIntoDarkness.pdb'
+[2019.07.08-23.44.04:980][720]CompilerResultsLog:     Exception: Access to the path 'C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Binaries\Win64\UE4Editor-DescendIntoDarkness.pdb' is denied.
+[2019.07.08-23.44.04:980][720]CompilerResultsLog: Attempting to retry...
+[2019.07.08-23.44.04:981][720]CompilerResultsLog: Failed to delete file 'C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Binaries\Win64\UE4Editor-DescendIntoDarkness.pdb'
+[2019.07.08-23.44.04:981][720]CompilerResultsLog:     Exception: Access to the path 'C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Binaries\Win64\UE4Editor-DescendIntoDarkness.pdb' is denied.
+[2019.07.08-23.44.04:981][720]CompilerResultsLog: ERROR: Exhausted all retries!
+[2019.07.08-23.44.04:981][720]CompilerResultsLog: Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.08-23.44.04:982][720]CompilerResultsLog: Building 12 actions with 8 processes...
+[2019.07.08-23.44.04:982][720]CompilerResultsLog:   [1/12] DescendIntoDarkness.init.gen.cpp
+[2019.07.08-23.44.04:982][720]CompilerResultsLog:   [2/12] Interactable.cpp
+[2019.07.08-23.44.04:982][720]CompilerResultsLog:   [3/12] Interactable.gen.cpp
+[2019.07.08-23.44.04:982][720]CompilerResultsLog:   [4/12] DescendIntoDarknessCharacter.gen.cpp
+[2019.07.08-23.44.04:982][720]CompilerResultsLog:   [5/12] DescendIntoDarknessGameMode.cpp
+[2019.07.08-23.44.04:982][720]CompilerResultsLog:   [6/12] DescendIntoDarknessCharacter.cpp
+[2019.07.08-23.44.04:982][720]CompilerResultsLog:   C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Source\DescendIntoDarkness\DescendIntoDarknessCharacter.cpp(48): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.07.08-23.44.04:983][720]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: see declaration of 'USceneComponent::AttachTo'
+[2019.07.08-23.44.04:983][720]CompilerResultsLog:   [7/12] Pickup.cpp
+[2019.07.08-23.44.04:984][720]CompilerResultsLog:   [8/12] Pickup.gen.cpp
+[2019.07.08-23.44.04:984][720]CompilerResultsLog:   [9/12] DescendIntoDarkness.cpp
+[2019.07.08-23.44.04:984][720]CompilerResultsLog:   [10/12] UE4Editor-DescendIntoDarkness-0748.lib
+[2019.07.08-23.44.04:984][720]CompilerResultsLog:      Creating library C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-0748.lib and object C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-0748.exp
+[2019.07.08-23.44.04:985][720]CompilerResultsLog:   [11/12] UE4Editor-DescendIntoDarkness-0748.dll
+[2019.07.08-23.44.04:985][720]CompilerResultsLog:      Creating library C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-0748.suppressed.lib and object C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-0748.suppressed.exp
+[2019.07.08-23.44.04:985][720]CompilerResultsLog:   [12/12] DescendIntoDarknessEditor.target
+[2019.07.08-23.44.04:986][720]CompilerResultsLog: Total time in Parallel executor: 19.32 seconds
+[2019.07.08-23.44.04:986][720]CompilerResultsLog: Total execution time: 37.72 seconds
+[2019.07.08-23.44.04:986][720]LogMainFrame: MainFrame: Module compiling took 38.144 seconds
+[2019.07.08-23.44.05:018][720]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2019.07.08-23.44.05:018][720]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.07.08-23.44.05:043][720]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 2737 classes and 663 folders.
+[2019.07.08-23.44.05:043][720]Display: HotReload took 38.2s.
+[2019.07.08-23.44.07:810][732]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.08-23.44.07:830][732]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.44.07:831][732]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.08-23.44.07:832][732]PIE: New page: PIE session: SideScrollerExampleMap (Jul 8, 2019, 9:44:07 AM)
+[2019.07.08-23.44.07:832][732]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.08-23.44.07:851][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018643s)
+[2019.07.08-23.44.07:852][732]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.08-23.44.07:852][732]LogPlayLevel: PIE: World Init took: (0.001156s)
+[2019.07.08-23.44.07:852][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.020471s)
+[2019.07.08-23.44.07:957][732]LogUObjectHash: Compacting FUObjectHashTables data took   5.45ms
+[2019.07.08-23.44.07:966][732]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.08-23.44.08:035][732]LogInit: FAudioDevice initialized.
+[2019.07.08-23.44.08:067][732]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.08-23.44.08:071][732]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.08-16.44.08
+[2019.07.08-23.44.08:071][732]LogWorld: Bringing up level for play took: 0.003301
+[2019.07.08-23.44.08:086][732]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap 0.635
+[2019.07.08-23.44.08:086][732]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.44.09:148][795]LogClass: OverlappingActors: 1
+[2019.07.08-23.44.09:149][795]LogClass: You have collected MyPickup_2
+[2019.07.08-23.44.11:732][950]LogClass: OverlappingActors: 1
+[2019.07.08-23.44.11:733][950]LogClass: You have collected MyPickup2
+[2019.07.08-23.44.13:582][ 61]LogClass: OverlappingActors: 1
+[2019.07.08-23.44.13:582][ 61]LogClass: You have collected MyPickup3
+[2019.07.08-23.44.14:016][ 87]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.44.14:017][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-23.44.14:047][ 87]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.08-23.44.14:048][ 87]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.44.14:100][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-23.44.14:127][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2019.07.08-23.44.14:161][ 88]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.07.08-23.44.30:273][173]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.08-23.45.11:963][317]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerCPP/Blueprints/Player.Player
+[2019.07.08-23.45.33:632][941]LogBlueprintActionDatabase: Requesting refresh due to module change: ExternalImagePicker (loaded)
+[2019.07.08-23.45.34:793][941]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.07.08-23.48.37:155][642]BlueprintLog: New page: Compile Player
+[2019.07.08-23.48.37:524][642]LogUObjectHash: Compacting FUObjectHashTables data took   7.42ms
+[2019.07.08-23.48.54:549][612]BlueprintLog: New page: Compile Player
+[2019.07.08-23.48.54:861][612]LogUObjectHash: Compacting FUObjectHashTables data took   5.64ms
+[2019.07.08-23.49.04:136][106]LogSlate: Window 'Player' being destroyed
+[2019.07.08-23.49.04:147][106]LogSlate: Window 'Player' being destroyed
+[2019.07.08-23.49.18:561][559]LogUObjectHash: Compacting FUObjectHashTables data took   6.27ms
+[2019.07.08-23.49.18:848][559]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap0E0A2E8447DD81CFB6C39CB8E0AE6257.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap'
+[2019.07.08-23.49.19:028][559]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap_BuiltData1918416047422108E05CC197894AA2AB.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2019.07.08-23.49.19:934][611]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerCPP/Blueprints/Player.Player
+[2019.07.08-23.49.24:230][797]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/PlayerC98D29484DCEC8B884529498F9C1961E.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Blueprints/Player.uasset'
+[2019.07.08-23.49.47:849][ 83]Candidate modules for hot reload:
+[2019.07.08-23.49.47:849][ 83]  DescendIntoDarkness
+[2019.07.08-23.49.47:849][ 83]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DescendIntoDarkness,8243 Win64 Development -TargetType=Editor -Project="C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DescendIntoDarkness.uproject" "C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DescendIntoDarkness.uproject"  -IgnoreJunk]
+[2019.07.08-23.49.47:861][ 83]Warning: Starting HotReload took  0.0s.
+[2019.07.08-23.50.11:137][418]CompilerResultsLog: New page: Compilation - Jul 8, 2019, 9:50:11 AM
+[2019.07.08-23.50.11:138][418]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Chris\Documents\Descend\Descend-Into-Darkness).
+[2019.07.08-23.50.11:138][418]CompilerResultsLog: Creating makefile for DescendIntoDarknessEditor (ini files are newer than makefile)
+[2019.07.08-23.50.11:138][418]CompilerResultsLog: Parsing headers for DescendIntoDarknessEditor
+[2019.07.08-23.50.11:138][418]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\DescendIntoDarkness.uproject" "C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\DescendIntoDarknessEditor\Development\DescendIntoDarknessEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.08-23.50.11:139][418]CompilerResultsLog: Reflection code generated for DescendIntoDarknessEditor in 12.8816392 seconds
+[2019.07.08-23.50.11:139][418]CompilerResultsLog: Failed to delete file 'C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Binaries\Win64\UE4Editor-DescendIntoDarkness.pdb'
+[2019.07.08-23.50.11:140][418]CompilerResultsLog:     Exception: Access to the path 'C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Binaries\Win64\UE4Editor-DescendIntoDarkness.pdb' is denied.
+[2019.07.08-23.50.11:140][418]CompilerResultsLog: Attempting to retry...
+[2019.07.08-23.50.11:140][418]CompilerResultsLog: Failed to delete file 'C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Binaries\Win64\UE4Editor-DescendIntoDarkness.pdb'
+[2019.07.08-23.50.11:140][418]CompilerResultsLog:     Exception: Access to the path 'C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Binaries\Win64\UE4Editor-DescendIntoDarkness.pdb' is denied.
+[2019.07.08-23.50.11:140][418]CompilerResultsLog: Attempting to retry...
+[2019.07.08-23.50.11:141][418]CompilerResultsLog: Failed to delete file 'C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Binaries\Win64\UE4Editor-DescendIntoDarkness.pdb'
+[2019.07.08-23.50.11:141][418]CompilerResultsLog:     Exception: Access to the path 'C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Binaries\Win64\UE4Editor-DescendIntoDarkness.pdb' is denied.
+[2019.07.08-23.50.11:141][418]CompilerResultsLog: ERROR: Exhausted all retries!
+[2019.07.08-23.50.11:141][418]CompilerResultsLog: Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.08-23.50.11:141][418]CompilerResultsLog: Building 9 actions with 8 processes...
+[2019.07.08-23.50.11:142][418]CompilerResultsLog:   [1/9] DescendIntoDarkness.init.gen.cpp
+[2019.07.08-23.50.11:142][418]CompilerResultsLog:   [2/9] Pickup.gen.cpp
+[2019.07.08-23.50.11:142][418]CompilerResultsLog:   [3/9] DescendIntoDarknessCharacter.gen.cpp
+[2019.07.08-23.50.11:142][418]CompilerResultsLog:   [4/9] DescendIntoDarknessGameMode.cpp
+[2019.07.08-23.50.11:142][418]CompilerResultsLog:   [5/9] Pickup.cpp
+[2019.07.08-23.50.11:142][418]CompilerResultsLog:   [6/9] DescendIntoDarknessCharacter.cpp
+[2019.07.08-23.50.11:142][418]CompilerResultsLog:   C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Source\DescendIntoDarkness\DescendIntoDarknessCharacter.cpp(48): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.07.08-23.50.11:143][418]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: see declaration of 'USceneComponent::AttachTo'
+[2019.07.08-23.50.11:143][418]CompilerResultsLog:   [7/9] UE4Editor-DescendIntoDarkness-8243.lib
+[2019.07.08-23.50.11:143][418]CompilerResultsLog:      Creating library C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-8243.lib and object C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-8243.exp
+[2019.07.08-23.50.11:143][418]CompilerResultsLog:   [8/9] UE4Editor-DescendIntoDarkness-8243.dll
+[2019.07.08-23.50.11:144][418]CompilerResultsLog:      Creating library C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-8243.suppressed.lib and object C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-8243.suppressed.exp
+[2019.07.08-23.50.11:144][418]CompilerResultsLog:   [9/9] DescendIntoDarknessEditor.target
+[2019.07.08-23.50.11:144][418]CompilerResultsLog: Total time in Parallel executor: 3.94 seconds
+[2019.07.08-23.50.11:144][418]CompilerResultsLog: Total execution time: 22.85 seconds
+[2019.07.08-23.50.11:144][418]LogMainFrame: MainFrame: Module compiling took 23.300 seconds
+[2019.07.08-23.50.11:215][418]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2019.07.08-23.50.11:218][418]LogBlueprintActionDatabase: Requesting refresh due to module change: DescendIntoDarkness (unloaded)
+[2019.07.08-23.50.11:581][418]LogClass: Could not find existing class DescendIntoDarknessCharacter in package /Script/DescendIntoDarkness for HotReload, assuming new class
+[2019.07.08-23.50.11:582][418]LogClass: Function PrintInventory is new.
+[2019.07.08-23.50.11:603][418]LogHotReload: Re-instancing DescendIntoDarknessCharacter after hot-reload.
+[2019.07.08-23.50.12:007][418]LogBlueprintActionDatabase: Requesting refresh due to module change: DescendIntoDarkness (loaded)
+[2019.07.08-23.50.12:008][418]LogContentBrowser: Native class hierarchy updated for 'DescendIntoDarkness' in 0.0009 seconds. Added 4 classes and 2 folders.
+[2019.07.08-23.50.12:013][418]Display: HotReload successful (5 functions remapped  2 scriptstructs remapped)
+[2019.07.08-23.50.12:104][418]LogUObjectHash: Compacting FUObjectHashTables data took   5.26ms
+[2019.07.08-23.50.12:106][418]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.07.08-23.50.12:126][418]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 2737 classes and 663 folders.
+[2019.07.08-23.50.12:126][418]Display: HotReload took 24.3s.
+[2019.07.08-23.50.16:281][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.07.08-23.50.19:430][595]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.08-23.50.25:628][908]LogUObjectHash: Compacting FUObjectHashTables data took   6.36ms
+[2019.07.08-23.50.25:940][908]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap6D290F274EDCB3A4BF28D88F27914CFC.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap'
+[2019.07.08-23.50.26:090][908]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap_BuiltDataED7EEF3741D800F72D42F08BAE4E7B1C.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2019.07.08-23.50.35:644][449]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player0A4B23824E58B75F7EA72FAA3718F994.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Blueprints/Player.uasset'
+[2019.07.08-23.50.45:618][966]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player46A20E6E41CB9E100C5E5C8449738FB0.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Blueprints/Player.uasset'
+[2019.07.08-23.50.48:702][142]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.08-23.50.48:727][142]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.50.48:728][142]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.07.08-23.50.48:729][142]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2019.07.08-23.50.49:157][142]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2019.07.08-23.50.49:157][142]LogPlayLevel: PlayLevel: Blueprint regeneration took 429 ms (1 blueprints)
+[2019.07.08-23.50.49:158][142]PIE: New page: PIE session: SideScrollerExampleMap (Jul 8, 2019, 9:50:49 AM)
+[2019.07.08-23.50.49:158][142]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.08-23.50.49:177][142]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019215s)
+[2019.07.08-23.50.49:178][142]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.08-23.50.49:179][142]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2019.07.08-23.50.49:179][142]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.020924s)
+[2019.07.08-23.50.49:222][142]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2019.07.08-23.50.49:234][142]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.08-23.50.49:311][142]LogInit: FAudioDevice initialized.
+[2019.07.08-23.50.49:337][142]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.08-23.50.49:340][142]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.08-16.50.49
+[2019.07.08-23.50.49:341][142]LogWorld: Bringing up level for play took: 0.003108
+[2019.07.08-23.50.49:356][142]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap -0.095
+[2019.07.08-23.50.49:357][142]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.50.51:096][245]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.50.51:097][245]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-23.50.51:130][245]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.08-23.50.51:130][245]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.50.51:181][245]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-23.50.51:187][245]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2019.07.08-23.50.51:228][246]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.07.08-23.50.52:299][309]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.08-23.50.54:052][399]LogSlate: Window 'Project Settings' being destroyed
+[2019.07.08-23.50.54:059][399]LogSlate: Window 'Project Settings' being destroyed
+[2019.07.08-23.50.54:709][437]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.08-23.50.54:726][437]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.50.54:727][437]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.08-23.50.54:727][437]PIE: New page: PIE session: SideScrollerExampleMap (Jul 8, 2019, 9:50:54 AM)
+[2019.07.08-23.50.54:727][437]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.08-23.50.54:742][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014762s)
+[2019.07.08-23.50.54:743][437]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.08-23.50.54:744][437]LogPlayLevel: PIE: World Init took: (0.001070s)
+[2019.07.08-23.50.54:744][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.016531s)
+[2019.07.08-23.50.54:786][437]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2019.07.08-23.50.54:795][437]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.08-23.50.54:859][437]LogInit: FAudioDevice initialized.
+[2019.07.08-23.50.54:887][437]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.08-23.50.54:891][437]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.08-16.50.54
+[2019.07.08-23.50.54:892][437]LogWorld: Bringing up level for play took: 0.003014
+[2019.07.08-23.50.54:906][437]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap -0.545
+[2019.07.08-23.50.54:906][437]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.50.55:757][486]LogClass: OverlappingActors: 1
+[2019.07.08-23.50.55:758][486]LogClass: You have collected MyPickup_2
+[2019.07.08-23.50.56:291][518]LogClass: OverlappingActors: 1
+[2019.07.08-23.50.57:458][588]LogClass: OverlappingActors: 1
+[2019.07.08-23.50.57:696][600]LogClass: OverlappingActors: 1
+[2019.07.08-23.50.59:620][716]LogClass: OverlappingActors: 1
+[2019.07.08-23.50.59:621][716]LogClass: You have collected MyPickup2
+[2019.07.08-23.51.01:605][835]LogClass: OverlappingActors: 1
+[2019.07.08-23.51.01:605][835]LogClass: You have collected MyPickup3
+[2019.07.08-23.51.05:238][ 53]LogClass: OverlappingActors: 1
+[2019.07.08-23.51.12:755][504]LogClass: OverlappingActors: 1
+[2019.07.08-23.51.12:755][504]LogClass: You have collected MyPickup4
+[2019.07.08-23.51.22:440][ 85]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.51.22:442][ 85]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-23.51.22:476][ 85]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.08-23.51.22:476][ 85]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.51.22:526][ 85]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-23.51.22:533][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2019.07.08-23.51.22:565][ 86]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.07.08-23.51.24:716][215]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.08-23.51.24:782][219]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.08-23.51.24:804][219]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.51.24:805][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.08-23.51.24:805][219]PIE: New page: PIE session: SideScrollerExampleMap (Jul 8, 2019, 9:51:24 AM)
+[2019.07.08-23.51.24:805][219]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.08-23.51.24:828][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022402s)
+[2019.07.08-23.51.24:829][219]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.08-23.51.24:829][219]LogPlayLevel: PIE: World Init took: (0.001158s)
+[2019.07.08-23.51.24:830][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.024298s)
+[2019.07.08-23.51.24:869][219]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2019.07.08-23.51.24:877][219]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.08-23.51.24:946][219]LogInit: FAudioDevice initialized.
+[2019.07.08-23.51.24:977][219]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.08-23.51.24:980][219]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.08-16.51.24
+[2019.07.08-23.51.24:981][219]LogWorld: Bringing up level for play took: 0.002805
+[2019.07.08-23.51.24:995][219]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap -0.455
+[2019.07.08-23.51.24:995][219]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.51.26:531][309]LogClass: OverlappingActors: 1
+[2019.07.08-23.51.26:532][309]LogClass: You have collected MyPickup_2
+[2019.07.08-23.51.34:216][770]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.51.34:217][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-23.51.34:248][770]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.08-23.51.34:248][770]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.51.34:295][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-23.51.34:301][770]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2019.07.08-23.51.34:338][771]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.07.08-23.51.38:972][817]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.08-23.53.52:438][896]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.08-23.53.52:451][896]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.53.52:452][896]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.07.08-23.53.52:454][896]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2019.07.08-23.53.52:764][896]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2019.07.08-23.53.52:764][896]LogPlayLevel: PlayLevel: Blueprint regeneration took 312 ms (1 blueprints)
+[2019.07.08-23.53.52:764][896]PIE: New page: PIE session: SideScrollerExampleMap (Jul 8, 2019, 9:53:52 AM)
+[2019.07.08-23.53.52:765][896]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.08-23.53.52:780][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014621s)
+[2019.07.08-23.53.52:781][896]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.08-23.53.52:781][896]LogPlayLevel: PIE: World Init took: (0.001306s)
+[2019.07.08-23.53.52:781][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.016582s)
+[2019.07.08-23.53.52:824][896]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2019.07.08-23.53.52:833][896]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.08-23.53.52:896][896]LogInit: FAudioDevice initialized.
+[2019.07.08-23.53.52:930][896]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.08-23.53.52:934][896]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.08-16.53.52
+[2019.07.08-23.53.52:935][896]LogWorld: Bringing up level for play took: 0.002812
+[2019.07.08-23.53.52:949][896]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap -0.501
+[2019.07.08-23.53.52:950][896]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.53.54:112][960]LogClass: OverlappingActors: 1
+[2019.07.08-23.53.54:112][960]LogClass: You have collected MyPickup_2
+[2019.07.08-23.53.56:346][ 94]LogClass: OverlappingActors: 1
+[2019.07.08-23.53.56:346][ 94]LogClass: You have collected MyPickup2
+[2019.07.08-23.53.57:797][181]LogClass: OverlappingActors: 1
+[2019.07.08-23.53.57:797][181]LogClass: You have collected MyPickup3
+[2019.07.08-23.54.00:731][357]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.54.00:732][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-23.54.00:762][357]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.08-23.54.00:762][357]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.54.00:807][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-23.54.00:813][357]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2019.07.08-23.54.00:849][358]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.07.08-23.54.06:039][393]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.08-23.54.07:997][496]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.08-23.54.08:018][496]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.54.08:020][496]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.08-23.54.08:020][496]PIE: New page: PIE session: SideScrollerExampleMap (Jul 8, 2019, 9:54:08 AM)
+[2019.07.08-23.54.08:020][496]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.08-23.54.08:041][496]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020444s)
+[2019.07.08-23.54.08:041][496]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.08-23.54.08:042][496]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2019.07.08-23.54.08:042][496]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.021718s)
+[2019.07.08-23.54.08:081][496]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2019.07.08-23.54.08:089][496]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.08-23.54.08:159][496]LogInit: FAudioDevice initialized.
+[2019.07.08-23.54.08:194][496]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.08-23.54.08:197][496]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.08-16.54.08
+[2019.07.08-23.54.08:198][496]LogWorld: Bringing up level for play took: 0.002857
+[2019.07.08-23.54.08:212][496]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap 0.762
+[2019.07.08-23.54.08:212][496]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.54.09:169][551]LogClass: OverlappingActors: 1
+[2019.07.08-23.54.09:169][551]LogClass: You have collected MyPickup_2
+[2019.07.08-23.54.13:220][794]LogClass: OverlappingActors: 1
+[2019.07.08-23.54.13:220][794]LogClass: You have collected MyPickup2
+[2019.07.08-23.54.16:389][984]LogClass: OverlappingActors: 1
+[2019.07.08-23.54.16:389][984]LogClass: You have collected MyPickup3
+[2019.07.08-23.54.19:270][157]LogClass: OverlappingActors: 1
+[2019.07.08-23.54.19:270][157]LogClass: You have collected MyPickup4
+[2019.07.08-23.54.22:337][341]LogClass: OverlappingActors: 1
+[2019.07.08-23.54.22:337][341]LogClass: You have collected MyPickup5

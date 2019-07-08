@@ -49,10 +49,11 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	bool bIsActive;
+	
 
 
 private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Interactable", meta = (AllowPrivateAccess = "true"))
-	class UStaticMeshComponent* PickupMesh;
+		class UStaticMeshComponent* PickupMesh;
 
 };
