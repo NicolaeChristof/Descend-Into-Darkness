@@ -54,6 +54,7 @@ void ADescendIntoDarknessCharacter::SetupPlayerInputComponent(class UInputCompon
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ADescendIntoDarknessCharacter::MoveRight);
+    PlayerInputComponent->BindAction("PlaceCamp", IE_Released, this, &ADescendIntoDarknessCharacter::SpawnCamp);
 
 	PlayerInputComponent->BindTouch(IE_Pressed, this, &ADescendIntoDarknessCharacter::TouchStarted);
 	PlayerInputComponent->BindTouch(IE_Released, this, &ADescendIntoDarknessCharacter::TouchStopped);
@@ -76,3 +77,19 @@ void ADescendIntoDarknessCharacter::TouchStopped(const ETouchIndex::Type FingerI
 	StopJumping();
 }
 
+
+void ADescendIntoDarknessCharacter::SpawnCamp()
+{
+    if (WhatToSpawn) {
+        UWorld* world = GetWorld();
+
+        if (world) {
+            FActorSpawnParameters spawnParams;
+            spawnParams.Owner = this;
+
+            FRotator spawnRotation;
+            FVector spawnLocation = this->GetActorLocation();
+            world->SpawnActor<AActor>(WhatToSpawn, spawnLocation, spawnRotation, spawnParams);
+        }
+    }
+}
