@@ -4683,3 +4683,19 @@ Script Stack (0 frames):
 [2019.07.09-00.44.25:492][411]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
 [2019.07.09-00.44.25:539][412]LogPlayLevel: Display: Destroying online subsystem :Context_145
 [2019.07.09-00.45.04:169][562]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.09-00.47.46:097][106]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.07.09-00.48.02:831][106]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.07.09-00.49.08:893][106]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2019.07.09-00.49.24:956][603]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Blueprints/PlayerAnimationBP.PlayerAnimationBP
+[2019.07.09-00.49.25:007][603]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.09-00.49.25:583][603]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.07.09-00.49.33:695][865]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (24.733 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.09-00.49.55:514][636]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.09-00.50.46:218][356]BlueprintLog: New page: Compile PlayerAnimationBP
+[2019.07.09-00.50.46:548][356]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2019.07.09-00.50.47:162][374]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/PlayerAnimationBPA270F66F4E97D921AB77928E1E0806F7.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/PlayerAnimationBP.uasset'
+[2019.07.09-00.50.50:393][478]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.07.09-00.51.26:858][621]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2019.07.09-00.51.26:888][621]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.09-00.51.26:942][621]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.07.09-00.52.49:642][919]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/PlayerAnimationBPC2962E834CE5DD97C5E2BD835F8A953B.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/PlayerAnimationBP.uasset'
