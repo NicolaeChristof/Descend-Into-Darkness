@@ -22,13 +22,10 @@ class ADescendIntoDarknessCharacter : public ACharacter
 protected:
 
 	/** Called for side to side input */
-	void MoveRight(float Val);
+	void MoveHorizontal(float Val);
 
-	/** Handle touch inputs. */
-	void TouchStarted(const ETouchIndex::Type FingerIndex, const FVector Location);
-
-	/** Handle touch stop event. */
-	void TouchStopped(const ETouchIndex::Type FingerIndex, const FVector Location);
+    // Called for vertical movement on ropes
+    void ClimbRope(float Val);
 
 	// APawn interface
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
