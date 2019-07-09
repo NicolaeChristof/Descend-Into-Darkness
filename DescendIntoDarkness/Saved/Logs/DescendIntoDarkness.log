@@ -1047,3 +1047,553 @@ Script Stack (0 frames):
 [2019.07.08-23.54.19:270][157]LogClass: You have collected MyPickup4
 [2019.07.08-23.54.22:337][341]LogClass: OverlappingActors: 1
 [2019.07.08-23.54.22:337][341]LogClass: You have collected MyPickup5
+[2019.07.08-23.55.07:166][731]LogSlate: Window 'Player' being destroyed
+[2019.07.08-23.55.07:168][731]LogSlate: Window 'Player' being destroyed
+[2019.07.08-23.55.07:794][732]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.08-23.55.09:000][804]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.55.09:001][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-23.55.09:032][804]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.08-23.55.09:032][804]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.55.09:083][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-23.55.09:114][804]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2019.07.08-23.55.09:139][805]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.07.08-23.55.09:623][834]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.08-23.55.09:639][834]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.55.09:640][834]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.08-23.55.09:640][834]PIE: New page: PIE session: SideScrollerExampleMap (Jul 8, 2019, 9:55:09 AM)
+[2019.07.08-23.55.09:640][834]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.08-23.55.09:656][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016037s)
+[2019.07.08-23.55.09:657][834]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.08-23.55.09:658][834]LogPlayLevel: PIE: World Init took: (0.000892s)
+[2019.07.08-23.55.09:658][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.017580s)
+[2019.07.08-23.55.09:712][834]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2019.07.08-23.55.09:720][834]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.08-23.55.09:790][834]LogInit: FAudioDevice initialized.
+[2019.07.08-23.55.09:822][834]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.08-23.55.09:826][834]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.08-16.55.09
+[2019.07.08-23.55.09:827][834]LogWorld: Bringing up level for play took: 0.004249
+[2019.07.08-23.55.09:841][834]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap 0.391
+[2019.07.08-23.55.09:841][834]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.55.11:047][902]LogClass: OverlappingActors: 1
+[2019.07.08-23.55.11:047][902]LogClass: You have collected MyPickup_2
+[2019.07.08-23.55.12:848][ 10]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.55.12:849][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-23.55.12:876][ 10]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.08-23.55.12:877][ 10]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.55.12:921][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-23.55.12:927][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2019.07.08-23.55.12:966][ 11]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.07.08-23.55.22:476][ 56]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.08-23.55.23:166][ 84]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.08-23.55.23:182][ 84]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.55.23:183][ 84]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.08-23.55.23:183][ 84]PIE: New page: PIE session: SideScrollerExampleMap (Jul 8, 2019, 9:55:23 AM)
+[2019.07.08-23.55.23:184][ 84]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.08-23.55.23:199][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015564s)
+[2019.07.08-23.55.23:200][ 84]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.08-23.55.23:200][ 84]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2019.07.08-23.55.23:201][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.016998s)
+[2019.07.08-23.55.23:238][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2019.07.08-23.55.23:247][ 84]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.08-23.55.23:318][ 84]LogInit: FAudioDevice initialized.
+[2019.07.08-23.55.23:349][ 84]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.08-23.55.23:353][ 84]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.08-16.55.23
+[2019.07.08-23.55.23:354][ 84]LogWorld: Bringing up level for play took: 0.003531
+[2019.07.08-23.55.23:368][ 84]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap -0.082
+[2019.07.08-23.55.23:368][ 84]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.55.26:393][263]LogClass: OverlappingActors: 1
+[2019.07.08-23.55.26:393][263]LogClass: You have collected MyPickup2
+[2019.07.08-23.55.28:576][394]LogClass: OverlappingActors: 1
+[2019.07.08-23.55.28:576][394]LogClass: You have collected MyPickup_2
+[2019.07.08-23.55.31:415][511]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.08-23.55.36:961][838]LogClass: OverlappingActors: 1
+[2019.07.08-23.55.36:961][838]LogClass: You have collected MyPickup3
+[2019.07.08-23.55.39:567][993]LogClass: OverlappingActors: 1
+[2019.07.08-23.55.39:567][993]LogClass: You have collected MyPickup4
+[2019.07.08-23.55.42:333][159]LogClass: OverlappingActors: 1
+[2019.07.08-23.55.42:333][159]LogClass: You have collected MyPickup5
+[2019.07.08-23.55.43:233][213]LogClass: OverlappingActors: 0
+[2019.07.08-23.55.44:350][280]LogClass: OverlappingActors: 0
+[2019.07.08-23.55.45:150][328]LogClass: OverlappingActors: 0
+[2019.07.08-23.55.45:784][366]LogClass: OverlappingActors: 1
+[2019.07.08-23.55.48:018][500]LogClass: OverlappingActors: 1
+[2019.07.08-23.55.50:801][667]LogClass: OverlappingActors: 0
+[2019.07.08-23.55.51:685][720]LogClass: OverlappingActors: 0
+[2019.07.08-23.55.52:553][772]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.55.52:554][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-23.55.52:584][772]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.08-23.55.52:584][772]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.55.52:623][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-23.55.52:629][772]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2019.07.08-23.55.52:662][773]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.07.08-23.57.38:992][199]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.08-23.59.14:096][240]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.08-23.59.14:111][240]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.59.14:112][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.08-23.59.14:112][240]PIE: New page: PIE session: SideScrollerExampleMap (Jul 8, 2019, 9:59:14 AM)
+[2019.07.08-23.59.14:112][240]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.08-23.59.14:132][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019086s)
+[2019.07.08-23.59.14:133][240]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.08-23.59.14:133][240]LogPlayLevel: PIE: World Init took: (0.001093s)
+[2019.07.08-23.59.14:133][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.020806s)
+[2019.07.08-23.59.14:179][240]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2019.07.08-23.59.14:190][240]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.08-23.59.14:262][240]LogInit: FAudioDevice initialized.
+[2019.07.08-23.59.14:294][240]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.08-23.59.14:298][240]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.08-16.59.14
+[2019.07.08-23.59.14:299][240]LogWorld: Bringing up level for play took: 0.003650
+[2019.07.08-23.59.14:313][240]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap 0.862
+[2019.07.08-23.59.14:313][240]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.59.15:317][298]LogClass: OverlappingActors: 1
+[2019.07.08-23.59.15:317][298]LogClass: You have collected MyPickup_2
+[2019.07.08-23.59.20:483][608]LogClass: OverlappingActors: 1
+[2019.07.08-23.59.20:483][608]LogClass: You have collected MyPickup2
+[2019.07.08-23.59.24:051][822]LogClass: OverlappingActors: 1
+[2019.07.08-23.59.24:051][822]LogClass: You have collected MyPickup3
+[2019.07.08-23.59.26:820][988]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.59.26:821][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-23.59.26:855][988]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.08-23.59.26:855][988]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.08-23.59.26:896][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-23.59.26:901][988]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2019.07.08-23.59.26:936][989]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.07.08-23.59.27:839][ 43]LogEditorViewport: Clicking on Actor (LMB): Pickup_BP_C (MyPickup)
+[2019.07.08-23.59.46:984][181]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.08-23.59.48:786][289]LogEditorViewport: Clicking on Actor (context menu): Pickup_BP_C (MyPickup2)
+[2019.07.08-23.59.48:842][289]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.08-23.59.49:886][350]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2019.07.08-23.59.50:682][395]LogEditorViewport: Clicking on Actor (LMB): Pickup_BP_C (MyPickup2)
+[2019.07.09-00.01.55:971][955]LogEditorViewport: Clicking on Actor (context menu): Pickup_BP_C (MyPickup)
+[2019.07.09-00.01.56:018][955]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.09-00.01.56:871][  5]LogEditorViewport: Clicking on Actor (LMB): Pickup_BP_C (MyPickup)
+[2019.07.09-00.01.59:917][184]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.09-00.02.00:000][189]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.09-00.02.00:017][189]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.09-00.02.00:018][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.09-00.02.00:018][189]PIE: New page: PIE session: SideScrollerExampleMap (Jul 8, 2019, 10:02:00 AM)
+[2019.07.09-00.02.00:018][189]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.09-00.02.00:038][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019346s)
+[2019.07.09-00.02.00:039][189]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.09-00.02.00:039][189]LogPlayLevel: PIE: World Init took: (0.001323s)
+[2019.07.09-00.02.00:039][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.021329s)
+[2019.07.09-00.02.00:082][189]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2019.07.09-00.02.00:091][189]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.09-00.02.00:156][189]LogInit: FAudioDevice initialized.
+[2019.07.09-00.02.00:186][189]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.09-00.02.00:190][189]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.08-17.02.00
+[2019.07.09-00.02.00:191][189]LogWorld: Bringing up level for play took: 0.003074
+[2019.07.09-00.02.00:205][189]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap 0.755
+[2019.07.09-00.02.00:205][189]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.09-00.02.01:264][250]LogClass: OverlappingActors: 1
+[2019.07.09-00.02.01:264][250]LogClass: You have collected MyPickup_2
+[2019.07.09-00.02.03:331][374]LogClass: OverlappingActors: 1
+[2019.07.09-00.02.03:331][374]LogClass: You have collected MyPickup2
+[2019.07.09-00.02.04:398][438]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.09-00.02.04:399][438]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.09-00.02.04:432][438]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.09-00.02.04:432][438]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.09-00.02.04:474][438]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.09-00.02.04:479][438]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2019.07.09-00.02.04:510][439]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.07.09-00.02.18:251][687]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.09-00.02.43:712][916]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.09-00.03.10:566][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2019.07.09-00.03.10:857][127]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap_Auto104DBBE23433D50CD73E33FB25F81FE92.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Autosaves/Game/SideScrollerCPP/Maps/SideScrollerExampleMap_Auto1.umap'
+[2019.07.09-00.03.10:863][127]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap' took 0.331
+[2019.07.09-00.03.10:863][127]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.331
+[2019.07.09-00.03.10:867][127]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerCPP/Blueprints/Player] ([1] browsable assets)...
+[2019.07.09-00.03.10:895][127]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerCPP/Blueprints/Player.Player]
+[2019.07.09-00.03.10:895][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerCPP/Blueprints/Player]
+[2019.07.09-00.03.11:024][127]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player_Auto1C15712414084BA1E1C4AB79C458F5D5E.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Autosaves/Game/SideScrollerCPP/Blueprints/Player_Auto1.uasset'
+[2019.07.09-00.03.11:028][127]LogFileHelpers: Auto-saving content packages took 0.163
+[2019.07.09-00.03.59:902][406]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.09-00.04.02:570][564]LogAssetEditorManager: Opening Asset editor for DataTable /Game/Data/ItemDB.ItemDB
+[2019.07.09-00.04.02:674][564]LogBlueprintActionDatabase: Requesting refresh due to module change: DataTableEditor (loaded)
+[2019.07.09-00.04.04:503][650]LogSlate: Window 'ItemDB' being destroyed
+[2019.07.09-00.04.04:509][650]LogSlate: Window 'ItemDB' being destroyed
+[2019.07.09-00.04.21:580][827]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.09-00.04.21:593][827]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.09-00.04.21:593][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.09-00.04.21:594][827]PIE: New page: PIE session: SideScrollerExampleMap (Jul 8, 2019, 10:04:21 AM)
+[2019.07.09-00.04.21:594][827]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.09-00.04.21:612][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017885s)
+[2019.07.09-00.04.21:613][827]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.09-00.04.21:614][827]LogPlayLevel: PIE: World Init took: (0.001150s)
+[2019.07.09-00.04.21:614][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.019733s)
+[2019.07.09-00.04.21:703][827]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2019.07.09-00.04.21:712][827]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.09-00.04.21:782][827]LogInit: FAudioDevice initialized.
+[2019.07.09-00.04.21:811][827]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.09-00.04.21:815][827]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.08-17.04.21
+[2019.07.09-00.04.21:815][827]LogWorld: Bringing up level for play took: 0.002937
+[2019.07.09-00.04.21:829][827]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap 0.379
+[2019.07.09-00.04.21:829][827]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.09-00.04.23:063][893]LogClass: OverlappingActors: 1
+[2019.07.09-00.04.23:063][893]LogClass: You have collected MyPickup_2
+[2019.07.09-00.04.27:549][162]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.09-00.04.27:550][162]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.09-00.04.27:585][162]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.09-00.04.27:586][162]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.09-00.04.27:631][162]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.09-00.04.27:672][162]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2019.07.09-00.04.27:709][163]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.07.09-00.04.28:878][233]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.09-00.04.41:585][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2019.07.09-00.04.43:015][277]LogSlate: Window 'Save Content' being destroyed
+[2019.07.09-00.04.43:172][277]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player4CB741044C4A5B9A31C6B7AAAA0DFD64.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Blueprints/Player.uasset'
+[2019.07.09-00.04.43:220][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2019.07.09-00.04.43:486][277]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMapF8A08A6F45B68042B66607B9E926CC09.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap'
+[2019.07.09-00.04.43:520][277]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 0.337
+[2019.07.09-00.04.43:597][277]LogSlate: Window 'DescendIntoDarkness - Unreal Editor' being destroyed
+[2019.07.09-00.04.43:946][278]Cmd: QUIT_EDITOR
+[2019.07.09-00.04.44:335][278]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.09-00.04.44:367][278]LogExit: Preparing to exit.
+[2019.07.09-00.04.45:271][278]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.09-00.04.45:271][278]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.09-00.04.45:271][278]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.09-00.04.45:271][278]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.09-00.04.45:271][278]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.09-00.04.45:271][278]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.09-00.04.45:271][278]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.09-00.04.45:337][278]LogExit: Editor shut down
+[2019.07.09-00.04.45:337][278]LogExit: Transaction tracking system shut down
+[2019.07.09-00.04.45:603][278]LogExit: Object subsystem successfully closed.
+[2019.07.09-00.04.45:631][278]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.07.09-00.04.45:639][278]LogD3D11RHI: Shutdown
+[2019.07.09-00.04.45:639][278]LogD3D11RHI: CleanupD3DDevice
+[2019.07.09-00.04.45:640][278]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.07.09-00.04.45:640][278]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.07.09-00.04.45:640][278]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.07.09-00.04.45:640][278]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.07.09-00.04.45:640][278]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.07.09-00.04.45:640][278]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.07.09-00.04.45:778][278]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.07.09-00.04.45:810][278]LogModuleManager: Shutting down and abandoning module DataTableEditor (656)
+[2019.07.09-00.04.45:810][278]LogModuleManager: Shutting down and abandoning module DescendIntoDarkness (654)
+[2019.07.09-00.04.45:810][278]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (653)
+[2019.07.09-00.04.45:810][278]LogModuleManager: Shutting down and abandoning module BlueprintGraph (651)
+[2019.07.09-00.04.45:810][278]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (648)
+[2019.07.09-00.04.45:810][278]LogModuleManager: Shutting down and abandoning module Voice (646)
+[2019.07.09-00.04.45:810][278]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (644)
+[2019.07.09-00.04.45:810][278]LogModuleManager: Shutting down and abandoning module AddContentDialog (642)
+[2019.07.09-00.04.45:812][278]LogModuleManager: Shutting down and abandoning module WidgetCarousel (641)
+[2019.07.09-00.04.45:812][278]LogModuleManager: Shutting down and abandoning module EditorWidgets (638)
+[2019.07.09-00.04.45:812][278]LogModuleManager: Shutting down and abandoning module CollectionManager (636)
+[2019.07.09-00.04.45:812][278]LogModuleManager: Shutting down and abandoning module SceneOutliner (634)
+[2019.07.09-00.04.45:812][278]LogModuleManager: Shutting down and abandoning module StatsViewer (632)
+[2019.07.09-00.04.45:812][278]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
+[2019.07.09-00.04.45:812][278]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
+[2019.07.09-00.04.45:813][278]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
+[2019.07.09-00.04.45:813][278]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
+[2019.07.09-00.04.45:813][278]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
+[2019.07.09-00.04.45:813][278]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
+[2019.07.09-00.04.45:813][278]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
+[2019.07.09-00.04.45:813][278]LogModuleManager: Shutting down and abandoning module BspMode (616)
+[2019.07.09-00.04.45:813][278]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
+[2019.07.09-00.04.45:813][278]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
+[2019.07.09-00.04.45:813][278]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
+[2019.07.09-00.04.45:813][278]LogModuleManager: Shutting down and abandoning module OculusMR (608)
+[2019.07.09-00.04.45:813][278]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (606)
+[2019.07.09-00.04.45:813][278]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (604)
+[2019.07.09-00.04.45:813][278]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (602)
+[2019.07.09-00.04.45:813][278]LogModuleManager: Shutting down and abandoning module PlacementMode (601)
+[2019.07.09-00.04.45:813][278]LogModuleManager: Shutting down and abandoning module MaterialEditor (600)
+[2019.07.09-00.04.45:813][278]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (596)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (594)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (592)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (590)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (588)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module WebMMedia (586)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (584)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (582)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (578)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (576)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (574)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (572)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (570)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (568)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (566)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (564)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (562)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module SessionServices (552)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module MeshPaint (550)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module ViewportSnapping (548)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module ViewportInteraction (546)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module ClothPainter (544)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (543)
+[2019.07.09-00.04.45:814][278]LogModuleManager: Shutting down and abandoning module LogVisualizer (540)
+[2019.07.09-00.04.45:815][278]LogModuleManager: Shutting down and abandoning module IntroTutorials (538)
+[2019.07.09-00.04.45:815][278]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (537)
+[2019.07.09-00.04.45:815][278]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (534)
+[2019.07.09-00.04.45:815][278]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (532)
+[2019.07.09-00.04.45:815][278]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
+[2019.07.09-00.04.45:815][278]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
+[2019.07.09-00.04.45:815][278]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)
+[2019.07.09-00.04.46:342][278]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (524)
+[2019.07.09-00.04.46:342][278]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (522)
+[2019.07.09-00.04.46:342][278]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (520)
+[2019.07.09-00.04.46:342][278]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (518)
+[2019.07.09-00.04.46:342][278]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (516)
+[2019.07.09-00.04.46:342][278]LogModuleManager: Shutting down and abandoning module InputBindingEditor (514)
+[2019.07.09-00.04.46:342][278]LogModuleManager: Shutting down and abandoning module MergeActors (512)
+[2019.07.09-00.04.46:342][278]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (510)
+[2019.07.09-00.04.46:342][278]LogModuleManager: Shutting down and abandoning module LocalizationService (509)
+[2019.07.09-00.04.46:343][278]LogModuleManager: Shutting down and abandoning module HardwareTargeting (506)
+[2019.07.09-00.04.46:343][278]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (504)
+[2019.07.09-00.04.46:343][278]LogModuleManager: Shutting down and abandoning module UndoHistory (502)
+[2019.07.09-00.04.46:343][278]LogModuleManager: Shutting down and abandoning module XmlParser (500)
+[2019.07.09-00.04.46:343][278]LogModuleManager: Shutting down and abandoning module Blutility (498)
+[2019.07.09-00.04.46:343][278]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (496)
+[2019.07.09-00.04.46:343][278]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (495)
+[2019.07.09-00.04.46:343][278]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (492)
+[2019.07.09-00.04.46:343][278]LogModuleManager: Shutting down and abandoning module SettingsEditor (490)
+[2019.07.09-00.04.46:343][278]LogModuleManager: Shutting down and abandoning module ProjectLauncher (488)
+[2019.07.09-00.04.46:343][278]LogModuleManager: Shutting down and abandoning module SessionFrontend (486)
+[2019.07.09-00.04.46:343][278]LogModuleManager: Shutting down and abandoning module ProfilerClient (484)
+[2019.07.09-00.04.46:343][278]LogModuleManager: Shutting down and abandoning module DeviceManager (482)
+[2019.07.09-00.04.46:344][278]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (481)
+[2019.07.09-00.04.46:388][278]LogModuleManager: Shutting down and abandoning module AutomationController (478)
+[2019.07.09-00.04.46:388][278]LogModuleManager: Shutting down and abandoning module AutomationWindow (476)
+[2019.07.09-00.04.46:388][278]LogModuleManager: Shutting down and abandoning module Layers (474)
+[2019.07.09-00.04.46:388][278]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (472)
+[2019.07.09-00.04.46:388][278]LogModuleManager: Shutting down and abandoning module DetailCustomizations (470)
+[2019.07.09-00.04.46:388][278]LogModuleManager: Shutting down and abandoning module PackagesDialog (468)
+[2019.07.09-00.04.46:388][278]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (466)
+[2019.07.09-00.04.46:388][278]LogModuleManager: Shutting down and abandoning module Persona (464)
+[2019.07.09-00.04.46:388][278]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (463)
+[2019.07.09-00.04.46:388][278]LogModuleManager: Shutting down and abandoning module AnimGraph (461)
+[2019.07.09-00.04.46:388][278]LogModuleManager: Shutting down and abandoning module Kismet (458)
+[2019.07.09-00.04.46:392][278]LogModuleManager: Shutting down and abandoning module GraphEditor (456)
+[2019.07.09-00.04.46:393][278]LogModuleManager: Shutting down and abandoning module ClassViewer (454)
+[2019.07.09-00.04.46:393][278]LogModuleManager: Shutting down and abandoning module Toolbox (452)
+[2019.07.09-00.04.46:393][278]LogModuleManager: Shutting down and abandoning module ModuleUI (450)
+[2019.07.09-00.04.46:393][278]LogModuleManager: Shutting down and abandoning module MovieSceneTools (448)
+[2019.07.09-00.04.46:393][278]LogModuleManager: Shutting down and abandoning module OutputLog (446)
+[2019.07.09-00.04.46:393][278]LogModuleManager: Shutting down and abandoning module GammaUI (444)
+[2019.07.09-00.04.46:393][278]LogModuleManager: Shutting down and abandoning module Documentation (442)
+[2019.07.09-00.04.46:393][278]LogModuleManager: Shutting down and abandoning module LiveCoding (440)
+[2019.07.09-00.04.46:393][278]LogModuleManager: Shutting down and abandoning module LevelSequence (438)
+[2019.07.09-00.04.46:393][278]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (436)
+[2019.07.09-00.04.46:393][278]LogModuleManager: Shutting down and abandoning module MovieScene (434)
+[2019.07.09-00.04.46:393][278]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (432)
+[2019.07.09-00.04.46:393][278]LogModuleManager: Shutting down and abandoning module LauncherPlatform (430)
+[2019.07.09-00.04.46:393][278]LogModuleManager: Shutting down and abandoning module AnalyticsET (428)
+[2019.07.09-00.04.46:393][278]LogModuleManager: Shutting down and abandoning module PortalServices (426)
+[2019.07.09-00.04.46:393][278]LogModuleManager: Shutting down and abandoning module PortalRpc (424)
+[2019.07.09-00.04.46:393][278]LogModuleManager: Shutting down and abandoning module MessagingRpc (422)
+[2019.07.09-00.04.46:393][278]LogModuleManager: Shutting down and abandoning module AIModule (420)
+[2019.07.09-00.04.46:393][278]LogModuleManager: Shutting down and abandoning module GameplayDebugger (419)
+[2019.07.09-00.04.46:393][278]LogModuleManager: Shutting down and abandoning module AITestSuite (417)
+[2019.07.09-00.04.46:393][278]LogModuleManager: Shutting down and abandoning module NavigationSystem (415)
+[2019.07.09-00.04.46:393][278]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (412)
+[2019.07.09-00.04.46:399][278]LogModuleManager: Shutting down and abandoning module ProfilerService (410)
+[2019.07.09-00.04.46:409][278]LogModuleManager: Shutting down and abandoning module TaskGraph (408)
+[2019.07.09-00.04.46:409][278]LogModuleManager: Shutting down and abandoning module SteamVRController (406)
+[2019.07.09-00.04.46:409][278]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (404)
+[2019.07.09-00.04.46:409][278]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (402)
+[2019.07.09-00.04.46:409][278]LogModuleManager: Shutting down and abandoning module OculusEditor (400)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module OculusInput (398)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (396)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module EditableMesh (394)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (392)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module AudioCapture (390)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (388)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module AndroidPermission (386)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (384)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (382)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module MediaCompositing (380)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module LinearTimecode (378)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module ImgMedia (376)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (374)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (372)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (370)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module HTML5Networking (368)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (366)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (364)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module BackChannel (362)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module AppleVision (360)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (358)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module AppleImageUtils (356)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module AlembicImporter (354)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module AlembicLibrary (353)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module GeometryCache (352)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (351)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module VariantManagerContent (346)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (342)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module PluginBrowser (340)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (338)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (336)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (334)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module CryptoKeys (332)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (330)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (328)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module UObjectPlugin (326)
+[2019.07.09-00.04.46:410][278]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (324)
+[2019.07.09-00.04.46:411][278]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (322)
+[2019.07.09-00.04.46:411][278]LogModuleManager: Shutting down and abandoning module GitSourceControl (320)
+[2019.07.09-00.04.46:411][278]LogModuleManager: Shutting down and abandoning module SourceControl (319)
+[2019.07.09-00.04.46:411][278]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (316)
+[2019.07.09-00.04.46:411][278]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (314)
+[2019.07.09-00.04.46:411][278]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (312)
+[2019.07.09-00.04.46:411][278]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (310)
+[2019.07.09-00.04.46:411][278]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.07.09-00.04.46:411][278]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.07.09-00.04.46:411][278]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.07.09-00.04.46:411][278]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.07.09-00.04.46:411][278]LogModuleManager: Shutting down and abandoning module SignificanceManager (298)
+[2019.07.09-00.04.46:411][278]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (296)
+[2019.07.09-00.04.46:411][278]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (294)
+[2019.07.09-00.04.46:411][278]LogModuleManager: Shutting down and abandoning module PhysXVehicles (292)
+[2019.07.09-00.04.46:411][278]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.07.09-00.04.46:411][278]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2019.07.09-00.04.46:411][278]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
+[2019.07.09-00.04.46:411][278]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
+[2019.07.09-00.04.46:512][278]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
+[2019.07.09-00.04.46:612][278]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (280)
+[2019.07.09-00.04.46:612][278]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (278)
+[2019.07.09-00.04.46:612][278]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (276)
+[2019.07.09-00.04.46:612][278]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (274)
+[2019.07.09-00.04.46:612][278]LogModuleManager: Shutting down and abandoning module MagicLeapController (272)
+[2019.07.09-00.04.46:612][278]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.07.09-00.04.46:612][278]LogModuleManager: Shutting down and abandoning module MagicLeapAR (270)
+[2019.07.09-00.04.46:612][278]LogModuleManager: Shutting down and abandoning module AugmentedReality (269)
+[2019.07.09-00.04.46:612][278]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (266)
+[2019.07.09-00.04.46:612][278]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (264)
+[2019.07.09-00.04.46:613][278]LogModuleManager: Shutting down and abandoning module FacialAnimation (262)
+[2019.07.09-00.04.46:613][278]LogModuleManager: Shutting down and abandoning module DataValidation (260)
+[2019.07.09-00.04.46:613][278]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (258)
+[2019.07.09-00.04.46:613][278]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2019.07.09-00.04.46:614][278]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2019.07.09-00.04.46:614][278]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (254)
+[2019.07.09-00.04.46:615][278]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2019.07.09-00.04.46:615][278]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2019.07.09-00.04.46:616][278]LogModuleManager: Shutting down and abandoning module ContentBrowser (247)
+[2019.07.09-00.04.46:617][278]LogModuleManager: Shutting down and abandoning module TreeMap (245)
+[2019.07.09-00.04.46:617][278]LogModuleManager: Shutting down and abandoning module AnimationSharing (242)
+[2019.07.09-00.04.46:617][278]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (240)
+[2019.07.09-00.04.46:617][278]LogModuleManager: Shutting down and abandoning module AISupportModule (238)
+[2019.07.09-00.04.46:617][278]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2019.07.09-00.04.46:617][278]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2019.07.09-00.04.46:617][278]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (232)
+[2019.07.09-00.04.46:617][278]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2019.07.09-00.04.46:617][278]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2019.07.09-00.04.46:617][278]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2019.07.09-00.04.46:617][278]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2019.07.09-00.04.46:617][278]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2019.07.09-00.04.46:617][278]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2019.07.09-00.04.46:617][278]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2019.07.09-00.04.46:617][278]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2019.07.09-00.04.46:617][278]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2019.07.09-00.04.46:617][278]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2019.07.09-00.04.46:617][278]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2019.07.09-00.04.46:617][278]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2019.07.09-00.04.46:617][278]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2019.07.09-00.04.46:617][278]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2019.07.09-00.04.46:617][278]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2019.07.09-00.04.46:618][278]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2019.07.09-00.04.46:618][278]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2019.07.09-00.04.46:618][278]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2019.07.09-00.04.46:618][278]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2019.07.09-00.04.46:618][278]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2019.07.09-00.04.46:620][278]LogModuleManager: Shutting down and abandoning module UnrealEd (188)
+[2019.07.09-00.04.46:621][278]LogModuleManager: Shutting down and abandoning module MRMesh (186)
+[2019.07.09-00.04.46:621][278]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (184)
+[2019.07.09-00.04.46:621][278]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (182)
+[2019.07.09-00.04.46:621][278]LogModuleManager: Shutting down and abandoning module XAudio2 (180)
+[2019.07.09-00.04.46:621][278]LogModuleManager: Shutting down and abandoning module Networking (178)
+[2019.07.09-00.04.46:621][278]LogModuleManager: Shutting down and abandoning module Core (176)
+[2019.07.09-00.04.46:621][278]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2019.07.09-00.04.46:621][278]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2019.07.09-00.04.46:621][278]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2019.07.09-00.04.46:621][278]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2019.07.09-00.04.46:621][278]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (169)
+[2019.07.09-00.04.46:621][278]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (167)
+[2019.07.09-00.04.46:621][278]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2019.07.09-00.04.46:621][278]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2019.07.09-00.04.46:621][278]LogModuleManager: Shutting down and abandoning module DerivedDataCache (156)
+[2019.07.09-00.04.46:694][278]LogDerivedDataCache: Shutdown
+[2019.07.09-00.04.46:694][278]LogModuleManager: Shutting down and abandoning module XGEController (154)
+[2019.07.09-00.04.46:694][278]LogModuleManager: Shutting down and abandoning module TargetPlatform (152)
+[2019.07.09-00.04.46:695][278]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (151)
+[2019.07.09-00.04.46:695][278]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (149)
+[2019.07.09-00.04.46:695][278]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (147)
+[2019.07.09-00.04.46:695][278]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (145)
+[2019.07.09-00.04.46:695][278]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (143)
+[2019.07.09-00.04.46:695][278]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (141)
+[2019.07.09-00.04.46:695][278]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (139)
+[2019.07.09-00.04.46:695][278]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (137)
+[2019.07.09-00.04.46:695][278]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (135)
+[2019.07.09-00.04.46:696][278]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (133)
+[2019.07.09-00.04.46:696][278]LogModuleManager: Shutting down and abandoning module ImageWrapper (132)
+[2019.07.09-00.04.46:696][278]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (129)
+[2019.07.09-00.04.46:696][278]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (127)
+[2019.07.09-00.04.46:696][278]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (125)
+[2019.07.09-00.04.46:696][278]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (123)
+[2019.07.09-00.04.46:696][278]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (121)
+[2019.07.09-00.04.46:709][278]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2019.07.09-00.04.46:709][278]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2019.07.09-00.04.46:709][278]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2019.07.09-00.04.46:709][278]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2019.07.09-00.04.46:709][278]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2019.07.09-00.04.46:716][278]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2019.07.09-00.04.46:716][278]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2019.07.09-00.04.46:722][278]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2019.07.09-00.04.46:722][278]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2019.07.09-00.04.46:764][278]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (101)
+[2019.07.09-00.04.46:764][278]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (99)
+[2019.07.09-00.04.46:764][278]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (97)
+[2019.07.09-00.04.46:764][278]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (95)
+[2019.07.09-00.04.46:764][278]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (93)
+[2019.07.09-00.04.46:764][278]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (91)
+[2019.07.09-00.04.46:764][278]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (89)
+[2019.07.09-00.04.46:764][278]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (87)
+[2019.07.09-00.04.46:764][278]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (85)
+[2019.07.09-00.04.46:764][278]LogModuleManager: Shutting down and abandoning module InputCore (82)
+[2019.07.09-00.04.46:764][278]LogModuleManager: Shutting down and abandoning module Settings (80)
+[2019.07.09-00.04.46:764][278]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (78)
+[2019.07.09-00.04.46:765][278]LogModuleManager: Shutting down and abandoning module PhysXCooking (76)
+[2019.07.09-00.04.46:765][278]LogModuleManager: Shutting down and abandoning module SteamVR (74)
+[2019.07.09-00.04.46:765][278]LogHMD: Freeing OpenVRDLLHandle.
+[2019.07.09-00.04.46:766][278]LogModuleManager: Shutting down and abandoning module OculusHMD (72)
+[2019.07.09-00.04.46:766][278]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (70)
+[2019.07.09-00.04.46:766][278]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (68)
+[2019.07.09-00.04.46:766][278]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (66)
+[2019.07.09-00.04.46:766][278]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (62)
+[2019.07.09-00.04.46:767][278]LogModuleManager: Shutting down and abandoning module XMPP (57)
+[2019.07.09-00.04.46:767][278]LogModuleManager: Shutting down and abandoning module WebSockets (56)
+[2019.07.09-00.04.46:770][278]LogModuleManager: Shutting down and abandoning module HTTP (53)
+[2019.07.09-00.04.46:770][278]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.07.09-00.04.46:770][278]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF05352C9-48B9-A459-8756-8482E0FF2CBD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=54ca45604dc00bf8770ffeb707ce8322%7Cdaf0254c7a5544ff8551dc47ed074409%7C70f53d6e-0b0e-454d-b61d-268401ee158a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.07.09-00.04.46:781][278]LogModuleManager: Shutting down and abandoning module SSL (52)
+[2019.07.09-00.04.46:783][278]LogModuleManager: Shutting down and abandoning module WmfMedia (48)
+[2019.07.09-00.04.46:785][278]LogModuleManager: Shutting down and abandoning module Media (47)
+[2019.07.09-00.04.46:793][278]LogModuleManager: Shutting down and abandoning module MagicLeap (44)
+[2019.07.09-00.04.46:793][278]LogModuleManager: Shutting down and abandoning module DatasmithContent (42)
+[2019.07.09-00.04.46:794][278]LogModuleManager: Shutting down and abandoning module DesktopPlatform (40)
+[2019.07.09-00.04.46:794][278]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.07.09-00.04.46:794][278]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.07.09-00.04.46:794][278]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.07.09-00.04.46:794][278]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.07.09-00.04.46:794][278]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.07.09-00.04.46:794][278]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.07.09-00.04.46:794][278]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.07.09-00.04.46:795][278]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.07.09-00.04.46:795][278]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.07.09-00.04.46:795][278]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.07.09-00.04.46:795][278]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.07.09-00.04.46:795][278]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.07.09-00.04.46:795][278]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.07.09-00.04.46:795][278]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.07.09-00.04.46:796][278]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.07.09-00.04.46:796][278]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.07.09-00.04.46:796][278]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.07.09-00.04.46:796][278]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.07.09-00.04.46:796][278]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.07.09-00.04.46:805][278]LogExit: Exiting.
+[2019.07.09-00.04.46:833][278]Log file closed, 07/08/19 17:04:46
