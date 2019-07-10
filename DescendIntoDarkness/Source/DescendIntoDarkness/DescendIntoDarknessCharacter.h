@@ -22,7 +22,7 @@ class ADescendIntoDarknessCharacter : public ACharacter
 protected:
 
 	/** Called for side to side input */
-	void MoveHorizontal(float Val);
+	//void MoveHorizontal(float Val);
 
     // Called for vertical movement on ropes
     void ClimbRope(float Val);
