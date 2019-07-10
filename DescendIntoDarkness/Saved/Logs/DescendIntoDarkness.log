@@ -703,3 +703,726 @@ Script Stack (0 frames):
 [2019.07.10-15.51.28:840][954]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.07.10-15.51.28:850][954]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
 [2019.07.10-15.51.28:890][955]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.07.10-15.59.13:809][661]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.10-15.59.15:398][700]LogAssetEditorManager: Opening Asset editor for BlendSpace1D /Game/Mannequin/Animations/ThirdPerson_IdleRun_2D.ThirdPerson_IdleRun_2D
+[2019.07.10-15.59.15:421][700]LogBlueprintActionDatabase: Requesting refresh due to module change: AnimationEditor (loaded)
+[2019.07.10-15.59.15:430][700]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-15.59.15:481][700]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.07.10-15.59.16:447][700]LogRenderer: Reallocating scene render targets to support 748x404 Format 9 NumSamples 1 (Frame:1).
+[2019.07.10-15.59.16:447][700]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.07.10-16.00.13:870][436]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.10-16.00.13:953][436]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.00.13:954][436]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.10-16.00.13:954][436]PIE: New page: PIE session: Test_Scene (Jul 10, 2019, 2:00:13 AM)
+[2019.07.10-16.00.13:954][436]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.10-16.00.13:995][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041352s)
+[2019.07.10-16.00.13:996][436]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.10-16.00.13:997][436]LogPlayLevel: PIE: World Init took: (0.001188s)
+[2019.07.10-16.00.13:997][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.042809s)
+[2019.07.10-16.00.14:132][436]LogUObjectHash: Compacting FUObjectHashTables data took   8.51ms
+[2019.07.10-16.00.14:141][436]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.10-16.00.14:149][436]LogInit: FAudioDevice initialized.
+[2019.07.10-16.00.14:150][436]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.10-16.00.14:180][436]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.10-16.00.14:184][436]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.10-09.00.14
+[2019.07.10-16.00.14:184][436]LogWorld: Bringing up level for play took: 0.003475
+[2019.07.10-16.00.14:199][436]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 0.739
+[2019.07.10-16.00.14:200][436]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.01.14:890][ 50]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.01.14:890][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.01.14:961][ 50]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.10-16.01.14:961][ 50]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.01.15:040][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.01.15:050][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   6.28ms
+[2019.07.10-16.01.15:084][ 51]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.07.10-16.02.12:793][ 67]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.10-16.02.12:849][ 67]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.02.12:850][ 67]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.10-16.02.12:850][ 67]PIE: New page: PIE session: Test_Scene (Jul 10, 2019, 2:02:12 AM)
+[2019.07.10-16.02.12:850][ 67]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.10-16.02.12:876][ 67]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026051s)
+[2019.07.10-16.02.12:877][ 67]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.10-16.02.12:877][ 67]LogPlayLevel: PIE: World Init took: (0.000922s)
+[2019.07.10-16.02.12:878][ 67]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.027221s)
+[2019.07.10-16.02.12:927][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2019.07.10-16.02.12:935][ 67]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.10-16.02.12:945][ 67]LogInit: FAudioDevice initialized.
+[2019.07.10-16.02.12:945][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.10-16.02.12:978][ 67]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.10-16.02.12:993][ 67]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.10-09.02.12
+[2019.07.10-16.02.12:995][ 67]LogWorld: Bringing up level for play took: 0.015350
+[2019.07.10-16.02.13:013][ 67]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene -0.448
+[2019.07.10-16.02.13:013][ 67]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.04.34:714][155]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.04.34:715][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.04.34:786][155]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.10-16.04.34:786][155]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.04.34:837][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.04.34:844][155]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2019.07.10-16.04.34:877][156]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.07.10-16.04.50:650][691]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.10-16.06.01:790][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2019.07.10-16.06.01:790][639]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test_Scene' took 0.052
+[2019.07.10-16.06.01:793][639]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2019.07.10-16.06.01:794][639]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2019.07.10-16.06.02:050][639]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player_Auto102BB29014EE8CCE45C692688E6AB16FD.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Autosaves/Game/Blueprints/Player_Auto1.uasset'
+[2019.07.10-16.06.02:056][639]LogFileHelpers: Auto-saving content packages took 0.265
+[2019.07.10-16.07.24:694][799]BlueprintLog: New page: Compile LedgeInterface
+[2019.07.10-16.07.24:859][799]LogUObjectHash: Compacting FUObjectHashTables data took   5.78ms
+[2019.07.10-16.07.25:680][824]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/LedgeInterfaceBB8A58904A5DE7E2CF73399F570B5C10.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/LedgeInterface.uasset'
+[2019.07.10-16.13.52:569][471]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2019.07.10-16.13.52:914][471]LogUObjectHash: Compacting FUObjectHashTables data took   6.11ms
+[2019.07.10-16.13.54:201][503]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/ThirdPerson_AnimBP9743F70246C8DDD1978CB0BD2F5F72EE.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2019.07.10-16.14.52:614][608]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.14.52:811][608]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.16.31:672][302]LogUObjectHash: Compacting FUObjectHashTables data took   6.39ms
+[2019.07.10-16.16.32:144][302]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene_Auto2EA1FE8EA480FF92B8882CB879FC81707.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Autosaves/Game/Maps/Test_Scene_Auto2.umap'
+[2019.07.10-16.16.32:150][302]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test_Scene' took 0.547
+[2019.07.10-16.16.32:150][302]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.547
+[2019.07.10-16.16.32:154][302]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2019.07.10-16.16.32:177][302]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2019.07.10-16.16.32:177][302]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2019.07.10-16.16.32:523][302]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player_Auto263B76F824E83FD8D020773A5D84698B4.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Autosaves/Game/Blueprints/Player_Auto2.uasset'
+[2019.07.10-16.16.32:529][302]LogFileHelpers: Auto-saving content packages took 0.376
+[2019.07.10-16.19.08:387][206]BlueprintLog: New page: Compile Player
+[2019.07.10-16.19.08:760][206]LogUObjectHash: Compacting FUObjectHashTables data took   5.79ms
+[2019.07.10-16.19.14:235][411]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player06B2D12648E309EE08F0749436FB7A83.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.10-16.20.17:924][305]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2019.07.10-16.20.18:272][305]LogUObjectHash: Compacting FUObjectHashTables data took   5.52ms
+[2019.07.10-16.20.20:584][373]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/ThirdPerson_AnimBP79868E1D4A03D648B171E6BE2671B5DA.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2019.07.10-16.20.51:929][375]LogEditorTransaction: Undo Move Nodes
+[2019.07.10-16.20.52:087][375]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.20.52:327][380]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.20.52:475][380]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.20.52:699][386]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.20.52:852][386]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.20.53:157][396]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.20.53:305][396]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.20.53:643][406]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.20.53:798][406]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.20.54:103][416]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.20.54:261][416]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.20.54:630][427]LogEditorTransaction: Undo Create Pin Link
+[2019.07.10-16.20.54:799][427]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.20.55:210][440]LogEditorTransaction: Undo Create Pin Link
+[2019.07.10-16.20.55:366][440]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.20.55:805][454]LogEditorTransaction: Undo Delete current selection
+[2019.07.10-16.20.55:969][454]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.20.56:483][470]LogEditorTransaction: Undo Rename Node
+[2019.07.10-16.20.56:644][470]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.20.57:783][505]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.20.57:954][505]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.20.58:543][522]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.20.58:729][522]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.20.59:185][537]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.20.59:363][537]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.21.02:318][627]LogEditorTransaction: Redo Resize Node
+[2019.07.10-16.21.02:492][627]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.21.02:709][632]LogEditorTransaction: Redo Resize Node
+[2019.07.10-16.21.02:884][632]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.21.03:192][642]LogEditorTransaction: Redo Move Node
+[2019.07.10-16.21.03:351][642]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.21.03:969][661]LogEditorTransaction: Redo Rename Node
+[2019.07.10-16.21.04:129][661]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.21.04:938][686]LogEditorTransaction: Undo Rename Node
+[2019.07.10-16.21.05:106][686]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.21.05:356][693]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.21.05:515][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.21.05:903][705]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.21.06:079][705]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.21.06:661][724]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.21.06:836][724]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.21.08:216][766]LogEditorTransaction: Redo Resize Node
+[2019.07.10-16.21.08:416][766]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.21.08:527][769]LogEditorTransaction: Redo Resize Node
+[2019.07.10-16.21.08:699][769]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.21.08:905][776]LogEditorTransaction: Redo Move Node
+[2019.07.10-16.21.09:072][776]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.21.09:324][783]LogEditorTransaction: Redo Rename Node
+[2019.07.10-16.21.09:495][783]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.21.09:873][794]LogEditorTransaction: Redo Delete current selection
+[2019.07.10-16.21.10:064][794]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.21.10:349][802]LogEditorTransaction: Redo Create Pin Link
+[2019.07.10-16.21.10:517][802]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.21.11:087][820]LogEditorTransaction: Redo Create Pin Link
+[2019.07.10-16.21.11:251][820]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.21.12:286][851]LogEditorTransaction: Undo Create Pin Link
+[2019.07.10-16.21.12:457][851]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.21.12:749][859]LogEditorTransaction: Undo Create Pin Link
+[2019.07.10-16.21.12:916][859]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.21.13:480][876]LogEditorTransaction: Undo Delete current selection
+[2019.07.10-16.21.13:657][876]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.21.14:262][894]LogEditorTransaction: Undo Rename Node
+[2019.07.10-16.21.14:431][894]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.21.14:944][909]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.21.15:128][909]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.45:485][751]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.23.45:857][751]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.45:966][753]LogEditorTransaction: Undo Add Node
+[2019.07.10-16.23.46:177][753]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.47:388][791]LogEditorTransaction: Undo Add Node
+[2019.07.10-16.23.47:623][791]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.47:628][791]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.23.47:777][791]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.47:782][791]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.23.47:929][791]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.48:102][792]LogEditorTransaction: Undo Rename Node
+[2019.07.10-16.23.48:293][792]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.49:107][817]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.23.49:283][817]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.49:351][818]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.23.49:534][818]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.49:736][823]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.23.49:927][823]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.50:121][828]LogEditorTransaction: Undo Create Pin Link
+[2019.07.10-16.23.50:339][828]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.50:759][840]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.23.50:945][840]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.51:540][856]LogEditorTransaction: Undo Create Pin Link
+[2019.07.10-16.23.51:734][856]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.51:801][857]LogEditorTransaction: Undo Create Pin Link
+[2019.07.10-16.23.51:991][857]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.52:113][860]LogEditorTransaction: Undo Delete current selection
+[2019.07.10-16.23.52:299][860]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.52:449][863]LogEditorTransaction: Undo Delete current selection
+[2019.07.10-16.23.52:637][863]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.52:741][865]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.23.52:930][865]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.53:000][866]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.23.53:180][866]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.53:255][867]LogEditorTransaction: Undo Delete current selection
+[2019.07.10-16.23.53:447][867]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.53:514][868]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.23.53:727][868]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.54:046][878]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.23.54:268][878]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.54:323][879]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.23.54:514][879]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.54:565][880]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.23.54:757][880]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.54:904][884]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.23.55:131][884]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.55:189][885]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.23.55:425][885]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.55:431][885]LogEditorTransaction: Undo Rename Node
+[2019.07.10-16.23.55:587][885]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.55:728][888]LogEditorTransaction: Undo Add Node
+[2019.07.10-16.23.55:958][888]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.56:186][894]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.23.56:418][894]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.56:472][895]LogEditorTransaction: Undo Create Pin Link
+[2019.07.10-16.23.56:678][895]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.56:759][897]LogEditorTransaction: Undo Create Pin Link
+[2019.07.10-16.23.57:037][897]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.57:437][910]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.23.57:641][910]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.23.57:695][911]LogEditorTransaction: Undo Delete current selection
+[2019.07.10-16.23.57:913][911]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.24.13:059][331]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2019.07.10-16.24.13:472][331]LogUObjectHash: Compacting FUObjectHashTables data took   6.31ms
+[2019.07.10-16.24.14:508][353]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/ThirdPerson_AnimBP4C9170CE46A800D4F10277A578F9135E.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2019.07.10-16.24.21:901][643]BlueprintLog: New page: Compile LedgeInterface
+[2019.07.10-16.24.21:998][643]LogBlueprint: Warning: [Compiler Player] 'In Air' was removed from its interface - it has been replaced by a custom event, which won't trigger unless you call it manually.
+[2019.07.10-16.24.22:010][643]LogBlueprint: Error: [Compiler Player] In use pin  <Unnamed>  no longer exists on node  In Air . Please refresh node or break links to remove pin.
+[2019.07.10-16.24.22:010][643]LogBlueprint: Error: [Compiler Player] In use pin  <Unnamed>  no longer exists on node  In Air . Please refresh node or break links to remove pin.
+[2019.07.10-16.24.22:010][643]LogBlueprint: Error: [Compiler Player] Could not find a function named "In Air" in 'LedgeInterface_C'.
+Make sure 'LedgeInterface_C' has been compiled for  In Air
+[2019.07.10-16.24.22:051][643]LogBlueprint: Warning: [Compiler Player] [2716.79] Compile of Player failed. 3 Fatal Issue(s) 1 Warning(s) [in 149 ms] (/Game/Blueprints/Player.Player)
+[2019.07.10-16.24.22:353][643]LogUObjectHash: Compacting FUObjectHashTables data took   5.57ms
+[2019.07.10-16.24.22:904][660]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/LedgeInterface63C4E5C24B9C96C8E150598E77695FBB.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/LedgeInterface.uasset'
+[2019.07.10-16.26.01:746][226]BlueprintLog: New page: Compile Player
+[2019.07.10-16.26.02:165][226]LogUObjectHash: Compacting FUObjectHashTables data took   6.06ms
+[2019.07.10-16.26.03:550][252]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player51D0E58B4409480836BED6BB053F9174.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.10-16.26.05:783][341]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.10-16.26.06:134][341]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.26.06:134][341]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.10-16.26.06:134][341]PIE: New page: PIE session: Test_Scene (Jul 10, 2019, 2:26:06 AM)
+[2019.07.10-16.26.06:135][341]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.10-16.26.06:172][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036806s)
+[2019.07.10-16.26.06:172][341]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.10-16.26.06:173][341]LogPlayLevel: PIE: World Init took: (0.001027s)
+[2019.07.10-16.26.06:173][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.038042s)
+[2019.07.10-16.26.06:227][341]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
+[2019.07.10-16.26.06:244][341]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.10-16.26.06:259][341]LogInit: FAudioDevice initialized.
+[2019.07.10-16.26.06:275][341]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.26.06:318][341]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.10-16.26.06:333][341]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.10-09.26.06
+[2019.07.10-16.26.06:334][341]LogWorld: Bringing up level for play took: 0.015119
+[2019.07.10-16.26.06:349][341]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.10-16.26.06:373][341]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 0.913
+[2019.07.10-16.26.06:375][341]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.26.11:245][467]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.26.11:249][467]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.26.11:290][467]LogSlate: Window 'DescendIntoDarkness Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.10-16.26.11:665][467]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.10-16.26.11:666][467]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.26.11:738][467]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2019.07.10-16.26.11:887][468]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.07.10-16.26.13:710][541]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.10-16.26.13:760][541]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.26.13:760][541]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.10-16.26.13:761][541]PIE: New page: PIE session: Test_Scene (Jul 10, 2019, 2:26:13 AM)
+[2019.07.10-16.26.13:761][541]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.10-16.26.13:780][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019637s)
+[2019.07.10-16.26.13:781][541]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.10-16.26.13:782][541]LogPlayLevel: PIE: World Init took: (0.001089s)
+[2019.07.10-16.26.13:782][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.021002s)
+[2019.07.10-16.26.13:833][541]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2019.07.10-16.26.13:841][541]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.10-16.26.13:852][541]LogInit: FAudioDevice initialized.
+[2019.07.10-16.26.13:860][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.26.13:900][541]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.10-16.26.13:911][541]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.10-09.26.13
+[2019.07.10-16.26.13:912][541]LogWorld: Bringing up level for play took: 0.007990
+[2019.07.10-16.26.13:924][541]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.10-16.26.13:931][541]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 0.471
+[2019.07.10-16.26.13:931][541]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.26.23:632][812]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.26.23:632][812]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.26.23:677][812]LogSlate: Window 'DescendIntoDarkness Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.10-16.26.24:029][812]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.10-16.26.24:029][812]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.26.24:094][812]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2019.07.10-16.26.24:241][813]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.07.10-16.26.24:686][831]Cmd: TRANSACTION UNDO
+[2019.07.10-16.26.24:686][831]LogEditorTransaction: Undo Create Pin Link
+[2019.07.10-16.26.25:152][831]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.26.25:162][831]Cmd: TRANSACTION UNDO
+[2019.07.10-16.26.25:162][831]LogEditorTransaction: Undo Create Pin Link
+[2019.07.10-16.26.25:295][831]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.26.25:653][841]Cmd: TRANSACTION UNDO
+[2019.07.10-16.26.25:653][841]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.26.26:081][841]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.26.26:352][845]Cmd: TRANSACTION UNDO
+[2019.07.10-16.26.26:352][845]LogEditorTransaction: Undo Add Node
+[2019.07.10-16.26.26:769][845]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.28.10:339][647]LogUObjectHash: Compacting FUObjectHashTables data took   5.73ms
+[2019.07.10-16.28.10:709][647]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene_Auto3FCFAD45648A18B463CDBD2AEA5B089AA.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Autosaves/Game/Maps/Test_Scene_Auto3.umap'
+[2019.07.10-16.28.10:718][647]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test_Scene' took 0.445
+[2019.07.10-16.28.10:718][647]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.445
+[2019.07.10-16.28.10:724][647]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2019.07.10-16.28.10:748][647]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2019.07.10-16.28.10:748][647]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2019.07.10-16.28.10:996][647]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player_Auto3E4CB43814A0E1EDBB9E136B5DF489C6F.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Autosaves/Game/Blueprints/Player_Auto3.uasset'
+[2019.07.10-16.28.11:000][647]LogFileHelpers: Auto-saving content packages took 0.277
+[2019.07.10-16.32.31:560][799]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.32.31:978][799]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.33.29:245][755]BlueprintLog: New page: Compile Player
+[2019.07.10-16.33.29:623][755]LogUObjectHash: Compacting FUObjectHashTables data took   5.82ms
+[2019.07.10-16.33.30:922][777]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/PlayerC77798B24FC1B8F2F905B0B7818D2006.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.10-16.33.33:845][871]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.10-16.33.34:555][871]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.33.34:555][871]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.10-16.33.34:556][871]PIE: New page: PIE session: Test_Scene (Jul 10, 2019, 2:33:34 AM)
+[2019.07.10-16.33.34:556][871]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.10-16.33.34:576][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019953s)
+[2019.07.10-16.33.34:577][871]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.10-16.33.34:577][871]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2019.07.10-16.33.34:577][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.021089s)
+[2019.07.10-16.33.34:633][871]LogUObjectHash: Compacting FUObjectHashTables data took   5.30ms
+[2019.07.10-16.33.34:641][871]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.10-16.33.34:729][871]LogInit: FAudioDevice initialized.
+[2019.07.10-16.33.35:499][871]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.10-16.33.35:511][871]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.10-09.33.35
+[2019.07.10-16.33.35:512][871]LogWorld: Bringing up level for play took: 0.010984
+[2019.07.10-16.33.35:649][871]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 2.189
+[2019.07.10-16.33.35:650][871]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.33.42:283][141]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.33.42:284][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.33.42:345][141]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.10-16.33.42:345][141]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.33.42:401][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.33.42:408][141]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2019.07.10-16.33.42:445][142]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.07.10-16.33.43:519][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.10-16.33.54:411][542]BlueprintLog: New page: Compile Player
+[2019.07.10-16.33.54:792][542]LogUObjectHash: Compacting FUObjectHashTables data took   7.24ms
+[2019.07.10-16.33.56:136][564]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/PlayerC96FF52E47D0264FD5681B99226EFF3B.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.10-16.33.57:705][619]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.10-16.33.58:089][619]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.33.58:089][619]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.10-16.33.58:089][619]PIE: New page: PIE session: Test_Scene (Jul 10, 2019, 2:33:58 AM)
+[2019.07.10-16.33.58:089][619]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.10-16.33.58:107][619]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017792s)
+[2019.07.10-16.33.58:108][619]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.10-16.33.58:108][619]LogPlayLevel: PIE: World Init took: (0.000933s)
+[2019.07.10-16.33.58:108][619]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.018995s)
+[2019.07.10-16.33.58:161][619]LogUObjectHash: Compacting FUObjectHashTables data took   5.36ms
+[2019.07.10-16.33.58:169][619]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.10-16.33.58:177][619]LogInit: FAudioDevice initialized.
+[2019.07.10-16.33.58:210][619]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.10-16.33.58:223][619]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.10-09.33.58
+[2019.07.10-16.33.58:226][619]LogWorld: Bringing up level for play took: 0.015219
+[2019.07.10-16.33.58:245][619]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 0.785
+[2019.07.10-16.33.58:245][619]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.34.16:814][333]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.34.16:815][333]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.34.16:875][333]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.10-16.34.16:876][333]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.34.16:978][333]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.34.16:986][333]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2019.07.10-16.34.17:021][334]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.07.10-16.34.19:043][395]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.10-16.35.57:318][701]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.35.57:746][701]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.36.24:406][637]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.36.24:865][637]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.37.22:867][622]BlueprintLog: New page: Compile Player
+[2019.07.10-16.37.23:252][622]LogUObjectHash: Compacting FUObjectHashTables data took   5.73ms
+[2019.07.10-16.37.24:730][649]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/PlayerFCB7B4994CF41141449A268A00DDC157.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.10-16.37.26:716][715]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.10-16.37.27:058][715]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.37.27:059][715]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.10-16.37.27:059][715]PIE: New page: PIE session: Test_Scene (Jul 10, 2019, 2:37:27 AM)
+[2019.07.10-16.37.27:059][715]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.10-16.37.27:080][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021443s)
+[2019.07.10-16.37.27:081][715]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.10-16.37.27:081][715]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2019.07.10-16.37.27:081][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.022591s)
+[2019.07.10-16.37.27:168][715]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
+[2019.07.10-16.37.27:177][715]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.10-16.37.27:187][715]LogInit: FAudioDevice initialized.
+[2019.07.10-16.37.27:197][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.37.27:255][715]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.10-16.37.27:265][715]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.10-09.37.27
+[2019.07.10-16.37.27:266][715]LogWorld: Bringing up level for play took: 0.010038
+[2019.07.10-16.37.27:280][715]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.10-16.37.27:299][715]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene -0.161
+[2019.07.10-16.37.27:300][715]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.37.30:043][781]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.37.30:047][781]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.37.30:088][781]LogSlate: Window 'DescendIntoDarkness Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.10-16.37.30:468][781]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.10-16.37.30:469][781]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.37.30:533][781]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2019.07.10-16.37.30:690][782]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.07.10-16.37.32:439][849]BlueprintLog: New page: Compile Player
+[2019.07.10-16.37.32:811][849]LogUObjectHash: Compacting FUObjectHashTables data took   4.75ms
+[2019.07.10-16.37.33:906][861]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player96D8D6CF43DB83785172AD9E81D80FD9.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.10-16.37.47:878][351]BlueprintLog: New page: Compile Player
+[2019.07.10-16.37.48:243][351]LogUObjectHash: Compacting FUObjectHashTables data took   6.10ms
+[2019.07.10-16.37.49:490][367]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player66F27232459C211C107A31AE4EAE7E89.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.10-16.37.50:250][394]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.10-16.37.50:593][394]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.37.50:593][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.10-16.37.50:593][394]PIE: New page: PIE session: Test_Scene (Jul 10, 2019, 2:37:50 AM)
+[2019.07.10-16.37.50:593][394]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.10-16.37.50:611][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017522s)
+[2019.07.10-16.37.50:611][394]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.10-16.37.50:612][394]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2019.07.10-16.37.50:612][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.018528s)
+[2019.07.10-16.37.50:664][394]LogUObjectHash: Compacting FUObjectHashTables data took   5.11ms
+[2019.07.10-16.37.50:672][394]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.10-16.37.50:680][394]LogInit: FAudioDevice initialized.
+[2019.07.10-16.37.50:689][394]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.37.50:725][394]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.10-16.37.50:763][394]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.10-09.37.50
+[2019.07.10-16.37.50:764][394]LogWorld: Bringing up level for play took: 0.036870
+[2019.07.10-16.37.50:779][394]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.10-16.37.50:783][394]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 1.322
+[2019.07.10-16.37.50:783][394]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.37.53:914][476]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.37.53:915][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.37.53:957][476]LogSlate: Window 'DescendIntoDarkness Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.10-16.37.54:337][476]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.10-16.37.54:337][476]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.37.54:425][476]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2019.07.10-16.37.54:584][477]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.07.10-16.39.07:154][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2019.07.10-16.39.07:502][ 30]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene_Auto41227E8FE47468F52CE2D69A0BD437FE7.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Autosaves/Game/Maps/Test_Scene_Auto4.umap'
+[2019.07.10-16.39.07:510][ 30]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test_Scene' took 0.419
+[2019.07.10-16.39.07:510][ 30]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.419
+[2019.07.10-16.39.56:648][798]BlueprintLog: New page: Compile Player
+[2019.07.10-16.39.57:018][798]LogUObjectHash: Compacting FUObjectHashTables data took   6.72ms
+[2019.07.10-16.40.26:431][827]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player411BDE634CF96B61528E43BBC3FC0F70.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.10-16.40.27:465][864]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.10-16.40.27:911][864]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.40.27:911][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.10-16.40.27:911][864]PIE: New page: PIE session: Test_Scene (Jul 10, 2019, 2:40:27 AM)
+[2019.07.10-16.40.27:911][864]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.10-16.40.27:932][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020434s)
+[2019.07.10-16.40.27:933][864]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.10-16.40.27:933][864]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2019.07.10-16.40.27:933][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.021832s)
+[2019.07.10-16.40.27:990][864]LogUObjectHash: Compacting FUObjectHashTables data took   6.50ms
+[2019.07.10-16.40.28:002][864]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.10-16.40.28:012][864]LogInit: FAudioDevice initialized.
+[2019.07.10-16.40.28:019][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.40.28:057][864]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.10-16.40.28:105][864]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.10-09.40.28
+[2019.07.10-16.40.28:106][864]LogWorld: Bringing up level for play took: 0.044561
+[2019.07.10-16.40.28:120][864]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.10-16.40.28:127][864]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 0.666
+[2019.07.10-16.40.28:127][864]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.40.31:729][956]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.40.31:730][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.40.31:771][956]LogSlate: Window 'DescendIntoDarkness Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.10-16.40.32:159][956]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.10-16.40.32:159][956]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.40.32:223][956]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2019.07.10-16.40.32:383][957]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.07.10-16.40.32:950][978]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.10-16.40.32:987][978]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.40.32:987][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.10-16.40.32:988][978]PIE: New page: PIE session: Test_Scene (Jul 10, 2019, 2:40:32 AM)
+[2019.07.10-16.40.32:988][978]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.10-16.40.33:005][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017018s)
+[2019.07.10-16.40.33:006][978]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.10-16.40.33:006][978]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2019.07.10-16.40.33:006][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.018385s)
+[2019.07.10-16.40.33:058][978]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2019.07.10-16.40.33:066][978]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.10-16.40.33:073][978]LogInit: FAudioDevice initialized.
+[2019.07.10-16.40.33:081][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.40.33:112][978]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.10-16.40.33:148][978]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.10-09.40.33
+[2019.07.10-16.40.33:150][978]LogWorld: Bringing up level for play took: 0.034962
+[2019.07.10-16.40.33:162][978]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.10-16.40.33:170][978]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene -0.291
+[2019.07.10-16.40.33:170][978]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.40.39:185][136]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.40.39:186][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.40.39:225][136]LogSlate: Window 'DescendIntoDarkness Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.10-16.40.39:622][136]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.10-16.40.39:622][136]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.40.39:692][136]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2019.07.10-16.40.39:867][137]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.07.10-16.40.40:453][159]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.10-16.40.40:491][159]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.40.40:492][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.10-16.40.40:492][159]PIE: New page: PIE session: Test_Scene (Jul 10, 2019, 2:40:40 AM)
+[2019.07.10-16.40.40:492][159]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.10-16.40.40:509][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016619s)
+[2019.07.10-16.40.40:510][159]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.10-16.40.40:510][159]LogPlayLevel: PIE: World Init took: (0.000955s)
+[2019.07.10-16.40.40:510][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.017829s)
+[2019.07.10-16.40.40:561][159]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2019.07.10-16.40.40:568][159]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.10-16.40.40:576][159]LogInit: FAudioDevice initialized.
+[2019.07.10-16.40.40:586][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.40.40:624][159]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.10-16.40.40:637][159]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.10-09.40.40
+[2019.07.10-16.40.40:638][159]LogWorld: Bringing up level for play took: 0.012971
+[2019.07.10-16.40.40:650][159]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.10-16.40.40:668][159]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene -0.792
+[2019.07.10-16.40.40:669][159]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.40.47:347][336]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.40.47:348][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.40.47:390][336]LogSlate: Window 'DescendIntoDarkness Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.10-16.40.47:780][336]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.10-16.40.47:780][336]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.40.47:842][336]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2019.07.10-16.40.48:004][337]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.07.10-16.40.49:266][382]LogEditorTransaction: Undo Edit WReleased
+[2019.07.10-16.40.49:300][382]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.Player_C_0.CollisionCylinder) Component already registered.
+[2019.07.10-16.40.49:301][382]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Player.CollisionCylinder) Component already registered.
+[2019.07.10-16.40.49:726][382]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.40.49:736][382]LogEditorTransaction: Undo Edit SReleased
+[2019.07.10-16.40.49:755][382]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.Player_C_0.CollisionCylinder) Component already registered.
+[2019.07.10-16.40.49:755][382]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Player.CollisionCylinder) Component already registered.
+[2019.07.10-16.40.49:889][382]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.40.50:291][392]LogEditorTransaction: Undo Edit SReleased
+[2019.07.10-16.40.50:324][392]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.Player_C_0.CollisionCylinder) Component already registered.
+[2019.07.10-16.40.50:325][392]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Player.CollisionCylinder) Component already registered.
+[2019.07.10-16.40.50:753][392]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.40.50:758][392]LogEditorTransaction: Undo Edit WReleased
+[2019.07.10-16.40.50:772][392]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.Player_C_0.CollisionCylinder) Component already registered.
+[2019.07.10-16.40.50:773][392]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Player.CollisionCylinder) Component already registered.
+[2019.07.10-16.40.50:906][392]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.40.51:352][404]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.40.51:807][404]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.40.51:811][404]LogEditorTransaction: Undo Move Nodes
+[2019.07.10-16.40.51:964][404]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.41.18:158][357]LogEditorTransaction: Redo Move Nodes
+[2019.07.10-16.41.18:603][357]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.41.18:816][359]LogEditorTransaction: Redo Resize Node
+[2019.07.10-16.41.19:286][359]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.41.19:449][360]LogEditorTransaction: Redo Edit WReleased
+[2019.07.10-16.41.19:899][360]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.41.20:743][385]LogEditorTransaction: Redo Edit SReleased
+[2019.07.10-16.41.21:203][385]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.41.21:209][385]LogEditorTransaction: Redo Edit SReleased
+[2019.07.10-16.41.21:343][385]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.41.21:507][386]LogEditorTransaction: Redo Edit WReleased
+[2019.07.10-16.41.21:988][386]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.00:223][804]BlueprintLog: New page: Compile Player
+[2019.07.10-16.43.00:611][804]LogUObjectHash: Compacting FUObjectHashTables data took   6.05ms
+[2019.07.10-16.43.02:306][838]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player9E4D7BD944EB69EA3E55B9B7873A82F4.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.10-16.43.03:793][888]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.10-16.43.04:200][888]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.43.04:200][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.10-16.43.04:201][888]PIE: New page: PIE session: Test_Scene (Jul 10, 2019, 2:43:04 AM)
+[2019.07.10-16.43.04:201][888]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.10-16.43.04:222][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020721s)
+[2019.07.10-16.43.04:222][888]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.10-16.43.04:223][888]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2019.07.10-16.43.04:223][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.021905s)
+[2019.07.10-16.43.04:275][888]LogUObjectHash: Compacting FUObjectHashTables data took   5.35ms
+[2019.07.10-16.43.04:283][888]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.10-16.43.04:291][888]LogInit: FAudioDevice initialized.
+[2019.07.10-16.43.04:300][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.43.04:360][888]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.10-16.43.04:403][888]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.10-09.43.04
+[2019.07.10-16.43.04:404][888]LogWorld: Bringing up level for play took: 0.042271
+[2019.07.10-16.43.04:420][888]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.10-16.43.04:426][888]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 0.966
+[2019.07.10-16.43.04:427][888]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.43.06:796][948]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.43.06:797][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.43.06:844][948]LogSlate: Window 'DescendIntoDarkness Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.10-16.43.07:275][948]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.10-16.43.07:275][948]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.43.07:363][948]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2019.07.10-16.43.07:510][949]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.07.10-16.43.27:296][656]LogEditorTransaction: Undo Create Pin Link
+[2019.07.10-16.43.27:805][656]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.27:816][656]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.43.27:950][656]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.28:135][657]LogEditorTransaction: Undo Add Node
+[2019.07.10-16.43.28:637][657]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.28:643][657]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.43.28:788][657]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.29:058][661]LogEditorTransaction: Undo Edit WReleased
+[2019.07.10-16.43.29:088][661]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.Player_C_0.CollisionCylinder) Component already registered.
+[2019.07.10-16.43.29:089][661]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Player.CollisionCylinder) Component already registered.
+[2019.07.10-16.43.29:561][661]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.29:567][661]LogEditorTransaction: Undo Edit SReleased
+[2019.07.10-16.43.29:582][661]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.Player_C_0.CollisionCylinder) Component already registered.
+[2019.07.10-16.43.29:582][661]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Player.CollisionCylinder) Component already registered.
+[2019.07.10-16.43.29:715][661]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.30:046][667]LogEditorTransaction: Undo Edit SReleased
+[2019.07.10-16.43.30:071][667]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.Player_C_0.CollisionCylinder) Component already registered.
+[2019.07.10-16.43.30:072][667]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Player.CollisionCylinder) Component already registered.
+[2019.07.10-16.43.30:558][667]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.30:563][667]LogEditorTransaction: Undo Edit WReleased
+[2019.07.10-16.43.30:578][667]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.Player_C_0.CollisionCylinder) Component already registered.
+[2019.07.10-16.43.30:579][667]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Player.CollisionCylinder) Component already registered.
+[2019.07.10-16.43.30:712][667]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.30:718][667]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.43.30:863][667]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.31:073][669]LogEditorTransaction: Undo Move Nodes
+[2019.07.10-16.43.31:598][669]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.31:603][669]LogEditorTransaction: Undo Create Pin Link
+[2019.07.10-16.43.31:737][669]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.31:743][669]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.43.31:884][669]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.32:153][673]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.43.32:699][673]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.32:706][673]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.43.32:852][673]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.32:859][673]LogEditorTransaction: Undo Create Pin Link
+[2019.07.10-16.43.32:993][673]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.33:175][674]LogEditorTransaction: Undo Create Pin Link
+[2019.07.10-16.43.33:728][674]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.33:734][674]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.43.33:876][674]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.34:555][691]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.43.35:118][691]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.35:124][691]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.43.35:259][691]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.35:265][691]LogEditorTransaction: Undo Move Nodes
+[2019.07.10-16.43.35:403][691]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.35:578][692]LogEditorTransaction: Undo Paste clipboard contents
+[2019.07.10-16.43.36:179][692]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.36:185][692]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.43.36:321][692]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.36:327][692]LogEditorTransaction: Undo Move Nodes
+[2019.07.10-16.43.36:469][692]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.36:998][703]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.43.37:583][703]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.37:589][703]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.43.37:736][703]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.37:745][703]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.43.37:883][703]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.38:113][705]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.43.38:718][705]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.38:933][706]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.43.39:542][706]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.40:285][724]LogEditorTransaction: Undo Create Pin Link
+[2019.07.10-16.43.40:897][724]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.40:903][724]LogEditorTransaction: Undo Create Pin Link
+[2019.07.10-16.43.41:040][724]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.43.41:224][725]LogEditorTransaction: Undo Move Nodes
+[2019.07.10-16.43.41:861][725]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.44.36:828][657]LogEditorTransaction: Undo Remove Variable
+[2019.07.10-16.44.37:523][657]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.44.38:501][686]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.44.39:103][686]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.44.39:504][695]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.44.40:141][695]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.44.40:330][696]LogEditorTransaction: Undo Rename Node
+[2019.07.10-16.44.40:964][696]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.47.06:488][796]LogEditorTransaction: Undo Rename Node
+[2019.07.10-16.47.07:082][796]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.47.07:095][796]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.47.07:232][796]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.47.07:817][809]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.47.08:440][809]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.47.08:956][822]LogEditorTransaction: Undo Resize Node
+[2019.07.10-16.47.09:601][822]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.47.09:608][822]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.47.09:749][822]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.47.12:487][901]LogEditorTransaction: Undo Create Pin Link
+[2019.07.10-16.47.13:109][901]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.47.13:119][901]LogEditorTransaction: Undo Delete current selection
+[2019.07.10-16.47.13:260][901]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.47.13:445][902]LogEditorTransaction: Undo Delete current selection
+[2019.07.10-16.47.14:120][902]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.47.15:009][925]LogEditorTransaction: Undo Delete current selection
+[2019.07.10-16.47.15:659][925]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.47.16:285][938]LogEditorTransaction: Undo Create Pin Link
+[2019.07.10-16.47.16:422][938]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.47.18:585][  7]LogEditorTransaction: Undo Create Pin Link
+[2019.07.10-16.47.18:718][  7]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.47.19:822][ 44]LogEditorTransaction: Undo Delete current selection
+[2019.07.10-16.47.20:472][ 44]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.47.23:503][137]BlueprintLog: New page: Compile Player
+[2019.07.10-16.47.23:916][137]LogUObjectHash: Compacting FUObjectHashTables data took   6.39ms
+[2019.07.10-16.47.32:368][407]LogEditorTransaction: Undo Move Node
+[2019.07.10-16.47.33:012][407]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.47.33:497][419]LogEditorTransaction: Undo Move Nodes
+[2019.07.10-16.47.34:178][419]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.47.34:605][429]LogEditorTransaction: Undo Move Nodes
+[2019.07.10-16.47.35:285][429]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.47.35:942][448]LogEditorTransaction: Undo Paste clipboard contents
+[2019.07.10-16.47.36:613][448]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.47.37:114][461]LogEditorTransaction: Undo Edit SReleased
+[2019.07.10-16.47.37:143][461]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.Player_C_0.CollisionCylinder) Component already registered.
+[2019.07.10-16.47.37:144][461]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Player.CollisionCylinder) Component already registered.
+[2019.07.10-16.47.37:812][461]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.47.39:779][528]LogEditorTransaction: Redo Edit SReleased
+[2019.07.10-16.47.40:471][528]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-16.48.00:874][204]BlueprintLog: New page: Compile Player
+[2019.07.10-16.48.01:251][204]LogUObjectHash: Compacting FUObjectHashTables data took   5.71ms
+[2019.07.10-16.48.02:950][230]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player8B9D2B5C4A4CBD2A23DE04809881478A.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.10-16.48.04:055][267]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.10-16.48.04:706][267]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.48.04:706][267]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.10-16.48.04:706][267]PIE: New page: PIE session: Test_Scene (Jul 10, 2019, 2:48:04 AM)
+[2019.07.10-16.48.04:706][267]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.10-16.48.04:726][267]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019214s)
+[2019.07.10-16.48.04:726][267]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.10-16.48.04:727][267]LogPlayLevel: PIE: World Init took: (0.000981s)
+[2019.07.10-16.48.04:727][267]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.020412s)
+[2019.07.10-16.48.04:804][267]LogUObjectHash: Compacting FUObjectHashTables data took   7.24ms
+[2019.07.10-16.48.04:814][267]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.10-16.48.04:824][267]LogInit: FAudioDevice initialized.
+[2019.07.10-16.48.04:835][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.48.04:870][267]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.10-16.48.04:883][267]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.10-09.48.04
+[2019.07.10-16.48.04:884][267]LogWorld: Bringing up level for play took: 0.010383
+[2019.07.10-16.48.04:899][267]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.10-16.48.04:904][267]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 1.444
+[2019.07.10-16.48.04:905][267]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.48.32:079][ 21]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.48.32:080][ 21]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-16.48.32:123][ 21]LogSlate: Window 'DescendIntoDarkness Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.10-16.48.32:777][ 21]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.10-16.48.32:777][ 21]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-16.48.32:844][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2019.07.10-16.48.32:998][ 22]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2019.07.10-16.48.35:288][ 96]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player9FC911A94D0079602C5797B12FADE9D9.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.10-16.48.37:280][157]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2019.07.10-16.48.37:633][157]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene2C1098BA414045D0DD342FA831572913.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene.umap'
+[2019.07.10-16.48.38:657][157]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene_BuiltData64C6789C41764B66533E4E832299B280.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene_BuiltData.uasset'
