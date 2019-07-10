@@ -1253,3 +1253,41 @@ Script Stack (0 frames):
 [2019.07.10-23.35.21:105][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
 [2019.07.10-23.35.21:334][541]LogSavePackage: Moving '../../../../../../Users/aadam/Documents/Unreal Projects/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap3AC6A07742CBB13A0D6FC38DCDFC5AE7.tmp' to '../../../../../../Users/aadam/Documents/Unreal Projects/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap'
 [2019.07.10-23.35.21:512][541]LogSavePackage: Moving '../../../../../../Users/aadam/Documents/Unreal Projects/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap_BuiltData0161BD99444A3A743D0234A6E3A682F8.tmp' to '../../../../../../Users/aadam/Documents/Unreal Projects/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2019.07.10-23.36.56:930][668]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Torch.Torch
+[2019.07.10-23.37.40:098][866]LogActorComponent: RegisterComponentWithWorld: (/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.DESTROYED_Torch_C_CHILDACTOR_32.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.07.10-23.45.15:836][490]BlueprintLog: New page: Compile Torch
+[2019.07.10-23.45.16:019][490]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2019.07.10-23.45.16:022][490]LogActorComponent: RegisterComponentWithWorld: (/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.DESTROYED_Torch_C_CHILDACTOR_34.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.07.10-23.45.16:028][490]LogActorComponent: RegisterComponentWithWorld: (/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.DESTROYED_Torch_C_CHILDACTOR_36.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.07.10-23.45.16:612][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Torch" FILE="../../../../../../Users/aadam/Documents/Unreal Projects/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Torch.uasset" SILENT=true
+[2019.07.10-23.45.16:665][521]LogSavePackage: Moving '../../../../../../Users/aadam/Documents/Unreal Projects/Descend-Into-Darkness/DescendIntoDarkness/Saved/Torch44FE7C6A49E313453A5CC7AEE3451671.tmp' to '../../../../../../Users/aadam/Documents/Unreal Projects/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Torch.uasset'
+[2019.07.10-23.45.18:035][601]LogSlate: Window 'Torch' being destroyed
+[2019.07.10-23.45.18:042][601]LogSlate: Window 'Torch' being destroyed
+[2019.07.10-23.45.19:458][681]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.10-23.45.19:481][681]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.10-23.45.19:481][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.10-23.45.19:481][681]PIE: New page: PIE session: SideScrollerExampleMap (Jul 10, 2019, 9:45:19 AM)
+[2019.07.10-23.45.19:481][681]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.10-23.45.19:495][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014358s)
+[2019.07.10-23.45.19:496][681]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.10-23.45.19:496][681]LogPlayLevel: PIE: World Init took: (0.000871s)
+[2019.07.10-23.45.19:496][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.015395s)
+[2019.07.10-23.45.19:532][681]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2019.07.10-23.45.19:536][681]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.10-23.45.19:553][681]LogInit: FAudioDevice initialized.
+[2019.07.10-23.45.19:583][681]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.10-23.45.19:587][681]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.10-16.45.19
+[2019.07.10-23.45.19:587][681]LogWorld: Bringing up level for play took: 0.003224
+[2019.07.10-23.45.19:600][681]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap 0.506
+[2019.07.10-23.45.19:600][681]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.10-23.45.25:890][995]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.10-23.45.25:890][995]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-23.45.25:946][995]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.10-23.45.25:946][995]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.10-23.45.25:980][995]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-23.45.25:985][995]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2019.07.10-23.45.26:021][996]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.07.10-23.45.28:115][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.10-23.45.28:265][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2019.07.10-23.45.28:496][127]LogSavePackage: Moving '../../../../../../Users/aadam/Documents/Unreal Projects/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMapA2EDB2BB4CB6C0030CD6A1AAAA485479.tmp' to '../../../../../../Users/aadam/Documents/Unreal Projects/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap'
+[2019.07.10-23.45.28:665][127]LogSavePackage: Moving '../../../../../../Users/aadam/Documents/Unreal Projects/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap_BuiltData345A11D840458C011924F295A952DE51.tmp' to '../../../../../../Users/aadam/Documents/Unreal Projects/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap_BuiltData.uasset'
