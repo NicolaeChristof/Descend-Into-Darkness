@@ -889,3 +889,96 @@ Make sure 'ThirdPerson_AnimBP_C' has been compiled for  Set Hanging
 [2019.07.10-02.20.32:085][187]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
 [2019.07.10-02.20.32:156][187]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
 [2019.07.10-02.20.32:291][188]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2019.07.10-02.24.52:000][945]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2019.07.10-02.24.52:308][945]LogUObjectHash: Compacting FUObjectHashTables data took   6.50ms
+[2019.07.10-02.24.52:992][962]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/ThirdPerson_AnimBP0C73129B4C72289B6026FCB6A6D53D33.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2019.07.10-02.24.59:764][168]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Assets/Animations/Climb.Climb
+[2019.07.10-02.24.59:776][168]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-02.24.59:816][168]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.07.10-02.25.00:466][168]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.07.10-02.25.54:198][481]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Climb4C4A7E58499A4E8E7264589F2BF471B3.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Assets/Animations/Climb.uasset'
+[2019.07.10-02.26.06:150][580]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Climb78584C134E9484E2A249699097C51954.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Assets/Animations/Climb.uasset'
+[2019.07.10-02.26.46:033][759]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/Assets/Animations/Climb_Montage.Climb_Montage
+[2019.07.10-02.26.46:043][759]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-02.26.46:080][759]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.07.10-02.26.46:656][759]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.07.10-02.27.35:167][202]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Climb_MontageB1DBDF804B8BFE0B000F0398085EA9CC.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Assets/Animations/Climb_Montage.uasset'
+[2019.07.10-02.29.08:286][151]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2019.07.10-02.29.08:608][151]LogUObjectHash: Compacting FUObjectHashTables data took   6.30ms
+[2019.07.10-02.29.09:569][177]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/ThirdPerson_AnimBP53C9C4254FD323D07A546AA648B9061C.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2019.07.10-02.31.19:299][354]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2019.07.10-02.31.19:665][354]LogUObjectHash: Compacting FUObjectHashTables data took   7.48ms
+[2019.07.10-02.31.20:553][377]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/ThirdPerson_AnimBPC9F29AC5430CADB9AAC3D7897BB982FF.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2019.07.10-02.32.32:534][436]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.07.10-02.33.11:914][331]Cmd: TRANSACTION UNDO
+[2019.07.10-02.33.11:914][331]LogEditorTransaction: Undo Move Anim Notify
+[2019.07.10-02.33.12:201][331]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-02.33.12:205][331]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.10-02.33.12:213][331]LogAnimMontage: Warning: JumpToSectionName None bEndOfSection: 0 failed for Montage Climb_Montage
+[2019.07.10-02.34.50:101][364]LogRenderer: Reallocating scene render targets to support 780x404 Format 9 NumSamples 1 (Frame:3971).
+[2019.07.10-02.34.50:171][364]LogRenderer: Reallocating scene render targets to support 808x404 Format 9 NumSamples 1 (Frame:3973).
+[2019.07.10-02.34.50:257][366]LogRenderer: Reallocating scene render targets to support 832x404 Format 9 NumSamples 1 (Frame:3975).
+[2019.07.10-02.34.50:323][367]LogRenderer: Reallocating scene render targets to support 844x404 Format 9 NumSamples 1 (Frame:3977).
+[2019.07.10-02.34.50:388][368]LogRenderer: Reallocating scene render targets to support 848x404 Format 9 NumSamples 1 (Frame:3979).
+[2019.07.10-02.34.50:449][369]LogRenderer: Reallocating scene render targets to support 856x404 Format 9 NumSamples 1 (Frame:3981).
+[2019.07.10-02.34.50:509][370]LogRenderer: Reallocating scene render targets to support 868x404 Format 9 NumSamples 1 (Frame:3983).
+[2019.07.10-02.34.50:572][371]LogRenderer: Reallocating scene render targets to support 876x404 Format 9 NumSamples 1 (Frame:3985).
+[2019.07.10-02.34.50:632][372]LogRenderer: Reallocating scene render targets to support 880x404 Format 9 NumSamples 1 (Frame:3987).
+[2019.07.10-02.34.50:694][373]LogRenderer: Reallocating scene render targets to support 888x404 Format 9 NumSamples 1 (Frame:3989).
+[2019.07.10-02.34.50:801][375]LogRenderer: Reallocating scene render targets to support 892x404 Format 9 NumSamples 1 (Frame:3993).
+[2019.07.10-02.34.50:994][381]LogRenderer: Reallocating scene render targets to support 896x404 Format 9 NumSamples 1 (Frame:4000).
+[2019.07.10-02.34.51:048][382]LogRenderer: Reallocating scene render targets to support 900x404 Format 9 NumSamples 1 (Frame:4002).
+[2019.07.10-02.34.51:110][383]LogRenderer: Reallocating scene render targets to support 904x404 Format 9 NumSamples 1 (Frame:4004).
+[2019.07.10-02.34.51:173][384]LogRenderer: Reallocating scene render targets to support 908x404 Format 9 NumSamples 1 (Frame:4006).
+[2019.07.10-02.34.51:232][385]LogRenderer: Reallocating scene render targets to support 916x404 Format 9 NumSamples 1 (Frame:4008).
+[2019.07.10-02.34.51:293][386]LogRenderer: Reallocating scene render targets to support 928x404 Format 9 NumSamples 1 (Frame:4010).
+[2019.07.10-02.34.51:360][387]LogRenderer: Reallocating scene render targets to support 940x404 Format 9 NumSamples 1 (Frame:4012).
+[2019.07.10-02.34.51:425][388]LogRenderer: Reallocating scene render targets to support 952x404 Format 9 NumSamples 1 (Frame:4014).
+[2019.07.10-02.34.51:548][390]LogRenderer: Reallocating scene render targets to support 956x404 Format 9 NumSamples 1 (Frame:4018).
+[2019.07.10-02.35.08:189][696]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Climb_Montage777D86304135A668433B86872E89633D.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Assets/Animations/Climb_Montage.uasset'
+[2019.07.10-02.36.05:100][456]LogUObjectHash: Compacting FUObjectHashTables data took   9.32ms
+[2019.07.10-02.36.05:100][456]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test_Scene' took 0.243
+[2019.07.10-02.36.05:106][456]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mannequin/Animations/ThirdPerson_AnimBP] ([1] browsable assets)...
+[2019.07.10-02.36.05:123][456]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP]
+[2019.07.10-02.36.05:123][456]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Animations/ThirdPerson_AnimBP]
+[2019.07.10-02.36.05:260][456]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/ThirdPerson_AnimBP_Auto15F5F87394CA1EF782A54C9B09D8BF2D3.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Autosaves/Game/Mannequin/Animations/ThirdPerson_AnimBP_Auto1.uasset'
+[2019.07.10-02.36.05:265][456]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton] ([1] browsable assets)...
+[2019.07.10-02.36.05:265][456]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton]
+[2019.07.10-02.36.05:302][456]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/UE4_Mannequin_Skeleton_Auto1064ACEB8414FD291B08F12B2B7C53A48.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Autosaves/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_Auto1.uasset'
+[2019.07.10-02.36.05:305][456]LogFileHelpers: Auto-saving content packages took 0.203
+[2019.07.10-02.38.11:405][795]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2019.07.10-02.38.11:756][795]LogUObjectHash: Compacting FUObjectHashTables data took   5.09ms
+[2019.07.10-02.38.12:618][815]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/ThirdPerson_AnimBPC64A1C30413A60BF26F7B680DA667E0E.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2019.07.10-02.42.20:558][121]BlueprintLog: New page: Compile Player
+[2019.07.10-02.42.21:004][121]LogUObjectHash: Compacting FUObjectHashTables data took   8.72ms
+[2019.07.10-02.42.22:423][152]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player5C6AE0A24F6ED92B576F558B381FC592.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.10-02.43.25:814][520]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.10-02.43.25:902][520]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-02.43.25:902][520]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.10-02.43.25:902][520]PIE: New page: PIE session: Test_Scene (Jul 9, 2019, 12:43:25 PM)
+[2019.07.10-02.43.25:902][520]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.10-02.43.25:924][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021421s)
+[2019.07.10-02.43.25:924][520]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.10-02.43.25:925][520]LogPlayLevel: PIE: World Init took: (0.001042s)
+[2019.07.10-02.43.25:925][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.022691s)
+[2019.07.10-02.43.25:988][520]LogUObjectHash: Compacting FUObjectHashTables data took   6.20ms
+[2019.07.10-02.43.25:996][520]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.10-02.43.26:004][520]LogInit: FAudioDevice initialized.
+[2019.07.10-02.43.26:013][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-02.43.26:049][520]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.10-02.43.26:063][520]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.09-19.43.26
+[2019.07.10-02.43.26:064][520]LogWorld: Bringing up level for play took: 0.011129
+[2019.07.10-02.43.26:077][520]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.10-02.43.26:091][520]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 0.625
+[2019.07.10-02.43.26:092][520]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-02.43.29:571][632]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-02.43.29:572][632]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.10-02.43.29:614][632]LogSlate: Window 'DescendIntoDarkness Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.10-02.43.29:717][632]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.10-02.43.29:718][632]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.10-02.43.29:796][632]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2019.07.10-02.43.29:927][633]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2019.07.10-02.43.32:436][737]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player63BA211740DE03DC34B5A99D99A8E6E5.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.10-02.43.37:774][923]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2019.07.10-02.43.38:112][923]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_SceneBABA819A43C74CA6F63E44991A4B94DA.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene.umap'
+[2019.07.10-02.43.38:556][923]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene_BuiltDataB7E17EEE480CFF8CDC1180B562891884.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene_BuiltData.uasset'
