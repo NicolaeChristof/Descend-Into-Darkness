@@ -54,14 +54,8 @@ void ADescendIntoDarknessCharacter::SetupPlayerInputComponent(class UInputCompon
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
-    PlayerInputComponent->BindAxis("MoveHorizontal", this, &ADescendIntoDarknessCharacter::MoveHorizontal);
+    //PlayerInputComponent->BindAxis("MoveHorizontal", this, &ADescendIntoDarknessCharacter::MoveHorizontal);
     PlayerInputComponent->BindAxis("ClimbRope", this, &ADescendIntoDarknessCharacter::ClimbRope);
-}
-
-void ADescendIntoDarknessCharacter::MoveHorizontal(float Value)
-{
-	// add movement in that direction
-	AddMovementInput(FVector(0.f,-1.f,0.f), Value);
 }
 
 void ADescendIntoDarknessCharacter::ClimbRope(float value)
