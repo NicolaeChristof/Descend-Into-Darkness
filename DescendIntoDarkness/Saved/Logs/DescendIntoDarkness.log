@@ -17159,3 +17159,554 @@ Script Stack (0 frames):
 [2019.07.11-23.31.36:141][338]BlueprintLog: New page: Compile Player
 [2019.07.11-23.31.36:502][338]LogUObjectHash: Compacting FUObjectHashTables data took   6.21ms
 [2019.07.11-23.31.37:470][353]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player98CE7B9B420B7063F7BC18B44FE1329C.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.11-23.32.04:268][490]LogUObjectHash: Compacting FUObjectHashTables data took   5.58ms
+[2019.07.11-23.32.04:612][490]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene_Auto52691975A4229DE6F27A94E8E8C057DC8.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Autosaves/Game/Maps/Test_Scene_Auto5.umap'
+[2019.07.11-23.32.04:617][490]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test_Scene' took 0.423
+[2019.07.11-23.32.04:617][490]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.423
+[2019.07.11-23.32.26:401][680]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.11-23.32.26:502][680]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.11-23.32.26:502][680]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.11-23.32.26:502][680]PIE: New page: PIE session: Test_Scene (Jul 11, 2019, 9:32:26 AM)
+[2019.07.11-23.32.26:502][680]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.11-23.32.26:518][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015986s)
+[2019.07.11-23.32.26:519][680]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.11-23.32.26:519][680]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2019.07.11-23.32.26:519][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.017218s)
+[2019.07.11-23.32.26:577][680]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2019.07.11-23.32.26:584][680]LogInit: XAudio2 using 'Speakers (Intel® Smart Sound Technology (Intel® SST))' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.11-23.32.26:591][680]LogInit: FAudioDevice initialized.
+[2019.07.11-23.32.26:599][680]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.11-23.32.26:636][680]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.11-23.32.26:676][680]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.11-16.32.26
+[2019.07.11-23.32.26:676][680]LogWorld: Bringing up level for play took: 0.039187
+[2019.07.11-23.32.26:690][680]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.11-23.32.26:694][680]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 1.205
+[2019.07.11-23.32.26:695][680]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.11-23.32.26:695][680]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.26:945][681]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.26:995][682]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:032][683]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:076][684]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:108][685]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:137][686]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:170][687]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:204][688]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:239][689]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:269][690]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:303][691]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:338][692]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:367][693]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:413][694]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:445][695]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:477][696]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:511][697]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:540][698]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:576][699]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:608][700]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:639][701]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:667][702]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:696][703]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:722][704]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:752][705]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:780][706]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:808][707]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:838][708]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:869][709]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:901][710]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:926][711]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:957][712]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.27:985][713]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:017][714]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:045][715]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:073][716]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:101][717]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:128][718]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:155][719]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:186][720]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:218][721]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:243][722]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:271][723]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:301][724]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:329][725]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:357][726]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:387][727]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:421][728]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:447][729]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:476][730]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:505][731]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:535][732]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:564][733]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:593][734]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:623][735]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:651][736]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:678][737]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:708][738]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:734][739]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:763][740]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:793][741]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:819][742]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:851][743]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:876][744]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:906][745]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:938][746]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:968][747]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.28:996][748]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:023][749]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:053][750]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:082][751]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:111][752]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:140][753]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:168][754]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:197][755]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:224][756]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:254][757]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:279][758]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:309][759]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:336][760]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:366][761]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:393][762]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:420][763]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:456][764]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:487][765]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:519][766]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:545][767]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:573][768]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:603][769]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:633][770]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:661][771]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:690][772]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:717][773]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:746][774]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:775][775]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:803][776]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:830][777]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:858][778]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:884][779]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:912][780]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:940][781]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:970][782]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.29:998][783]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:027][784]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:055][785]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:082][786]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:108][787]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:141][788]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:165][789]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:195][790]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:223][791]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:252][792]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:282][793]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:311][794]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:336][795]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:365][796]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:393][797]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:424][798]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:452][799]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:484][800]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:513][801]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:542][802]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:567][803]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:598][804]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:627][805]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:657][806]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:683][807]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:713][808]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:741][809]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:768][810]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:797][811]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:826][812]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:855][813]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:887][814]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:916][815]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:943][816]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.30:972][817]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:003][818]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:032][819]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:059][820]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:088][821]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:115][822]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:142][823]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:170][824]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:195][825]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:225][826]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:254][827]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:281][828]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:310][829]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:339][830]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:366][831]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:390][832]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:427][833]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:457][834]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:485][835]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:521][836]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:554][837]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:580][838]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:608][839]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:637][840]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:666][841]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:694][842]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:722][843]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:752][844]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:781][845]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:810][846]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:840][847]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:869][848]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:897][849]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:927][850]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:952][851]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.31:982][852]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.32:010][853]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.32:037][854]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.32:068][855]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.32:093][856]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.32:126][857]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.32:153][858]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.32:181][859]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.32:210][860]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.32:238][861]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.32:267][862]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.32:297][863]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.32:326][864]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.32:354][865]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.32:382][866]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.32:410][867]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.32:440][868]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.32:472][869]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.32:499][870]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.32:531][871]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.32:562][872]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.32:590][873]LogBlueprintUserMessages: [Player] 500.0
+[2019.07.11-23.32.32:615][874]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.32:647][875]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.32:676][876]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.32:705][877]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.32:735][878]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.32:764][879]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.32:793][880]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.32:819][881]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.32:849][882]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.32:877][883]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.32:906][884]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.32:935][885]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.32:963][886]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.32:991][887]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:019][888]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:044][889]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:076][890]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:104][891]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:132][892]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:161][893]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:188][894]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:219][895]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:243][896]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:271][897]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:298][898]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:328][899]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:355][900]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:383][901]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:411][902]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:438][903]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:469][904]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:495][905]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:524][906]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:554][907]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:590][908]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:616][909]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:643][910]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:671][911]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:702][912]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:728][913]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:759][914]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:800][915]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:838][916]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:864][917]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:892][918]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:922][919]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:953][920]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.33:979][921]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:006][922]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:033][923]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:065][924]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:094][925]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:125][926]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:155][927]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:184][928]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:212][929]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:242][930]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:273][931]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:303][932]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:333][933]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:362][934]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:391][935]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:420][936]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:446][937]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:476][938]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:507][939]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:540][940]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:572][941]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:607][942]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:639][943]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:668][944]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:693][945]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:723][946]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:754][947]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:783][948]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:808][949]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:838][950]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:865][951]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:892][952]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:920][953]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:949][954]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.34:976][955]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.35:006][956]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.35:033][957]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.35:063][958]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.35:094][959]LogBlueprintUserMessages: [Player] 338.739868
+[2019.07.11-23.32.35:122][960]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:149][961]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:180][962]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:212][963]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:240][964]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:273][965]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:304][966]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:333][967]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:360][968]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:391][969]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:420][970]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:446][971]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:476][972]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:506][973]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:539][974]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:567][975]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:604][976]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:633][977]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:662][978]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:692][979]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:723][980]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:751][981]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:783][982]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:811][983]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:837][984]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:868][985]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:898][986]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:929][987]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:957][988]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.35:990][989]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:018][990]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:047][991]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:076][992]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:107][993]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:135][994]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:165][995]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:195][996]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:224][997]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:254][998]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:282][999]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:311][  0]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:338][  1]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:363][  2]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:393][  3]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:427][  4]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:457][  5]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:483][  6]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:513][  7]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:538][  8]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:566][  9]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:603][ 10]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:630][ 11]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:666][ 12]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:694][ 13]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:723][ 14]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:751][ 15]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:781][ 16]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:809][ 17]LogBlueprintUserMessages: [Player] 98.348221
+[2019.07.11-23.32.36:839][ 18]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.36:870][ 19]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.36:898][ 20]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.36:927][ 21]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.36:953][ 22]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.36:990][ 23]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:014][ 24]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:043][ 25]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:070][ 26]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:099][ 27]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:129][ 28]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:156][ 29]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:187][ 30]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:212][ 31]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:241][ 32]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:270][ 33]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:300][ 34]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:328][ 35]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:353][ 36]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:382][ 37]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:408][ 38]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:435][ 39]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:465][ 40]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:493][ 41]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:522][ 42]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:551][ 43]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:575][ 44]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:607][ 45]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:641][ 46]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:675][ 47]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:714][ 48]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:746][ 49]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:782][ 50]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:822][ 51]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:855][ 52]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:886][ 53]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:914][ 54]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:945][ 55]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.37:980][ 56]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:016][ 57]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:047][ 58]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:078][ 59]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:104][ 60]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:137][ 61]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:163][ 62]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:188][ 63]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:218][ 64]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:251][ 65]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:280][ 66]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:308][ 67]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:336][ 68]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:365][ 69]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:394][ 70]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:423][ 71]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:450][ 72]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:477][ 73]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:504][ 74]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:532][ 75]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:560][ 76]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:587][ 77]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:622][ 78]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:648][ 79]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:676][ 80]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:706][ 81]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:740][ 82]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:772][ 83]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:796][ 84]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:827][ 85]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:857][ 86]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:885][ 87]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:915][ 88]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:950][ 89]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.38:978][ 90]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:007][ 91]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:035][ 92]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:064][ 93]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:091][ 94]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:125][ 95]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:152][ 96]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:182][ 97]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:210][ 98]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:240][ 99]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:269][100]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:294][101]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:321][102]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:350][103]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:377][104]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:402][105]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:431][106]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:461][107]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:486][108]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:517][109]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:545][110]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:572][111]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:600][112]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:629][113]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:654][114]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:680][115]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:710][116]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:741][117]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:773][118]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:802][119]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:828][120]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:860][121]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:887][122]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:915][123]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:947][124]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.39:978][125]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:007][126]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:031][127]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:061][128]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:089][129]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:120][130]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:148][131]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:175][132]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:207][133]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:232][134]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:261][135]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:287][136]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:320][137]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:349][138]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:383][139]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:411][140]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:443][141]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:472][142]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:500][143]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:528][144]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:555][145]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:584][146]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:610][147]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:641][148]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:668][149]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:700][150]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:726][151]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:754][152]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:790][153]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:814][154]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:841][155]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:865][156]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:892][157]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:919][158]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:953][159]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.40:981][160]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:006][161]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:034][162]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:066][163]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:094][164]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:122][165]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:150][166]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:179][167]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:204][168]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:229][169]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:253][170]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:285][171]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:314][172]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:342][173]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:373][174]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:401][175]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:432][176]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:461][177]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:488][178]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:517][179]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:544][180]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:573][181]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:605][182]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:630][183]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:657][184]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:696][185]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:725][186]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:758][187]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:794][188]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:830][189]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:860][190]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:895][191]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:924][192]LogBlueprintUserMessages: [Player] 0.0
+[2019.07.11-23.32.41:927][192]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.11-23.32.41:927][192]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.11-23.32.41:957][192]LogSlate: Window 'DescendIntoDarkness Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.11-23.32.42:083][192]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.11-23.32.42:083][192]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.11-23.32.42:220][192]LogUObjectHash: Compacting FUObjectHashTables data took   7.60ms
+[2019.07.11-23.32.42:616][193]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2019.07.11-23.32.53:302][601]BlueprintLog: New page: Compile Player
+[2019.07.11-23.32.53:655][601]LogUObjectHash: Compacting FUObjectHashTables data took   6.09ms
+[2019.07.11-23.32.56:813][717]BlueprintLog: New page: Compile Player
+[2019.07.11-23.32.57:212][717]LogUObjectHash: Compacting FUObjectHashTables data took   5.93ms
+[2019.07.11-23.32.58:584][750]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player1152A395412F448AD0304B90FF746F42.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.11-23.33.44:446][532]BlueprintLog: New page: Compile Player
+[2019.07.11-23.33.44:822][532]LogUObjectHash: Compacting FUObjectHashTables data took   6.46ms
+[2019.07.11-23.33.46:152][565]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player23CFBD4448F8F70E9DCC60A7CC1EBC63.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
