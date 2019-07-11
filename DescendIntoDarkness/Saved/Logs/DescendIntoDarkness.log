@@ -1074,3 +1074,10 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.07.11-22.38.09:961][935]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.07.11-22.38.09:968][935]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
 [2019.07.11-22.38.10:002][936]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2019.07.11-22.39.40:292][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.11-22.41.03:489][744]LogEditorTransaction: Undo Move Node
+[2019.07.11-22.41.03:690][744]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.11-22.42.59:160][890]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/PlayerA7B334444F895C89F61DBB996D3823E0.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.11-22.43.04:173][994]BlueprintLog: New page: Compile Player
+[2019.07.11-22.43.04:510][994]LogUObjectHash: Compacting FUObjectHashTables data took   6.00ms
+[2019.07.11-22.43.05:583][ 14]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player7A3879D3401D61759B16488F43699389.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
