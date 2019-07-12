@@ -1032,3 +1032,24 @@ Script Stack (0 frames):
 [2019.07.12-17.09.38:402][484]BlueprintLog: New page: Compile Player
 [2019.07.12-17.09.38:771][484]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
 [2019.07.12-17.09.39:890][507]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player87719A1749F0B935BE81CCBF750D343C.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.12-17.11.37:892][343]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player002427EE40B84E6FB922BE9122DFBE8E.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.12-17.15.03:034][ 64]LogSlate: Took 0.008990 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.07.12-17.15.07:300][261]BlueprintLog: New page: Compile DepthGauge
+[2019.07.12-17.15.07:647][261]LogUObjectHash: Compacting FUObjectHashTables data took   5.43ms
+[2019.07.12-17.15.28:243][218]LogBlueprint: Warning: [Compiler DepthGauge] Variable PlayerHealth is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
+[2019.07.12-17.15.28:243][218]LogBlueprint: Warning: [Compiler DepthGauge] [3229.08] Compile of DepthGauge successful, but with 1 Warning(s) [in 1 ms] (/Game/Blueprints/DepthGauge.DepthGauge)
+[2019.07.12-17.15.30:266][313]BlueprintLog: New page: Compile DepthGauge
+[2019.07.12-17.15.30:269][313]LogBlueprint: Warning: [Compiler DepthGauge] Variable PlayerHealth is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
+[2019.07.12-17.15.30:281][313]LogBlueprint: Warning: [Compiler DepthGauge] Variable PlayerHealth is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
+[2019.07.12-17.15.30:571][313]LogUObjectHash: Compacting FUObjectHashTables data took   5.02ms
+[2019.07.12-17.15.30:609][313]LogBlueprint: Warning: [Compiler DepthGauge] [3231.45] Compile of DepthGauge successful, but with 2 Warning(s) [in 342 ms] (/Game/Blueprints/DepthGauge.DepthGauge)
+[2019.07.12-17.15.37:639][643]BlueprintLog: New page: Compile DepthGauge
+[2019.07.12-17.15.37:949][643]LogUObjectHash: Compacting FUObjectHashTables data took   5.19ms
+[2019.07.12-17.15.39:188][695]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/DepthGaugeC2CCE66A407E61ABDB3ECCB81319BDD0.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/DepthGauge.uasset'
+[2019.07.12-17.15.43:301][865]BlueprintLog: New page: Compile Player
+[2019.07.12-17.15.43:679][865]LogUObjectHash: Compacting FUObjectHashTables data took   6.02ms
+[2019.07.12-17.16.14:442][113]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.07.12-17.17.36:576][511]BlueprintLog: New page: Compile Player
+[2019.07.12-17.17.36:956][511]LogUObjectHash: Compacting FUObjectHashTables data took   5.54ms
+[2019.07.12-17.17.38:062][534]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player29D563B64ADD6F861A00B09DC4D8A36E.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.12-17.17.59:363][563]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/DepthGaugeF4A8F233412996AC0703D7B6F25C86BE.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/DepthGauge.uasset'
