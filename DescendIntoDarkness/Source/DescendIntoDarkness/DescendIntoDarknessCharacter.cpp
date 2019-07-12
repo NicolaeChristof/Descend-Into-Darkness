@@ -6,6 +6,8 @@
 #include "Components/InputComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Classes/Components/SphereComponent.h"
+#include "CampSpawn.h"
 
 ADescendIntoDarknessCharacter::ADescendIntoDarknessCharacter()
 {
@@ -40,6 +42,11 @@ ADescendIntoDarknessCharacter::ADescendIntoDarknessCharacter()
 	GetCharacterMovement()->GroundFriction = 3.f;
 	GetCharacterMovement()->MaxWalkSpeed = 600.f;
 	GetCharacterMovement()->MaxFlySpeed = 600.f;
+
+    // Create the collision sphere
+    CampCollisionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("CampCollsionSphere"));
+    CampCollisionSphere->SetupAttachment(RootComponent);
+    CampCollisionSphere->SetSphereRadius(250.f);
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
@@ -80,16 +87,26 @@ void ADescendIntoDarknessCharacter::TouchStopped(const ETouchIndex::Type FingerI
 
 void ADescendIntoDarknessCharacter::SpawnCamp()
 {
-    if (WhatToSpawn) {
-        UWorld* world = GetWorld();
+    if (CampPrefab) {
+        // This stores all the actors that are within the collection sphere
+        TArray<AActor*> NearbyActors;
+        CampCollisionSphere->GetOverlappingActors(NearbyActors);
+        for (int32 iCollected = 0; iCollected < NearbyActors.Num(); ++iCollected) {
+            ACampSpawn* const TestCampSpawn = Cast<ACampSpawn>(NearbyActors[iCollected]);
 
-        if (world) {
-            FActorSpawnParameters spawnParams;
-            spawnParams.Owner = this;
+            if (TestCampSpawn && !TestCampSpawn->IsPendingKill() && !TestCampSpawn->GetHasBeenPlaced()) {
+                UWorld* world = GetWorld();
 
-            FRotator spawnRotation;
-            FVector spawnLocation = this->GetActorLocation();
-            world->SpawnActor<AActor>(WhatToSpawn, spawnLocation, spawnRotation, spawnParams);
+                if (world) {
+                    TestCampSpawn->Place();
+                    FActorSpawnParameters spawnParams;
+                    spawnParams.Owner = this;
+
+                    FRotator spawnRotation;
+                    FVector spawnLocation = TestCampSpawn->GetActorLocation();
+                    world->SpawnActor<AActor>(CampPrefab, spawnLocation, spawnRotation, spawnParams);
+                }
+            }
         }
     }
 }
