@@ -750,3 +750,9 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.07.12-16.25.58:710][585]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
 [2019.07.12-16.25.58:999][585]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_SceneB14F05E544567DD899EDCCBD99BE96A4.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene.umap'
 [2019.07.12-16.25.59:433][585]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene_BuiltData48A4A1AA4834CBA010C4929BF5756681.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene_BuiltData.uasset'
+[2019.07.12-16.26.34:533][894]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platform)
+[2019.07.12-16.26.36:043][954]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.12-16.26.41:671][204]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.12-16.26.41:743][204]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2019.07.12-16.26.42:021][204]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_SceneF8E3865046238F97D66C52B086E2ABA6.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene.umap'
+[2019.07.12-16.26.42:385][204]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene_BuiltData710452D44AA6E930550BF2A451A1A14F.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene_BuiltData.uasset'
