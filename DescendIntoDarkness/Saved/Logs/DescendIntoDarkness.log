@@ -35902,3 +35902,82 @@ Script Stack (0 frames):
 [2019.07.12-01.23.34:303][147]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
 [2019.07.12-01.23.34:335][148]LogPlayLevel: Display: Destroying online subsystem :Context_137
 [2019.07.12-01.23.35:480][184]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.12-01.24.07:085][844]LogRenderer: Reallocating scene render targets to support 2332x820 Format 9 NumSamples 1 (Frame:24733).
+[2019.07.12-01.26.51:709][606]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.12-01.26.51:743][606]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.26.51:743][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.12-01.26.51:743][606]PIE: New page: PIE session: Test_Scene (Jul 11, 2019, 11:26:51 AM)
+[2019.07.12-01.26.51:744][606]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.12-01.26.51:775][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031409s)
+[2019.07.12-01.26.51:777][606]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.12-01.26.51:778][606]LogPlayLevel: PIE: World Init took: (0.002809s)
+[2019.07.12-01.26.51:779][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.034898s)
+[2019.07.12-01.26.51:858][606]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2019.07.12-01.26.51:866][606]LogInit: XAudio2 using 'Speakers (Intel® Smart Sound Technology (Intel® SST))' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.12-01.26.51:875][606]LogInit: FAudioDevice initialized.
+[2019.07.12-01.26.51:910][606]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.12-01.26.51:921][606]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.11-18.26.51
+[2019.07.12-01.26.51:922][606]LogWorld: Bringing up level for play took: 0.010643
+[2019.07.12-01.26.51:940][606]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 0.452
+[2019.07.12-01.26.51:941][606]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.27.12:560][378]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.27.12:560][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-01.27.12:726][378]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.12-01.27.12:727][378]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.27.12:789][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-01.27.12:797][378]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2019.07.12-01.27.12:832][379]LogPlayLevel: Display: Destroying online subsystem :Context_138
+[2019.07.12-01.27.13:690][390]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.12-01.27.13:753][390]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.27.13:753][390]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.12-01.27.13:754][390]PIE: New page: PIE session: Test_Scene (Jul 11, 2019, 11:27:13 AM)
+[2019.07.12-01.27.13:755][390]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.12-01.27.13:784][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028755s)
+[2019.07.12-01.27.13:785][390]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.12-01.27.13:785][390]LogPlayLevel: PIE: World Init took: (0.001462s)
+[2019.07.12-01.27.13:785][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.030739s)
+[2019.07.12-01.27.13:860][390]LogUObjectHash: Compacting FUObjectHashTables data took   6.20ms
+[2019.07.12-01.27.13:867][390]LogInit: XAudio2 using 'Speakers (Intel® Smart Sound Technology (Intel® SST))' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.12-01.27.13:876][390]LogInit: FAudioDevice initialized.
+[2019.07.12-01.27.13:883][390]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.12-01.27.13:914][390]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.12-01.27.13:918][390]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.11-18.27.13
+[2019.07.12-01.27.13:919][390]LogWorld: Bringing up level for play took: 0.003967
+[2019.07.12-01.27.13:934][390]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 0.446
+[2019.07.12-01.27.13:934][390]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.27.23:624][754]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.27.23:625][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-01.27.23:691][754]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.12-01.27.23:691][754]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.27.23:744][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-01.27.23:752][754]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2019.07.12-01.27.23:785][755]LogPlayLevel: Display: Destroying online subsystem :Context_139
+[2019.07.12-01.27.24:592][767]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.12-01.27.24:630][767]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.27.24:630][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.12-01.27.24:630][767]PIE: New page: PIE session: Test_Scene (Jul 11, 2019, 11:27:24 AM)
+[2019.07.12-01.27.24:631][767]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.12-01.27.24:672][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041286s)
+[2019.07.12-01.27.24:674][767]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.12-01.27.24:674][767]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2019.07.12-01.27.24:674][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.043428s)
+[2019.07.12-01.27.24:753][767]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2019.07.12-01.27.24:760][767]LogInit: XAudio2 using 'Speakers (Intel® Smart Sound Technology (Intel® SST))' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.12-01.27.24:767][767]LogInit: FAudioDevice initialized.
+[2019.07.12-01.27.24:767][767]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.12-01.27.24:800][767]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.12-01.27.24:804][767]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.11-18.27.24
+[2019.07.12-01.27.24:805][767]LogWorld: Bringing up level for play took: 0.003798
+[2019.07.12-01.27.24:820][767]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene -0.668
+[2019.07.12-01.27.24:821][767]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.27.40:765][353]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.27.40:766][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-01.27.40:842][353]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.12-01.27.40:842][353]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.27.40:896][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-01.27.40:904][353]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2019.07.12-01.27.40:938][354]LogPlayLevel: Display: Destroying online subsystem :Context_140
+[2019.07.12-01.32.00:570][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.12-01.32.49:465][  8]BlueprintLog: New page: Compile Player
+[2019.07.12-01.32.49:846][  8]LogUObjectHash: Compacting FUObjectHashTables data took   5.11ms
+[2019.07.12-01.32.51:005][ 29]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player17645D594E6CFA6E31543791A36B3BB2.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
