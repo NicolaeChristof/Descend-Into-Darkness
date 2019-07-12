@@ -1740,3 +1740,162 @@ Script Stack (0 frames):
 [2019.07.12-05.52.47:273][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
 [2019.07.12-05.52.47:585][ 53]LogSavePackage: Moving '../../../../../../Users/aadam/Documents/Unreal Projects/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap6EF621974E23F8EEF0D2B7A7657C0680.tmp' to '../../../../../../Users/aadam/Documents/Unreal Projects/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap'
 [2019.07.12-05.52.47:900][ 53]LogSavePackage: Moving '../../../../../../Users/aadam/Documents/Unreal Projects/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap_BuiltData9B6AF59D406B87E6CDEB078EF60806B9.tmp' to '../../../../../../Users/aadam/Documents/Unreal Projects/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2019.07.12-05.54.46:594][497]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.12-05.54.46:941][497]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2019.07.12-05.54.47:057][497]LogSlate: Window 'DescendIntoDarkness - Unreal Editor' being destroyed
+[2019.07.12-05.54.47:534][498]Cmd: QUIT_EDITOR
+[2019.07.12-05.54.48:243][498]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.12-05.54.48:296][498]LogExit: Preparing to exit.
+[2019.07.12-05.54.48:863][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:863][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:863][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:863][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:863][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:863][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:863][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:866][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:866][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:866][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:866][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:866][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:866][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:866][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:868][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:868][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:869][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:869][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:869][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:869][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:869][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:902][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:902][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:902][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:902][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:902][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:902][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:902][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:904][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:904][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:905][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:905][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:905][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:905][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:905][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:907][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:907][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:907][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:907][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:907][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:907][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:907][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:927][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:927][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:927][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:927][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:927][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:927][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.48:927][498]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.12-05.54.49:141][498]LogExit: Editor shut down
+[2019.07.12-05.54.49:148][498]LogExit: Transaction tracking system shut down
+[2019.07.12-05.54.49:928][498]LogExit: Object subsystem successfully closed.
+[2019.07.12-05.54.49:997][498]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.07.12-05.54.50:044][498]LogD3D11RHI: Shutdown
+[2019.07.12-05.54.50:045][498]LogD3D11RHI: CleanupD3DDevice
+[2019.07.12-05.54.50:068][498]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.07.12-05.54.50:068][498]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.07.12-05.54.50:069][498]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.07.12-05.54.50:069][498]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.07.12-05.54.50:069][498]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.07.12-05.54.50:069][498]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.07.12-05.54.50:740][498]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.07.12-05.54.50:846][498]LogModuleManager: Shutting down and abandoning module DescendIntoDarkness (663)
+[2019.07.12-05.54.50:846][498]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (661)
+[2019.07.12-05.54.50:847][498]LogModuleManager: Shutting down and abandoning module SequencerWidgets (656)
+[2019.07.12-05.54.50:847][498]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (654)
+[2019.07.12-05.54.50:847][498]LogModuleManager: Shutting down and abandoning module Voice (652)
+[2019.07.12-05.54.50:848][498]LogModuleManager: Shutting down and abandoning module BlueprintGraph (650)
+[2019.07.12-05.54.50:848][498]LogModuleManager: Shutting down and abandoning module PinnedCommandList (648)
+[2019.07.12-05.54.50:848][498]LogModuleManager: Shutting down and abandoning module SkeletonEditor (646)
+[2019.07.12-05.54.50:849][498]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (644)
+[2019.07.12-05.54.50:849][498]LogModuleManager: Shutting down and abandoning module SceneOutliner (642)
+[2019.07.12-05.54.50:850][498]LogModuleManager: Shutting down and abandoning module AddContentDialog (640)
+[2019.07.12-05.54.50:879][498]LogModuleManager: Shutting down and abandoning module WidgetCarousel (639)
+[2019.07.12-05.54.50:879][498]LogModuleManager: Shutting down and abandoning module EditorWidgets (636)
+[2019.07.12-05.54.50:879][498]LogModuleManager: Shutting down and abandoning module CollectionManager (634)
+[2019.07.12-05.54.50:881][498]LogModuleManager: Shutting down and abandoning module StatsViewer (632)
+[2019.07.12-05.54.50:882][498]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
+[2019.07.12-05.54.50:883][498]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
+[2019.07.12-05.54.50:886][498]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
+[2019.07.12-05.54.50:886][498]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
+[2019.07.12-05.54.50:886][498]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
+[2019.07.12-05.54.50:886][498]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
+[2019.07.12-05.54.50:887][498]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
+[2019.07.12-05.54.50:887][498]LogModuleManager: Shutting down and abandoning module BspMode (616)
+[2019.07.12-05.54.50:887][498]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
+[2019.07.12-05.54.50:888][498]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
+[2019.07.12-05.54.50:888][498]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
+[2019.07.12-05.54.50:888][498]LogModuleManager: Shutting down and abandoning module OculusMR (608)
+[2019.07.12-05.54.50:888][498]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (606)
+[2019.07.12-05.54.50:888][498]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (604)
+[2019.07.12-05.54.50:889][498]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (602)
+[2019.07.12-05.54.50:893][498]LogModuleManager: Shutting down and abandoning module PlacementMode (601)
+[2019.07.12-05.54.50:895][498]LogModuleManager: Shutting down and abandoning module MaterialEditor (600)
+[2019.07.12-05.54.50:897][498]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (596)
+[2019.07.12-05.54.50:897][498]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (594)
+[2019.07.12-05.54.50:897][498]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (592)
+[2019.07.12-05.54.50:897][498]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (590)
+[2019.07.12-05.54.50:898][498]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (588)
+[2019.07.12-05.54.50:898][498]LogModuleManager: Shutting down and abandoning module WebMMedia (586)
+[2019.07.12-05.54.50:898][498]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (584)
+[2019.07.12-05.54.50:899][498]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (582)
+[2019.07.12-05.54.50:901][498]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2019.07.12-05.54.50:901][498]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (578)
+[2019.07.12-05.54.50:901][498]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (576)
+[2019.07.12-05.54.50:901][498]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (574)
+[2019.07.12-05.54.50:901][498]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (572)
+[2019.07.12-05.54.50:901][498]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (570)
+[2019.07.12-05.54.50:901][498]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (568)
+[2019.07.12-05.54.50:901][498]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (566)
+[2019.07.12-05.54.50:901][498]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (564)
+[2019.07.12-05.54.50:901][498]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (562)
+[2019.07.12-05.54.50:902][498]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
+[2019.07.12-05.54.50:902][498]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
+[2019.07.12-05.54.50:902][498]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
+[2019.07.12-05.54.50:902][498]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
+[2019.07.12-05.54.50:902][498]LogModuleManager: Shutting down and abandoning module SessionServices (552)
+[2019.07.12-05.54.50:902][498]LogModuleManager: Shutting down and abandoning module MeshPaint (550)
+[2019.07.12-05.54.50:903][498]LogModuleManager: Shutting down and abandoning module ViewportSnapping (548)
+[2019.07.12-05.54.50:903][498]LogModuleManager: Shutting down and abandoning module ViewportInteraction (546)
+[2019.07.12-05.54.50:903][498]LogModuleManager: Shutting down and abandoning module ClothPainter (544)
+[2019.07.12-05.54.50:904][498]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (543)
+[2019.07.12-05.54.50:905][498]LogModuleManager: Shutting down and abandoning module LogVisualizer (540)
+[2019.07.12-05.54.50:907][498]LogModuleManager: Shutting down and abandoning module IntroTutorials (538)
+[2019.07.12-05.54.50:910][498]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (537)
+[2019.07.12-05.54.50:910][498]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (534)
+[2019.07.12-05.54.50:910][498]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (532)
+[2019.07.12-05.54.50:910][498]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
+[2019.07.12-05.54.50:910][498]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
+[2019.07.12-05.54.50:910][498]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)
+[2019.07.12-05.54.51:671][498]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (524)
+[2019.07.12-05.54.51:671][498]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (522)
+[2019.07.12-05.54.51:671][498]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (520)
+[2019.07.12-05.54.51:671][498]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (518)
+[2019.07.12-05.54.51:671][498]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (516)
+[2019.07.12-05.54.51:671][498]LogModuleManager: Shutting down and abandoning module InputBindingEditor (514)
+[2019.07.12-05.54.51:671][498]LogModuleManager: Shutting down and abandoning module MergeActors (512)
+[2019.07.12-05.54.51:672][498]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (510)
+[2019.07.12-05.54.51:673][498]LogModuleManager: Shutting down and abandoning module LocalizationService (509)
+[2019.07.12-05.54.51:673][498]LogModuleManager: Shutting down and abandoning module HardwareTargeting (506)
+[2019.07.12-05.54.51:673][498]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (504)
+[2019.07.12-05.54.51:674][498]LogModuleManager: Shutting down and abandoning module UndoHistory (502)
+[2019.07.12-05.54.51:674][498]LogModuleManager: Shutting down and abandoning module XmlParser (500)
+[2019.07.12-05.54.51:674][498]LogModuleManager: Shutting down and abandoning module Blutility (498)
+[2019.07.12-05.54.51:675][498]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (496)
+[2019.07.12-05.54.51:675][498]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (495)
+[2019.07.12-05.54.51:676][498]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (492)
+[2019.07.12-05.54.51:676][498]LogModuleManager: Shutting down and abandoning module SettingsEditor (490)
+[2019.07.12-05.54.51:677][498]LogModuleManager: Shutting down and abandoning module ProjectLauncher (488)
+[2019.07.12-05.54.51:678][498]LogModuleManager: Shutting down and abandoning module SessionFrontend (486)
+[2019.07.12-05.54.51:679][498]LogModuleManager: Shutting down and abandoning module ProfilerClient (484)
+[2019.07.12-05.54.51:679][498]LogModuleManager: Shutting down and abandoning module DeviceManager (482)
+[2019.07.12-05.54.51:680][498]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (481)
