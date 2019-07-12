@@ -90,7 +90,7 @@ void ADescendIntoDarknessCharacter::SpawnCamp()
                     FActorSpawnParameters spawnParams;
                     spawnParams.Owner = this;
 
-                    FRotator spawnRotation;
+                    FRotator spawnRotation(0.f);
                     FVector spawnLocation = TestCampSpawn->GetActorLocation();
                     world->SpawnActor<AActor>(CampPrefab, spawnLocation, spawnRotation, spawnParams);
                 }
