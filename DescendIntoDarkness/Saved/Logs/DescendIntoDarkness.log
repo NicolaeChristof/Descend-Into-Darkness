@@ -843,3 +843,66 @@ Script Stack (0 frames):
 [2019.07.12-16.52.18:981][742]BlueprintLog: New page: Compile DepthGauge
 [2019.07.12-16.52.19:242][742]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
 [2019.07.12-16.52.20:022][765]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/DepthGauge975D30744A7BFAC134154898775154C6.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/DepthGauge.uasset'
+[2019.07.12-16.53.17:718][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.12-16.53.57:467][369]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.12-16.54.09:319][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.12-16.55.26:768][120]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/DepthGauge4B10AAF54E8AFDB91C308AB9FB013729.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/DepthGauge.uasset'
+[2019.07.12-16.55.27:565][145]BlueprintLog: New page: Compile DepthGauge
+[2019.07.12-16.55.27:911][145]LogUObjectHash: Compacting FUObjectHashTables data took   7.25ms
+[2019.07.12-16.55.46:736][115]LogAssetEditorManager: Opening Asset editor for Material /Game/Assets/3D_Models/Materials/DepthGauge.DepthGauge
+[2019.07.12-16.55.46:749][115]LogMaterial: Display: Missing cached shader map for material DepthGauge, compiling. 
+[2019.07.12-16.55.47:592][115]LogMaterial: Display: Missing cached shader map for material DepthGauge, compiling. 
+[2019.07.12-16.55.47:639][115]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-16.55.47:643][115]LogMaterial: Display: Missing cached shader map for material DepthGauge, compiling. 
+[2019.07.12-16.55.50:042][207]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-16.55.55:036][408]LogMaterial: Display: Missing cached shader map for material DepthGauge, compiling. 
+[2019.07.12-16.55.55:075][408]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.12-16.55.55:093][408]LogMaterial: Display: Missing cached shader map for material DepthGauge, compiling. 
+[2019.07.12-16.55.55:160][408]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.12-16.55.58:774][548]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-16.56.00:166][629]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.12-16.56.02:282][751]MaterialEditorStats: Base pass shader: 107 instructions
+[2019.07.12-16.56.02:282][751]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2019.07.12-16.56.02:282][751]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.12-16.56.02:282][751]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.12-16.56.11:370][262]LogMaterial: Display: Missing cached shader map for material DepthGauge, compiling. 
+[2019.07.12-16.56.11:397][262]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-16.56.11:398][262]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.12-16.56.11:893][289]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-16.56.14:076][393]LogMaterial: Display: Missing cached shader map for material DepthGauge, compiling. 
+[2019.07.12-16.56.14:119][393]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.12-16.56.14:152][393]LogSlate: Window 'Color Picker' being destroyed
+[2019.07.12-16.56.16:531][498]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-16.56.20:490][670]LogMaterial: Display: Missing cached shader map for material DepthGauge, compiling. 
+[2019.07.12-16.56.20:525][670]LogMaterial: Display: Missing cached shader map for material DepthGauge, compiling. 
+[2019.07.12-16.56.27:059][948]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-16.56.28:451][  0]LogMaterial: Display: Missing cached shader map for material DepthGauge, compiling. 
+[2019.07.12-16.56.28:485][  0]LogMaterial: Display: Missing cached shader map for material DepthGauge, compiling. 
+[2019.07.12-16.56.29:874][ 60]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-16.56.31:952][147]LogMaterial: Display: Missing cached shader map for material DepthGauge, compiling. 
+[2019.07.12-16.56.31:996][147]LogMaterial: Display: Missing cached shader map for material DepthGauge, compiling. 
+[2019.07.12-16.56.32:421][166]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-16.56.36:232][328]LogMaterial: Display: Missing cached shader map for material DepthGauge, compiling. 
+[2019.07.12-16.56.36:449][335]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-16.56.37:605][386]LogMaterialEditor: Saving and Compiling material DepthGauge
+[2019.07.12-16.56.38:638][386]LogMaterial: Display: Missing cached shader map for material DepthGauge, compiling. 
+[2019.07.12-16.56.38:740][386]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-16.56.38:771][386]LogMaterial: Display: Missing cached shader map for material DepthGauge, compiling. 
+[2019.07.12-16.56.38:878][386]LogMaterial: Display: Missing cached shader map for material DepthGauge, compiling. 
+[2019.07.12-16.56.38:979][386]LogUObjectHash: Compacting FUObjectHashTables data took   5.97ms
+[2019.07.12-16.56.39:029][386]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.07.12-16.56.42:773][386]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.07.12-16.56.42:773][386]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.12-16.56.42:777][386]TextureStreamingBuild: Display: Compiling optional shaders took 3.798 seconds.
+[2019.07.12-16.56.42:857][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2019.07.12-16.56.47:142][386]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/DepthGaugeF39F3BDC493727D117B0B5987D6EEAD9.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Assets/3D_Models/Materials/DepthGauge.uasset'
+[2019.07.12-16.56.47:172][386]MaterialEditorStats: Base pass shader: 105 instructions
+[2019.07.12-16.56.47:172][386]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2019.07.12-16.56.47:172][386]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.12-16.56.47:172][386]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.12-16.56.55:973][672]LogBlueprintActionDatabase: Requesting refresh due to module change: HierarchicalLODUtilities (loaded)
+[2019.07.12-16.57.02:983][879]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.12-16.57.03:246][883]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/DepthGauge83DF93554CC7E7A4FFB943BC398AEF64.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/DepthGauge.uasset'
+[2019.07.12-16.57.09:616][142]LogUObjectHash: Compacting FUObjectHashTables data took   6.64ms
+[2019.07.12-16.57.09:927][142]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_SceneF27CF03847B6AA364504448473324F6D.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene.umap'
+[2019.07.12-16.57.10:341][142]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene_BuiltDataE44F9F5D4A69405A8AEC2C9BCE9BD642.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene_BuiltData.uasset'
