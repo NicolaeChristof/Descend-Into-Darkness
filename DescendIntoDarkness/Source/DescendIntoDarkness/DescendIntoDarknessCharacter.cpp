@@ -60,8 +60,7 @@ void ADescendIntoDarknessCharacter::SetupPlayerInputComponent(class UInputCompon
 	// set up gameplay key bindings
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
-	PlayerInputComponent->BindAxis("MoveRight", this, &ADescendIntoDarknessCharacter::MoveRight);
-   PlayerInputComponent->BindAction("PlaceCamp", IE_Released, this, &ADescendIntoDarknessCharacter::SpawnCamp);
+    PlayerInputComponent->BindAction("PlaceCamp", IE_Released, this, &ADescendIntoDarknessCharacter::SpawnCamp);
 
     //PlayerInputComponent->BindAxis("MoveHorizontal", this, &ADescendIntoDarknessCharacter::MoveHorizontal);
     PlayerInputComponent->BindAxis("ClimbRope", this, &ADescendIntoDarknessCharacter::ClimbRope);
@@ -71,17 +70,6 @@ void ADescendIntoDarknessCharacter::ClimbRope(float value)
 {
     // add movement in that direction
     AddMovementInput(FVector(0.f,0.f,1.f), value);
-}
-
-void ADescendIntoDarknessCharacter::TouchStarted(const ETouchIndex::Type FingerIndex, const FVector Location)
-{
-	// jump on any touch
-	Jump();
-}
-
-void ADescendIntoDarknessCharacter::TouchStopped(const ETouchIndex::Type FingerIndex, const FVector Location)
-{
-	StopJumping();
 }
 
 
