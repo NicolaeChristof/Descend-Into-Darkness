@@ -579,3 +579,317 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.07.12-04.42.21:215][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
 [2019.07.12-04.42.21:493][ 19]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_SceneD33AD14B4A8798B37BA390B40850D251.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene.umap'
 [2019.07.12-04.42.21:917][ 19]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene_BuiltData17CD182842BF65598CA244A027266AD2.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene_BuiltData.uasset'
+[2019.07.12-04.43.25:010][474]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.12-04.43.25:092][474]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-04.43.25:093][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.12-04.43.25:098][474]PIE: New page: PIE session: Test_Scene (Jul 11, 2019, 2:43:25 PM)
+[2019.07.12-04.43.25:114][474]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.12-04.43.25:164][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049961s)
+[2019.07.12-04.43.25:166][474]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.12-04.43.25:167][474]LogPlayLevel: PIE: World Init took: (0.002562s)
+[2019.07.12-04.43.25:167][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.053589s)
+[2019.07.12-04.43.25:213][474]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2019.07.12-04.43.25:234][474]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.12-04.43.25:242][474]LogInit: FAudioDevice initialized.
+[2019.07.12-04.43.25:243][474]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.12-04.43.25:283][474]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.12-04.43.25:288][474]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.11-21.43.25
+[2019.07.12-04.43.25:288][474]LogWorld: Bringing up level for play took: 0.003829
+[2019.07.12-04.43.25:347][474]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2019.07.12-04.43.25:350][474]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene -0.139
+[2019.07.12-04.43.25:350][474]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-04.44.07:524][227]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.07.12-04.44.08:278][227]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.753 s
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: === Handled ensure: ===
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: 
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: Ensure condition failed: !Primitive->Bounds.BoxExtent.ContainsNaN() && !Primitive->Bounds.Origin.ContainsNaN() && !FMath::IsNaN(Primitive->Bounds.SphereRadius) && FMath::IsFinite(Primitive->Bounds.SphereRadius) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Renderer\Private\RendererScene.cpp] [Line: 1331]
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: Nans found on Bounds for Primitive Rope: Origin X=-nan(ind) Y=-nan(ind) Z=-nan(ind), BoxExtent X=-nan(ind) Y=-nan(ind) Z=-nan(ind), SphereRadius -nan(ind)
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: Stack: 
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: [Callstack] 0x00007ffb7062a55f UE4Editor-Renderer.dll!UnknownFunction []
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: [Callstack] 0x00007ffb703f7cf5 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: [Callstack] 0x00007ffb7632f4e0 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: [Callstack] 0x00007ffb762a3fc9 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: [Callstack] 0x00007ffb767245f5 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: [Callstack] 0x00007ffb7674e641 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: [Callstack] 0x00007ffb7675e313 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: [Callstack] 0x00007ffb763993c7 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: [Callstack] 0x00007ffb738f032f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: [Callstack] 0x00007ffb7410cce6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: [Callstack] 0x00007ff6817a6bb1 UE4Editor.exe!UnknownFunction []
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: [Callstack] 0x00007ff6817b554c UE4Editor.exe!UnknownFunction []
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: [Callstack] 0x00007ff6817b55ca UE4Editor.exe!UnknownFunction []
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: [Callstack] 0x00007ff6817c316c UE4Editor.exe!UnknownFunction []
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: [Callstack] 0x00007ff6817c5b8e UE4Editor.exe!UnknownFunction []
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: [Callstack] 0x00007ffbeb657974 KERNEL32.DLL!UnknownFunction []
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: [Callstack] 0x00007ffbee19a271 ntdll.dll!UnknownFunction []
+[2019.07.12-04.44.08:278][227]LogOutputDevice: Error: 
+[2019.07.12-04.44.08:284][227]LogStats:                SubmitErrorReport -  0.000 s
+[2019.07.12-04.44.09:203][227]LogStats:                    SendNewReport -  0.919 s
+[2019.07.12-04.44.09:203][227]LogStats:             FDebug::EnsureFailed -  1.679 s
+[2019.07.12-04.44.35:052][295]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-04.44.35:053][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-04.44.35:117][295]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.12-04.44.35:117][295]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-04.44.35:150][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-04.44.35:156][295]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2019.07.12-04.44.35:196][296]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.07.12-04.44.37:230][396]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.12-04.44.38:984][497]LogRenderer: Reallocating scene render targets to support 936x404 Format 9 NumSamples 1 (Frame:1).
+[2019.07.12-04.44.41:814][626]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Player.Player
+[2019.07.12-04.44.42:444][626]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 121 classes and 0 folders.
+[2019.07.12-04.44.43:697][626]LogSlate: Took 0.006564 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.07.12-04.44.44:164][627]LogSlate: Took 0.009542 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.07.12-04.44.46:038][692]LogSlate: Window 'Player' being destroyed
+[2019.07.12-04.45.12:946][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.12-04.45.24:118][156]LogAssetEditorManager: Opening Asset editor for Material /Game/Assets/3D_Models/Materials/Player.Player
+[2019.07.12-04.45.24:126][156]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.45.24:609][156]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.45.24:630][156]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.45.24:667][156]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-04.45.31:294][435]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.45.31:329][435]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.12-04.45.31:345][435]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.45.31:412][435]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.12-04.45.35:184][589]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-04.45.35:884][628]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.45.35:923][628]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.12-04.45.36:611][666]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-04.45.38:619][757]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.45.38:659][757]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.12-04.45.38:691][757]LogSlate: Window 'Color Picker' being destroyed
+[2019.07.12-04.45.43:680][965]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-04.45.45:233][ 43]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.45.45:266][ 43]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.45.47:249][143]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-04.45.47:952][181]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.45.47:976][181]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-04.45.47:983][181]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.45.48:496][209]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-04.45.49:241][239]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.45.51:926][348]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-04.45.52:476][368]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.45.52:512][368]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.45.54:579][458]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-04.45.55:639][503]LogMaterialEditor: Saving and Compiling material Player
+[2019.07.12-04.45.56:612][503]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.45.56:714][503]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-04.45.56:736][503]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.45.56:772][503]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.45.56:873][503]LogUObjectHash: Compacting FUObjectHashTables data took   7.17ms
+[2019.07.12-04.45.56:894][503]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.07.12-04.46.00:780][503]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.07.12-04.46.00:780][503]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.12-04.46.00:784][503]TextureStreamingBuild: Display: Compiling optional shaders took 3.910 seconds.
+[2019.07.12-04.46.00:855][503]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2019.07.12-04.46.05:170][503]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/PlayerE4D609F544802DCA509C2DB46DB87A10.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Assets/3D_Models/Materials/Player.uasset'
+[2019.07.12-04.46.05:203][503]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.12-04.46.05:203][503]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.12-04.46.05:203][503]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.12-04.46.05:203][503]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.12-04.46.13:670][862]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.12-04.46.14:612][895]LogMaterial: Warning: Material /Game/Assets/3D_Models/Materials/Player.Player needed to have new flag set bUsedWithSkeletalMesh !
+[2019.07.12-04.46.14:613][895]LogMaterial: Warning: Material /Engine/Transient.Player needed to have new flag set bUsedWithSkeletalMesh !
+[2019.07.12-04.46.14:622][895]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.46.14:671][895]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.46.20:049][114]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.12-04.46.21:664][185]LogMaterialEditor: Saving and Compiling material Player
+[2019.07.12-04.46.21:786][185]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/PlayerEA1AF9CE432F3F7F018CCAA971EB0AA8.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Assets/3D_Models/Materials/Player.uasset'
+[2019.07.12-04.46.24:187][279]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.07.12-04.46.46:302][311]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.07.12-04.47.03:532][109]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.07.12-04.47.21:271][929]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.07.12-04.47.37:368][677]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.07.12-04.47.50:571][178]LogAssetEditorManager: Opening Asset editor for Material /Game/Assets/3D_Models/Materials/Background.Background
+[2019.07.12-04.47.50:585][178]LogMaterial: Display: Missing cached shader map for material Background, compiling. 
+[2019.07.12-04.47.50:841][178]LogMaterial: Display: Missing cached shader map for material Background, compiling. 
+[2019.07.12-04.47.50:885][178]LogMaterial: Display: Missing cached shader map for material Background, compiling. 
+[2019.07.12-04.48.04:195][772]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.07.12-04.48.14:026][226]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.07.12-04.48.35:752][231]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.07.12-04.48.57:232][227]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.07.12-04.48.58:365][279]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.07.12-04.48.58:824][301]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.07.12-04.49.30:407][763]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.12-04.49.33:395][902]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-04.49.55:818][936]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.12-04.50.28:836][500]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.12-04.50.28:917][500]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-04.50.28:917][500]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.12-04.50.28:918][500]PIE: New page: PIE session: Test_Scene (Jul 11, 2019, 2:50:28 PM)
+[2019.07.12-04.50.28:918][500]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.12-04.50.28:966][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048236s)
+[2019.07.12-04.50.28:967][500]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.12-04.50.28:967][500]LogPlayLevel: PIE: World Init took: (0.001528s)
+[2019.07.12-04.50.28:968][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.050173s)
+[2019.07.12-04.50.29:024][500]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2019.07.12-04.50.29:032][500]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.12-04.50.29:041][500]LogInit: FAudioDevice initialized.
+[2019.07.12-04.50.29:070][500]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.12-04.50.29:079][500]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.11-21.50.29
+[2019.07.12-04.50.29:080][500]LogWorld: Bringing up level for play took: 0.010159
+[2019.07.12-04.50.29:101][500]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene -0.387
+[2019.07.12-04.50.29:102][500]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-04.50.33:027][663]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-04.50.33:028][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-04.50.33:121][663]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.12-04.50.33:122][663]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-04.50.33:199][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-04.50.33:205][663]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2019.07.12-04.50.33:246][664]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.07.12-04.50.34:270][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.12-04.50.34:469][712]LogAssetEditorManager: Opening Asset editor for Material /Game/Assets/3D_Models/Materials/Player.Player
+[2019.07.12-04.50.34:484][712]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.12-04.50.34:630][712]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.12-04.50.34:676][712]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.12-04.50.38:682][875]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.12-04.50.38:761][875]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.12-04.50.44:511][151]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.07.12-04.50.49:138][369]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.12-04.50.51:415][492]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.07.12-04.50.53:306][594]LogMaterialEditor: Saving and Compiling material Player
+[2019.07.12-04.50.54:288][594]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.12-04.50.54:451][594]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.50.54:519][594]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.50.54:645][594]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2019.07.12-04.50.54:663][594]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.07.12-04.51.04:791][594]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.07.12-04.51.04:791][594]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.07.12-04.51.04:791][594]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.07.12-04.51.04:791][594]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.07.12-04.51.04:791][594]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.07.12-04.51.04:791][594]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.07.12-04.51.04:791][594]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.07.12-04.51.04:791][594]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.07.12-04.51.04:800][594]TextureStreamingBuild: Display: Compiling optional shaders took 10.155 seconds.
+[2019.07.12-04.51.04:859][594]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2019.07.12-04.51.14:444][594]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.12-04.51.14:445][594]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-04.51.14:445][594]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.12-04.51.14:528][594]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/PlayerECF4BB2948208A3EAEC04A8A82469BAD.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Assets/3D_Models/Materials/Player.uasset'
+[2019.07.12-04.51.14:558][594]MaterialEditorStats: Base pass shader: 108 instructions
+[2019.07.12-04.51.14:558][594]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 182 instructions
+[2019.07.12-04.51.14:558][594]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.12-04.51.14:558][594]MaterialEditorStats: Base pass vertex shader: 86 instructions
+[2019.07.12-04.51.14:558][594]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.12-04.51.19:262][863]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.12-04.51.19:305][863]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.12-04.51.20:347][915]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.12-04.51.22:685][ 39]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.07.12-04.51.23:642][ 93]LogMaterialEditor: Saving and Compiling material Player
+[2019.07.12-04.51.24:593][ 93]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.12-04.51.24:766][ 93]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.51.24:836][ 93]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.51.24:966][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2019.07.12-04.51.24:984][ 93]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.07.12-04.51.35:147][ 93]LogShaderCompilers: Display: Shaders left to compile 120
+[2019.07.12-04.51.35:147][ 93]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.07.12-04.51.35:147][ 93]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.07.12-04.51.35:147][ 93]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.07.12-04.51.35:147][ 93]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.07.12-04.51.35:148][ 93]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.07.12-04.51.35:148][ 93]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.07.12-04.51.35:148][ 93]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.07.12-04.51.35:148][ 93]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.07.12-04.51.35:153][ 93]TextureStreamingBuild: Display: Compiling optional shaders took 10.186 seconds.
+[2019.07.12-04.51.35:214][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2019.07.12-04.51.44:813][ 93]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.12-04.51.44:813][ 93]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-04.51.44:813][ 93]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.12-04.51.44:894][ 93]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player5DDD8F154D71D64BD71BA8A163690763.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Assets/3D_Models/Materials/Player.uasset'
+[2019.07.12-04.51.44:917][ 93]MaterialEditorStats: Base pass shader: 105 instructions
+[2019.07.12-04.51.44:917][ 93]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2019.07.12-04.51.44:917][ 93]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.12-04.51.44:917][ 93]MaterialEditorStats: Base pass vertex shader: 86 instructions
+[2019.07.12-04.51.44:917][ 93]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.12-04.51.51:780][478]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.12-04.51.51:830][478]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.12-04.51.53:142][548]LogMaterialEditor: Saving and Compiling material Player
+[2019.07.12-04.51.54:022][548]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.07.12-04.51.54:067][548]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.12-04.51.54:223][548]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.12-04.51.54:312][548]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.51.54:384][548]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.51.54:544][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2019.07.12-04.51.54:563][548]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.07.12-04.52.04:647][548]LogShaderCompilers: Display: Shaders left to compile 120
+[2019.07.12-04.52.04:647][548]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.07.12-04.52.04:647][548]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.07.12-04.52.04:647][548]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.07.12-04.52.04:647][548]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.07.12-04.52.04:648][548]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.07.12-04.52.04:648][548]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.07.12-04.52.04:648][548]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.07.12-04.52.04:648][548]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.07.12-04.52.04:653][548]TextureStreamingBuild: Display: Compiling optional shaders took 10.109 seconds.
+[2019.07.12-04.52.04:713][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2019.07.12-04.52.14:779][548]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.12-04.52.14:779][548]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-04.52.14:779][548]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.12-04.52.14:852][548]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/PlayerF153F191466A4D868E62429EF36A8EFB.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Assets/3D_Models/Materials/Player.uasset'
+[2019.07.12-04.52.14:883][548]MaterialEditorStats: Base pass shader: 108 instructions
+[2019.07.12-04.52.14:883][548]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 182 instructions
+[2019.07.12-04.52.14:883][548]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.12-04.52.14:883][548]MaterialEditorStats: Base pass vertex shader: 86 instructions
+[2019.07.12-04.52.14:883][548]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.12-04.52.24:835][996]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.12-04.52.24:893][996]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-04.52.24:893][996]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.12-04.52.24:893][996]PIE: New page: PIE session: Test_Scene (Jul 11, 2019, 2:52:24 PM)
+[2019.07.12-04.52.24:894][996]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.12-04.52.24:924][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030080s)
+[2019.07.12-04.52.24:926][996]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.12-04.52.24:929][996]LogPlayLevel: PIE: World Init took: (0.004638s)
+[2019.07.12-04.52.24:929][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.035077s)
+[2019.07.12-04.52.24:984][996]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2019.07.12-04.52.24:991][996]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.12-04.52.25:000][996]LogInit: FAudioDevice initialized.
+[2019.07.12-04.52.25:000][996]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.12-04.52.25:031][996]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.12-04.52.25:035][996]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.11-21.52.25
+[2019.07.12-04.52.25:036][996]LogWorld: Bringing up level for play took: 0.003997
+[2019.07.12-04.52.25:050][996]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene -0.438
+[2019.07.12-04.52.25:051][996]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-04.52.37:823][522]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-04.52.37:824][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-04.52.37:884][522]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.12-04.52.37:884][522]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-04.52.37:950][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-04.52.37:957][522]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2019.07.12-04.52.38:005][523]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.07.12-04.52.51:235][985]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.12-04.52.54:478][173]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.12-04.52.54:522][173]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.12-04.52.55:124][206]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (40.235 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.12-04.52.55:176][209]LogMaterialEditor: Saving and Compiling material Player
+[2019.07.12-04.52.56:111][209]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.12-04.52.56:264][209]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.12-04.52.56:350][209]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.52.56:422][209]LogMaterial: Display: Missing cached shader map for material Player, compiling. 
+[2019.07.12-04.52.56:547][209]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2019.07.12-04.52.56:565][209]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.07.12-04.53.06:880][209]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.07.12-04.53.06:880][209]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.07.12-04.53.06:880][209]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.07.12-04.53.06:880][209]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.07.12-04.53.06:880][209]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.07.12-04.53.06:880][209]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.07.12-04.53.06:880][209]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.07.12-04.53.06:880][209]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.07.12-04.53.06:889][209]TextureStreamingBuild: Display: Compiling optional shaders took 10.341 seconds.
+[2019.07.12-04.53.06:952][209]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2019.07.12-04.53.16:557][209]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.12-04.53.16:557][209]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-04.53.16:557][209]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.12-04.53.16:636][209]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/PlayerFE32247C46D3C16D8C47838646182498.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Assets/3D_Models/Materials/Player.uasset'
+[2019.07.12-04.53.16:667][209]MaterialEditorStats: Base pass shader: 108 instructions
+[2019.07.12-04.53.16:667][209]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 182 instructions
+[2019.07.12-04.53.16:667][209]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.12-04.53.16:668][209]MaterialEditorStats: Base pass vertex shader: 86 instructions
+[2019.07.12-04.53.16:668][209]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.12-04.53.23:710][544]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.12-04.53.23:790][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.07.12-04.53.24:074][544]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene0A8692CE49C9A4D8CB4C2ABC1DB62253.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene.umap'
+[2019.07.12-04.53.24:468][544]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene_BuiltData8D3E24A84E95A567321EF2B514007D2C.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene_BuiltData.uasset'
