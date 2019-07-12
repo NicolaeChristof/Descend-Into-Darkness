@@ -7,7 +7,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Classes/Components/SphereComponent.h"
-#include "CampSpawn.h"
+#include "NewCampSpawnPole.h"
 
 ADescendIntoDarknessCharacter::ADescendIntoDarknessCharacter()
 {
@@ -80,7 +80,7 @@ void ADescendIntoDarknessCharacter::SpawnCamp()
         TArray<AActor*> NearbyActors;
         CampCollisionSphere->GetOverlappingActors(NearbyActors);
         for (int32 iCollected = 0; iCollected < NearbyActors.Num(); ++iCollected) {
-            ACampSpawn* const TestCampSpawn = Cast<ACampSpawn>(NearbyActors[iCollected]);
+            ANewCampSpawnPole* const TestCampSpawn = Cast<ANewCampSpawnPole>(NearbyActors[iCollected]);
 
             if (TestCampSpawn && !TestCampSpawn->IsPendingKill() && !TestCampSpawn->GetHasBeenPlaced()) {
                 UWorld* world = GetWorld();
