@@ -35981,3 +35981,397 @@ Script Stack (0 frames):
 [2019.07.12-01.32.49:465][  8]BlueprintLog: New page: Compile Player
 [2019.07.12-01.32.49:846][  8]LogUObjectHash: Compacting FUObjectHashTables data took   5.11ms
 [2019.07.12-01.32.51:005][ 29]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player17645D594E6CFA6E31543791A36B3BB2.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.12-01.33.47:922][402]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.12-01.33.48:071][402]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.33.48:071][402]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.12-01.33.48:072][402]PIE: New page: PIE session: Test_Scene (Jul 11, 2019, 11:33:48 AM)
+[2019.07.12-01.33.48:072][402]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.12-01.33.48:094][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022313s)
+[2019.07.12-01.33.48:095][402]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.12-01.33.48:095][402]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2019.07.12-01.33.48:095][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.023600s)
+[2019.07.12-01.33.48:152][402]LogUObjectHash: Compacting FUObjectHashTables data took   5.95ms
+[2019.07.12-01.33.48:160][402]LogInit: XAudio2 using 'Speakers (Intel® Smart Sound Technology (Intel® SST))' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.12-01.33.48:168][402]LogInit: FAudioDevice initialized.
+[2019.07.12-01.33.48:175][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-01.33.48:216][402]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.12-01.33.48:226][402]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.11-18.33.48
+[2019.07.12-01.33.48:227][402]LogWorld: Bringing up level for play took: 0.009752
+[2019.07.12-01.33.48:239][402]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.12-01.33.48:251][402]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 0.763
+[2019.07.12-01.33.48:252][402]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.33.59:370][723]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.33.59:370][723]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-01.33.59:407][723]LogSlate: Window 'DescendIntoDarkness Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.12-01.33.59:620][723]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.12-01.33.59:620][723]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.33.59:692][723]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2019.07.12-01.33.59:880][724]LogPlayLevel: Display: Destroying online subsystem :Context_141
+[2019.07.12-01.34.00:442][748]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.12-01.34.00:478][748]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.34.00:478][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.12-01.34.00:478][748]PIE: New page: PIE session: Test_Scene (Jul 11, 2019, 11:34:00 AM)
+[2019.07.12-01.34.00:479][748]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.12-01.34.00:498][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018026s)
+[2019.07.12-01.34.00:498][748]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.12-01.34.00:499][748]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2019.07.12-01.34.00:499][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.019452s)
+[2019.07.12-01.34.00:549][748]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2019.07.12-01.34.00:556][748]LogInit: XAudio2 using 'Speakers (Intel® Smart Sound Technology (Intel® SST))' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.12-01.34.00:563][748]LogInit: FAudioDevice initialized.
+[2019.07.12-01.34.00:571][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-01.34.00:611][748]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.12-01.34.00:621][748]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.11-18.34.00
+[2019.07.12-01.34.00:622][748]LogWorld: Bringing up level for play took: 0.009632
+[2019.07.12-01.34.00:634][748]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.12-01.34.00:655][748]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 1.166
+[2019.07.12-01.34.00:656][748]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.34.13:457][126]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.34.13:458][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-01.34.13:494][126]LogSlate: Window 'DescendIntoDarkness Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.12-01.34.13:728][126]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.12-01.34.13:728][126]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.34.13:790][126]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2019.07.12-01.34.13:974][127]LogPlayLevel: Display: Destroying online subsystem :Context_142
+[2019.07.12-01.34.59:319][735]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.12-01.34.59:360][735]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.34.59:361][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.12-01.34.59:361][735]PIE: New page: PIE session: Test_Scene (Jul 11, 2019, 11:34:59 AM)
+[2019.07.12-01.34.59:361][735]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.12-01.34.59:383][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022537s)
+[2019.07.12-01.34.59:384][735]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.12-01.34.59:385][735]LogPlayLevel: PIE: World Init took: (0.001067s)
+[2019.07.12-01.34.59:385][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.023880s)
+[2019.07.12-01.34.59:445][735]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2019.07.12-01.34.59:453][735]LogInit: XAudio2 using 'Speakers (Intel® Smart Sound Technology (Intel® SST))' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.12-01.34.59:461][735]LogInit: FAudioDevice initialized.
+[2019.07.12-01.34.59:469][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-01.34.59:504][735]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.12-01.34.59:545][735]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.11-18.34.59
+[2019.07.12-01.34.59:546][735]LogWorld: Bringing up level for play took: 0.041186
+[2019.07.12-01.34.59:560][735]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.12-01.34.59:575][735]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 0.086
+[2019.07.12-01.34.59:575][735]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.35.00:850][763]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.35.00:851][763]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-01.35.00:893][763]LogSlate: Window 'DescendIntoDarkness Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.12-01.35.01:083][763]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.12-01.35.01:083][763]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.35.01:150][763]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2019.07.12-01.35.01:338][764]LogPlayLevel: Display: Destroying online subsystem :Context_143
+[2019.07.12-01.35.02:364][788]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.12-01.35.02:453][788]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.35.02:453][788]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.12-01.35.02:453][788]PIE: New page: PIE session: Test_Scene (Jul 11, 2019, 11:35:02 AM)
+[2019.07.12-01.35.02:454][788]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.12-01.35.02:510][788]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056806s)
+[2019.07.12-01.35.02:513][788]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.12-01.35.02:514][788]LogPlayLevel: PIE: World Init took: (0.002846s)
+[2019.07.12-01.35.02:515][788]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.061519s)
+[2019.07.12-01.35.02:587][788]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2019.07.12-01.35.02:599][788]LogInit: XAudio2 using 'Speakers (Intel® Smart Sound Technology (Intel® SST))' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.12-01.35.02:605][788]LogInit: FAudioDevice initialized.
+[2019.07.12-01.35.02:638][788]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.12-01.35.02:645][788]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.11-18.35.02
+[2019.07.12-01.35.02:646][788]LogWorld: Bringing up level for play took: 0.006595
+[2019.07.12-01.35.02:661][788]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 1.172
+[2019.07.12-01.35.02:661][788]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.35.37:820][ 49]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.35.37:820][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-01.35.37:988][ 49]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.12-01.35.37:988][ 49]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.35.38:045][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-01.35.38:054][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2019.07.12-01.35.38:089][ 50]LogPlayLevel: Display: Destroying online subsystem :Context_144
+[2019.07.12-01.35.52:671][248]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.12-01.35.52:755][248]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.35.52:755][248]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.12-01.35.52:756][248]PIE: New page: PIE session: Test_Scene (Jul 11, 2019, 11:35:52 AM)
+[2019.07.12-01.35.52:756][248]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.12-01.35.52:815][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058634s)
+[2019.07.12-01.35.52:816][248]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.12-01.35.52:817][248]LogPlayLevel: PIE: World Init took: (0.001906s)
+[2019.07.12-01.35.52:817][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.060982s)
+[2019.07.12-01.35.52:891][248]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2019.07.12-01.35.52:902][248]LogInit: XAudio2 using 'Speakers (Intel® Smart Sound Technology (Intel® SST))' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.12-01.35.52:911][248]LogInit: FAudioDevice initialized.
+[2019.07.12-01.35.52:912][248]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.12-01.35.52:946][248]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.12-01.35.52:952][248]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.11-18.35.52
+[2019.07.12-01.35.52:953][248]LogWorld: Bringing up level for play took: 0.006244
+[2019.07.12-01.35.52:969][248]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene -0.52
+[2019.07.12-01.35.52:969][248]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.35.53:706][269]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.35.53:708][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-01.35.53:787][269]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.12-01.35.53:787][269]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.35.53:848][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-01.35.53:857][269]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2019.07.12-01.35.53:867][270]LogPlayLevel: Display: Destroying online subsystem :Context_145
+[2019.07.12-01.36.42:077][377]LogAssetEditorManager: Opening Asset editor for Material /Game/Assets/3D_Models/Materials/Rope.Rope
+[2019.07.12-01.36.42:126][377]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.36.42:470][377]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.36.42:512][377]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-01.36.57:935][945]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.12-01.37.20:626][705]MaterialEditorStats: Base pass shader: 107 instructions
+[2019.07.12-01.37.20:626][705]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2019.07.12-01.37.20:626][705]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.12-01.37.20:626][705]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.12-01.37.38:450][757]LogUObjectHash: Compacting FUObjectHashTables data took   9.64ms
+[2019.07.12-01.37.40:203][757]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene_Auto980EBF85F4FFF31E81A39B9BD8325A642.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Autosaves/Game/Maps/Test_Scene_Auto9.umap'
+[2019.07.12-01.37.40:212][757]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test_Scene' took 1.927
+[2019.07.12-01.37.40:213][757]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.927
+[2019.07.12-01.37.40:236][757]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/3D_Models/Materials/Rope] ([1] browsable assets)...
+[2019.07.12-01.37.40:283][757]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/3D_Models/Materials/Rope.Rope]
+[2019.07.12-01.37.40:283][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/3D_Models/Materials/Rope]
+[2019.07.12-01.37.40:394][757]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Rope_Auto96FFDC77344DAE460C6B8E5BFDA81FDA3.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Autosaves/Game/Assets/3D_Models/Materials/Rope_Auto9.uasset'
+[2019.07.12-01.37.40:407][757]LogFileHelpers: Auto-saving content packages took 0.182
+[2019.07.12-01.45.12:519][575]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.45.12:566][575]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-01.45.12:566][575]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.12-01.45.25:047][939]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.45.25:173][939]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.12-01.45.26:697][983]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.45.26:796][983]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.12-01.45.27:629][  5]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.45.27:692][  5]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.12-01.45.37:369][226]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.45.37:449][226]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.12-01.45.37:487][226]LogSlate: Window 'Color Picker' being destroyed
+[2019.07.12-01.45.39:816][299]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.45.39:860][299]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.12-01.46.14:686][173]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.46.42:623][857]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-01.47.07:634][570]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.47.07:684][570]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.12-01.47.14:173][745]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.47.14:247][745]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.12-01.47.20:553][908]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.47.20:603][908]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.12-01.47.24:300][ 34]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-01.47.29:303][199]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.47.29:367][199]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.12-01.47.32:972][294]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.47.33:052][294]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.12-01.47.36:132][362]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.47.36:204][362]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.12-01.47.36:245][362]LogSlate: Window 'Color Picker' being destroyed
+[2019.07.12-01.47.40:250][464]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.47.40:327][464]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.12-01.47.40:361][464]LogSlate: Window 'Color Picker' being destroyed
+[2019.07.12-01.47.51:619][756]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-01.48.19:268][449]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.12-01.48.41:668][ 13]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.48.41:720][ 13]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.12-01.48.41:755][ 13]LogSlate: Window 'Color Picker' being destroyed
+[2019.07.12-01.48.44:159][ 78]LogMaterialEditor: Saving and Compiling material Rope
+[2019.07.12-01.48.49:543][ 78]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-01.48.49:543][ 78]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.12-01.48.49:583][ 78]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.48.49:697][ 78]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-01.48.49:730][ 78]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.48.49:802][ 78]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.48.49:953][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   6.17ms
+[2019.07.12-01.48.49:975][ 78]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.07.12-01.48.53:866][ 78]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.07.12-01.48.53:866][ 78]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.12-01.48.53:873][ 78]TextureStreamingBuild: Display: Compiling optional shaders took 3.919 seconds.
+[2019.07.12-01.48.53:957][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2019.07.12-01.48.58:506][ 78]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/RopeE51F0109420C35093090A9B4D1178E7A.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Assets/3D_Models/Materials/Rope.uasset'
+[2019.07.12-01.48.58:535][ 78]MaterialEditorStats: Base pass shader: 108 instructions
+[2019.07.12-01.48.58:535][ 78]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 182 instructions
+[2019.07.12-01.48.58:535][ 78]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.12-01.48.58:535][ 78]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.12-01.49.13:458][414]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/PlayerF1169C0640C084A2690229BCFA8D80AE.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.12-01.49.23:899][646]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.12-01.49.27:925][770]LogEditorTransaction: Undo Modify Component(s)
+[2019.07.12-01.49.28:136][770]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.49.28:156][770]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-01.49.28:663][788]LogEditorTransaction: Undo Replace component used material
+[2019.07.12-01.49.28:724][788]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.49.31:805][854]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.12-01.49.34:206][906]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-01.49.37:641][966]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player8507EDC14DFC3FCB867335856DAE3028.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.12-01.49.38:217][979]BlueprintLog: New page: Compile Player
+[2019.07.12-01.49.38:939][979]LogUObjectHash: Compacting FUObjectHashTables data took   8.20ms
+[2019.07.12-01.49.39:300][981]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.12-01.49.41:043][ 10]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.12-01.49.41:213][ 10]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.49.41:213][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.12-01.49.41:214][ 10]PIE: New page: PIE session: Test_Scene (Jul 11, 2019, 11:49:41 AM)
+[2019.07.12-01.49.41:220][ 10]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.12-01.49.41:256][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035888s)
+[2019.07.12-01.49.41:257][ 10]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.12-01.49.41:257][ 10]LogPlayLevel: PIE: World Init took: (0.001244s)
+[2019.07.12-01.49.41:257][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.037495s)
+[2019.07.12-01.49.41:351][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   8.77ms
+[2019.07.12-01.49.41:367][ 10]LogInit: XAudio2 using 'Speakers (Intel® Smart Sound Technology (Intel® SST))' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.12-01.49.41:382][ 10]LogInit: FAudioDevice initialized.
+[2019.07.12-01.49.41:420][ 10]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.12-01.49.41:430][ 10]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.11-18.49.41
+[2019.07.12-01.49.41:431][ 10]LogWorld: Bringing up level for play took: 0.010383
+[2019.07.12-01.49.41:450][ 10]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene -0.038
+[2019.07.12-01.49.41:450][ 10]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.50.03:853][768]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.50.03:855][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-01.50.03:949][768]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.12-01.50.03:949][768]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.50.04:044][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-01.50.04:057][768]LogUObjectHash: Compacting FUObjectHashTables data took   6.53ms
+[2019.07.12-01.50.04:115][769]LogPlayLevel: Display: Destroying online subsystem :Context_147
+[2019.07.12-01.50.05:794][790]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.12-01.50.06:296][796]MaterialEditorStats: Base pass shader: 108 instructions
+[2019.07.12-01.50.06:296][796]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 182 instructions
+[2019.07.12-01.50.06:297][796]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.12-01.50.06:297][796]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.12-01.50.16:197][913]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.50.16:246][913]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-01.50.16:269][913]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.12-01.50.17:098][932]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.50.17:172][932]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.12-01.50.17:207][932]LogSlate: Window 'Color Picker' being destroyed
+[2019.07.12-01.50.25:241][125]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.12-01.50.25:437][125]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.50.25:437][125]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.12-01.50.25:437][125]PIE: New page: PIE session: Test_Scene (Jul 11, 2019, 11:50:25 AM)
+[2019.07.12-01.50.25:438][125]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.12-01.50.25:469][125]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030607s)
+[2019.07.12-01.50.25:470][125]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.12-01.50.25:470][125]LogPlayLevel: PIE: World Init took: (0.001015s)
+[2019.07.12-01.50.25:470][125]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.031963s)
+[2019.07.12-01.50.25:541][125]LogUObjectHash: Compacting FUObjectHashTables data took   6.04ms
+[2019.07.12-01.50.25:555][125]LogInit: XAudio2 using 'Speakers (Intel® Smart Sound Technology (Intel® SST))' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.12-01.50.25:575][125]LogInit: FAudioDevice initialized.
+[2019.07.12-01.50.25:610][125]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.12-01.50.25:617][125]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.11-18.50.25
+[2019.07.12-01.50.25:618][125]LogWorld: Bringing up level for play took: 0.007263
+[2019.07.12-01.50.25:638][125]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 0.149
+[2019.07.12-01.50.25:638][125]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.51.04:681][333]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-01.51.11:256][540]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.51.11:257][540]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-01.51.11:331][540]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.12-01.51.11:332][540]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.12-01.51.11:433][540]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.12-01.51.11:454][540]LogUObjectHash: Compacting FUObjectHashTables data took   6.51ms
+[2019.07.12-01.51.11:529][541]LogPlayLevel: Display: Destroying online subsystem :Context_148
+[2019.07.12-01.51.12:235][549]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.12-01.51.19:459][720]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.51.22:648][796]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.51.22:697][796]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.51.24:377][840]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.51.26:279][888]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.51.32:621][ 46]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.51.32:685][ 46]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.51.40:026][232]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-01.51.40:490][242]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.51.40:559][242]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.51.44:481][343]LogMaterialEditor: Saving and Compiling material Rope
+[2019.07.12-01.51.45:701][343]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.51.45:847][343]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.51.45:917][343]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.51.45:962][343]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.51.46:088][343]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2019.07.12-01.51.46:107][343]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.07.12-01.51.53:959][343]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.07.12-01.51.53:959][343]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.12-01.51.53:968][343]TextureStreamingBuild: Display: Compiling optional shaders took 7.881 seconds.
+[2019.07.12-01.51.54:061][343]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2019.07.12-01.52.02:677][343]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Rope3DEFECB94EDC61F9DF801E821DBC2DAB.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Assets/3D_Models/Materials/Rope.uasset'
+[2019.07.12-01.52.02:730][343]MaterialEditorStats: Base pass shader: 108 instructions
+[2019.07.12-01.52.02:731][343]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 182 instructions
+[2019.07.12-01.52.02:731][343]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.12-01.52.02:731][343]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.12-01.52.24:557][876]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.52.24:623][876]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.52.24:668][877]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.12-01.52.27:869][967]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.52.27:920][967]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.52.29:395][  9]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.52.40:457][309]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.52.46:084][459]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.52.51:079][596]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.52.51:153][596]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.52.53:286][654]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (50.538 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.12-01.52.54:769][696]LogMaterialEditor: Saving and Compiling material Rope
+[2019.07.12-01.52.56:002][696]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.52.56:156][696]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.52.56:234][696]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.52.56:278][696]LogMaterial: Display: Missing cached shader map for material Rope, compiling. 
+[2019.07.12-01.52.56:424][696]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
+[2019.07.12-01.52.56:447][696]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.07.12-01.53.04:515][696]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.07.12-01.53.04:515][696]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.12-01.53.04:523][696]TextureStreamingBuild: Display: Compiling optional shaders took 8.100 seconds.
+[2019.07.12-01.53.04:624][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2019.07.12-01.53.12:350][696]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Rope290A7C8A4DA94F8123120892FFD7E900.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Assets/3D_Models/Materials/Rope.uasset'
+[2019.07.12-01.53.12:398][696]MaterialEditorStats: Base pass shader: 105 instructions
+[2019.07.12-01.53.12:398][696]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2019.07.12-01.53.12:398][696]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.12-01.53.12:398][696]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.12-02.00.07:829][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2019.07.12-02.00.08:221][146]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene_Auto055F2BEA2418F4D6B5C15528A408FEB26.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Autosaves/Game/Maps/Test_Scene_Auto0.umap'
+[2019.07.12-02.00.08:235][146]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test_Scene' took 0.476
+[2019.07.12-02.00.08:235][146]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.476
+[2019.07.12-02.11.23:674][157]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.11.51:239][239]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.13.03:444][454]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.14.32:805][720]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.15.01:355][805]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.18.46:250][476]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.18.57:647][510]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.20.10:962][729]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.20.16:660][746]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.22.45:633][191]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.23.14:119][276]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.23.39:601][352]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.24.25:849][490]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.27.26:604][ 30]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.28.11:784][165]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.28.58:687][305]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.29.13:782][350]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.30.14:760][532]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.30.45:941][625]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.31.51:961][822]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.42.54:051][799]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.43.31:928][912]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.45.22:090][241]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.46.58:808][530]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.49.52:990][ 50]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.51.04:022][262]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.52.35:120][534]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.54.49:401][935]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-02.55.11:161][  0]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.13.10:151][214]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.15.25:725][619]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.16.52:182][877]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.17.50:494][ 51]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.18.29:033][166]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.22.30:462][887]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.26.24:350][585]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.27.21:995][757]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.28.34:853][974]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.29.12:682][ 87]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.30.32:071][324]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.31.08:943][434]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.33.32:377][862]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.34.53:714][105]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.38.01:000][664]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.39.34:415][943]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.41.43:680][329]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.42.50:022][527]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.44.28:244][820]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.45.54:001][ 76]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.48.16:290][501]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.49.47:707][774]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-03.58.48:010][350]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.12-04.10.02:612][136]LogMaterialEditor: Saving and Compiling material Rope
+[2019.07.12-04.10.02:921][136]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Rope2FDFBCCA404DC21466C813BC8FEABCA6.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Assets/3D_Models/Materials/Rope.uasset'
+[2019.07.12-04.10.11:836][224]LogUObjectHash: Compacting FUObjectHashTables data took  44.84ms
+[2019.07.12-04.10.14:113][224]LogSlate: Window 'Delete Assets' being destroyed
+[2019.07.12-04.10.14:530][224]LogUObjectHash: Compacting FUObjectHashTables data took   5.83ms
+[2019.07.12-04.10.14:637][224]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2019.07.12-04.10.14:714][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2019.07.12-04.10.24:746][334]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2019.07.12-04.10.26:025][334]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene31FE64084F8081BCF5A5B0A545B86F19.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene.umap'
+[2019.07.12-04.10.26:921][334]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene_BuiltData2F4CF2F549F80E171A75AF9C12BA309A.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene_BuiltData.uasset'
