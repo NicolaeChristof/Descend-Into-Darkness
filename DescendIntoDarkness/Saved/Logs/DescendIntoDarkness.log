@@ -1450,3 +1450,26 @@ Script Stack (0 frames):
 [2019.07.12-17.50.51:615][919]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
 [2019.07.12-17.50.51:630][920]LogPlayLevel: Display: Destroying online subsystem :Context_32
 [2019.07.12-17.51.02:686][414]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/DepthGauge6F43BE0345A90A4013CF258494183AD3.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/DepthGauge.uasset'
+[2019.07.12-17.51.28:842][555]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.07.12-17.51.29:252][555]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene_Auto49F75BE1D4AA9E574E9DED8A36E65388E.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Autosaves/Game/Maps/Test_Scene_Auto4.umap'
+[2019.07.12-17.51.29:259][555]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test_Scene' took 0.480
+[2019.07.12-17.51.29:259][555]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.480
+[2019.07.12-17.52.34:369][237]LogEditorTransaction: Undo Move Node
+[2019.07.12-17.52.34:788][251]LogEditorTransaction: Undo Move Node
+[2019.07.12-17.55.08:836][892]BlueprintLog: New page: Compile Player
+[2019.07.12-17.55.09:233][892]LogUObjectHash: Compacting FUObjectHashTables data took   5.65ms
+[2019.07.12-17.55.29:878][604]BlueprintLog: New page: Compile Player
+[2019.07.12-17.55.30:273][604]LogUObjectHash: Compacting FUObjectHashTables data took   5.43ms
+[2019.07.12-17.55.56:146][504]BlueprintLog: New page: Compile Player
+[2019.07.12-17.55.56:529][504]LogUObjectHash: Compacting FUObjectHashTables data took   5.54ms
+[2019.07.12-17.57.09:276][ 32]BlueprintLog: New page: Compile Player
+[2019.07.12-17.57.09:669][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   6.07ms
+[2019.07.12-17.58.06:002][519]BlueprintLog: New page: Compile DepthGauge
+[2019.07.12-17.58.06:369][519]LogUObjectHash: Compacting FUObjectHashTables data took   5.47ms
+[2019.07.12-17.58.20:292][105]BlueprintLog: New page: Compile DepthGauge
+[2019.07.12-17.58.20:618][105]LogUObjectHash: Compacting FUObjectHashTables data took   5.64ms
+[2019.07.12-17.59.05:227][813]BlueprintLog: New page: Compile Player
+[2019.07.12-17.59.05:618][813]LogUObjectHash: Compacting FUObjectHashTables data took   5.65ms
+[2019.07.12-17.59.12:896][ 84]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player358072A74CEB70DF4412A79CF19B3BCF.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.12-17.59.14:514][143]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/DepthGauge047422C7403C8D54F7EE6D9388D8351B.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/DepthGauge.uasset'
+[2019.07.12-17.59.30:573][873]LogSavePackage: Moving '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Saved/DepthGaugeAA6395EA47C8F995631BEF97032E8AED.tmp' to '../../../../../../Users/Nico/Desktop/DescendIntoDarkness/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/DepthGauge.uasset'
