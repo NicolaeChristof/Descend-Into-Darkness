@@ -1,0 +1,1375 @@
+﻿Log file open, 07/13/19 16:47:08
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: DescendIntoDarkness
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.308885
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin GitSourceControl
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1803) (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: NVIDIA GeForce GTX 1060
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
+[2019.07.13-23.47.09:156][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.07.13-23.47.09:156][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
+[2019.07.13-23.47.09:156][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
+[2019.07.13-23.47.09:163][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.13-23.47.09:163][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.07.13-23.47.09:163][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.07.13-23.47.09:163][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.13-23.47.09:163][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.07.13-23.47.09:163][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.13-23.47.09:163][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.07.13-23.47.09:163][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.07.13-23.47.09:164][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.07.13-23.47.09:165][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.07.13-23.47.09:165][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.07.13-23.47.09:165][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.07.13-23.47.09:165][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.13-23.47.09:165][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.07.13-23.47.09:177][  0]LogHAL: Display: Platform has ~ 16 GB [17132466176 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.07.13-23.47.09:178][  0]LogInit: Going up to parent DeviceProfile []
+[2019.07.13-23.47.09:178][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.07.13-23.47.09:178][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.07.13-23.47.09:179][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.07.13-23.47.09:180][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.07.13-23.47.09:180][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.07.13-23.47.09:180][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
+[2019.07.13-23.47.09:180][  0]LogInit: Computer: MSI
+[2019.07.13-23.47.09:180][  0]LogInit: User: Chris
+[2019.07.13-23.47.09:180][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.07.13-23.47.09:180][  0]LogInit: High frequency timer resolution =2.531246 MHz
+[2019.07.13-23.47.09:180][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.07.13-23.47.09:180][  0]LogMemory: Platform Memory Stats for Windows
+[2019.07.13-23.47.09:180][  0]LogMemory: Process Physical Memory: 97.13 MB used, 97.13 MB peak
+[2019.07.13-23.47.09:180][  0]LogMemory: Process Virtual Memory: 89.04 MB used, 89.04 MB peak
+[2019.07.13-23.47.09:180][  0]LogMemory: Physical Memory: 5268.07 MB used,  11070.72 MB free, 16338.79 MB total
+[2019.07.13-23.47.09:180][  0]LogMemory: Virtual Memory: 4641.01 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.07.13-23.47.09:220][  0]LogInit: Using OS detected language (en-US).
+[2019.07.13-23.47.09:220][  0]LogInit: Using OS detected locale (en-US).
+[2019.07.13-23.47.09:221][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.07.13-23.47.09:463][  0]LogInit: Setting process to per monitor DPI aware
+[2019.07.13-23.47.09:500][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.07.13-23.47.09:501][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.07.13-23.47.09:794][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.13-23.47.09:794][  0]LogD3D11RHI: D3D11 adapters:
+[2019.07.13-23.47.09:871][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2019.07.13-23.47.09:871][  0]LogD3D11RHI:       6052/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.07.13-23.47.09:874][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.07.13-23.47.09:874][  0]LogD3D11RHI:       0/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.07.13-23.47.09:874][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.07.13-23.47.09:883][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.07.13-23.47.09:883][  0]LogD3D11RHI:     GPU DeviceId: 0x1c60 (for the marketing name, search the web for "GPU Device Id")
+[2019.07.13-23.47.09:883][  0]LogWindows: EnumDisplayDevices:
+[2019.07.13-23.47.09:883][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2019.07.13-23.47.09:884][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:0 D:1)
+[2019.07.13-23.47.09:884][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.07.13-23.47.09:884][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.07.13-23.47.09:884][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.07.13-23.47.09:885][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2019.07.13-23.47.09:885][  0]LogD3D11RHI:   Driver Version: 430.86 (internal:26.21.14.3086, unified:430.86)
+[2019.07.13-23.47.09:885][  0]LogD3D11RHI:      Driver Date: 5-22-2019
+[2019.07.13-23.47.09:885][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.07.13-23.47.09:941][  0]LogD3D11RHI: Async texture creation enabled
+[2019.07.13-23.47.09:955][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.13-23.47.09:956][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.13-23.47.09:956][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.13-23.47.09:964][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.07.13-23.47.10:443][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.07.13-23.47.10:464][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.07.13-23.47.10:486][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.07.13-23.47.10:508][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.07.13-23.47.10:530][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.07.13-23.47.10:553][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.07.13-23.47.10:576][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.07.13-23.47.10:599][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.07.13-23.47.10:610][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.07.13-23.47.10:736][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.07.13-23.47.10:736][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.07.13-23.47.10:736][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.07.13-23.47.10:736][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.07.13-23.47.10:736][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.07.13-23.47.10:737][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.07.13-23.47.10:737][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.07.13-23.47.10:737][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.07.13-23.47.10:737][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.07.13-23.47.10:737][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.07.13-23.47.10:737][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.07.13-23.47.10:737][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.07.13-23.47.10:737][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.07.13-23.47.10:737][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.07.13-23.47.10:737][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.07.13-23.47.10:737][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.07.13-23.47.10:737][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.07.13-23.47.10:737][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.07.13-23.47.10:739][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.07.13-23.47.10:803][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.07.13-23.47.10:803][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.07.13-23.47.10:840][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.07.13-23.47.10:840][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.07.13-23.47.10:860][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.07.13-23.47.10:879][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.07.13-23.47.10:899][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.07.13-23.47.10:920][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.07.13-23.47.10:996][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.07.13-23.47.10:996][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.07.13-23.47.10:997][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.07.13-23.47.11:011][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.07.13-23.47.11:089][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Intermediate/Shaders/WorkingDirectory/14636/).
+[2019.07.13-23.47.11:089][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Chris/AppData/Local/Temp/UnrealShaderWorkingDir/A576F59E4D2DBEAC8BD8EEA87C86A7C2/'.
+[2019.07.13-23.47.11:093][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.07.13-23.47.11:093][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.07.13-23.47.11:093][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.07.13-23.47.11:883][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.07.13-23.47.11:948][  0]LogDerivedDataCache: Loaded boot cache 0.07s 75MB C:/Users/Chris/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.07.13-23.47.11:948][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Chris/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.07.13-23.47.11:949][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.13-23.47.11:949][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.07.13-23.47.11:949][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.07.13-23.47.11:949][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.07.13-23.47.11:964][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.07.13-23.47.11:964][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.07.13-23.47.11:964][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.07.13-23.47.11:976][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Chris/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.07.13-23.47.11:976][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.07.13-23.47.11:976][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.07.13-23.47.12:007][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.07.13-23.47.12:008][  0]LogSlate: Using FreeType 2.6.0
+[2019.07.13-23.47.12:009][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.07.13-23.47.12:135][  0]LogAssetRegistry: FAssetRegistry took 0.0400 seconds to start up
+[2019.07.13-23.47.12:696][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.13-23.47.12:947][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.07.13-23.47.12:947][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.07.13-23.47.12:947][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.07.13-23.47.12:947][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.07.13-23.47.12:947][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.07.13-23.47.12:963][  0]LogNetVersion: DescendIntoDarkness 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1140046260)
+[2019.07.13-23.47.13:617][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.052391 seconds
+[2019.07.13-23.47.13:626][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.07.13-23.47.13:627][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.07.13-23.47.13:627][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.07.13-23.47.15:121][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.07.13-23.47.15:134][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.07.13-23.47.15:561][  0]SourceControl: Source control is disabled
+[2019.07.13-23.47.15:561][  0]SourceControl: Source control is disabled
+[2019.07.13-23.47.15:563][  0]SourceControl: Source control is disabled
+[2019.07.13-23.47.15:702][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.07.13-23.47.15:807][  0]LogOcInput: OculusInput pre-init called
+[2019.07.13-23.47.16:783][  0]SourceControl: Source control is disabled
+[2019.07.13-23.47.16:954][  0]LogEngine: Initializing Engine...
+[2019.07.13-23.47.16:955][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.13-23.47.16:957][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.07.13-23.47.17:295][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.07.13-23.47.17:321][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.07.13-23.47.17:338][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.13-23.47.17:552][  0]LogInit: FAudioDevice initialized.
+[2019.07.13-23.47.17:553][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.07.13-23.47.17:644][  0]LogDerivedDataCache: Saved boot cache 0.09s 75MB C:/Users/Chris/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.07.13-23.47.17:663][  0]LogInit: Texture streaming: Enabled
+[2019.07.13-23.47.17:704][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.07.13-23.47.17:745][  0]LogInit: Transaction tracking system initialized
+[2019.07.13-23.47.17:798][  0]BlueprintLog: New page: Editor Load
+[2019.07.13-23.47.17:973][  0]LocalizationService: Localization service is disabled
+[2019.07.13-23.47.18:447][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/' took 0.02s
+[2019.07.13-23.47.18:447][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.07.13-23.47.18:447][  0]LogCook: Display: Mobile HDR setting 1
+[2019.07.13-23.47.18:748][  0]SourceControl: Source control is disabled
+[2019.07.13-23.47.18:749][  0]LightingResults: New page: Lighting Build
+[2019.07.13-23.47.18:754][  0]MapCheck: New page: Map Check
+[2019.07.13-23.47.18:754][  0]LightingResults: New page: Lighting Build
+[2019.07.13-23.47.18:790][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2019.07.13-23.47.18:900][  0]LogBlueprint: Error: [Compiler WB_Inventory] COMPILER ERROR: failed building connection with 'Array of Object References is not compatible with Array of Resource Object References.' at  Get (a copy) generated from expanding For Each Loop
+[2019.07.13-23.47.18:900][  0]LogBlueprint: Error: [Compiler WB_Inventory] In use pin  Resource  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2019.07.13-23.47.18:900][  0]LogBlueprint: Error: [Compiler WB_Inventory] Can't connect pins  Inventory Items  and  Target Array generated from expanding For Each Loop : Array of Resource Object References is not compatible with Array of Object References.
+[2019.07.13-23.47.18:901][  0]LogBlueprint: Error: [Compiler WB_Inventory] Can't connect pins  Target Array generated from expanding For Each Loop  and  Inventory Items : Array of Object References is not compatible with Array of Resource Object References.
+[2019.07.13-23.47.18:902][  0]LogBlueprint: Error: [Compiler WB_Inventory] OnUpdateInventory_Event_0  Signature Error: Unable to find the selected function/event: 'OnUpdateInventory_Event_0' - has it been deleted?
+[2019.07.13-23.47.18:905][  0]LogBlueprint: Warning: [Compiler WB_Inventory] [0012.86] Compile of WB_Inventory failed. 5 Fatal Issue(s) 0 Warning(s) [in 10 ms] (/Game/Blueprints/UI/WB_Inventory.WB_Inventory)
+[2019.07.13-23.47.18:978][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.13-23.47.19:012][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.13-23.47.19:047][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2019.07.13-23.47.19:047][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.13-23.47.19:048][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.383ms to complete.
+[2019.07.13-23.47.19:048][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.298
+[2019.07.13-23.47.19:208][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-23.47.19:220][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-23.47.19:234][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-23.47.19:246][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-23.47.19:259][  0]LogCollectionManager: Loaded 0 collections in 0.003170 seconds
+[2019.07.13-23.47.19:306][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Collections/' took 0.01s
+[2019.07.13-23.47.19:306][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Developers/Chris/Collections/' took 0.01s
+[2019.07.13-23.47.19:306][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Collections/' took 0.01s
+[2019.07.13-23.47.19:306][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.07.13-23.47.19:319][  0]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 2738 classes and 663 folders.
+[2019.07.13-23.47.19:334][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.07.13-23.47.19:338][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:339][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:340][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:341][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:342][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:342][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:343][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:344][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:345][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:345][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:346][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:347][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:348][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:349][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:350][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:351][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:352][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:353][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:354][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:355][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:356][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:357][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:358][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:359][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:360][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:361][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.13-23.47.19:439][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.07.13-23.47.19:542][  0]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.07.13-23.47.19:547][  0]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.07.13-23.47.19:551][  0]LogSlate: Took 0.000302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.07.13-23.47.19:650][  0]LogRenderer: Reallocating scene render targets to support 1208x624 Format 10 NumSamples 1 (Frame:1).
+[2019.07.13-23.47.19:708][  0]LogSlate: Took 0.000513 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.13-23.47.19:802][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.07.13-23.47.19:804][  0]LogLoad: (Engine Initialization) Total time: 13.76 seconds
+[2019.07.13-23.47.19:804][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.07.13-23.47.19:863][  0]LogAssetRegistry: Asset discovery search completed in 7.7510 seconds
+[2019.07.13-23.47.19:866][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.07.13-23.47.19:866][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000098 seconds (updated 0 objects)
+[2019.07.13-23.47.19:867][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.07.13-23.47.19:937][  1]LogRenderer: Reallocating scene render targets to support 1208x640 Format 10 NumSamples 1 (Frame:3).
+[2019.07.13-23.47.20:865][  4]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.13-23.47.20:870][  4]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/WB_Inventory.WB_Inventory
+[2019.07.13-23.47.21:233][  4]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 121 classes and 0 folders.
+[2019.07.13-23.47.22:323][  4]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)
+[2019.07.13-23.47.22:393][  4]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-23.47.22:795][  4]LogSlate: Took 0.000306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.07.13-23.47.27:994][313]BlueprintLog: New page: Compile WB_Inventory
+[2019.07.13-23.47.28:004][313]LogBlueprint: Error: [Compiler WB_Inventory] COMPILER ERROR: failed building connection with 'Array of Object References is not compatible with Array of Resource Object References.' at  Get (a copy) generated from expanding For Each Loop
+[2019.07.13-23.47.28:004][313]LogBlueprint: Error: [Compiler WB_Inventory] In use pin  Resource  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2019.07.13-23.47.28:004][313]LogBlueprint: Error: [Compiler WB_Inventory] Can't connect pins  Inventory Items  and  Target Array generated from expanding For Each Loop : Array of Resource Object References is not compatible with Array of Object References.
+[2019.07.13-23.47.28:005][313]LogBlueprint: Error: [Compiler WB_Inventory] Can't connect pins  Target Array generated from expanding For Each Loop  and  Inventory Items : Array of Object References is not compatible with Array of Resource Object References.
+[2019.07.13-23.47.28:005][313]LogBlueprint: Error: [Compiler WB_Inventory] OnUpdateInventory_Event_0  Signature Error: Unable to find the selected function/event: 'OnUpdateInventory_Event_0' - has it been deleted?
+[2019.07.13-23.47.28:085][313]LogUObjectHash: Compacting FUObjectHashTables data took   7.44ms
+[2019.07.13-23.47.28:102][313]LogBlueprint: Warning: [Compiler WB_Inventory] [0022.06] Compile of WB_Inventory failed. 5 Fatal Issue(s) 0 Warning(s) [in 108 ms] (/Game/Blueprints/UI/WB_Inventory.WB_Inventory)
+[2019.07.13-23.47.31:271][500]BlueprintLog: New page: Compile WB_Inventory
+[2019.07.13-23.47.31:275][500]LogBlueprint: Error: [Compiler WB_Inventory] COMPILER ERROR: failed building connection with 'Array of Object References is not compatible with Array of Resource Object References.' at  Get (a copy) generated from expanding For Each Loop
+[2019.07.13-23.47.31:276][500]LogBlueprint: Error: [Compiler WB_Inventory] In use pin  Resource  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2019.07.13-23.47.31:276][500]LogBlueprint: Error: [Compiler WB_Inventory] Can't connect pins  Inventory Items  and  Target Array generated from expanding For Each Loop : Array of Resource Object References is not compatible with Array of Object References.
+[2019.07.13-23.47.31:276][500]LogBlueprint: Error: [Compiler WB_Inventory] Can't connect pins  Target Array generated from expanding For Each Loop  and  Inventory Items : Array of Object References is not compatible with Array of Resource Object References.
+[2019.07.13-23.47.31:277][500]LogBlueprint: Error: [Compiler WB_Inventory] OnUpdateInventory_Event_0  Signature Error: Unable to find the selected function/event: 'OnUpdateInventory_Event_0' - has it been deleted?
+[2019.07.13-23.47.31:328][500]LogUObjectHash: Compacting FUObjectHashTables data took   5.06ms
+[2019.07.13-23.47.31:340][500]LogBlueprint: Warning: [Compiler WB_Inventory] [0025.29] Compile of WB_Inventory failed. 5 Fatal Issue(s) 0 Warning(s) [in 69 ms] (/Game/Blueprints/UI/WB_Inventory.WB_Inventory)
+[2019.07.13-23.47.32:406][563]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.13-23.47.32:428][563]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.47.32:428][563]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.13-23.47.34:875][563]LogSlate: Window 'Message' being destroyed
+[2019.07.13-23.47.42:730][ 24]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.07.13-23.47.50:389][482]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.07.13-23.47.50:394][482]Candidate modules for hot reload:
+[2019.07.13-23.47.50:394][482]  DescendIntoDarkness
+[2019.07.13-23.47.50:395][482]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DescendIntoDarkness,9049 Win64 Development -TargetType=Editor -Project="C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DescendIntoDarkness.uproject" "C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DescendIntoDarkness.uproject"  -IgnoreJunk]
+[2019.07.13-23.47.50:405][482]Warning: Starting HotReload took  0.0s.
+[2019.07.13-23.48.05:434][271]CompilerResultsLog: New page: Compilation - Jul 13, 2019, 9:48:05 AM
+[2019.07.13-23.48.05:435][271]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Chris\Documents\Descend\Descend-Into-Darkness).
+[2019.07.13-23.48.05:435][271]CompilerResultsLog: Creating makefile for DescendIntoDarknessEditor (no existing makefile)
+[2019.07.13-23.48.05:435][271]CompilerResultsLog: Parsing headers for DescendIntoDarknessEditor
+[2019.07.13-23.48.05:435][271]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\DescendIntoDarkness.uproject" "C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\DescendIntoDarknessEditor\Development\DescendIntoDarknessEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.13-23.48.05:435][271]CompilerResultsLog: Reflection code generated for DescendIntoDarknessEditor in 10.0236361 seconds
+[2019.07.13-23.48.05:435][271]CompilerResultsLog: Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.13-23.48.05:435][271]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.07.13-23.48.05:435][271]CompilerResultsLog:   [1/3] UE4Editor-DescendIntoDarkness-9049.lib
+[2019.07.13-23.48.05:435][271]CompilerResultsLog:      Creating library C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-9049.lib and object C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-9049.exp
+[2019.07.13-23.48.05:435][271]CompilerResultsLog:   [2/3] UE4Editor-DescendIntoDarkness-9049.dll
+[2019.07.13-23.48.05:435][271]CompilerResultsLog:      Creating library C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-9049.suppressed.lib and object C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-9049.suppressed.exp
+[2019.07.13-23.48.05:435][271]CompilerResultsLog:   [3/3] DescendIntoDarknessEditor.target
+[2019.07.13-23.48.05:435][271]CompilerResultsLog: Total time in Parallel executor: 1.76 seconds
+[2019.07.13-23.48.05:435][271]CompilerResultsLog: Total execution time: 14.91 seconds
+[2019.07.13-23.48.05:435][271]LogMainFrame: MainFrame: Module compiling took 15.046 seconds
+[2019.07.13-23.48.05:475][271]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2019.07.13-23.48.05:475][271]LogBlueprintActionDatabase: Requesting refresh due to module change: DescendIntoDarkness (unloaded)
+[2019.07.13-23.48.06:157][271]LogBlueprintActionDatabase: Requesting refresh due to module change: DescendIntoDarkness (loaded)
+[2019.07.13-23.48.06:158][271]LogContentBrowser: Native class hierarchy updated for 'DescendIntoDarkness' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2019.07.13-23.48.06:164][271]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2019.07.13-23.48.06:316][271]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2019.07.13-23.48.06:316][271]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.07.13-23.48.06:332][271]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2738 classes and 663 folders.
+[2019.07.13-23.48.06:334][271]Display: HotReload took 15.9s.
+[2019.07.13-23.48.08:280][367]BlueprintLog: New page: Compile WB_Inventory
+[2019.07.13-23.48.08:285][367]LogBlueprint: Error: [Compiler WB_Inventory] COMPILER ERROR: failed building connection with 'Array of Object References is not compatible with Array of Resource Object References.' at  Get (a copy) generated from expanding For Each Loop
+[2019.07.13-23.48.08:285][367]LogBlueprint: Error: [Compiler WB_Inventory] In use pin  Resource  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2019.07.13-23.48.08:285][367]LogBlueprint: Error: [Compiler WB_Inventory] Can't connect pins  Inventory Items  and  Target Array generated from expanding For Each Loop : Array of Resource Object References is not compatible with Array of Object References.
+[2019.07.13-23.48.08:285][367]LogBlueprint: Error: [Compiler WB_Inventory] Can't connect pins  Target Array generated from expanding For Each Loop  and  Inventory Items : Array of Object References is not compatible with Array of Resource Object References.
+[2019.07.13-23.48.08:286][367]LogBlueprint: Error: [Compiler WB_Inventory] OnUpdateInventory_Event_0  Signature Error: Unable to find the selected function/event: 'OnUpdateInventory_Event_0' - has it been deleted?
+[2019.07.13-23.48.08:382][367]LogUObjectHash: Compacting FUObjectHashTables data took   7.18ms
+[2019.07.13-23.48.08:397][367]LogBlueprint: Warning: [Compiler WB_Inventory] [0062.35] Compile of WB_Inventory failed. 5 Fatal Issue(s) 0 Warning(s) [in 117 ms] (/Game/Blueprints/UI/WB_Inventory.WB_Inventory)
+[2019.07.13-23.48.57:214][ 75]LogAssetEditorManager: Opening Asset editor for Class /Script/DescendIntoDarkness.DescendIntoDarknessCharacter
+[2019.07.13-23.49.33:857][100]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.13-23.49.33:883][100]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.49.33:883][100]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.07.13-23.49.33:885][100]LogPlayLevel: [PlayLevel] Compiling WB_Inventory before play...
+[2019.07.13-23.49.34:215][100]LogUObjectHash: Compacting FUObjectHashTables data took   6.49ms
+[2019.07.13-23.49.34:216][100]LogPlayLevel: PlayLevel: Blueprint regeneration took 332 ms (1 blueprints)
+[2019.07.13-23.49.34:216][100]PIE: New page: PIE session: SideScrollerExampleMap (Jul 13, 2019, 9:49:34 AM)
+[2019.07.13-23.49.34:228][100]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.13-23.49.34:245][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017203s)
+[2019.07.13-23.49.34:246][100]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.13-23.49.34:246][100]LogPlayLevel: PIE: World Init took: (0.000855s)
+[2019.07.13-23.49.34:246][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.018489s)
+[2019.07.13-23.49.34:291][100]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2019.07.13-23.49.34:301][100]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.13-23.49.34:375][100]LogInit: FAudioDevice initialized.
+[2019.07.13-23.49.34:416][100]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.13-23.49.34:419][100]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.13-16.49.34
+[2019.07.13-23.49.34:420][100]LogWorld: Bringing up level for play took: 0.003541
+[2019.07.13-23.49.34:502][100]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.07.13-23.49.34:509][100]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.07.13-23.49.34:510][100]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2019.07.13-23.49.34:517][100]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap 1.223
+[2019.07.13-23.49.34:517][100]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.49.36:615][200]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.49.36:616][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-23.49.36:649][200]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.13-23.49.36:650][200]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.49.36:710][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-23.49.36:760][200]LogUObjectHash: Compacting FUObjectHashTables data took   5.97ms
+[2019.07.13-23.49.36:824][201]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.07.13-23.49.40:538][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-23.49.47:311][817]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Pickup_BP.Pickup_BP
+[2019.07.13-23.50.14:046][288]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-23.50.14:204][293]LogVSAccessor: Warning: Couldn't save all documents
+[2019.07.13-23.50.14:208][293]Candidate modules for hot reload:
+[2019.07.13-23.50.14:209][293]  DescendIntoDarkness
+[2019.07.13-23.50.14:209][293]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DescendIntoDarkness,4429 Win64 Development -TargetType=Editor -Project="C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DescendIntoDarkness.uproject" "C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DescendIntoDarkness.uproject"  -IgnoreJunk]
+[2019.07.13-23.50.14:220][293]Warning: Starting HotReload took  0.1s.
+[2019.07.13-23.50.19:835][617]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (48.647 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.13-23.50.30:873][267]CompilerResultsLog: New page: Compilation - Jul 13, 2019, 9:50:30 AM
+[2019.07.13-23.50.30:873][267]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Chris\Documents\Descend\Descend-Into-Darkness).
+[2019.07.13-23.50.30:873][267]CompilerResultsLog: Creating makefile for DescendIntoDarknessEditor (ini files are newer than makefile)
+[2019.07.13-23.50.30:873][267]CompilerResultsLog: Parsing headers for DescendIntoDarknessEditor
+[2019.07.13-23.50.30:873][267]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\DescendIntoDarkness.uproject" "C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\DescendIntoDarknessEditor\Development\DescendIntoDarknessEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.13-23.50.30:873][267]CompilerResultsLog: Reflection code generated for DescendIntoDarknessEditor in 10.897537 seconds
+[2019.07.13-23.50.30:873][267]CompilerResultsLog: Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.13-23.50.30:873][267]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.07.13-23.50.30:873][267]CompilerResultsLog:   [1/3] UE4Editor-DescendIntoDarkness-4429.lib
+[2019.07.13-23.50.30:873][267]CompilerResultsLog:      Creating library C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-4429.lib and object C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-4429.exp
+[2019.07.13-23.50.30:873][267]CompilerResultsLog:   [2/3] UE4Editor-DescendIntoDarkness-4429.dll
+[2019.07.13-23.50.30:873][267]CompilerResultsLog:      Creating library C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-4429.suppressed.lib and object C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-4429.suppressed.exp
+[2019.07.13-23.50.30:873][267]CompilerResultsLog:   [3/3] DescendIntoDarknessEditor.target
+[2019.07.13-23.50.30:873][267]CompilerResultsLog: Total time in Parallel executor: 2.18 seconds
+[2019.07.13-23.50.30:873][267]CompilerResultsLog: Total execution time: 16.53 seconds
+[2019.07.13-23.50.30:873][267]LogMainFrame: MainFrame: Module compiling took 16.669 seconds
+[2019.07.13-23.50.30:958][267]LogUObjectHash: Compacting FUObjectHashTables data took   5.61ms
+[2019.07.13-23.50.30:958][267]LogBlueprintActionDatabase: Requesting refresh due to module change: DescendIntoDarkness (unloaded)
+[2019.07.13-23.50.31:313][267]LogBlueprintActionDatabase: Requesting refresh due to module change: DescendIntoDarkness (loaded)
+[2019.07.13-23.50.31:314][267]LogContentBrowser: Native class hierarchy updated for 'DescendIntoDarkness' in 0.0006 seconds. Added 5 classes and 2 folders.
+[2019.07.13-23.50.31:323][267]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2019.07.13-23.50.31:430][267]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2019.07.13-23.50.31:430][267]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.07.13-23.50.31:453][267]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 2738 classes and 663 folders.
+[2019.07.13-23.50.31:455][267]Display: HotReload took 17.3s.
+[2019.07.13-23.50.34:081][399]LogEditorViewport: Clicking on Actor (LMB): Pickup_BP_C (Pickup_BP5)
+[2019.07.13-23.50.35:375][473]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-23.50.36:191][522]Cmd: DELETE
+[2019.07.13-23.50.36:192][522]Cmd: ACTOR DELETE
+[2019.07.13-23.50.36:440][522]LogEditorActor: Deleted Actor: Pickup_BP_C
+[2019.07.13-23.50.36:521][522]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2019.07.13-23.50.36:522][522]LogEditorActor: Deleted 1 Actors (0.089 secs)
+[2019.07.13-23.50.37:378][572]Cmd: DELETE
+[2019.07.13-23.50.37:378][572]Cmd: ACTOR DELETE
+[2019.07.13-23.50.37:381][572]LogEditorActor: Deleted Actor: Pickup_BP_C
+[2019.07.13-23.50.37:435][572]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2019.07.13-23.50.37:436][572]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2019.07.13-23.50.38:131][612]Cmd: DELETE
+[2019.07.13-23.50.38:131][612]Cmd: ACTOR DELETE
+[2019.07.13-23.50.38:133][612]LogEditorActor: Deleted Actor: Pickup_BP_C
+[2019.07.13-23.50.38:184][612]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2019.07.13-23.50.38:184][612]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2019.07.13-23.50.38:994][659]Cmd: DELETE
+[2019.07.13-23.50.38:994][659]Cmd: ACTOR DELETE
+[2019.07.13-23.50.38:997][659]LogEditorActor: Deleted Actor: Pickup_BP_C
+[2019.07.13-23.50.39:042][659]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2019.07.13-23.50.39:043][659]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2019.07.13-23.50.44:234][968]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-23.50.44:300][972]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.13-23.50.44:337][972]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.50.44:337][972]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.13-23.50.44:337][972]PIE: New page: PIE session: SideScrollerExampleMap (Jul 13, 2019, 9:50:44 AM)
+[2019.07.13-23.50.44:337][972]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.13-23.50.44:353][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015484s)
+[2019.07.13-23.50.44:354][972]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.13-23.50.44:354][972]LogPlayLevel: PIE: World Init took: (0.001134s)
+[2019.07.13-23.50.44:354][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.017275s)
+[2019.07.13-23.50.44:411][972]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2019.07.13-23.50.44:421][972]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.13-23.50.44:489][972]LogInit: FAudioDevice initialized.
+[2019.07.13-23.50.44:518][972]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.13-23.50.44:521][972]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.13-16.50.44
+[2019.07.13-23.50.44:521][972]LogWorld: Bringing up level for play took: 0.002565
+[2019.07.13-23.50.44:538][972]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap -0.754
+[2019.07.13-23.50.44:539][972]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.50.45:814][ 46]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.50.45:814][ 46]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-23.50.45:843][ 46]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.13-23.50.45:844][ 46]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.50.45:898][ 46]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-23.50.45:906][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2019.07.13-23.50.45:941][ 47]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.07.13-23.50.53:727][499]LogEditorViewport: Clicking on Actor (LMB): Player_C (SideScrollerCharacter)
+[2019.07.13-23.50.55:208][579]LogEditorViewport: Clicking on Actor (LMB): Pickup_BP_C (Pickup_BP)
+[2019.07.13-23.50.56:635][659]LogEditorViewport: Clicking on Actor (LMB): Player_C (SideScrollerCharacter)
+[2019.07.13-23.50.58:269][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.07.13-23.50.59:085][793]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge2)
+[2019.07.13-23.51.00:642][884]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-23.51.01:927][961]LogEditorViewport: Clicking on Actor (LMB): Pickup_BP_C (Pickup_BP)
+[2019.07.13-23.51.02:876][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-23.51.07:041][264]Cmd: EDIT COPY
+[2019.07.13-23.51.08:474][349]Cmd: EDIT PASTE
+[2019.07.13-23.51.11:567][529]Cmd: EDIT COPY
+[2019.07.13-23.51.15:077][733]Cmd: EDIT PASTE
+[2019.07.13-23.51.22:866][192]Cmd: EDIT COPY
+[2019.07.13-23.51.23:522][220]Cmd: EDIT PASTE
+[2019.07.13-23.51.27:284][438]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.13-23.51.27:355][438]LogUObjectHash: Compacting FUObjectHashTables data took   6.24ms
+[2019.07.13-23.51.27:984][438]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap1729992C4B758A1C4A44ABA1C9F9A131.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap'
+[2019.07.13-23.51.28:161][438]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap_BuiltData1942A5F7497C89306047F8B55427F8DC.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2019.07.13-23.51.29:979][545]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-23.51.30:044][549]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.13-23.51.30:073][549]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.51.30:073][549]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.13-23.51.30:073][549]PIE: New page: PIE session: SideScrollerExampleMap (Jul 13, 2019, 9:51:30 AM)
+[2019.07.13-23.51.30:073][549]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.13-23.51.30:090][549]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016406s)
+[2019.07.13-23.51.30:090][549]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.13-23.51.30:091][549]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2019.07.13-23.51.30:091][549]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.017473s)
+[2019.07.13-23.51.30:164][549]LogUObjectHash: Compacting FUObjectHashTables data took   5.23ms
+[2019.07.13-23.51.30:174][549]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.13-23.51.30:244][549]LogInit: FAudioDevice initialized.
+[2019.07.13-23.51.30:270][549]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.13-23.51.30:273][549]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.13-16.51.30
+[2019.07.13-23.51.30:274][549]LogWorld: Bringing up level for play took: 0.002861
+[2019.07.13-23.51.30:291][549]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap 0.998
+[2019.07.13-23.51.30:292][549]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.51.31:706][633]LogClass: OverlappingActors: 1
+[2019.07.13-23.51.31:706][633]LogClass: You have collected Pickup_BP_2
+[2019.07.13-23.51.32:739][695]LogClass: OverlappingActors: 1
+[2019.07.13-23.51.32:739][695]LogClass: You have collected Pickup_BP2_4
+[2019.07.13-23.51.35:153][839]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.51.35:153][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-23.51.35:183][839]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.13-23.51.35:184][839]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.51.35:238][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-23.51.35:246][839]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2019.07.13-23.51.35:286][840]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.07.13-23.51.36:357][902]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.13-23.51.36:409][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2019.07.13-23.51.36:809][902]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap98D2CBF74F9BC09D976082B1215AF67C.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap'
+[2019.07.13-23.51.37:493][902]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/SideScrollerExampleMap_BuiltDataC10973D04715ADB1A6BDB3BC37AC365E.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2019.07.13-23.51.38:763][976]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-23.51.49:566][612]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/WB_Inventory587A68FF43F98BCCF3966B9E73681B50.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory.uasset'
+[2019.07.13-23.52.34:192][828]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/WB_InventoryF43A437F4726FBC26225E0A7874CF99E.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory.uasset'
+[2019.07.13-23.53.15:706][540]LogEditorTransaction: Undo Create Pin Link
+[2019.07.13-23.54.05:823][ 74]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/WB_InventoryFCD451044EC5C712BB56F88BFA305B90.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory.uasset'
+[2019.07.13-23.54.07:989][202]BlueprintLog: New page: Compile WB_Inventory
+[2019.07.13-23.54.08:046][202]LogUObjectHash: Compacting FUObjectHashTables data took   4.97ms
+[2019.07.13-23.54.08:618][231]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/WB_InventoryC38D4A3A460B646BD93299A3D4CBC106.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory.uasset'
+[2019.07.13-23.54.10:695][354]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.13-23.54.10:712][354]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.54.10:712][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.13-23.54.10:712][354]PIE: New page: PIE session: SideScrollerExampleMap (Jul 13, 2019, 9:54:10 AM)
+[2019.07.13-23.54.10:712][354]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.13-23.54.10:727][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015186s)
+[2019.07.13-23.54.10:728][354]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.13-23.54.10:728][354]LogPlayLevel: PIE: World Init took: (0.000868s)
+[2019.07.13-23.54.10:728][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.016292s)
+[2019.07.13-23.54.10:784][354]LogUObjectHash: Compacting FUObjectHashTables data took   6.33ms
+[2019.07.13-23.54.10:795][354]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.13-23.54.10:866][354]LogInit: FAudioDevice initialized.
+[2019.07.13-23.54.10:892][354]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.13-23.54.10:896][354]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.13-16.54.10
+[2019.07.13-23.54.10:896][354]LogWorld: Bringing up level for play took: 0.002454
+[2019.07.13-23.54.10:915][354]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap -0.379
+[2019.07.13-23.54.10:915][354]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.54.12:115][424]LogClass: OverlappingActors: 1
+[2019.07.13-23.54.12:116][424]LogClass: You have collected Pickup_BP_2
+[2019.07.13-23.54.13:215][490]LogClass: OverlappingActors: 1
+[2019.07.13-23.54.13:215][490]LogClass: You have collected Pickup_BP2_4
+[2019.07.13-23.54.14:383][560]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.54.14:384][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-23.54.14:417][560]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.13-23.54.14:417][560]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.54.14:469][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-23.54.14:477][560]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2019.07.13-23.54.14:512][561]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.07.13-23.54.15:155][589]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.13-23.54.18:559][760]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/WB_Inventory60F752D64894C9769B580A92278B7FF9.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory.uasset'
+[2019.07.13-23.54.19:979][843]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-23.54.20:051][847]BlueprintLog: New page: Compile WB_Inventory
+[2019.07.13-23.54.20:124][847]LogUObjectHash: Compacting FUObjectHashTables data took   6.61ms
+[2019.07.13-23.54.20:556][867]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/WB_InventoryC23BF7F443CE9844329BAB973E491F11.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory.uasset'
+[2019.07.13-23.54.21:889][940]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-23.54.22:789][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-23.54.22:855][998]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.13-23.54.22:872][998]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.54.22:873][998]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.13-23.54.22:873][998]PIE: New page: PIE session: SideScrollerExampleMap (Jul 13, 2019, 9:54:22 AM)
+[2019.07.13-23.54.22:873][998]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.13-23.54.22:889][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016273s)
+[2019.07.13-23.54.22:890][998]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.13-23.54.22:890][998]LogPlayLevel: PIE: World Init took: (0.000832s)
+[2019.07.13-23.54.22:890][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.017435s)
+[2019.07.13-23.54.22:949][998]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
+[2019.07.13-23.54.22:956][998]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.13-23.54.23:022][998]LogInit: FAudioDevice initialized.
+[2019.07.13-23.54.23:053][998]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.13-23.54.23:056][998]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.13-16.54.23
+[2019.07.13-23.54.23:057][998]LogWorld: Bringing up level for play took: 0.002645
+[2019.07.13-23.54.23:073][998]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap -0.219
+[2019.07.13-23.54.23:073][998]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.54.24:124][ 59]LogClass: OverlappingActors: 1
+[2019.07.13-23.54.24:124][ 59]LogClass: You have collected Pickup_BP_2
+[2019.07.13-23.54.25:042][114]LogClass: OverlappingActors: 1
+[2019.07.13-23.54.25:042][114]LogClass: You have collected Pickup_BP2_4
+[2019.07.13-23.54.25:425][137]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.54.25:425][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-23.54.25:460][137]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.13-23.54.25:460][137]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.54.25:517][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-23.54.25:524][137]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2019.07.13-23.54.25:570][138]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.07.13-23.54.26:181][169]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.13-23.54.31:052][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-23.54.48:052][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickup_BP" FILE="../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset" SILENT=true
+[2019.07.13-23.54.48:098][410]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Pickup_BPE4E8644F45AC3EBBC799758BAB5D97CE.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset'
+[2019.07.13-23.54.54:470][790]LogSlate: Took 0.001012 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.07.13-23.55.02:428][256]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/WB_Inventory_Item.WB_Inventory_Item
+[2019.07.13-23.55.04:045][316]LogSlate: Took 0.009488 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.07.13-23.55.22:717][403]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/WB_Inventory_ItemB8EF56BE4B006ACF9CDE76811B89915D.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory_Item.uasset'
+[2019.07.13-23.55.24:274][493]BlueprintLog: New page: Compile WB_Inventory_Item
+[2019.07.13-23.55.24:557][493]LogUObjectHash: Compacting FUObjectHashTables data took   4.98ms
+[2019.07.13-23.55.24:978][509]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/WB_Inventory_ItemCF5ABBA2407D3D962DEBB2A73B388DA3.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory_Item.uasset'
+[2019.07.13-23.55.26:762][614]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.13-23.55.26:785][614]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.55.26:786][614]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.13-23.55.26:786][614]PIE: New page: PIE session: SideScrollerExampleMap (Jul 13, 2019, 9:55:26 AM)
+[2019.07.13-23.55.26:786][614]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.13-23.55.26:802][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015370s)
+[2019.07.13-23.55.26:803][614]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.13-23.55.26:803][614]LogPlayLevel: PIE: World Init took: (0.001167s)
+[2019.07.13-23.55.26:803][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.017169s)
+[2019.07.13-23.55.26:857][614]LogUObjectHash: Compacting FUObjectHashTables data took   6.12ms
+[2019.07.13-23.55.26:866][614]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.13-23.55.26:929][614]LogInit: FAudioDevice initialized.
+[2019.07.13-23.55.26:961][614]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.13-23.55.26:965][614]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.13-16.55.26
+[2019.07.13-23.55.26:965][614]LogWorld: Bringing up level for play took: 0.002943
+[2019.07.13-23.55.26:982][614]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap -0.311
+[2019.07.13-23.55.26:982][614]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.55.28:151][682]LogClass: OverlappingActors: 1
+[2019.07.13-23.55.28:151][682]LogClass: You have collected Pickup_BP_2
+[2019.07.13-23.55.29:152][742]LogClass: OverlappingActors: 1
+[2019.07.13-23.55.29:152][742]LogClass: You have collected Pickup_BP2_4
+[2019.07.13-23.55.31:300][871]LogClass: OverlappingActors: 1
+[2019.07.13-23.55.31:300][871]LogClass: You have collected Pickup_BP3_6
+[2019.07.13-23.55.32:918][968]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.55.32:919][968]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-23.55.32:949][968]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.13-23.55.32:950][968]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.55.33:010][968]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-23.55.33:018][968]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2019.07.13-23.55.33:063][969]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.07.13-23.55.33:946][997]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.13-23.55.48:415][331]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/WB_InventoryD508B91B465352665F61EB881FC0E13A.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory.uasset'
+[2019.07.13-23.55.49:168][374]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-23.55.49:232][378]BlueprintLog: New page: Compile WB_Inventory
+[2019.07.13-23.55.49:292][378]LogUObjectHash: Compacting FUObjectHashTables data took   5.73ms
+[2019.07.13-23.55.49:797][401]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/WB_Inventory842A078F4466A11F2E536A8FD1218C3F.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory.uasset'
+[2019.07.13-23.55.50:551][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-23.55.51:334][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-23.55.51:416][496]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.13-23.55.51:436][496]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.55.51:437][496]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.13-23.55.51:437][496]PIE: New page: PIE session: SideScrollerExampleMap (Jul 13, 2019, 9:55:51 AM)
+[2019.07.13-23.55.51:437][496]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.13-23.55.51:454][496]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016092s)
+[2019.07.13-23.55.51:455][496]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.13-23.55.51:455][496]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2019.07.13-23.55.51:455][496]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.017771s)
+[2019.07.13-23.55.51:511][496]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2019.07.13-23.55.51:518][496]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.13-23.55.51:583][496]LogInit: FAudioDevice initialized.
+[2019.07.13-23.55.51:613][496]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.13-23.55.51:617][496]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.13-16.55.51
+[2019.07.13-23.55.51:618][496]LogWorld: Bringing up level for play took: 0.003221
+[2019.07.13-23.55.51:635][496]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap 0.342
+[2019.07.13-23.55.51:636][496]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.55.52:764][560]LogClass: OverlappingActors: 1
+[2019.07.13-23.55.52:764][560]LogClass: You have collected Pickup_BP_2
+[2019.07.13-23.55.53:408][598]LogClass: OverlappingActors: 1
+[2019.07.13-23.55.53:408][598]LogClass: You have collected Pickup_BP2_4
+[2019.07.13-23.55.55:554][727]LogClass: OverlappingActors: 1
+[2019.07.13-23.55.55:555][727]LogClass: You have collected Pickup_BP3_6
+[2019.07.13-23.55.58:205][886]LogClass: OverlappingActors: 1
+[2019.07.13-23.55.58:205][886]LogClass: You have collected Pickup_BP4_8
+[2019.07.13-23.55.59:323][953]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.55.59:324][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-23.55.59:360][953]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.13-23.55.59:360][953]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.55.59:419][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-23.55.59:427][953]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2019.07.13-23.55.59:464][954]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.07.13-23.56.27:431][150]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-23.56.27:612][150]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.13-23.56.27:640][150]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.56.27:640][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.13-23.56.27:640][150]PIE: New page: PIE session: SideScrollerExampleMap (Jul 13, 2019, 9:56:27 AM)
+[2019.07.13-23.56.27:641][150]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.13-23.56.27:656][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015241s)
+[2019.07.13-23.56.27:657][150]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.13-23.56.27:657][150]LogPlayLevel: PIE: World Init took: (0.001271s)
+[2019.07.13-23.56.27:657][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.017010s)
+[2019.07.13-23.56.27:715][150]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2019.07.13-23.56.27:724][150]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.13-23.56.27:795][150]LogInit: FAudioDevice initialized.
+[2019.07.13-23.56.27:826][150]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.13-23.56.27:829][150]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.13-16.56.27
+[2019.07.13-23.56.27:830][150]LogWorld: Bringing up level for play took: 0.002615
+[2019.07.13-23.56.27:846][150]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap 0.553
+[2019.07.13-23.56.27:847][150]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.56.29:284][234]LogClass: OverlappingActors: 1
+[2019.07.13-23.56.29:284][234]LogClass: You have collected Pickup_BP_2
+[2019.07.13-23.56.30:002][277]LogClass: OverlappingActors: 1
+[2019.07.13-23.56.30:002][277]LogClass: You have collected Pickup_BP2_4
+[2019.07.13-23.56.32:322][415]LogClass: OverlappingActors: 1
+[2019.07.13-23.56.32:322][415]LogClass: You have collected Pickup_BP3_6
+[2019.07.13-23.56.32:839][446]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.56.32:840][446]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-23.56.32:871][446]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.13-23.56.32:871][446]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.56.32:935][446]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-23.56.32:942][446]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2019.07.13-23.56.32:984][447]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.07.13-23.56.33:763][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-23.56.38:336][764]LogSourceControl: Git plugin '2.12'
+[2019.07.13-23.56.38:336][764]LogSourceControl: RunCommand: 'git version'
+[2019.07.13-23.56.38:413][764]LogSourceControl: RunCommand(version):
+git version 2.9.0.windows.1
+
+[2019.07.13-23.56.38:413][764]LogSourceControl: Using 'C:\Program Files\Git\bin\git.exe'
+[2019.07.13-23.56.38:413][764]LogSourceControl: RunCommand: 'git version'
+[2019.07.13-23.56.38:486][764]LogSourceControl: RunCommand(version):
+git version 2.9.0.windows.1
+
+[2019.07.13-23.56.38:486][764]LogSourceControl: Git version 2.9.0(1)
+[2019.07.13-23.56.38:486][764]LogSourceControl: RunCommand: 'git cat-file -h'
+[2019.07.13-23.56.38:561][764]LogSourceControl: RunCommand(cat-file -h):
+usage: git cat-file (-t [--allow-unknown-type]|-s [--allow-unknown-type]|-e|-p|<type>|--textconv) <object>
+   or: git cat-file (--batch | --batch-check) [--follow-symlinks]
+
+<type> can be one of: blob, tree, commit, tag
+    -t                    show object type
+    -s                    show object size
+    -e                    exit with zero when there's no error
+    -p                    pretty-print object's content
+    --textconv            for blob objects, run textconv on object's content
+    --allow-unknown-type  allow -s and -t to work with broken/corrupt objects
+    --buffer              buffer --batch output
+    --batch[=<format>]    show info and content of objects fed from the standard input
+    --batch-check[=<format>]
+                          show info about objects fed from the standard input
+    --follow-symlinks     follow in-tree symlinks (used with --batch or --batch-check)
+    --batch-all-objects   show all objects with --batch or --batch-check
+
+
+[2019.07.13-23.56.38:563][764]LogSourceControl: Warning: RunCommand(cat-file -h) ReturnCode=129:
+
+[2019.07.13-23.56.38:563][764]LogSourceControl: RunCommand: 'git lfs version'
+[2019.07.13-23.56.38:716][764]LogSourceControl: RunCommand(lfs version):
+
+[2019.07.13-23.56.38:716][764]LogSourceControl: Warning: RunCommand(lfs version) ReturnCode=1:
+git: 'lfs' is not a git command. See 'git --help'.
+
+Did you mean this?
+	flow
+
+[2019.07.13-23.56.38:716][764]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.07.13-23.56.38:794][764]LogSourceControl: RunCommand(symbolic-ref):
+feature_inventory
+
+[2019.07.13-23.56.38:794][764]LogSourceControl: RunCommand: 'git remote get-url origin'
+[2019.07.13-23.56.38:869][764]LogSourceControl: RunCommand(remote):
+https://github.com/NicolaeChristof/Descend-Into-Darkness.git
+
+[2019.07.13-23.56.38:869][764]LogSourceControl: RunCommand: 'git config user.name'
+[2019.07.13-23.56.38:949][764]LogSourceControl: RunCommand(config):
+Chris Kong
+
+[2019.07.13-23.56.38:950][764]LogSourceControl: RunCommand: 'git config user.email'
+[2019.07.13-23.56.39:021][764]LogSourceControl: RunCommand(config):
+cxkong@ucsc.edu
+
+[2019.07.13-23.56.40:155][832]LogSourceControl: IssueAsynchronousCommand(Connect)
+[2019.07.13-23.56.40:163][833]LogSourceControl: RunCommand: 'git version'
+[2019.07.13-23.56.40:247][838]LogSourceControl: RunCommand(version):
+git version 2.9.0.windows.1
+
+[2019.07.13-23.56.40:248][838]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content"'
+[2019.07.13-23.56.40:345][844]LogSourceControl: RunCommand(status):
+ M DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset
+ M DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory.uasset
+ M DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory_Item.uasset
+ M DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap
+!! DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap_BuiltData.uasset
+
+[2019.07.13-23.56.40:346][844]LogSourceControl: ParseStatusResults: 1) Special case for status of a directory (C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/)
+[2019.07.13-23.56.40:346][844]LogSourceControl: RunCommand: 'git ls-files "C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/"'
+[2019.07.13-23.56.40:414][848]LogSourceControl: RunCommand(ls-files):
+DescendIntoDarkness/Content/Assets/2D_Assets/HUD_UI/nathan.uasset
+DescendIntoDarkness/Content/Assets/2D_Assets/Menu_UI/nathan.uasset
+DescendIntoDarkness/Content/Assets/2D_Assets/Textures/nathan.uasset
+DescendIntoDarkness/Content/Assets/3D_Models/Materials/nathan.uasset
+DescendIntoDarkness/Content/Assets/Sounds/Music/nathan.uasset
+DescendIntoDarkness/Content/Assets/Sounds/SFX/nathan.uasset
+DescendIntoDarkness/Content/Blueprints/GrabPoint.uasset
+DescendIntoDarkness/Content/Blueprints/GrabPointWidget.uasset
+DescendIntoDarkness/Content/Blueprints/MyPickup.uasset
+DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset
+DescendIntoDarkness/Content/Blueprints/SIdeScrollerGamemode.uasset
+DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory.uasset
+DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory_Item.uasset
+DescendIntoDarkness/Content/Blueprints/WB_UIHUD.uasset
+DescendIntoDarkness/Content/Blueprints/nathan.uasset
+DescendIntoDarkness/Content/External_Plugins/nathan.uasset
+DescendIntoDarkness/Content/Geometry/Meshes/1M_Cube.uasset
+DescendIntoDarkness/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset
+DescendIntoDarkness/Content/Geometry/Meshes/CubeMaterial.uasset
+DescendIntoDarkness/Content/Geometry/Meshes/TemplateFloor.uasset
+DescendIntoDarkness/Content/Mannequin/Animations/ThirdPersonIdle.uasset
+DescendIntoDarkness/Content/Mannequin/Animations/ThirdPersonJump_End.uasset
+DescendIntoDarkness/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset
+DescendIntoDarkness/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset
+DescendIntoDarkness/Content/Mannequin/Animations/ThirdPersonRun.uasset
+DescendIntoDarkness/Content/Mannequin/Animations/ThirdPersonWalk.uasset
+DescendIntoDarkness/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+DescendIntoDarkness/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset
+DescendIntoDarkness/Content/Mannequin/Animations/ThirdPerson_Jump.uasset
+DescendIntoDarkness/Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset
+DescendIntoDarkness/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset
+DescendIntoDarkness/Content/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
+DescendIntoDarkness/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
+DescendIntoDarkness/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
+DescendIntoDarkness/Content/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
+DescendIntoDarkness/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset
+DescendIntoDarkness/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
+DescendIntoDarkness/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
+DescendIntoDarkness/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
+DescendIntoDarkness/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset
+DescendIntoDarkness/Content/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset
+DescendIntoDarkness/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+DescendIntoDarkness/Content/Mannequin/Character/Textures/UE4Man_Logo_N.uasset
+DescendIntoDarkness/Content/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset
+DescendIntoDarkness/Content/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset
+DescendIntoDarkness/Content/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset
+DescendIntoDarkness/Content/Maps/nathan.uasset
+DescendIntoDarkness/Content/SideScrollerCPP/Blueprints/Player.uasset
+DescendIntoDarkness/Content/SideScrollerCPP/Blueprints/SideScrollerCharacter.uasset
+DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap
+DescendIntoDarkness/Content/SideScrollerCPP/SideScrollerOverview.uasset
+
+[2019.07.13-23.56.40:419][848]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Assets/2D_Assets/HUD_UI/nathan.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:419][848]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Assets/2D_Assets/Menu_UI/nathan.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:419][848]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Assets/2D_Assets/Textures/nathan.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:420][848]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Assets/3D_Models/Materials/nathan.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:420][848]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Assets/Sounds/Music/nathan.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:420][848]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Assets/Sounds/SFX/nathan.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:420][848]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/GrabPoint.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:429][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/GrabPointWidget.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:429][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/MyPickup.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:429][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset) = ' M DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset' => 4
+[2019.07.13-23.56.40:430][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/SIdeScrollerGamemode.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:430][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory.uasset) = ' M DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory.uasset' => 4
+[2019.07.13-23.56.40:430][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory_Item.uasset) = ' M DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory_Item.uasset' => 4
+[2019.07.13-23.56.40:431][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/WB_UIHUD.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:431][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/nathan.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:432][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/External_Plugins/nathan.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:432][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Geometry/Meshes/1M_Cube.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:432][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:432][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Geometry/Meshes/CubeMaterial.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:433][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Geometry/Meshes/TemplateFloor.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:433][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Animations/ThirdPersonIdle.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:433][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Animations/ThirdPersonJump_End.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:434][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:434][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:434][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Animations/ThirdPersonRun.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:435][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Animations/ThirdPersonWalk.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:435][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:435][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:436][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Animations/ThirdPerson_Jump.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:436][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:436][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:437][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:437][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:437][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:438][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:438][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:438][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:439][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:439][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:439][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:439][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:440][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:440][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Character/Textures/UE4Man_Logo_N.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:440][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:441][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:441][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:441][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/nathan.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:442][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Blueprints/Player.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:442][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Blueprints/SideScrollerCharacter.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:442][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap) = ' M DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap' => 4
+[2019.07.13-23.56.40:443][849]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/SideScrollerOverview.uasset) not found but exists => unchanged
+[2019.07.13-23.56.40:443][849]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.07.13-23.56.40:502][853]LogSourceControl: RunCommand(symbolic-ref):
+feature_inventory
+
+[2019.07.13-23.56.40:502][853]LogSourceControl: RunCommand: 'git diff --name-only origin/feature_inventory HEAD "C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content"'
+[2019.07.13-23.56.40:603][859]LogSourceControl: RunCommand(diff --name-only origin/feature_inventory HEAD):
+
+[2019.07.13-23.56.40:603][859]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Config"'
+[2019.07.13-23.56.40:701][865]LogSourceControl: RunCommand(status):
+
+[2019.07.13-23.56.40:701][865]LogSourceControl: ParseStatusResults: 1) Special case for status of a directory (C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Config/)
+[2019.07.13-23.56.40:702][865]LogSourceControl: RunCommand: 'git ls-files "C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Config/"'
+[2019.07.13-23.56.40:802][870]LogSourceControl: RunCommand(ls-files):
+DescendIntoDarkness/Config/DefaultEditor.ini
+DescendIntoDarkness/Config/DefaultEditorPerProjectUserSettings.ini
+DescendIntoDarkness/Config/DefaultEngine.ini
+DescendIntoDarkness/Config/DefaultGame.ini
+DescendIntoDarkness/Config/DefaultInput.ini
+
+[2019.07.13-23.56.40:803][870]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Config/DefaultEditor.ini) not found but exists => unchanged
+[2019.07.13-23.56.40:803][870]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Config/DefaultEditorPerProjectUserSettings.ini) not found but exists => unchanged
+[2019.07.13-23.56.40:803][870]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Config/DefaultEngine.ini) not found but exists => unchanged
+[2019.07.13-23.56.40:803][870]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Config/DefaultGame.ini) not found but exists => unchanged
+[2019.07.13-23.56.40:804][870]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Config/DefaultInput.ini) not found but exists => unchanged
+[2019.07.13-23.56.40:804][870]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.07.13-23.56.40:895][876]LogSourceControl: RunCommand(symbolic-ref):
+feature_inventory
+
+[2019.07.13-23.56.40:895][876]LogSourceControl: RunCommand: 'git diff --name-only origin/feature_inventory HEAD "C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Config"'
+[2019.07.13-23.56.40:994][882]LogSourceControl: RunCommand(diff --name-only origin/feature_inventory HEAD):
+
+[2019.07.13-23.56.40:995][882]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.07.13-23.56.41:074][886]LogSourceControl: RunCommand(log):
+b1ae9d4b10496ba9d4df59ab287fcda2ac57a8fd Delete DescendIntoDarkness.sln
+
+[2019.07.13-23.56.41:075][886]LogSlate: Window 'Source Control Login' being destroyed
+[2019.07.13-23.56.41:091][887]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2019.07.13-23.56.41:102][888]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/UI"'
+[2019.07.13-23.56.41:200][894]LogSourceControl: RunCommand(status):
+ M DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory.uasset
+ M DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory_Item.uasset
+
+[2019.07.13-23.56.41:200][894]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory.uasset, ...)
+[2019.07.13-23.56.41:202][894]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory.uasset) = ' M DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory.uasset' => 4
+[2019.07.13-23.56.41:202][894]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory_Item.uasset) = ' M DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory_Item.uasset' => 4
+[2019.07.13-23.56.41:202][894]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.07.13-23.56.41:303][899]LogSourceControl: RunCommand(symbolic-ref):
+feature_inventory
+
+[2019.07.13-23.56.41:304][899]LogSourceControl: RunCommand: 'git diff --name-only origin/feature_inventory HEAD "C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/UI"'
+[2019.07.13-23.56.41:404][905]LogSourceControl: RunCommand(diff --name-only origin/feature_inventory HEAD):
+
+[2019.07.13-23.56.41:404][905]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.07.13-23.56.41:508][911]LogSourceControl: RunCommand(log):
+b1ae9d4b10496ba9d4df59ab287fcda2ac57a8fd Delete DescendIntoDarkness.sln
+
+[2019.07.13-23.56.46:684][218]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2019.07.13-23.56.46:692][219]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints"'
+[2019.07.13-23.56.46:792][225]LogSourceControl: RunCommand(status):
+ M DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset
+ M DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory.uasset
+ M DescendIntoDarkness/Content/Blueprints/UI/WB_Inventory_Item.uasset
+
+[2019.07.13-23.56.46:792][225]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/GrabPoint.uasset, ...)
+[2019.07.13-23.56.46:792][225]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/GrabPoint.uasset) not found but exists => unchanged
+[2019.07.13-23.56.46:793][225]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/GrabPointWidget.uasset) not found but exists => unchanged
+[2019.07.13-23.56.46:793][225]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/nathan.uasset) not found but exists => unchanged
+[2019.07.13-23.56.46:793][225]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset) = ' M DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset' => 4
+[2019.07.13-23.56.46:794][225]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/SIdeScrollerGamemode.uasset) not found but exists => unchanged
+[2019.07.13-23.56.46:794][225]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/WB_UIHUD.uasset) not found but exists => unchanged
+[2019.07.13-23.56.46:795][225]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.07.13-23.56.46:861][228]LogSourceControl: RunCommand(symbolic-ref):
+feature_inventory
+
+[2019.07.13-23.56.46:861][228]LogSourceControl: RunCommand: 'git diff --name-only origin/feature_inventory HEAD "C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints"'
+[2019.07.13-23.56.46:970][235]LogSourceControl: RunCommand(diff --name-only origin/feature_inventory HEAD):
+
+[2019.07.13-23.56.46:970][235]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.07.13-23.56.47:053][240]LogSourceControl: RunCommand(log):
+b1ae9d4b10496ba9d4df59ab287fcda2ac57a8fd Delete DescendIntoDarkness.sln
+
+[2019.07.13-23.56.49:121][357]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2019.07.13-23.56.49:131][357]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset"'
+[2019.07.13-23.56.49:232][357]LogSourceControl: RunCommand(status):
+ M DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset
+
+[2019.07.13-23.56.49:232][357]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset, ...)
+[2019.07.13-23.56.49:232][357]LogSourceControl: Status(C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset) = ' M DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset' => 4
+[2019.07.13-23.56.49:233][357]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.07.13-23.56.49:309][357]LogSourceControl: RunCommand(symbolic-ref):
+feature_inventory
+
+[2019.07.13-23.56.49:309][357]LogSourceControl: RunCommand: 'git diff --name-only origin/feature_inventory HEAD "C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset"'
+[2019.07.13-23.56.49:400][357]LogSourceControl: RunCommand(diff --name-only origin/feature_inventory HEAD):
+
+[2019.07.13-23.56.49:400][357]LogSourceControl: RunCommand: 'git log --follow --date=raw --name-status --pretty=medium "C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset"'
+[2019.07.13-23.56.49:567][357]LogSourceControl: RunCommand(log):
+commit 9978b4254ef110f5a4500ae2d7cfa11fce9a2f63
+Author: Chris Kong <cxkong@ucsc.edu>
+Date:   1562997892 -0700
+
+    display items
+
+M	DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset
+
+commit 9a700c26108af104f509389d2992c7c6afd92174
+Author: Chris Kong <cxkong@ucsc.edu>
+Date:   1562995271 -0700
+
+     basic inventory ui
+
+M	DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset
+
+commit e353dd0fc0d6d99a65e6f8323cdfc27edb9bb985
+Author: Chris Kong <cxkong@ucsc.edu>
+Date:   1562706748 -0700
+
+    fixed blue print issue
+
+M	DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset
+
+commit 9b3ad9f1d94a1f464e20d746503381e4d7da6af1
+Author: Chris Kong <cxkong@ucsc.edu>
+Date:   1562539012 -0700
+
+    added text above the items
+
+M	DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset
+
+commit 13347adec805c66164212c055ce077a13cdcb118
+Author: Chris Kong <cxkong@ucsc.edu>
+Date:   1562520378 -0700
+
+    added pickup functionality
+
+A	DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset
+
+[2019.07.13-23.56.49:569][357]LogSourceControl: RunCommand: 'git ls-tree --long 9978b425 "DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset"'
+[2019.07.13-23.56.49:659][357]LogSourceControl: RunCommand(ls-tree):
+100644 blob 875d8a35a5705cd7b8eff7eee85fc30cc1b9d874  148352	DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset
+
+[2019.07.13-23.56.49:659][357]LogSourceControl: RunCommand: 'git ls-tree --long 9a700c26 "DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset"'
+[2019.07.13-23.56.49:749][357]LogSourceControl: RunCommand(ls-tree):
+100644 blob 921ae08ed5ab23208d22614e3a89cb6f6c34d453  146124	DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset
+
+[2019.07.13-23.56.49:749][357]LogSourceControl: RunCommand: 'git ls-tree --long e353dd0f "DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset"'
+[2019.07.13-23.56.49:838][357]LogSourceControl: RunCommand(ls-tree):
+100644 blob f903fb8a2605821c2c46966f70f1fe03b89c0120  145258	DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset
+
+[2019.07.13-23.56.49:838][357]LogSourceControl: RunCommand: 'git ls-tree --long 9b3ad9f1 "DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset"'
+[2019.07.13-23.56.49:927][357]LogSourceControl: RunCommand(ls-tree):
+100644 blob 127ece24dd4a268ad6aa73e974070f3863c8b54c  141071	DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset
+
+[2019.07.13-23.56.49:927][357]LogSourceControl: RunCommand: 'git ls-tree --long 13347ade "DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset"'
+[2019.07.13-23.56.50:016][357]LogSourceControl: RunCommand(ls-tree):
+100644 blob e6656adb261bda8be2b7b4dd4ec6c9fe1f628938   19203	DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset
+
+[2019.07.13-23.56.50:016][357]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.07.13-23.56.50:093][357]LogSourceControl: RunCommand(log):
+b1ae9d4b10496ba9d4df59ab287fcda2ac57a8fd Delete DescendIntoDarkness.sln
+
+[2019.07.13-23.56.50:096][357]LogSourceControl: RunDumpToFile: 'git -C "C:/Users/Chris/Documents/Descend/Descend-Into-Darkness" show 9978b4254ef110f5a4500ae2d7cfa11fce9a2f63:DescendIntoDarkness/Content/Blueprints/Pickup_BP.uasset'
+[2019.07.13-23.56.50:199][357]LogSourceControl: Writed 'C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Diff/temp-9978b4254ef110f5a4500ae2d7cfa11fce9a2f63-Pickup_BP.uasset' (148352o)
+[2019.07.13-23.56.50:206][357]LogBlueprint: Warning: Attempted to query an old Blueprint package opened for diffing!
+[2019.07.13-23.57.07:183][369]LogSlate: Window 'Pickup_BP - Blueprint Diff' being destroyed
+[2019.07.13-23.57.39:586][634]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.13-23.57.39:614][634]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.57.39:615][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.13-23.57.39:616][634]PIE: New page: PIE session: SideScrollerExampleMap (Jul 13, 2019, 9:57:39 AM)
+[2019.07.13-23.57.39:616][634]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2019.07.13-23.57.39:639][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022552s)
+[2019.07.13-23.57.39:640][634]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.07.13-23.57.39:640][634]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2019.07.13-23.57.39:640][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.024392s)
+[2019.07.13-23.57.39:698][634]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2019.07.13-23.57.39:705][634]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.13-23.57.39:776][634]LogInit: FAudioDevice initialized.
+[2019.07.13-23.57.39:806][634]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.13-23.57.39:810][634]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2019.07.13-16.57.39
+[2019.07.13-23.57.39:810][634]LogWorld: Bringing up level for play took: 0.003424
+[2019.07.13-23.57.39:828][634]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap 0.535
+[2019.07.13-23.57.39:829][634]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2019.07.13-23.57.41:156][712]LogClass: OverlappingActors: 1
+[2019.07.13-23.57.41:156][712]LogClass: You have collected Pickup_BP_2
+[2019.07.13-23.57.42:239][777]LogClass: OverlappingActors: 1
+[2019.07.13-23.57.42:239][777]LogClass: You have collected Pickup_BP2_4
+[2019.07.13-23.57.44:780][929]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.07.13-23.57.45:741][929]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.962 s
+[2019.07.13-23.57.45:742][929]LogOutputDevice: Error: === Handled ensure: ===
+[2019.07.13-23.57.45:742][929]LogOutputDevice: Error: 
+[2019.07.13-23.57.45:742][929]LogOutputDevice: Error: Ensure condition failed: !Primitive->Bounds.BoxExtent.ContainsNaN() && !Primitive->Bounds.Origin.ContainsNaN() && !FMath::IsNaN(Primitive->Bounds.SphereRadius) && FMath::IsFinite(Primitive->Bounds.SphereRadius) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Renderer\Private\RendererScene.cpp] [Line: 1329]
+[2019.07.13-23.57.45:742][929]LogOutputDevice: Error: Nans found on Bounds for Primitive Rope: Origin X=-nan(ind) Y=-nan(ind) Z=-nan(ind), BoxExtent X=-nan(ind) Y=-nan(ind) Z=-nan(ind), SphereRadius -nan(ind)
+[2019.07.13-23.57.45:742][929]LogOutputDevice: Error: Stack: 
+[2019.07.13-23.57.45:742][929]LogOutputDevice: Error: [Callstack] 0x00007ffe7c21a79f UE4Editor-Renderer.dll!UnknownFunction []
+[2019.07.13-23.57.45:742][929]LogOutputDevice: Error: [Callstack] 0x00007ffe7bfe8055 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.07.13-23.57.45:742][929]LogOutputDevice: Error: [Callstack] 0x00007ffe87e6f500 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.13-23.57.45:743][929]LogOutputDevice: Error: [Callstack] 0x00007ffe87de3fc9 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.13-23.57.45:743][929]LogOutputDevice: Error: [Callstack] 0x00007ffe88264615 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.13-23.57.45:743][929]LogOutputDevice: Error: [Callstack] 0x00007ffe8828e651 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.13-23.57.45:743][929]LogOutputDevice: Error: [Callstack] 0x00007ffe8829e323 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.13-23.57.45:743][929]LogOutputDevice: Error: [Callstack] 0x00007ffe87ed93e7 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.13-23.57.45:743][929]LogOutputDevice: Error: [Callstack] 0x00007ffe8a9d032f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.07.13-23.57.45:743][929]LogOutputDevice: Error: [Callstack] 0x00007ffe8b1ed396 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.07.13-23.57.45:743][929]LogOutputDevice: Error: [Callstack] 0x00007ff733da6bb1 UE4Editor.exe!UnknownFunction []
+[2019.07.13-23.57.45:744][929]LogOutputDevice: Error: [Callstack] 0x00007ff733db554c UE4Editor.exe!UnknownFunction []
+[2019.07.13-23.57.45:744][929]LogOutputDevice: Error: [Callstack] 0x00007ff733db55ca UE4Editor.exe!UnknownFunction []
+[2019.07.13-23.57.45:744][929]LogOutputDevice: Error: [Callstack] 0x00007ff733dc316c UE4Editor.exe!UnknownFunction []
+[2019.07.13-23.57.45:744][929]LogOutputDevice: Error: [Callstack] 0x00007ff733dc5b8e UE4Editor.exe!UnknownFunction []
+[2019.07.13-23.57.45:744][929]LogOutputDevice: Error: [Callstack] 0x00007ffee2c14034 KERNEL32.DLL!UnknownFunction []
+[2019.07.13-23.57.45:744][929]LogOutputDevice: Error: [Callstack] 0x00007ffee4023691 ntdll.dll!UnknownFunction []
+[2019.07.13-23.57.45:744][929]LogOutputDevice: Error: 
+[2019.07.13-23.57.45:756][929]LogStats:                SubmitErrorReport -  0.000 s
