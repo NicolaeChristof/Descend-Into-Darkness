@@ -6,6 +6,8 @@
 #include "Components/InputComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Classes/Components/SphereComponent.h"
+#include "NewCampSpawnPole.h"
 
 ADescendIntoDarknessCharacter::ADescendIntoDarknessCharacter()
 {
@@ -41,6 +43,11 @@ ADescendIntoDarknessCharacter::ADescendIntoDarknessCharacter()
 	GetCharacterMovement()->MaxWalkSpeed = 600.f;
 	GetCharacterMovement()->MaxFlySpeed = 600.f;
 
+    // Create the collision sphere
+    CampCollisionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("CampCollsionSphere"));
+    CampCollisionSphere->SetupAttachment(RootComponent);
+    CampCollisionSphere->SetSphereRadius(250.f);
+
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 }
@@ -53,6 +60,7 @@ void ADescendIntoDarknessCharacter::SetupPlayerInputComponent(class UInputCompon
 	// set up gameplay key bindings
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+    PlayerInputComponent->BindAction("PlaceCamp", IE_Released, this, &ADescendIntoDarknessCharacter::SpawnCamp);
 
     //PlayerInputComponent->BindAxis("MoveHorizontal", this, &ADescendIntoDarknessCharacter::MoveHorizontal);
     PlayerInputComponent->BindAxis("ClimbRope", this, &ADescendIntoDarknessCharacter::ClimbRope);
@@ -62,4 +70,31 @@ void ADescendIntoDarknessCharacter::ClimbRope(float value)
 {
     // add movement in that direction
     AddMovementInput(FVector(0.f,0.f,1.f), value);
+}
+
+
+void ADescendIntoDarknessCharacter::SpawnCamp()
+{
+    if (CampPrefab) {
+        // This stores all the actors that are within the collection sphere
+        TArray<AActor*> NearbyActors;
+        CampCollisionSphere->GetOverlappingActors(NearbyActors);
+        for (int32 iCollected = 0; iCollected < NearbyActors.Num(); ++iCollected) {
+            ANewCampSpawnPole* const TestCampSpawn = Cast<ANewCampSpawnPole>(NearbyActors[iCollected]);
+
+            if (TestCampSpawn && !TestCampSpawn->IsPendingKill() && !TestCampSpawn->GetHasBeenPlaced()) {
+                UWorld* world = GetWorld();
+
+                if (world) {
+                    TestCampSpawn->Place();
+                    FActorSpawnParameters spawnParams;
+                    spawnParams.Owner = this;
+
+                    FRotator spawnRotation(0.f);
+                    FVector spawnLocation = TestCampSpawn->GetActorLocation();
+                    world->SpawnActor<AActor>(CampPrefab, spawnLocation, spawnRotation, spawnParams);
+                }
+            }
+        }
+    }
 }
