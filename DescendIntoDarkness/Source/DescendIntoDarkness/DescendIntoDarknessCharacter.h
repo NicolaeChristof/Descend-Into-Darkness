@@ -19,6 +19,10 @@ class ADescendIntoDarknessCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
 
+    /** A sphere that allows the player to search for nearby camps */
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camp", meta = (AllowPrivateAccess = "true"))
+    class USphereComponent* CampCollisionSphere;
+
 protected:
 
 	/** Called for side to side input */
@@ -31,6 +35,10 @@ protected:
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 	// End of APawn interface
 
+    /** This is called when the player hits the correct button when near a camp spawn point */
+    UFUNCTION(BlueprintCallable, Category = "Camp")
+    void SpawnCamp();
+
 
 public:
 	ADescendIntoDarknessCharacter();
@@ -39,4 +47,10 @@ public:
 	FORCEINLINE class UCameraComponent* GetSideViewCameraComponent() const { return SideViewCameraComponent; }
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
+    /** Returns the camp collision sphere **/
+    FORCEINLINE class USphereComponent* GetCampCollisionSphere() const { return CampCollisionSphere; }
+
+    UPROPERTY(EditAnywhere, Category="Camp")
+    TSubclassOf<class AActor> CampPrefab;
+
 };
