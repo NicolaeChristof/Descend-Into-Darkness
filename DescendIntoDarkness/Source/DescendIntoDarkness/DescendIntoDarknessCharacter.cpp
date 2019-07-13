@@ -119,8 +119,9 @@ void ADescendIntoDarknessCharacter::AddToInventory(APickup* actor)
 	_inventory.Add(actor);
 }
 
-void ADescendIntoDarknessCharacter::PrintInventory() 
+void ADescendIntoDarknessCharacter::UpdateInventory() 
 {
+	
 	FString sInventory = "";
 
 	for (APickup* actor : _inventory)
@@ -130,6 +131,9 @@ void ADescendIntoDarknessCharacter::PrintInventory()
 	}
 
 	GEngine->AddOnScreenDebugMessage(1, 3, FColor::White, *sInventory);
+	
+
+	OnUpdateInventory.Broadcast(_inventory);
 }
 
 void ADescendIntoDarknessCharacter::MoveRight(float Value)

@@ -35,7 +35,7 @@ public:
 	FString GetUseText() const { return FString::Printf(TEXT("%s : Press C to %s"), *Name, *Action); }
 
 	UFUNCTION(BlueprintCallable, Category = "Interactable")
-	FString GetItemName();
+	FString GetInteractableName();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FString Name;

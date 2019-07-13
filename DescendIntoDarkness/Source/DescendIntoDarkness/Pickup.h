@@ -19,11 +19,17 @@ public:
     APickup();
 
 	void Show(bool visible);
+
 protected:
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Pickup)
 	FName ItemID;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Pickup)
+	UTexture2D* Image;
+
+	UFUNCTION(BlueprintCallable, Category = Pickup)
+    FString GetItemName();
 	/** Override the WasCollected function - use Implementation because it's a Blueprint Native Event */
 	void WasCollected_Implementation() override;
 

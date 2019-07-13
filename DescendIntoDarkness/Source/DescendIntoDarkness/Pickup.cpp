@@ -30,3 +30,8 @@ void APickup::Show(bool visible)
 {
 	
 }
+
+FString APickup::GetItemName()
+{
+	return Name;
+}

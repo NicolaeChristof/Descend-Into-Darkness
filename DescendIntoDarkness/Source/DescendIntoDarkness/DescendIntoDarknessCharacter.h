@@ -14,7 +14,7 @@
 
 
 
-
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FUpdateInventoryDelegate, const TArray<APickup*>&, InventoryItems);
 
 UCLASS(config=Game)
 class ADescendIntoDarknessCharacter : public ACharacter
@@ -59,7 +59,10 @@ public:
 	void AddToInventory(APickup* actor);
 
 	UFUNCTION(BlueprintCallable)
-	void PrintInventory();
+	void UpdateInventory();
+
+	UPROPERTY(BlueprintAssignable, Category = "Pickup")
+	FUpdateInventoryDelegate OnUpdateInventory;
 	
 	/** Returns SideViewCameraComponent subobject **/
 	FORCEINLINE class UCameraComponent* GetSideViewCameraComponent() const { return SideViewCameraComponent; }

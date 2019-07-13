@@ -40,7 +40,7 @@ void AInteractable::WasCollected_Implementation()
 	UE_LOG(LogClass, Log, TEXT("You have collected %s"), *PickupDebugString);
 }
 
-FString AInteractable::GetItemName()
+FString AInteractable::GetInteractableName()
 {
 	return Name;
 }
