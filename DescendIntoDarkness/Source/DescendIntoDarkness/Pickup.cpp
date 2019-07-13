@@ -3,6 +3,7 @@
 
 #include "Pickup.h"
 #include "DescendIntoDarknessCharacter.h"
+#include "Resource.h"
 #include "Kismet/GameplayStatics.h"
 
 APickup::APickup()
@@ -20,10 +21,17 @@ void APickup::WasCollected_Implementation() {
 	//Add to Inventory
 	if (player)
 	{
-		player->AddToInventory(this);
+		UResource* temp = NewObject<UResource>();
+		temp->ResourceName = Name;
+		temp->ResourceID = ItemID;
+		temp->ResourceImage = Image;
+
+		player->AddToInventory(temp);
+		
 	}
+
 	// Destroy the battery
-	//Destroy();
+	Destroy();
 }
 
 void APickup::Show(bool visible)

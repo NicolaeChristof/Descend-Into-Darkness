@@ -7,6 +7,7 @@
 #include "Engine/DataTable.h"
 #include "Runtime/Engine/Public/EngineGlobals.h"
 #include "Pickup.h"
+#include "Resource.h"
 #include "DescendIntoDarknessCharacter.generated.h"
 
 
@@ -14,7 +15,9 @@
 
 
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FUpdateInventoryDelegate, const TArray<APickup*>&, InventoryItems);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FUpdateInventoryDelegate, const TArray<UResource*>&, InventoryItems);
+
+
 
 UCLASS(config=Game)
 class ADescendIntoDarknessCharacter : public ACharacter
@@ -56,7 +59,7 @@ public:
 
 	virtual void Tick(float DeltaTime) override;
 	
-	void AddToInventory(APickup* actor);
+	void AddToInventory(UResource* actor);
 
 	UFUNCTION(BlueprintCallable)
 	void UpdateInventory();
@@ -70,5 +73,5 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 
 private:
-	TArray<APickup*> _inventory;
+	TArray<UResource*> _inventory;
 };

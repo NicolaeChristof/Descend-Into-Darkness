@@ -114,9 +114,10 @@ void ADescendIntoDarknessCharacter::CheckForInteractables()
 
 }
 
-void ADescendIntoDarknessCharacter::AddToInventory(APickup* actor)
+void ADescendIntoDarknessCharacter::AddToInventory(UResource* actor)
 {
 	_inventory.Add(actor);
+	UpdateInventory();
 }
 
 void ADescendIntoDarknessCharacter::UpdateInventory() 
@@ -124,9 +125,9 @@ void ADescendIntoDarknessCharacter::UpdateInventory()
 	
 	FString sInventory = "";
 
-	for (APickup* actor : _inventory)
+	for (UResource* actor : _inventory)
 	{
-		sInventory.Append(actor->Name);
+		sInventory.Append(actor->ResourceName);
 		sInventory.Append(" | ");
 	}
 
@@ -152,4 +153,6 @@ void ADescendIntoDarknessCharacter::TouchStopped(const ETouchIndex::Type FingerI
 {
 	StopJumping();
 }
+
+
 
