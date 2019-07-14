@@ -6,8 +6,12 @@
 #include "Components/InputComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Runtime/Engine/Classes/Components/SphereComponent.h"
+#include "Engine/World.h"
+#include "Interactable.h"
 #include "Classes/Components/SphereComponent.h"
 #include "NewCampSpawnPole.h"
+
 
 ADescendIntoDarknessCharacter::ADescendIntoDarknessCharacter()
 {
@@ -43,10 +47,16 @@ ADescendIntoDarknessCharacter::ADescendIntoDarknessCharacter()
 	GetCharacterMovement()->MaxWalkSpeed = 600.f;
 	GetCharacterMovement()->MaxFlySpeed = 600.f;
 
+
+	CollectionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("CollectionSphere"));
+	CollectionSphere->AttachTo(RootComponent);
+	CollectionSphere->SetSphereRadius(200.f);
+
     // Create the collision sphere
     CampCollisionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("CampCollsionSphere"));
     CampCollisionSphere->SetupAttachment(RootComponent);
     CampCollisionSphere->SetSphereRadius(250.f);
+
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
@@ -60,11 +70,90 @@ void ADescendIntoDarknessCharacter::SetupPlayerInputComponent(class UInputCompon
 	// set up gameplay key bindings
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
-    PlayerInputComponent->BindAction("PlaceCamp", IE_Released, this, &ADescendIntoDarknessCharacter::SpawnCamp);
+	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &ADescendIntoDarknessCharacter::CheckForInteractables);
+	PlayerInputComponent->BindAction("PlaceCamp", IE_Released, this, &ADescendIntoDarknessCharacter::SpawnCamp);
 
     //PlayerInputComponent->BindAxis("MoveHorizontal", this, &ADescendIntoDarknessCharacter::MoveHorizontal);
     PlayerInputComponent->BindAxis("ClimbRope", this, &ADescendIntoDarknessCharacter::ClimbRope);
+
 }
+
+//tick function
+void ADescendIntoDarknessCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+}
+
+void ADescendIntoDarknessCharacter::CheckForInteractables()
+{
+
+	//get all overlapping actors and store them in an array
+	TArray<AActor*> CollectedActors;
+	CollectionSphere->GetOverlappingActors(CollectedActors, AInteractable::StaticClass());
+
+	UE_LOG(LogClass, Log, TEXT("OverlappingActors: %d"), CollectedActors.Num());
+
+
+	if (CollectedActors.Num() >= 1) {
+		AInteractable* const TestPickup = Cast<AInteractable>(CollectedActors[0]);
+		if (TestPickup && !TestPickup->IsPendingKill() && TestPickup->IsActive())
+		{
+			// Call the Pickup was collected
+			TestPickup->WasCollected();
+			//Deactivate the pickup
+			TestPickup->SetActive(false);
+		}
+	}
+
+
+	/**
+	//For each actor we collect
+	for (int32 iCollected = 0; iCollected < CollectedActors.Num(); ++iCollected) {
+		//Cast the actor to APickup
+		AInteractable* const TestPickup = Cast<AInteractable>(CollectedActors[iCollected]);
+		// If the cast is sucessful and the pickup in valid and active
+		if (TestPickup && !TestPickup->IsPendingKill() && TestPickup->IsActive())
+		{
+			// Call the Pickup was collected
+			TestPickup->WasCollected();
+			//Deactivate the pickup
+			TestPickup->SetActive(false);
+		}
+
+	}
+	*/
+
+}
+
+void ADescendIntoDarknessCharacter::AddToInventory(UResource* actor)
+{
+	_inventory.Add(actor);
+	UpdateInventory();
+}
+
+TArray<UResource*> ADescendIntoDarknessCharacter::GetInventory() 
+{
+	return _inventory;
+}
+
+void ADescendIntoDarknessCharacter::UpdateInventory() 
+{
+	
+	FString sInventory = "";
+
+	for (UResource* actor : _inventory)
+	{
+		sInventory.Append(actor->ResourceName);
+		sInventory.Append(" | ");
+	}
+
+	GEngine->AddOnScreenDebugMessage(1, 3, FColor::White, *sInventory);
+	
+
+	OnUpdateInventory.Broadcast(_inventory);
+}
+
+
 
 void ADescendIntoDarknessCharacter::ClimbRope(float value)
 {
@@ -81,7 +170,6 @@ void ADescendIntoDarknessCharacter::SpawnCamp()
         CampCollisionSphere->GetOverlappingActors(NearbyActors);
         for (int32 iCollected = 0; iCollected < NearbyActors.Num(); ++iCollected) {
             ANewCampSpawnPole* const TestCampSpawn = Cast<ANewCampSpawnPole>(NearbyActors[iCollected]);
-
             if (TestCampSpawn && !TestCampSpawn->IsPendingKill() && !TestCampSpawn->GetHasBeenPlaced()) {
                 UWorld* world = GetWorld();
 
@@ -98,3 +186,4 @@ void ADescendIntoDarknessCharacter::SpawnCamp()
         }
     }
 }
+
