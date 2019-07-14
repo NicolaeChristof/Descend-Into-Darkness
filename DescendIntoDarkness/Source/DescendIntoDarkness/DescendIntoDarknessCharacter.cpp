@@ -76,8 +76,6 @@ void ADescendIntoDarknessCharacter::SetupPlayerInputComponent(class UInputCompon
     //PlayerInputComponent->BindAxis("MoveHorizontal", this, &ADescendIntoDarknessCharacter::MoveHorizontal);
     PlayerInputComponent->BindAxis("ClimbRope", this, &ADescendIntoDarknessCharacter::ClimbRope);
 
-	PlayerInputComponent->BindTouch(IE_Pressed, this, &ADescendIntoDarknessCharacter::TouchStarted);
-	PlayerInputComponent->BindTouch(IE_Released, this, &ADescendIntoDarknessCharacter::TouchStopped);
 }
 
 //tick function

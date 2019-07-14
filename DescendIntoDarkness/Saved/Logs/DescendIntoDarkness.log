@@ -1,4 +1,4 @@
-﻿Log file open, 07/13/19 16:11:20
+﻿Log file open, 07/14/19 14:21:23
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: DescendIntoDarkness
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.314018
+LogStats: Stats thread started at 0.312921
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -156,697 +156,758 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
-[2019.07.13-23.11.20:527][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.07.13-23.11.20:527][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
-[2019.07.13-23.11.20:527][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
-[2019.07.13-23.11.20:536][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.07.13-23.11.20:536][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.07.13-23.11.20:536][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.07.13-23.11.20:536][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.07.13-23.11.20:536][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.07.13-23.11.20:536][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.07.13-23.11.20:536][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.07.13-23.11.20:536][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.07.13-23.11.20:536][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.07.13-23.11.20:536][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.07.13-23.11.20:536][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.07.13-23.11.20:536][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.07.13-23.11.20:536][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.07.13-23.11.20:536][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.07.13-23.11.20:536][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.07.13-23.11.20:536][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.07.13-23.11.20:536][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.07.13-23.11.20:536][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.07.13-23.11.20:536][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.07.13-23.11.20:537][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.07.13-23.11.20:537][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.07.13-23.11.20:538][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.07.13-23.11.20:538][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.07.13-23.11.20:538][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.07.13-23.11.20:538][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.07.13-23.11.20:538][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.07.13-23.11.20:538][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.07.13-23.11.20:538][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.07.13-23.11.20:538][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.07.13-23.11.20:538][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.07.13-23.11.20:538][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.07.13-23.11.20:538][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.07.13-23.11.20:538][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.07.13-23.11.20:538][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.07.13-23.11.20:538][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.07.13-23.11.20:538][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.07.13-23.11.20:538][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.07.13-23.11.20:538][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.07.13-23.11.20:538][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.07.13-23.11.20:538][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.07.13-23.11.20:538][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.07.13-23.11.20:538][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.07.13-23.11.20:538][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.07.13-23.11.20:538][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.07.13-23.11.20:538][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.07.13-23.11.20:538][  0]LogInit: Selected Device Profile: [Windows]
-[2019.07.13-23.11.20:538][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.07.13-23.11.20:552][  0]LogHAL: Display: Platform has ~ 16 GB [17132466176 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.07.13-23.11.20:552][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2019.07.13-23.11.20:552][  0]LogInit: Going up to parent DeviceProfile []
-[2019.07.13-23.11.20:552][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.07.13-23.11.20:552][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.07.13-23.11.20:552][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.07.13-23.11.20:552][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.07.13-23.11.20:553][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.07.13-23.11.20:554][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.07.13-23.11.20:555][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.07.13-23.11.20:555][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.07.13-23.11.20:555][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.07.13-23.11.20:555][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.07.13-23.11.20:555][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.07.13-23.11.20:555][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.07.13-23.11.20:555][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.07.13-23.11.20:555][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.07.13-23.11.20:555][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
-[2019.07.13-23.11.20:555][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.07.13-23.11.20:555][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.07.13-23.11.20:555][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.07.13-23.11.20:555][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.07.13-23.11.20:555][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.07.13-23.11.20:555][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
-[2019.07.13-23.11.20:555][  0]LogInit: Computer: MSI
-[2019.07.13-23.11.20:556][  0]LogInit: User: Chris
-[2019.07.13-23.11.20:556][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.07.13-23.11.20:556][  0]LogInit: High frequency timer resolution =2.531246 MHz
-[2019.07.13-23.11.20:556][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2019.07.13-23.11.20:556][  0]LogMemory: Platform Memory Stats for Windows
-[2019.07.13-23.11.20:556][  0]LogMemory: Process Physical Memory: 98.14 MB used, 98.14 MB peak
-[2019.07.13-23.11.20:556][  0]LogMemory: Process Virtual Memory: 93.04 MB used, 93.04 MB peak
-[2019.07.13-23.11.20:556][  0]LogMemory: Physical Memory: 6497.69 MB used,  9841.10 MB free, 16338.79 MB total
-[2019.07.13-23.11.20:556][  0]LogMemory: Virtual Memory: 4645.01 MB used,  134213080.00 MB free, 134217728.00 MB total
-[2019.07.13-23.11.20:601][  0]LogInit: Using OS detected language (en-US).
-[2019.07.13-23.11.20:601][  0]LogInit: Using OS detected locale (en-US).
-[2019.07.13-23.11.20:603][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.07.13-23.11.20:867][  0]LogInit: Setting process to per monitor DPI aware
-[2019.07.13-23.11.20:897][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.07.13-23.11.20:897][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.07.13-23.11.21:195][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.07.13-23.11.21:195][  0]LogD3D11RHI: D3D11 adapters:
-[2019.07.13-23.11.21:288][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
-[2019.07.13-23.11.21:288][  0]LogD3D11RHI:       6052/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.07.13-23.11.21:291][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.07.13-23.11.21:291][  0]LogD3D11RHI:       0/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.07.13-23.11.21:291][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.07.13-23.11.21:299][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.07.13-23.11.21:299][  0]LogD3D11RHI:     GPU DeviceId: 0x1c60 (for the marketing name, search the web for "GPU Device Id")
-[2019.07.13-23.11.21:299][  0]LogWindows: EnumDisplayDevices:
-[2019.07.13-23.11.21:299][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
-[2019.07.13-23.11.21:300][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:0 D:1)
-[2019.07.13-23.11.21:300][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.07.13-23.11.21:301][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.07.13-23.11.21:301][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.07.13-23.11.21:301][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
-[2019.07.13-23.11.21:301][  0]LogD3D11RHI:   Driver Version: 430.86 (internal:26.21.14.3086, unified:430.86)
-[2019.07.13-23.11.21:301][  0]LogD3D11RHI:      Driver Date: 5-22-2019
-[2019.07.13-23.11.21:301][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2019.07.13-23.11.21:362][  0]LogD3D11RHI: Async texture creation enabled
-[2019.07.13-23.11.21:376][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.07.13-23.11.21:376][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.07.13-23.11.21:376][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.07.13-23.11.21:384][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.07.13-23.11.21:958][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.07.13-23.11.21:980][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.07.13-23.11.22:003][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.07.13-23.11.22:025][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.07.13-23.11.22:046][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.07.13-23.11.22:068][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.07.13-23.11.22:091][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.07.13-23.11.22:116][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.07.13-23.11.22:128][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.07.13-23.11.22:268][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.07.13-23.11.22:268][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.07.13-23.11.22:268][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.07.13-23.11.22:268][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.07.13-23.11.22:268][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.07.13-23.11.22:268][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.07.13-23.11.22:268][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.07.13-23.11.22:268][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.07.13-23.11.22:269][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.07.13-23.11.22:269][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.07.13-23.11.22:269][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.07.13-23.11.22:269][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.07.13-23.11.22:269][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.07.13-23.11.22:269][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.07.13-23.11.22:269][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.07.13-23.11.22:269][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.07.13-23.11.22:269][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.07.13-23.11.22:269][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.07.13-23.11.22:272][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.07.13-23.11.22:341][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.07.13-23.11.22:341][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.07.13-23.11.22:382][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.07.13-23.11.22:382][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.07.13-23.11.22:405][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.07.13-23.11.22:424][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.07.13-23.11.22:445][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.07.13-23.11.22:469][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.07.13-23.11.22:545][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.07.13-23.11.22:545][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.07.13-23.11.22:545][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.07.13-23.11.22:561][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.07.13-23.11.22:640][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Intermediate/Shaders/WorkingDirectory/6720/).
-[2019.07.13-23.11.22:640][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Chris/AppData/Local/Temp/UnrealShaderWorkingDir/2F8C4C4B42FA93D5A9DC159C3EB63B78/'.
-[2019.07.13-23.11.22:643][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.07.13-23.11.22:644][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.07.13-23.11.22:644][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.07.13-23.11.23:416][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.07.13-23.11.23:475][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Chris/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.07.13-23.11.23:475][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Chris/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2019.07.13-23.11.23:475][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.07.13-23.11.23:475][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.07.13-23.11.23:475][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.07.13-23.11.23:475][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.07.13-23.11.23:491][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.07.13-23.11.23:491][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.07.13-23.11.23:491][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.07.13-23.11.23:503][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Chris/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.07.13-23.11.23:503][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.07.13-23.11.23:503][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.07.13-23.11.23:535][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.07.13-23.11.23:537][  0]LogSlate: Using FreeType 2.6.0
-[2019.07.13-23.11.23:538][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.07.13-23.11.23:660][  0]LogAssetRegistry: FAssetRegistry took 0.0417 seconds to start up
-[2019.07.13-23.11.24:204][  0]LogInit: Selected Device Profile: [Windows]
-[2019.07.13-23.11.24:424][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.07.13-23.11.24:424][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.07.13-23.11.24:424][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.07.13-23.11.24:424][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.07.13-23.11.24:425][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.07.13-23.11.24:439][  0]LogNetVersion: DescendIntoDarkness 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1140046260)
-[2019.07.13-23.11.25:001][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.053076 seconds
-[2019.07.13-23.11.25:011][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
-[2019.07.13-23.11.25:011][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
-[2019.07.13-23.11.25:011][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.07.13-23.11.26:366][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.07.13-23.11.26:380][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.07.13-23.11.26:877][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerCPP/Blueprints/SideScrollerCharacter'
-[2019.07.13-23.11.26:877][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerCPP/Blueprints/SideScrollerCharacter'
-[2019.07.13-23.11.26:877][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/SideScrollerCPP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C'
-[2019.07.13-23.11.26:877][  0]Error: CDO Constructor (DescendIntoDarknessGameMode): Failed to find /Game/SideScrollerCPP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
+[2019.07.14-21.21.23:937][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.07.14-21.21.23:937][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
+[2019.07.14-21.21.23:937][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
+[2019.07.14-21.21.23:944][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.07.14-21.21.23:944][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.07.14-21.21.23:945][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.07.14-21.21.23:946][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.07.14-21.21.23:946][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.07.14-21.21.23:946][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.07.14-21.21.23:946][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.14-21.21.23:946][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.07.14-21.21.23:946][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.07.14-21.21.23:946][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.14-21.21.23:946][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.07.14-21.21.23:959][  0]LogHAL: Display: Platform has ~ 16 GB [17132466176 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.07.14-21.21.23:960][  0]LogInit: Going up to parent DeviceProfile []
+[2019.07.14-21.21.23:960][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.07.14-21.21.23:960][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.07.14-21.21.23:961][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.07.14-21.21.23:962][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.07.14-21.21.23:962][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.07.14-21.21.23:962][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.07.14-21.21.23:962][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.07.14-21.21.23:962][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Scalability.ini]
+[2019.07.14-21.21.23:962][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.07.14-21.21.23:962][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.07.14-21.21.23:962][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.07.14-21.21.23:962][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.07.14-21.21.23:962][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.07.14-21.21.23:962][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Config/Windows/Engine.ini]
+[2019.07.14-21.21.23:962][  0]LogInit: Computer: MSI
+[2019.07.14-21.21.23:962][  0]LogInit: User: Chris
+[2019.07.14-21.21.23:962][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.07.14-21.21.23:962][  0]LogInit: High frequency timer resolution =2.531246 MHz
+[2019.07.14-21.21.23:963][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.07.14-21.21.23:963][  0]LogMemory: Platform Memory Stats for Windows
+[2019.07.14-21.21.23:963][  0]LogMemory: Process Physical Memory: 98.39 MB used, 98.39 MB peak
+[2019.07.14-21.21.23:963][  0]LogMemory: Process Virtual Memory: 93.12 MB used, 93.12 MB peak
+[2019.07.14-21.21.23:963][  0]LogMemory: Physical Memory: 5961.28 MB used,  10377.52 MB free, 16338.79 MB total
+[2019.07.14-21.21.23:963][  0]LogMemory: Virtual Memory: 4645.01 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.07.14-21.21.24:002][  0]LogInit: Using OS detected language (en-US).
+[2019.07.14-21.21.24:002][  0]LogInit: Using OS detected locale (en-US).
+[2019.07.14-21.21.24:004][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.07.14-21.21.24:232][  0]LogInit: Setting process to per monitor DPI aware
+[2019.07.14-21.21.24:290][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.07.14-21.21.24:290][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.07.14-21.21.24:604][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.14-21.21.24:604][  0]LogD3D11RHI: D3D11 adapters:
+[2019.07.14-21.21.24:698][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2019.07.14-21.21.24:698][  0]LogD3D11RHI:       6052/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.07.14-21.21.24:701][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.07.14-21.21.24:701][  0]LogD3D11RHI:       0/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.07.14-21.21.24:701][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.07.14-21.21.24:710][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.07.14-21.21.24:710][  0]LogD3D11RHI:     GPU DeviceId: 0x1c60 (for the marketing name, search the web for "GPU Device Id")
+[2019.07.14-21.21.24:710][  0]LogWindows: EnumDisplayDevices:
+[2019.07.14-21.21.24:710][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2019.07.14-21.21.24:710][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:0 D:1)
+[2019.07.14-21.21.24:711][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.07.14-21.21.24:711][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.07.14-21.21.24:711][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.07.14-21.21.24:711][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2019.07.14-21.21.24:711][  0]LogD3D11RHI:   Driver Version: 430.86 (internal:26.21.14.3086, unified:430.86)
+[2019.07.14-21.21.24:711][  0]LogD3D11RHI:      Driver Date: 5-22-2019
+[2019.07.14-21.21.24:712][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.07.14-21.21.24:771][  0]LogD3D11RHI: Async texture creation enabled
+[2019.07.14-21.21.24:799][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.14-21.21.24:799][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.14-21.21.24:799][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.14-21.21.24:808][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.07.14-21.21.25:301][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.07.14-21.21.25:323][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.07.14-21.21.25:345][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.07.14-21.21.25:367][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.07.14-21.21.25:389][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.07.14-21.21.25:410][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.07.14-21.21.25:431][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.07.14-21.21.25:453][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.07.14-21.21.25:463][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.07.14-21.21.25:589][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.07.14-21.21.25:589][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.07.14-21.21.25:589][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.07.14-21.21.25:589][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.07.14-21.21.25:589][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.07.14-21.21.25:589][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.07.14-21.21.25:589][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.07.14-21.21.25:589][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.07.14-21.21.25:589][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.07.14-21.21.25:589][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.07.14-21.21.25:589][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.07.14-21.21.25:589][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.07.14-21.21.25:589][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.07.14-21.21.25:589][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.07.14-21.21.25:589][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.07.14-21.21.25:590][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.07.14-21.21.25:590][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.07.14-21.21.25:590][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.07.14-21.21.25:592][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.07.14-21.21.25:656][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.07.14-21.21.25:657][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.07.14-21.21.25:694][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.07.14-21.21.25:694][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.07.14-21.21.25:713][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.07.14-21.21.25:732][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.07.14-21.21.25:752][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.07.14-21.21.25:772][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.07.14-21.21.25:842][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.07.14-21.21.25:842][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.07.14-21.21.25:842][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.07.14-21.21.25:855][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.07.14-21.21.25:935][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Intermediate/Shaders/WorkingDirectory/18404/).
+[2019.07.14-21.21.25:935][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Chris/AppData/Local/Temp/UnrealShaderWorkingDir/FE1ACC4446BBFAED891CA3A753FA16F3/'.
+[2019.07.14-21.21.25:939][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.07.14-21.21.25:939][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.07.14-21.21.25:939][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.07.14-21.21.26:699][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.07.14-21.21.26:758][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Chris/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.07.14-21.21.26:758][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Chris/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.07.14-21.21.26:758][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.14-21.21.26:758][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.07.14-21.21.26:758][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.07.14-21.21.26:758][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.07.14-21.21.26:773][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.07.14-21.21.26:774][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.07.14-21.21.26:774][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.07.14-21.21.26:786][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Chris/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.07.14-21.21.26:786][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.07.14-21.21.26:786][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.07.14-21.21.26:816][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.07.14-21.21.26:817][  0]LogSlate: Using FreeType 2.6.0
+[2019.07.14-21.21.26:818][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.07.14-21.21.26:943][  0]LogAssetRegistry: FAssetRegistry took 0.0406 seconds to start up
+[2019.07.14-21.21.27:430][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.14-21.21.27:624][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.07.14-21.21.27:624][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.07.14-21.21.27:624][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.07.14-21.21.27:624][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.07.14-21.21.27:624][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.07.14-21.21.27:637][  0]LogNetVersion: DescendIntoDarkness 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1140046260)
+[2019.07.14-21.21.28:136][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.043080 seconds
+[2019.07.14-21.21.28:145][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.07.14-21.21.28:145][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.07.14-21.21.28:145][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.07.14-21.21.29:428][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.07.14-21.21.29:442][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.07.14-21.21.29:552][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerCPP/Blueprints/SideScrollerCharacter'
+[2019.07.14-21.21.29:552][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerCPP/Blueprints/SideScrollerCharacter'
+[2019.07.14-21.21.29:552][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/SideScrollerCPP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C'
+[2019.07.14-21.21.29:552][  0]Error: CDO Constructor (DescendIntoDarknessGameMode): Failed to find /Game/SideScrollerCPP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C
 
-[2019.07.13-23.11.26:877][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
-[2019.07.13-23.11.26:877][  0]LogUObjectBase: Warning: Error: CDO Constructor (DescendIntoDarknessGameMode): Failed to find /Game/SideScrollerCPP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C
+[2019.07.14-21.21.29:552][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+[2019.07.14-21.21.29:552][  0]LogUObjectBase: Warning: Error: CDO Constructor (DescendIntoDarknessGameMode): Failed to find /Game/SideScrollerCPP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C
 
-[2019.07.13-23.12.01:589][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.07.13-23.12.01:631][  0]SourceControl: Source control is disabled
-[2019.07.13-23.12.01:631][  0]SourceControl: Source control is disabled
-[2019.07.13-23.12.01:633][  0]SourceControl: Source control is disabled
-[2019.07.13-23.12.01:725][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.07.13-23.12.01:803][  0]LogOcInput: OculusInput pre-init called
-[2019.07.13-23.12.02:624][  0]SourceControl: Source control is disabled
-[2019.07.13-23.12.02:772][  0]LogEngine: Initializing Engine...
-[2019.07.13-23.12.02:773][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.07.13-23.12.02:775][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.07.13-23.12.03:018][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.07.13-23.12.03:041][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.07.13-23.12.03:054][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.07.13-23.12.03:120][  0]LogInit: FAudioDevice initialized.
-[2019.07.13-23.12.03:120][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.07.13-23.12.04:610][  0]LogDerivedDataCache: Saved boot cache 1.49s 71MB C:/Users/Chris/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.07.13-23.12.04:647][  0]LogInit: Texture streaming: Enabled
-[2019.07.13-23.12.04:681][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.07.13-23.12.04:714][  0]LogInit: Transaction tracking system initialized
-[2019.07.13-23.12.04:752][  0]BlueprintLog: New page: Editor Load
-[2019.07.13-23.12.04:877][  0]LocalizationService: Localization service is disabled
-[2019.07.13-23.12.05:230][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/' took 0.02s
-[2019.07.13-23.12.05:230][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.07.13-23.12.05:230][  0]LogCook: Display: Mobile HDR setting 1
-[2019.07.13-23.12.05:458][  0]SourceControl: Source control is disabled
-[2019.07.13-23.12.05:459][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap'
-[2019.07.13-23.12.05:459][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.07.13-23.12.05:459][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.216ms to complete.
-[2019.07.13-23.12.05:459][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.001
-[2019.07.13-23.12.05:526][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.07.13-23.12.05:588][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.13-23.12.05:596][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.13-23.12.05:604][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.13-23.12.05:612][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.13-23.12.05:621][  0]LogCollectionManager: Loaded 0 collections in 0.002606 seconds
-[2019.07.13-23.12.05:651][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Collections/' took 0.01s
-[2019.07.13-23.12.05:651][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Developers/Chris/Collections/' took 0.01s
-[2019.07.13-23.12.05:651][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Collections/' took 0.00s
-[2019.07.13-23.12.05:651][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.07.13-23.12.05:660][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2739 classes and 663 folders.
-[2019.07.13-23.12.05:670][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.07.13-23.12.05:673][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:673][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:674][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:675][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:675][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:676][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:676][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:677][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:677][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:678][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:679][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:680][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:681][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:682][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:682][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:683][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:684][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:685][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:685][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:686][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:687][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:687][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:688][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:688][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:689][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:690][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.07.13-23.12.05:748][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.07.13-23.12.05:810][  0]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.07.13-23.12.05:814][  0]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.07.13-23.12.05:817][  0]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.07.13-23.12.05:818][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2019.07.13-23.12.05:929][  0]LogRenderer: Reallocating scene render targets to support 1208x624 Format 10 NumSamples 1 (Frame:1).
-[2019.07.13-23.12.06:038][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.07.13-23.12.06:039][  0]LogLoad: (Engine Initialization) Total time: 48.55 seconds
-[2019.07.13-23.12.06:039][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.07.13-23.12.06:094][  0]LogAssetRegistry: Asset discovery search completed in 42.4569 seconds
-[2019.07.13-23.12.06:097][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.07.13-23.12.06:097][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000179 seconds (updated 0 objects)
-[2019.07.13-23.12.06:132][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.07.13-23.12.06:171][  0]LogRenderer: Reallocating scene render targets to support 1208x676 Format 10 NumSamples 1 (Frame:3).
-[2019.07.13-23.12.06:191][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/' took 0.12s
-[2019.07.13-23.12.07:068][ 53]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.07.13-23.12.09:900][223]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.13-23.12.10:486][230]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Player.Player
-[2019.07.13-23.12.10:834][230]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 121 classes and 0 folders.
-[2019.07.13-23.12.12:006][230]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.07.13-23.12.12:402][231]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.07.13-23.12.18:132][565]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.07.13-23.12.22:097][801]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.07.13-23.12.23:391][867]LogAIModule: Creating AISystem for world Test_Scene
-[2019.07.13-23.12.23:426][867]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Test_Scene.Test_Scene
-[2019.07.13-23.12.23:475][867]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
-[2019.07.13-23.12.23:476][867]Cmd: MAP LOAD FILE="../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.07.13-23.12.23:477][867]LightingResults: New page: Lighting Build
-[2019.07.13-23.12.23:480][867]LogBlueprintActionDatabase: Requesting refresh due to module change: StatsViewer (loaded)
-[2019.07.13-23.12.23:481][867]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0006 seconds. Added 5 classes and 0 folders.
-[2019.07.13-23.12.23:482][867]LoadErrors: New page: Loading map: Test_Scene.umap
-[2019.07.13-23.12.23:482][867]MapCheck: New page: Map Check
-[2019.07.13-23.12.23:482][867]LightingResults: New page: Lighting Build
-[2019.07.13-23.12.23:521][867]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
-[2019.07.13-23.12.23:662][867]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.07.13-23.12.23:698][867]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
-[2019.07.13-23.12.23:726][867]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.07.13-23.12.23:726][867]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.157ms to complete.
-[2019.07.13-23.12.23:726][867]LogFileHelpers: Loading map 'Test_Scene' took 0.250
-[2019.07.13-23.12.24:706][894]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.07.13-23.12.24:974][910]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.07.13-23.12.25:630][949]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.07.13-23.12.26:627][  8]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.07.13-23.12.26:633][  8]Running C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DescendIntoDarkness.uproject" -game -rocket -progress
-[2019.07.13-23.12.27:048][  8]Discovering modules, targets and source code for project...
-[2019.07.13-23.12.30:874][  8]Binding IntelliSense data...
-[2019.07.13-23.12.33:296][  8]Binding IntelliSense data... 100%
-[2019.07.13-23.12.33:296][  8]Writing project files...
-[2019.07.13-23.12.37:628][  8]Writing project files... 100%
-[2019.07.13-23.12.57:603][471]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.13-23.12.57:672][475]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2019.07.13-23.12.57:679][475]Candidate modules for hot reload:
-[2019.07.13-23.12.57:679][475]  DescendIntoDarkness
-[2019.07.13-23.12.57:679][475]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DescendIntoDarkness,4029 Win64 Development -TargetType=Editor -Project="C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DescendIntoDarkness.uproject" "C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DescendIntoDarkness.uproject"  -IgnoreJunk]
-[2019.07.13-23.12.57:690][475]Warning: Starting HotReload took  0.0s.
-[2019.07.13-23.13.13:167][389]CompilerResultsLog: New page: Compilation - Jul 13, 2019, 9:13:13 AM
-[2019.07.13-23.13.13:167][389]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Chris\Documents\Descend\Descend-Into-Darkness).
-[2019.07.13-23.13.13:167][389]CompilerResultsLog: Creating makefile for DescendIntoDarknessEditor (no existing makefile)
-[2019.07.13-23.13.13:168][389]CompilerResultsLog: Parsing headers for DescendIntoDarknessEditor
-[2019.07.13-23.13.13:168][389]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\DescendIntoDarkness.uproject" "C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\DescendIntoDarknessEditor\Development\DescendIntoDarknessEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2019.07.13-23.13.13:168][389]CompilerResultsLog: Reflection code generated for DescendIntoDarknessEditor in 9.4700214 seconds
-[2019.07.13-23.13.13:169][389]CompilerResultsLog: Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.07.13-23.13.13:169][389]CompilerResultsLog: Building 4 actions with 8 processes...
-[2019.07.13-23.13.13:169][389]CompilerResultsLog:   [1/4] DescendIntoDarknessCharacter.cpp
-[2019.07.13-23.13.13:169][389]CompilerResultsLog:   [2/4] UE4Editor-DescendIntoDarkness-4029.lib
-[2019.07.13-23.13.13:169][389]CompilerResultsLog:      Creating library C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-4029.lib and object C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-4029.exp
-[2019.07.13-23.13.13:170][389]CompilerResultsLog:   [3/4] UE4Editor-DescendIntoDarkness-4029.dll
-[2019.07.13-23.13.13:170][389]CompilerResultsLog:      Creating library C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-4029.suppressed.lib and object C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-4029.suppressed.exp
-[2019.07.13-23.13.13:171][389]CompilerResultsLog:   [4/4] DescendIntoDarknessEditor.target
-[2019.07.13-23.13.13:171][389]CompilerResultsLog: Total time in Parallel executor: 3.13 seconds
-[2019.07.13-23.13.13:171][389]CompilerResultsLog: Total execution time: 15.37 seconds
-[2019.07.13-23.13.13:171][389]LogMainFrame: MainFrame: Module compiling took 15.498 seconds
-[2019.07.13-23.13.13:234][389]LogUObjectHash: Compacting FUObjectHashTables data took   4.93ms
-[2019.07.13-23.13.13:234][389]LogBlueprintActionDatabase: Requesting refresh due to module change: DescendIntoDarkness (unloaded)
-[2019.07.13-23.13.13:648][389]Error: CDO Constructor (DescendIntoDarknessGameMode): Failed to find /Game/SideScrollerCPP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C
+[2019.07.14-21.21.29:568][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.14-21.21.51:527][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.14-21.21.51:530][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.14-21.21.51:570][  0]SourceControl: Source control is disabled
+[2019.07.14-21.21.51:570][  0]SourceControl: Source control is disabled
+[2019.07.14-21.21.51:571][  0]SourceControl: Source control is disabled
+[2019.07.14-21.21.51:671][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.07.14-21.21.51:756][  0]LogOcInput: OculusInput pre-init called
+[2019.07.14-21.21.52:627][  0]SourceControl: Source control is disabled
+[2019.07.14-21.21.52:781][  0]LogEngine: Initializing Engine...
+[2019.07.14-21.21.52:782][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.14-21.21.52:784][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.07.14-21.21.53:040][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.07.14-21.21.53:062][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.07.14-21.21.53:078][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.14-21.21.53:154][  0]LogInit: FAudioDevice initialized.
+[2019.07.14-21.21.53:154][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.07.14-21.21.53:235][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/Chris/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.07.14-21.21.53:235][  0]LogInit: Texture streaming: Enabled
+[2019.07.14-21.21.53:288][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.07.14-21.21.53:318][  0]LogInit: Transaction tracking system initialized
+[2019.07.14-21.21.53:364][  0]BlueprintLog: New page: Editor Load
+[2019.07.14-21.21.53:493][  0]LocalizationService: Localization service is disabled
+[2019.07.14-21.21.53:898][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/' took 0.02s
+[2019.07.14-21.21.53:898][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.07.14-21.21.53:898][  0]LogCook: Display: Mobile HDR setting 1
+[2019.07.14-21.21.54:158][  0]SourceControl: Source control is disabled
+[2019.07.14-21.21.54:158][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap'
+[2019.07.14-21.21.54:159][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.14-21.21.54:159][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.168ms to complete.
+[2019.07.14-21.21.54:159][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.001
+[2019.07.14-21.21.54:291][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.14-21.21.54:299][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.14-21.21.54:308][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.14-21.21.54:317][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.14-21.21.54:328][  0]LogCollectionManager: Loaded 0 collections in 0.002795 seconds
+[2019.07.14-21.21.54:359][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Collections/' took 0.01s
+[2019.07.14-21.21.54:359][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Developers/Chris/Collections/' took 0.01s
+[2019.07.14-21.21.54:359][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Collections/' took 0.00s
+[2019.07.14-21.21.54:359][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.07.14-21.21.54:372][  0]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2740 classes and 663 folders.
+[2019.07.14-21.21.54:383][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.07.14-21.21.54:385][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:386][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:387][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:387][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:389][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:389][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:390][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:391][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:391][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:392][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:393][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:394][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:395][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:396][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:397][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:397][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:398][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:398][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:399][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:400][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:401][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:402][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:403][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:403][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:404][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:405][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.14-21.21.54:469][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.07.14-21.21.54:547][  0]LogSlate: Took 0.000312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.07.14-21.21.54:552][  0]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.07.14-21.21.54:556][  0]LogSlate: Took 0.000330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.07.14-21.21.54:629][  0]LogRenderer: Reallocating scene render targets to support 1208x624 Format 10 NumSamples 1 (Frame:1).
+[2019.07.14-21.21.54:778][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.07.14-21.21.54:778][  0]LogLoad: (Engine Initialization) Total time: 33.82 seconds
+[2019.07.14-21.21.54:779][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.07.14-21.21.54:853][  0]LogAssetRegistry: Asset discovery search completed in 27.9319 seconds
+[2019.07.14-21.21.54:857][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.07.14-21.21.54:857][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000089 seconds (updated 0 objects)
+[2019.07.14-21.21.54:858][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.07.14-21.21.54:903][  0]LogRenderer: Reallocating scene render targets to support 1208x676 Format 10 NumSamples 1 (Frame:3).
+[2019.07.14-21.21.54:937][  0]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.14-21.21.54:958][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/' took 0.15s
+[2019.07.14-21.21.55:816][ 51]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.14-21.21.58:815][231]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.14-21.21.59:444][236]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Player.Player
+[2019.07.14-21.21.59:794][236]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 121 classes and 0 folders.
+[2019.07.14-21.22.00:981][236]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.07.14-21.22.01:400][237]LogSlate: Took 0.000331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.07.14-21.22.32:803][700]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.14-21.22.34:036][761]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.14-21.22.34:087][761]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Test_Scene.Test_Scene
+[2019.07.14-21.22.34:130][761]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2019.07.14-21.22.34:131][761]Cmd: MAP LOAD FILE="../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.14-21.22.34:131][761]LightingResults: New page: Lighting Build
+[2019.07.14-21.22.34:142][761]LogBlueprintActionDatabase: Requesting refresh due to module change: StatsViewer (loaded)
+[2019.07.14-21.22.34:143][761]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0007 seconds. Added 5 classes and 0 folders.
+[2019.07.14-21.22.34:143][761]LoadErrors: New page: Loading map: Test_Scene.umap
+[2019.07.14-21.22.34:144][761]MapCheck: New page: Map Check
+[2019.07.14-21.22.34:144][761]LightingResults: New page: Lighting Build
+[2019.07.14-21.22.34:185][761]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2019.07.14-21.22.34:333][761]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.14-21.22.34:370][761]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2019.07.14-21.22.34:399][761]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.14-21.22.34:399][761]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.137ms to complete.
+[2019.07.14-21.22.34:399][761]LogFileHelpers: Loading map 'Test_Scene' took 0.269
+[2019.07.14-21.22.38:129][936]Cmd: DELETE
+[2019.07.14-21.22.38:133][936]Cmd: ACTOR DELETE
+[2019.07.14-21.22.38:144][936]LogEditorActor: Deleted Actor: BP_CampSpawn_C
+[2019.07.14-21.22.38:244][936]LogUObjectHash: Compacting FUObjectHashTables data took   6.07ms
+[2019.07.14-21.22.38:244][936]LogEditorActor: Deleted 1 Actors (0.106 secs)
+[2019.07.14-21.22.40:859][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.14-21.22.40:946][ 91]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.07.14-21.22.40:951][ 91]Candidate modules for hot reload:
+[2019.07.14-21.22.40:951][ 91]  DescendIntoDarkness
+[2019.07.14-21.22.40:951][ 91]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DescendIntoDarkness,9219 Win64 Development -TargetType=Editor -Project="C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DescendIntoDarkness.uproject" "C:/Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/DescendIntoDarkness.uproject"  -IgnoreJunk]
+[2019.07.14-21.22.40:962][ 91]Warning: Starting HotReload took  0.0s.
+[2019.07.14-21.22.56:466][848]CompilerResultsLog: New page: Compilation - Jul 14, 2019, 7:22:56 AM
+[2019.07.14-21.22.56:467][848]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Chris\Documents\Descend\Descend-Into-Darkness).
+[2019.07.14-21.22.56:467][848]CompilerResultsLog: Creating makefile for DescendIntoDarknessEditor (no existing makefile)
+[2019.07.14-21.22.56:467][848]CompilerResultsLog: Parsing headers for DescendIntoDarknessEditor
+[2019.07.14-21.22.56:467][848]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\DescendIntoDarkness.uproject" "C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\DescendIntoDarknessEditor\Development\DescendIntoDarknessEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.14-21.22.56:467][848]CompilerResultsLog: Reflection code generated for DescendIntoDarknessEditor in 10.2508167 seconds
+[2019.07.14-21.22.56:467][848]CompilerResultsLog: Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.14-21.22.56:467][848]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.07.14-21.22.56:467][848]CompilerResultsLog:   [1/3] UE4Editor-DescendIntoDarkness-9219.lib
+[2019.07.14-21.22.56:467][848]CompilerResultsLog:      Creating library C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-9219.lib and object C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-9219.exp
+[2019.07.14-21.22.56:467][848]CompilerResultsLog:   [2/3] UE4Editor-DescendIntoDarkness-9219.dll
+[2019.07.14-21.22.56:467][848]CompilerResultsLog:      Creating library C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-9219.suppressed.lib and object C:\Users\Chris\Documents\Descend\Descend-Into-Darkness\DescendIntoDarkness\Intermediate\Build\Win64\UE4Editor\Development\DescendIntoDarkness\UE4Editor-DescendIntoDarkness-9219.suppressed.exp
+[2019.07.14-21.22.56:467][848]CompilerResultsLog:   [3/3] DescendIntoDarknessEditor.target
+[2019.07.14-21.22.56:467][848]CompilerResultsLog: Total time in Parallel executor: 1.74 seconds
+[2019.07.14-21.22.56:467][848]CompilerResultsLog: Total execution time: 15.38 seconds
+[2019.07.14-21.22.56:468][848]LogMainFrame: MainFrame: Module compiling took 15.521 seconds
+[2019.07.14-21.22.56:516][848]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2019.07.14-21.22.56:516][848]LogBlueprintActionDatabase: Requesting refresh due to module change: DescendIntoDarkness (unloaded)
+[2019.07.14-21.22.56:926][848]Error: CDO Constructor (DescendIntoDarknessGameMode): Failed to find /Game/SideScrollerCPP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C
 
-[2019.07.13-23.13.13:649][389]LogBlueprintActionDatabase: Requesting refresh due to module change: DescendIntoDarkness (loaded)
-[2019.07.13-23.13.13:649][389]LogContentBrowser: Native class hierarchy updated for 'DescendIntoDarkness' in 0.0005 seconds. Added 6 classes and 2 folders.
-[2019.07.13-23.13.13:650][389]Warning: Some classes could not be reloaded:
+[2019.07.14-21.22.56:928][848]LogBlueprintActionDatabase: Requesting refresh due to module change: DescendIntoDarkness (loaded)
+[2019.07.14-21.22.56:929][848]LogContentBrowser: Native class hierarchy updated for 'DescendIntoDarkness' in 0.0006 seconds. Added 7 classes and 2 folders.
+[2019.07.14-21.22.56:929][848]Warning: Some classes could not be reloaded:
 Error: CDO Constructor (DescendIntoDarknessGameMode): Failed to find /Game/SideScrollerCPP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C
 
 
-[2019.07.13-23.13.13:654][389]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2019.07.13-23.13.13:820][389]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
-[2019.07.13-23.13.13:820][389]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.07.13-23.13.13:840][389]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2739 classes and 663 folders.
-[2019.07.13-23.13.13:840][389]Display: HotReload took 16.2s.
-[2019.07.13-23.13.15:729][466]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.13-23.13.17:899][570]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.13-23.13.28:702][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.13-23.13.28:786][217]LogTemp: Repeating last play command: Selected Viewport
-[2019.07.13-23.13.28:827][217]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.13.28:828][217]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.13-23.13.28:828][217]PIE: New page: PIE session: Test_Scene (Jul 13, 2019, 9:13:28 AM)
-[2019.07.13-23.13.28:841][217]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
-[2019.07.13-23.13.28:862][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022167s)
-[2019.07.13-23.13.28:863][217]LogAIModule: Creating AISystem for world Test_Scene
-[2019.07.13-23.13.28:863][217]LogPlayLevel: PIE: World Init took: (0.000781s)
-[2019.07.13-23.13.28:864][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.023736s)
-[2019.07.13-23.13.28:970][217]LogUObjectHash: Compacting FUObjectHashTables data took   6.97ms
-[2019.07.13-23.13.28:980][217]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.07.13-23.13.29:043][217]LogInit: FAudioDevice initialized.
-[2019.07.13-23.13.29:085][217]LogLoad: Game class is 'DescendIntoDarknessGameMode'
-[2019.07.13-23.13.29:090][217]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.13-16.13.29
-[2019.07.13-23.13.29:091][217]LogWorld: Bringing up level for play took: 0.004941
-[2019.07.13-23.13.29:169][217]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
-[2019.07.13-23.13.29:173][217]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
-[2019.07.13-23.13.29:174][217]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
-[2019.07.13-23.13.29:176][217]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene -0.205
-[2019.07.13-23.13.29:177][217]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.13.37:186][656]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.13.37:187][656]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.13-23.13.37:237][656]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.13-23.13.37:238][656]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.13.37:307][656]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.13-23.13.37:369][656]LogUObjectHash: Compacting FUObjectHashTables data took   7.03ms
-[2019.07.13-23.13.37:398][657]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2019.07.13-23.13.37:793][678]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.13-23.13.40:476][839]LogTemp: Repeating last play command: Selected Viewport
-[2019.07.13-23.13.40:491][839]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.13.40:491][839]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.13-23.13.40:491][839]PIE: New page: PIE session: Test_Scene (Jul 13, 2019, 9:13:40 AM)
-[2019.07.13-23.13.40:492][839]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
-[2019.07.13-23.13.40:513][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020574s)
-[2019.07.13-23.13.40:514][839]LogAIModule: Creating AISystem for world Test_Scene
-[2019.07.13-23.13.40:514][839]LogPlayLevel: PIE: World Init took: (0.000928s)
-[2019.07.13-23.13.40:514][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.022545s)
-[2019.07.13-23.13.40:583][839]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
-[2019.07.13-23.13.40:592][839]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.07.13-23.13.40:654][839]LogInit: FAudioDevice initialized.
-[2019.07.13-23.13.40:683][839]LogLoad: Game class is 'DescendIntoDarknessGameMode'
-[2019.07.13-23.13.40:688][839]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.13-16.13.40
-[2019.07.13-23.13.40:689][839]LogWorld: Bringing up level for play took: 0.004510
-[2019.07.13-23.13.40:703][839]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene -0.677
-[2019.07.13-23.13.40:703][839]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.13.50:921][430]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.13.50:922][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.13-23.13.50:977][430]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.13-23.13.50:977][430]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.13.51:031][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.13-23.13.51:037][430]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
-[2019.07.13-23.13.51:068][431]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2019.07.13-23.13.54:071][479]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.07.13-23.14.02:378][714]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.13-23.14.10:743][213]LogAssetEditorManager: Opening Asset editor for Class /Script/DescendIntoDarkness.DescendIntoDarknessCharacter
-[2019.07.13-23.15.54:007][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.13-23.16.10:193][161]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.07.13-23.16.22:631][766]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.13-23.16.22:698][770]LogTemp: Repeating last play command: Selected Viewport
-[2019.07.13-23.16.22:721][770]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.16.22:722][770]BlueprintLog: New page: Pre-Play auto-recompile
-[2019.07.13-23.16.22:725][770]LogPlayLevel: [PlayLevel] Compiling Player before play...
-[2019.07.13-23.16.23:170][770]LogUObjectHash: Compacting FUObjectHashTables data took   5.39ms
-[2019.07.13-23.16.23:171][770]LogPlayLevel: PlayLevel: Blueprint regeneration took 448 ms (1 blueprints)
-[2019.07.13-23.16.23:171][770]PIE: New page: PIE session: Test_Scene (Jul 13, 2019, 9:16:23 AM)
-[2019.07.13-23.16.23:171][770]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
-[2019.07.13-23.16.23:191][770]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019883s)
-[2019.07.13-23.16.23:192][770]LogAIModule: Creating AISystem for world Test_Scene
-[2019.07.13-23.16.23:192][770]LogPlayLevel: PIE: World Init took: (0.000900s)
-[2019.07.13-23.16.23:192][770]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.021330s)
-[2019.07.13-23.16.23:237][770]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
-[2019.07.13-23.16.23:246][770]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.07.13-23.16.23:309][770]LogInit: FAudioDevice initialized.
-[2019.07.13-23.16.23:338][770]LogLoad: Game class is 'DescendIntoDarknessGameMode'
-[2019.07.13-23.16.23:343][770]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.13-16.16.23
-[2019.07.13-23.16.23:343][770]LogWorld: Bringing up level for play took: 0.004516
-[2019.07.13-23.16.23:357][770]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene -0.023
-[2019.07.13-23.16.23:358][770]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.16.30:427][182]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.16.30:428][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.13-23.16.30:474][182]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.13-23.16.30:475][182]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.16.30:526][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.13-23.16.30:533][182]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
-[2019.07.13-23.16.30:584][183]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2019.07.13-23.16.36:736][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.13-23.16.36:812][412]BlueprintLog: New page: Compile Player
-[2019.07.13-23.16.37:151][412]LogUObjectHash: Compacting FUObjectHashTables data took   5.04ms
-[2019.07.13-23.16.38:141][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset" SILENT=true
-[2019.07.13-23.16.38:511][430]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/PlayerBB7417CE438271AAA60EF69DC63C5C42.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
-[2019.07.13-23.16.39:624][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.13-23.16.40:559][532]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.13-23.16.40:626][536]LogTemp: Repeating last play command: Selected Viewport
-[2019.07.13-23.16.40:677][536]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.16.40:677][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.13-23.16.40:678][536]PIE: New page: PIE session: Test_Scene (Jul 13, 2019, 9:16:40 AM)
-[2019.07.13-23.16.40:678][536]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
-[2019.07.13-23.16.40:698][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020386s)
-[2019.07.13-23.16.40:699][536]LogAIModule: Creating AISystem for world Test_Scene
-[2019.07.13-23.16.40:700][536]LogPlayLevel: PIE: World Init took: (0.000988s)
-[2019.07.13-23.16.40:700][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.021971s)
-[2019.07.13-23.16.40:745][536]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
-[2019.07.13-23.16.40:754][536]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.07.13-23.16.40:819][536]LogInit: FAudioDevice initialized.
-[2019.07.13-23.16.40:846][536]LogLoad: Game class is 'DescendIntoDarknessGameMode'
-[2019.07.13-23.16.40:851][536]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.13-16.16.40
-[2019.07.13-23.16.40:852][536]LogWorld: Bringing up level for play took: 0.005250
-[2019.07.13-23.16.40:866][536]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene -0.515
-[2019.07.13-23.16.40:867][536]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.16.57:417][594]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.16.57:418][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.13-23.16.57:452][594]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.13-23.16.57:453][594]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.16.57:502][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.13-23.16.57:508][594]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
-[2019.07.13-23.16.57:536][595]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2019.07.13-23.16.58:221][634]LogTemp: Repeating last play command: Selected Viewport
-[2019.07.13-23.16.58:240][634]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.16.58:241][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.13-23.16.58:241][634]PIE: New page: PIE session: Test_Scene (Jul 13, 2019, 9:16:58 AM)
-[2019.07.13-23.16.58:241][634]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
-[2019.07.13-23.16.58:260][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018795s)
-[2019.07.13-23.16.58:261][634]LogAIModule: Creating AISystem for world Test_Scene
-[2019.07.13-23.16.58:261][634]LogPlayLevel: PIE: World Init took: (0.000781s)
-[2019.07.13-23.16.58:261][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.020014s)
-[2019.07.13-23.16.58:304][634]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
-[2019.07.13-23.16.58:314][634]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.07.13-23.16.58:383][634]LogInit: FAudioDevice initialized.
-[2019.07.13-23.16.58:417][634]LogLoad: Game class is 'DescendIntoDarknessGameMode'
-[2019.07.13-23.16.58:422][634]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.13-16.16.58
-[2019.07.13-23.16.58:423][634]LogWorld: Bringing up level for play took: 0.004938
-[2019.07.13-23.16.58:437][634]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 1.056
-[2019.07.13-23.16.58:438][634]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.17.05:750][ 60]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.17.05:751][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.13-23.17.05:789][ 60]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.13-23.17.05:790][ 60]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.17.05:839][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.13-23.17.05:846][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
-[2019.07.13-23.17.05:882][ 61]LogPlayLevel: Display: Destroying online subsystem :Context_14
-[2019.07.13-23.17.07:255][142]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.07.13-23.17.07:303][142]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
-[2019.07.13-23.17.07:698][142]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene597538D94FD3AF9D336A68A9FA230553.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene.umap'
-[2019.07.13-23.17.07:901][142]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene_BuiltData5E54032C4EC20EE0A42A07A11169A1F8.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene_BuiltData.uasset'
-[2019.07.13-23.17.19:686][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.13-23.17.38:874][363]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2019.07.13-23.17.50:316][910]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2019.07.13-23.17.55:497][190]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.13-23.18.05:093][677]BlueprintLog: New page: Compile Player
-[2019.07.13-23.18.05:421][677]LogUObjectHash: Compacting FUObjectHashTables data took   5.70ms
-[2019.07.13-23.18.06:467][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset" SILENT=true
-[2019.07.13-23.18.06:752][701]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/PlayerFCB66F3C4BEACEFE96C98FB90BA9EA56.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
-[2019.07.13-23.18.07:334][725]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.13-23.18.08:414][789]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.13-23.18.08:495][794]LogTemp: Repeating last play command: Selected Viewport
-[2019.07.13-23.18.08:539][794]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.18.08:540][794]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.13-23.18.08:540][794]PIE: New page: PIE session: Test_Scene (Jul 13, 2019, 9:18:08 AM)
-[2019.07.13-23.18.08:540][794]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
-[2019.07.13-23.18.08:567][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026233s)
-[2019.07.13-23.18.08:567][794]LogAIModule: Creating AISystem for world Test_Scene
-[2019.07.13-23.18.08:568][794]LogPlayLevel: PIE: World Init took: (0.000838s)
-[2019.07.13-23.18.08:568][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.027555s)
-[2019.07.13-23.18.08:619][794]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
-[2019.07.13-23.18.08:628][794]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.07.13-23.18.08:694][794]LogInit: FAudioDevice initialized.
-[2019.07.13-23.18.08:724][794]LogLoad: Game class is 'DescendIntoDarknessGameMode'
-[2019.07.13-23.18.08:731][794]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.13-16.18.08
-[2019.07.13-23.18.08:732][794]LogWorld: Bringing up level for play took: 0.006784
-[2019.07.13-23.18.08:747][794]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene -0.633
-[2019.07.13-23.18.08:748][794]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.18.17:484][289]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.18.17:484][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.13-23.18.17:535][289]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.13-23.18.17:536][289]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.18.17:588][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.13-23.18.17:595][289]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
-[2019.07.13-23.18.17:630][290]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2019.07.13-23.18.18:695][352]LogEditorViewport: Clicking on Actor (LMB): BP_CampSpawn_C (BP_CampSpawn)
-[2019.07.13-23.18.24:662][703]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.13-23.18.24:806][708]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
-[2019.07.13-23.18.25:103][708]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_SceneA36A78564EE00D04B5D4A0BA243DD3C8.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene.umap'
-[2019.07.13-23.18.25:255][708]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene_BuiltData1BEB34D14F68403B049A38ACC6AD49CF.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene_BuiltData.uasset'
-[2019.07.13-23.18.44:486][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.13-23.18.44:783][826]LogTemp: Repeating last play command: Selected Viewport
-[2019.07.13-23.18.44:810][826]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.18.44:810][826]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.13-23.18.44:810][826]PIE: New page: PIE session: Test_Scene (Jul 13, 2019, 9:18:44 AM)
-[2019.07.13-23.18.44:811][826]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
-[2019.07.13-23.18.44:832][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020859s)
-[2019.07.13-23.18.44:832][826]LogAIModule: Creating AISystem for world Test_Scene
-[2019.07.13-23.18.44:833][826]LogPlayLevel: PIE: World Init took: (0.000802s)
-[2019.07.13-23.18.44:833][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.022203s)
-[2019.07.13-23.18.44:878][826]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
-[2019.07.13-23.18.44:888][826]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.07.13-23.18.44:958][826]LogInit: FAudioDevice initialized.
-[2019.07.13-23.18.44:986][826]LogLoad: Game class is 'DescendIntoDarknessGameMode'
-[2019.07.13-23.18.44:990][826]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.13-16.18.44
-[2019.07.13-23.18.44:991][826]LogWorld: Bringing up level for play took: 0.004049
-[2019.07.13-23.18.45:006][826]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene -0.375
-[2019.07.13-23.18.45:006][826]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.18.54:630][378]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.18.54:631][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.13-23.18.54:684][378]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.13-23.18.54:684][378]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
-[2019.07.13-23.18.54:735][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.13-23.18.54:741][378]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
-[2019.07.13-23.18.54:780][379]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.07.14-21.22.56:934][848]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2019.07.14-21.22.57:106][848]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2019.07.14-21.22.57:106][848]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.07.14-21.22.57:126][848]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2740 classes and 663 folders.
+[2019.07.14-21.22.57:126][848]Display: HotReload took 16.2s.
+[2019.07.14-21.22.59:746][892]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.14-21.22.59:829][897]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.14-21.22.59:868][897]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.22.59:868][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.14-21.22.59:868][897]PIE: New page: PIE session: Test_Scene (Jul 14, 2019, 7:22:59 AM)
+[2019.07.14-21.22.59:880][897]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.14-21.22.59:899][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018965s)
+[2019.07.14-21.22.59:900][897]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.14-21.22.59:900][897]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2019.07.14-21.22.59:900][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.020259s)
+[2019.07.14-21.22.59:996][897]LogUObjectHash: Compacting FUObjectHashTables data took   7.64ms
+[2019.07.14-21.23.00:007][897]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.14-21.23.00:075][897]LogInit: FAudioDevice initialized.
+[2019.07.14-21.23.00:119][897]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.14-21.23.00:124][897]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.14-14.23.00
+[2019.07.14-21.23.00:126][897]LogWorld: Bringing up level for play took: 0.005086
+[2019.07.14-21.23.00:210][897]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.07.14-21.23.00:214][897]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.07.14-21.23.00:215][897]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 20 classes and 0 folders.
+[2019.07.14-21.23.00:218][897]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 0.879
+[2019.07.14-21.23.00:218][897]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.23.09:763][430]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.23.09:763][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.14-21.23.09:818][430]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.14-21.23.09:819][430]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.23.09:884][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.14-21.23.09:944][430]LogUObjectHash: Compacting FUObjectHashTables data took   6.22ms
+[2019.07.14-21.23.09:977][431]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.07.14-21.23.12:221][549]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.14-21.23.12:287][553]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.14-21.23.12:308][553]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.23.12:308][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.14-21.23.12:308][553]PIE: New page: PIE session: Test_Scene (Jul 14, 2019, 7:23:12 AM)
+[2019.07.14-21.23.12:308][553]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.14-21.23.12:330][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020646s)
+[2019.07.14-21.23.12:330][553]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.14-21.23.12:330][553]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2019.07.14-21.23.12:330][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.021951s)
+[2019.07.14-21.23.12:374][553]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2019.07.14-21.23.12:383][553]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.14-21.23.12:451][553]LogInit: FAudioDevice initialized.
+[2019.07.14-21.23.12:481][553]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.14-21.23.12:486][553]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.14-14.23.12
+[2019.07.14-21.23.12:487][553]LogWorld: Bringing up level for play took: 0.004730
+[2019.07.14-21.23.12:500][553]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 1.161
+[2019.07.14-21.23.12:501][553]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.23.14:185][640]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.23.14:185][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.14-21.23.14:242][640]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.14-21.23.14:243][640]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.23.14:290][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.14-21.23.14:295][640]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2019.07.14-21.23.14:329][641]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.07.14-21.23.27:826][361]LogBlueprintActionDatabase: Requesting refresh due to module change: ExternalImagePicker (loaded)
+[2019.07.14-21.23.28:858][361]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.07.14-21.23.59:040][  9]LogConsoleManager: Warning: Console object named 'ActorComponents.Enable' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
+[2019.07.14-21.24.06:716][456]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene
+[2019.07.14-21.25.38:797][988]LogRenderer: Reallocating scene render targets to support 1208x776 Format 10 NumSamples 1 (Frame:1).
+[2019.07.14-21.25.46:740][329]LogSlate: Took 0.001110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.07.14-21.29.12:813][686]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.14-21.29.12:879][690]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.14-21.29.12:901][690]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.29.12:901][690]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.07.14-21.29.12:904][690]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2019.07.14-21.29.13:460][690]LogUObjectHash: Compacting FUObjectHashTables data took   8.48ms
+[2019.07.14-21.29.13:460][690]LogPlayLevel: PlayLevel: Blueprint regeneration took 559 ms (1 blueprints)
+[2019.07.14-21.29.13:460][690]PIE: New page: PIE session: Test_Scene (Jul 14, 2019, 7:29:13 AM)
+[2019.07.14-21.29.13:461][690]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.14-21.29.13:486][690]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024887s)
+[2019.07.14-21.29.13:487][690]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.14-21.29.13:488][690]LogPlayLevel: PIE: World Init took: (0.001070s)
+[2019.07.14-21.29.13:488][690]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.026637s)
+[2019.07.14-21.29.13:555][690]LogUObjectHash: Compacting FUObjectHashTables data took   6.08ms
+[2019.07.14-21.29.13:565][690]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.14-21.29.13:637][690]LogInit: FAudioDevice initialized.
+[2019.07.14-21.29.13:669][690]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.14-21.29.13:675][690]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.14-14.29.13
+[2019.07.14-21.29.13:675][690]LogWorld: Bringing up level for play took: 0.005487
+[2019.07.14-21.29.13:690][690]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 0.352
+[2019.07.14-21.29.13:691][690]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.29.15:054][753]LogClass: OverlappingActors: 1
+[2019.07.14-21.29.15:054][753]LogClass: You have collected Pickup_BP_2
+[2019.07.14-21.29.16:356][831]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.29.16:356][831]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.14-21.29.16:400][831]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.14-21.29.16:400][831]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.29.16:474][831]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.14-21.29.16:481][831]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2019.07.14-21.29.16:523][832]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.07.14-21.29.17:372][881]LogEditorViewport: Clicking on Actor (LMB): Pickup_BP_C (Pickup_BP)
+[2019.07.14-21.29.18:951][970]Cmd: DELETE
+[2019.07.14-21.29.18:951][970]Cmd: ACTOR DELETE
+[2019.07.14-21.29.18:959][970]LogEditorActor: Deleted Actor: Pickup_BP_C
+[2019.07.14-21.29.19:004][970]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2019.07.14-21.29.19:005][970]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2019.07.14-21.29.22:589][183]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.14-21.32.19:620][757]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.07.14-21.32.19:625][757]LogLinker: Warning: Can't find file '/Game/Assets/3D_Models/Materials/nathan'
+[2019.07.14-21.32.19:625][757]LogLinker: Warning: Can't find file for asset '/Game/Assets/3D_Models/Materials/nathan' while loading NULL.
+[2019.07.14-21.32.19:626][757]LogLinker: Warning: Can't find file '/Game/Assets/3D_Models/Materials/nathan'
+[2019.07.14-21.32.19:626][757]LogLinker: Warning: Can't find file for asset '/Game/Assets/3D_Models/Materials/nathan' while loading NULL.
+[2019.07.14-21.32.19:626][757]LogLinker: Warning: Can't find file '/Game/Assets/3D_Models/Materials/nathan'
+[2019.07.14-21.32.19:627][757]LogLinker: Warning: Can't find file for asset '/Game/Assets/3D_Models/Materials/nathan' while loading NULL.
+[2019.07.14-21.32.19:627][757]LogLinker: Warning: Can't find file '/Game/Assets/3D_Models/Materials/nathan'
+[2019.07.14-21.32.19:627][757]LogLinker: Warning: Can't find file for asset '/Game/Assets/3D_Models/Materials/nathan' while loading NULL.
+[2019.07.14-21.32.19:628][757]LogLinker: Warning: Can't find file '/Game/Assets/3D_Models/Materials/nathan'
+[2019.07.14-21.32.19:628][757]LoadErrors: Failed to load /Game/Assets/3D_Models/Materials/nathan.nathan Referenced by Image_Item
+[2019.07.14-21.32.19:628][757]LogLinker: Warning: Can't find file for asset '/Game/Assets/3D_Models/Materials/nathan' while loading NULL.
+[2019.07.14-21.33.31:070][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   5.57ms
+[2019.07.14-21.33.31:504][ 49]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene_Auto1FE78DD3346067524193977B7D7E2D8CF.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Autosaves/Game/Maps/Test_Scene_Auto1.umap'
+[2019.07.14-21.33.31:509][ 49]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test_Scene' took 0.486
+[2019.07.14-21.33.31:509][ 49]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.486
+[2019.07.14-21.33.31:511][ 49]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2019.07.14-21.33.31:526][ 49]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2019.07.14-21.33.31:526][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2019.07.14-21.33.31:861][ 49]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player_Auto1C1573B83486F841FF7D7CFB8952CE462.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Autosaves/Game/Blueprints/Player_Auto1.uasset'
+[2019.07.14-21.33.31:863][ 49]LogFileHelpers: Auto-saving content packages took 0.353
+[2019.07.14-21.36.54:012][375]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SGraphPanel [SGraphEditorImpl.cpp(326)].
+[2019.07.14-21.36.54:050][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset" SILENT=true
+[2019.07.14-21.36.54:332][375]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/PlayerB14711374B7DDCA6EDAB109729BAA32C.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.14-21.37.16:420][295]BlueprintLog: New page: Compile Player
+[2019.07.14-21.37.16:470][295]LogClass: Warning: Type mismatch in InventoryWidget of Player_C - Previous (BoolProperty) Current(ObjectProperty) for package:  FObjectReader
+[2019.07.14-21.37.16:748][295]LogUObjectHash: Compacting FUObjectHashTables data took   5.29ms
+[2019.07.14-21.37.40:133][572]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.14-21.37.44:703][840]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.14-21.37.44:770][844]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.14-21.37.44:829][844]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.37.44:829][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.14-21.37.44:829][844]PIE: New page: PIE session: Test_Scene (Jul 14, 2019, 7:37:44 AM)
+[2019.07.14-21.37.44:829][844]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.14-21.37.44:852][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022763s)
+[2019.07.14-21.37.44:853][844]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.14-21.37.44:854][844]LogPlayLevel: PIE: World Init took: (0.001367s)
+[2019.07.14-21.37.44:854][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.024412s)
+[2019.07.14-21.37.44:900][844]LogUObjectHash: Compacting FUObjectHashTables data took   5.64ms
+[2019.07.14-21.37.44:909][844]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.14-21.37.44:987][844]LogInit: FAudioDevice initialized.
+[2019.07.14-21.37.45:020][844]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.14-21.37.45:025][844]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.14-14.37.45
+[2019.07.14-21.37.45:025][844]LogWorld: Bringing up level for play took: 0.004104
+[2019.07.14-21.37.45:041][844]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene -0.298
+[2019.07.14-21.37.45:041][844]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.37.45:837][889]LogClass: OverlappingActors: 1
+[2019.07.14-21.37.45:837][889]LogClass: You have collected Pickup_BP_5
+[2019.07.14-21.37.49:796][119]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.37.49:797][119]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.14-21.37.49:849][119]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.14-21.37.49:849][119]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.37.49:896][119]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.14-21.37.49:903][119]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2019.07.14-21.37.49:936][120]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.07.14-21.37.50:883][164]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.14-21.37.57:194][510]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.07.14-21.38.00:297][684]BlueprintLog: New page: Compile Player
+[2019.07.14-21.38.00:610][684]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2019.07.14-21.38.01:295][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset" SILENT=true
+[2019.07.14-21.38.01:589][708]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Player2709766A472C85F0A418758A77464B37.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Blueprints/Player.uasset'
+[2019.07.14-21.38.02:078][736]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.14-21.38.03:406][815]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.14-21.38.03:472][819]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.14-21.38.03:527][819]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.38.03:527][819]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.14-21.38.03:527][819]PIE: New page: PIE session: Test_Scene (Jul 14, 2019, 7:38:03 AM)
+[2019.07.14-21.38.03:527][819]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.14-21.38.03:549][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022228s)
+[2019.07.14-21.38.03:549][819]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.14-21.38.03:549][819]LogPlayLevel: PIE: World Init took: (0.000897s)
+[2019.07.14-21.38.03:550][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.023394s)
+[2019.07.14-21.38.03:594][819]LogUObjectHash: Compacting FUObjectHashTables data took   4.95ms
+[2019.07.14-21.38.03:603][819]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.14-21.38.03:672][819]LogInit: FAudioDevice initialized.
+[2019.07.14-21.38.03:700][819]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.14-21.38.03:705][819]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.14-14.38.03
+[2019.07.14-21.38.03:705][819]LogWorld: Bringing up level for play took: 0.004584
+[2019.07.14-21.38.03:720][819]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene 0.382
+[2019.07.14-21.38.03:721][819]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.38.04:434][859]LogClass: OverlappingActors: 1
+[2019.07.14-21.38.04:434][859]LogClass: You have collected Pickup_BP_5
+[2019.07.14-21.38.48:233][426]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.07.14-21.38.49:145][426]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.911 s
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: === Handled ensure: ===
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: 
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: Ensure condition failed: !Primitive->Bounds.BoxExtent.ContainsNaN() && !Primitive->Bounds.Origin.ContainsNaN() && !FMath::IsNaN(Primitive->Bounds.SphereRadius) && FMath::IsFinite(Primitive->Bounds.SphereRadius) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Renderer\Private\RendererScene.cpp] [Line: 1329]
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: Nans found on Bounds for Primitive Rope: Origin X=-nan(ind) Y=-nan(ind) Z=-nan(ind), BoxExtent X=-nan(ind) Y=-nan(ind) Z=-nan(ind), SphereRadius -nan(ind)
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: Stack: 
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: [Callstack] 0x00007ffe7adca79f UE4Editor-Renderer.dll!UnknownFunction []
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: [Callstack] 0x00007ffe7ab98055 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: [Callstack] 0x00007ffe7c7df500 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: [Callstack] 0x00007ffe7c753fc9 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: [Callstack] 0x00007ffe7cbd4615 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: [Callstack] 0x00007ffe7cbfe651 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: [Callstack] 0x00007ffe7cc0e323 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: [Callstack] 0x00007ffe7c8493e7 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: [Callstack] 0x00007ffe9e0e032f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: [Callstack] 0x00007ffe9e8fd396 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: [Callstack] 0x00007ff6751e6bb1 UE4Editor.exe!UnknownFunction []
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: [Callstack] 0x00007ff6751f554c UE4Editor.exe!UnknownFunction []
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: [Callstack] 0x00007ff6751f55ca UE4Editor.exe!UnknownFunction []
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: [Callstack] 0x00007ff67520316c UE4Editor.exe!UnknownFunction []
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: [Callstack] 0x00007ff675205b8e UE4Editor.exe!UnknownFunction []
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: [Callstack] 0x00007ffee2c14034 KERNEL32.DLL!UnknownFunction []
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: [Callstack] 0x00007ffee4023691 ntdll.dll!UnknownFunction []
+[2019.07.14-21.38.49:145][426]LogOutputDevice: Error: 
+[2019.07.14-21.38.49:148][426]LogStats:                SubmitErrorReport -  0.000 s
+[2019.07.14-21.38.49:960][426]LogStats:                    SendNewReport -  0.812 s
+[2019.07.14-21.38.49:961][426]LogStats:             FDebug::EnsureFailed -  1.727 s
+[2019.07.14-21.38.53:353][619]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.14-21.39.06:063][787]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.39.06:063][787]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.14-21.39.06:131][787]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.14-21.39.06:131][787]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.39.06:181][787]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.14-21.39.06:189][787]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2019.07.14-21.39.06:238][788]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.07.14-21.39.10:774][ 57]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.14-21.39.10:840][ 61]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.14-21.39.10:855][ 61]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.39.10:855][ 61]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.14-21.39.10:855][ 61]PIE: New page: PIE session: Test_Scene (Jul 14, 2019, 7:39:10 AM)
+[2019.07.14-21.39.10:855][ 61]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.14-21.39.10:871][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017357s)
+[2019.07.14-21.39.10:872][ 61]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.14-21.39.10:872][ 61]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2019.07.14-21.39.10:872][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.018404s)
+[2019.07.14-21.39.10:915][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2019.07.14-21.39.10:925][ 61]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.14-21.39.10:994][ 61]LogInit: FAudioDevice initialized.
+[2019.07.14-21.39.11:024][ 61]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.14-21.39.11:030][ 61]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.14-14.39.11
+[2019.07.14-21.39.11:030][ 61]LogWorld: Bringing up level for play took: 0.004878
+[2019.07.14-21.39.11:044][ 61]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene -0.295
+[2019.07.14-21.39.11:044][ 61]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.39.17:187][405]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.39.17:187][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.14-21.39.17:247][405]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.14-21.39.17:247][405]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.39.17:294][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.14-21.39.17:302][405]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2019.07.14-21.39.17:353][406]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.07.14-21.39.21:295][640]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.14-21.39.23:787][755]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.14-21.39.24:870][820]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.14-21.39.57:291][724]LogSlate: Window 'Project Settings' being destroyed
+[2019.07.14-21.39.57:299][724]LogSlate: Window 'Project Settings' being destroyed
+[2019.07.14-21.39.58:180][776]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.14-21.39.58:696][807]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.14-21.39.58:711][807]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.39.58:711][807]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.14-21.39.58:711][807]PIE: New page: PIE session: Test_Scene (Jul 14, 2019, 7:39:58 AM)
+[2019.07.14-21.39.58:712][807]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Scene
+[2019.07.14-21.39.58:733][807]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021483s)
+[2019.07.14-21.39.58:734][807]LogAIModule: Creating AISystem for world Test_Scene
+[2019.07.14-21.39.58:734][807]LogPlayLevel: PIE: World Init took: (0.001138s)
+[2019.07.14-21.39.58:735][807]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Scene.Test_Scene to /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene (0.022882s)
+[2019.07.14-21.39.58:776][807]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2019.07.14-21.39.58:784][807]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.14-21.39.58:852][807]LogInit: FAudioDevice initialized.
+[2019.07.14-21.39.58:886][807]LogLoad: Game class is 'DescendIntoDarknessGameMode'
+[2019.07.14-21.39.58:891][807]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Scene.Test_Scene up for play (max tick rate 60) at 2019.07.14-14.39.58
+[2019.07.14-21.39.58:891][807]LogWorld: Bringing up level for play took: 0.004336
+[2019.07.14-21.39.58:906][807]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Scene -0.433
+[2019.07.14-21.39.58:906][807]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.39.59:936][857]LogBlueprintUserMessages: [DepthGauge_C_0] true
+[2019.07.14-21.40.01:431][940]LogBlueprintUserMessages: [DepthGauge_C_1] true
+[2019.07.14-21.40.07:399][292]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.40.07:399][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.14-21.40.07:451][292]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.14-21.40.07:451][292]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene' with GeneratedClass '/Game/Maps/Test_Scene.Test_Scene_C' with ClassGeneratedBy '/Game/Maps/Test_Scene.Test_Scene:PersistentLevel.Test_Scene'
+[2019.07.14-21.40.07:502][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.14-21.40.07:509][292]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2019.07.14-21.40.07:541][293]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.07.14-21.40.10:336][459]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.14-21.40.10:461][463]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2019.07.14-21.40.10:822][463]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene13FD6B8B4F5D70D3B956C095C2BE989D.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene.umap'
+[2019.07.14-21.40.11:007][463]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Saved/Test_Scene_BuiltDataE65255EA492B27D245C28382F73532AA.tmp' to '../../../../../../Users/Chris/Documents/Descend/Descend-Into-Darkness/DescendIntoDarkness/Content/Maps/Test_Scene_BuiltData.uasset'
