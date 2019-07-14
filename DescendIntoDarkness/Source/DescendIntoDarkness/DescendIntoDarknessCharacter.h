@@ -64,6 +64,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void UpdateInventory();
 
+	UFUNCTION(BlueprintCallable)
+	TArray<UResource*> GetInventory();
+
 	UPROPERTY(BlueprintAssignable, Category = "Pickup")
 	FUpdateInventoryDelegate OnUpdateInventory;
 	

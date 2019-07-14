@@ -120,6 +120,11 @@ void ADescendIntoDarknessCharacter::AddToInventory(UResource* actor)
 	UpdateInventory();
 }
 
+TArray<UResource*> ADescendIntoDarknessCharacter::GetInventory() 
+{
+	return _inventory;
+}
+
 void ADescendIntoDarknessCharacter::UpdateInventory() 
 {
 	
