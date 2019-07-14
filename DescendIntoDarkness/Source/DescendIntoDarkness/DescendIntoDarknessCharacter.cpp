@@ -9,6 +9,9 @@
 #include "Runtime/Engine/Classes/Components/SphereComponent.h"
 #include "Engine/World.h"
 #include "Interactable.h"
+#include "Classes/Components/SphereComponent.h"
+#include "NewCampSpawnPole.h"
+
 
 ADescendIntoDarknessCharacter::ADescendIntoDarknessCharacter()
 {
@@ -44,9 +47,17 @@ ADescendIntoDarknessCharacter::ADescendIntoDarknessCharacter()
 	GetCharacterMovement()->MaxWalkSpeed = 600.f;
 	GetCharacterMovement()->MaxFlySpeed = 600.f;
 
+
 	CollectionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("CollectionSphere"));
 	CollectionSphere->AttachTo(RootComponent);
 	CollectionSphere->SetSphereRadius(200.f);
+
+    // Create the collision sphere
+    CampCollisionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("CampCollsionSphere"));
+    CampCollisionSphere->SetupAttachment(RootComponent);
+    CampCollisionSphere->SetSphereRadius(250.f);
+
+
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 }
@@ -60,9 +71,11 @@ void ADescendIntoDarknessCharacter::SetupPlayerInputComponent(class UInputCompon
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &ADescendIntoDarknessCharacter::CheckForInteractables);
-	PlayerInputComponent->BindAxis("MoveRight", this, &ADescendIntoDarknessCharacter::MoveRight);
+	PlayerInputComponent->BindAction("PlaceCamp", IE_Released, this, &ADescendIntoDarknessCharacter::SpawnCamp);
 
-	
+    //PlayerInputComponent->BindAxis("MoveHorizontal", this, &ADescendIntoDarknessCharacter::MoveHorizontal);
+    PlayerInputComponent->BindAxis("ClimbRope", this, &ADescendIntoDarknessCharacter::ClimbRope);
+
 	PlayerInputComponent->BindTouch(IE_Pressed, this, &ADescendIntoDarknessCharacter::TouchStarted);
 	PlayerInputComponent->BindTouch(IE_Released, this, &ADescendIntoDarknessCharacter::TouchStopped);
 }
@@ -142,22 +155,37 @@ void ADescendIntoDarknessCharacter::UpdateInventory()
 	OnUpdateInventory.Broadcast(_inventory);
 }
 
-void ADescendIntoDarknessCharacter::MoveRight(float Value)
-{
-	// add movement in that direction
-	AddMovementInput(FVector(0.f,-1.f,0.f), Value);
-}
 
-void ADescendIntoDarknessCharacter::TouchStarted(const ETouchIndex::Type FingerIndex, const FVector Location)
-{
-	// jump on any touch
-	Jump();
-}
 
-void ADescendIntoDarknessCharacter::TouchStopped(const ETouchIndex::Type FingerIndex, const FVector Location)
+void ADescendIntoDarknessCharacter::ClimbRope(float value)
 {
-	StopJumping();
+    // add movement in that direction
+    AddMovementInput(FVector(0.f,0.f,1.f), value);
 }
 
 
+void ADescendIntoDarknessCharacter::SpawnCamp()
+{
+    if (CampPrefab) {
+        // This stores all the actors that are within the collection sphere
+        TArray<AActor*> NearbyActors;
+        CampCollisionSphere->GetOverlappingActors(NearbyActors);
+        for (int32 iCollected = 0; iCollected < NearbyActors.Num(); ++iCollected) {
+            ANewCampSpawnPole* const TestCampSpawn = Cast<ANewCampSpawnPole>(NearbyActors[iCollected]);
+            if (TestCampSpawn && !TestCampSpawn->IsPendingKill() && !TestCampSpawn->GetHasBeenPlaced()) {
+                UWorld* world = GetWorld();
+
+                if (world) {
+                    TestCampSpawn->Place();
+                    FActorSpawnParameters spawnParams;
+                    spawnParams.Owner = this;
+
+                    FRotator spawnRotation(0.f);
+                    FVector spawnLocation = TestCampSpawn->GetActorLocation();
+                    world->SpawnActor<AActor>(CampPrefab, spawnLocation, spawnRotation, spawnParams);
+                }
+            }
+        }
+    }
+}
 

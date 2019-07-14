@@ -32,26 +32,33 @@ class ADescendIntoDarknessCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
 
+
 	/** CollectionSphere*/
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = CollectionSphere, meta = (AllowPrivateAccess = "true"))
-		class USphereComponent* CollectionSphere;
+	class USphereComponent* CollectionSphere;
+
+    /** A sphere that allows the player to search for nearby camps */
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camp", meta = (AllowPrivateAccess = "true"))
+    class USphereComponent* CampCollisionSphere;
+
 
 protected:
 
 	void CheckForInteractables();
 
 	/** Called for side to side input */
-	void MoveRight(float Val);
+	//void MoveHorizontal(float Val);
 
-	/** Handle touch inputs. */
-	void TouchStarted(const ETouchIndex::Type FingerIndex, const FVector Location);
-
-	/** Handle touch stop event. */
-	void TouchStopped(const ETouchIndex::Type FingerIndex, const FVector Location);
+    // Called for vertical movement on ropes
+    void ClimbRope(float Val);
 
 	// APawn interface
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 	// End of APawn interface
+
+    /** This is called when the player hits the correct button when near a camp spawn point */
+    UFUNCTION(BlueprintCallable, Category = "Camp")
+    void SpawnCamp();
 
 
 public:
@@ -75,6 +82,14 @@ public:
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 
+
 private:
 	TArray<UResource*> _inventory;
+
+    /** Returns the camp collision sphere **/
+    FORCEINLINE class USphereComponent* GetCampCollisionSphere() const { return CampCollisionSphere; }
+
+    UPROPERTY(EditAnywhere, Category="Camp")
+    TSubclassOf<class AActor> CampPrefab;
+
 };
