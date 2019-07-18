@@ -13,7 +13,7 @@
  */
 
 USTRUCT(BlueprintType)
-struct FSResource : public FTableRowBase
+struct FResource : public FTableRowBase
 {
 	GENERATED_BODY()
 public:
@@ -31,6 +31,7 @@ public:
 	UTexture2D* ResourceImage;
 };
 
+/**
 UCLASS(BlueprintType)
 class DESCENDINTODARKNESS_API UResource : public UObject
 {
@@ -51,3 +52,4 @@ class DESCENDINTODARKNESS_API UResource : public UObject
 	UTexture2D* ResourceImage;
 
 };
+*/

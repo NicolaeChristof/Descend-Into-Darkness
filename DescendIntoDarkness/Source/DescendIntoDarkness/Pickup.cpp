@@ -22,7 +22,7 @@ void APickup::WasCollected_Implementation() {
 	//Add to Inventory
 	if (player)
 	{
-		FSResource temp;
+		FResource temp;
 		temp.ResourceName = Name;
 		temp.ResourceID = ItemID;
 		temp.ResourceImage = ItemImage;
