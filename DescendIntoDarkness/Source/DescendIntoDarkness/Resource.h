@@ -4,12 +4,32 @@
 
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
+#include "Engine/DataTable.h"
 #include "Resource.generated.h"
+
 
 /**
  * 
  */
 
+USTRUCT(BlueprintType)
+struct FSResource : public FTableRowBase
+{
+	GENERATED_BODY()
+public:
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Pickup)
+	FString ResourceName;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Pickup)
+	FName ResourceID;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Pickup)
+	int32 ResourceQuantity;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Pickup)
+	UTexture2D* ResourceImage;
+};
 
 UCLASS(BlueprintType)
 class DESCENDINTODARKNESS_API UResource : public UObject
@@ -23,6 +43,9 @@ class DESCENDINTODARKNESS_API UResource : public UObject
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Pickup)
 	FName ResourceID;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Pickup)
+	int32 ResourceQuantity;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Pickup)
 	UTexture2D* ResourceImage;

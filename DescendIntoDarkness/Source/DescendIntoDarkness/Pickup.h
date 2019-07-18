@@ -26,7 +26,10 @@ protected:
 	FName ItemID;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Pickup)
-	UTexture2D* Image;
+	int32 ItemQuantity;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Pickup)
+	UTexture2D* ItemImage;
 
 	UFUNCTION(BlueprintCallable, Category = Pickup)
     FString GetItemName();

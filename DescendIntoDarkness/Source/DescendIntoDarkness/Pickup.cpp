@@ -8,8 +8,9 @@
 
 APickup::APickup()
 {
-
+	//defaults
 	ItemID = FName("Please enter an ID");
+	ItemQuantity = 1;
 }
 
 //destroy when picked up
@@ -21,11 +22,11 @@ void APickup::WasCollected_Implementation() {
 	//Add to Inventory
 	if (player)
 	{
-		UResource* temp = NewObject<UResource>();
-		temp->ResourceName = Name;
-		temp->ResourceID = ItemID;
-		temp->ResourceImage = Image;
-
+		FSResource temp;
+		temp.ResourceName = Name;
+		temp.ResourceID = ItemID;
+		temp.ResourceImage = ItemImage;
+		temp.ResourceQuantity = ItemQuantity;
 		player->AddToInventory(temp);
 		
 	}

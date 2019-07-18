@@ -125,13 +125,13 @@ void ADescendIntoDarknessCharacter::CheckForInteractables()
 
 }
 
-void ADescendIntoDarknessCharacter::AddToInventory(UResource* actor)
+void ADescendIntoDarknessCharacter::AddToInventory(FSResource actor)
 {
 	_inventory.Add(actor);
 	UpdateInventory();
 }
 
-TArray<UResource*> ADescendIntoDarknessCharacter::GetInventory() 
+TArray<FSResource> ADescendIntoDarknessCharacter::GetInventory() 
 {
 	return _inventory;
 }
@@ -141,9 +141,9 @@ void ADescendIntoDarknessCharacter::UpdateInventory()
 	
 	FString sInventory = "";
 
-	for (UResource* actor : _inventory)
+	for (FSResource actor : _inventory)
 	{
-		sInventory.Append(actor->ResourceName);
+		sInventory.Append(actor.ResourceName);
 		sInventory.Append(" | ");
 	}
 

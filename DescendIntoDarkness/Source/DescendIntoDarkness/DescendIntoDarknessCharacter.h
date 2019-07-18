@@ -15,7 +15,7 @@
 
 
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FUpdateInventoryDelegate, const TArray<UResource*>&, InventoryItems);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FUpdateInventoryDelegate, const TArray<FSResource>&, InventoryItems);
 
 
 
@@ -66,13 +66,13 @@ public:
 
 	virtual void Tick(float DeltaTime) override;
 	
-	void AddToInventory(UResource* actor);
+	void AddToInventory(FSResource actor);
 
 	UFUNCTION(BlueprintCallable)
 	void UpdateInventory();
 
 	UFUNCTION(BlueprintCallable)
-	TArray<UResource*> GetInventory();
+	TArray<FSResource> GetInventory();
 
 	UPROPERTY(BlueprintAssignable, Category = "Pickup")
 	FUpdateInventoryDelegate OnUpdateInventory;
@@ -84,7 +84,7 @@ public:
 
 
 private:
-	TArray<UResource*> _inventory;
+	TArray<FSResource> _inventory;
 
     /** Returns the camp collision sphere **/
     FORCEINLINE class USphereComponent* GetCampCollisionSphere() const { return CampCollisionSphere; }
