@@ -169,8 +169,7 @@ void ADescendIntoDarknessCharacter::UpdateInventory()
 	}
 
 	GEngine->AddOnScreenDebugMessage(1, 3, FColor::White, *sInventory);
-	
-
+	UpdateInventoryUI();
 	OnUpdateInventory.Broadcast(_inventory);
 }
 

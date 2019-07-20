@@ -8,6 +8,7 @@
 #include "Runtime/Engine/Public/EngineGlobals.h"
 #include "Pickup.h"
 #include "Resource.h"
+#include "InventoryWidget.h"
 #include "DescendIntoDarknessCharacter.generated.h"
 
 
@@ -73,6 +74,9 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	TArray<FResource> GetInventory();
+
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+	void UpdateInventoryUI();
 
 	UPROPERTY(BlueprintAssignable, Category = "Pickup")
 	FUpdateInventoryDelegate OnUpdateInventory;
