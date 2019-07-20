@@ -127,7 +127,28 @@ void ADescendIntoDarknessCharacter::CheckForInteractables()
 
 void ADescendIntoDarknessCharacter::AddToInventory(FResource actor)
 {
-	_inventory.Add(actor);
+	if (_inventory.Num() == 0)
+	{
+		_inventory.Add(actor);
+	}
+	else
+	{
+		bool bIsFound = false;
+		for (int32 i = 0; i < _inventory.Num(); ++i) 
+		{
+			if (_inventory[i].ResourceID == actor.ResourceID)
+			{
+				_inventory[i].ResourceQuantity += actor.ResourceQuantity;
+				UE_LOG(LogClass, Log, TEXT("Quantity: %d"), _inventory[i].ResourceQuantity);
+				bIsFound = true;
+			}
+		}
+
+		if (!bIsFound)
+		{
+			_inventory.Add(actor);
+		}
+	}
 	UpdateInventory();
 }
 
