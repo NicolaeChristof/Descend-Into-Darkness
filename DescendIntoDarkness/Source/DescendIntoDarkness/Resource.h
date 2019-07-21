@@ -50,6 +50,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Craftable)
 	UTexture2D* CraftableImage;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Craftable)
+	bool bNeedsCamp;
+
 	UPROPERTY(EditAnywhere, Category = Craftable)
 	FResource Recipe[4];
 

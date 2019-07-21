@@ -57,6 +57,7 @@ ADescendIntoDarknessCharacter::ADescendIntoDarknessCharacter()
     CampCollisionSphere->SetupAttachment(RootComponent);
     CampCollisionSphere->SetSphereRadius(250.f);
 
+	
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
@@ -155,6 +156,28 @@ void ADescendIntoDarknessCharacter::AddToInventory(FResource actor)
 TArray<FResource> ADescendIntoDarknessCharacter::GetInventory() 
 {
 	return _inventory;
+}
+
+TArray<FCraftable> ADescendIntoDarknessCharacter::GetCrafting()
+{
+	TArray<FName> RowNames = CraftingDB->GetRowNames();
+	TArray<FCraftable> ValidCraftables;
+
+	
+	for (FName Row : RowNames)
+	{
+		UE_LOG(LogClass, Log, TEXT("Row Name: %s"), *Row.ToString());
+		FCraftable* Recipe = CraftingDB->FindRow<FCraftable>(Row, "");
+		if (Recipe)
+		{
+			ValidCraftables.Add(*Recipe);
+		}
+		
+	}
+
+
+
+	return ValidCraftables;
 }
 
 void ADescendIntoDarknessCharacter::UpdateInventory() 

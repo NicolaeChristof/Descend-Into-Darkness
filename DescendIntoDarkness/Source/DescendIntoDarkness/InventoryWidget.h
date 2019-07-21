@@ -17,4 +17,7 @@ class DESCENDINTODARKNESS_API UInventoryWidget : public UUserWidget
     public:
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Inventory")
 	void LoadInventory();
+
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Inventory")
+	void LoadCrafting();
 };

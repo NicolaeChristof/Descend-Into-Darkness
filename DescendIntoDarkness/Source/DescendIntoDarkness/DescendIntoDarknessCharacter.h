@@ -9,6 +9,7 @@
 #include "Pickup.h"
 #include "Resource.h"
 #include "InventoryWidget.h"
+#include "DescendIntoDarknessGameMode.h"
 #include "DescendIntoDarknessCharacter.generated.h"
 
 
@@ -61,6 +62,9 @@ protected:
     UFUNCTION(BlueprintCallable, Category = "Camp")
     void SpawnCamp();
 
+	UPROPERTY(EditDefaultsOnly)
+	class UDataTable* CraftingDB;
+
 
 public:
 	ADescendIntoDarknessCharacter();
@@ -75,12 +79,18 @@ public:
 	UFUNCTION(BlueprintCallable)
 	TArray<FResource> GetInventory();
 
+	UFUNCTION(BlueprintCallable)
+	TArray<FCraftable> GetCrafting();
+
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
 	void UpdateInventoryUI();
+
+	class UDataTable* GetCraftingDB() const { return CraftingDB; }
 
 	UPROPERTY(BlueprintAssignable, Category = "Pickup")
 	FUpdateInventoryDelegate OnUpdateInventory;
 	
+
 	/** Returns SideViewCameraComponent subobject **/
 	FORCEINLINE class UCameraComponent* GetSideViewCameraComponent() const { return SideViewCameraComponent; }
 	/** Returns CameraBoom subobject **/
