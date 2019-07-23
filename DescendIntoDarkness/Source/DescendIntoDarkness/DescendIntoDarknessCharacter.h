@@ -87,6 +87,11 @@ public:
 
 	class UDataTable* GetCraftingDB() const { return CraftingDB; }
 
+	UFUNCTION(BlueprintCallable)
+	void CraftItem(FCraftable item);
+
+	bool CheckValidCraft(FCraftable item);
+
 	UPROPERTY(BlueprintAssignable, Category = "Pickup")
 	FUpdateInventoryDelegate OnUpdateInventory;
 	

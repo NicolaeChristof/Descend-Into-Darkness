@@ -196,7 +196,83 @@ void ADescendIntoDarknessCharacter::UpdateInventory()
 	OnUpdateInventory.Broadcast(_inventory);
 }
 
+void ADescendIntoDarknessCharacter::CraftItem(FCraftable item)
+{
+	if (CheckValidCraft(item))
+	{
+		for (int i = 0; i < 4; ++i)
+		{
+			FName id = item.Recipe[i].ResourceID;
 
+			if (id == "None")
+			{
+				break;
+			}
+
+			for (int j = 0; j < _inventory.Num(); ++j)
+			{
+				if (id == _inventory[j].ResourceID)
+				{
+					int32 quantity = item.Recipe[i].ResourceQuantity;
+					_inventory[j].ResourceQuantity -= quantity;
+					break;
+				}
+			}
+		}
+
+		UE_LOG(LogClass, Log, TEXT("Item Crafted"));
+
+		FResource temp;
+		temp.ResourceName = item.CraftableName;
+		temp.ResourceID = item.CraftableID;
+		temp.ResourceImage = item.CraftableImage;
+		temp.ResourceQuantity = item.CraftableQuantity;
+		_inventory.Add(temp);
+		UpdateInventory();
+	}
+	else
+	{
+		UE_LOG(LogClass, Log, TEXT("Item Failed"));
+		return;
+	}
+}
+
+bool ADescendIntoDarknessCharacter::CheckValidCraft(FCraftable item)
+{
+	int32 i = 0;
+	FName id = item.Recipe[i].ResourceID;
+	int32 quantity = item.Recipe[i].ResourceQuantity;
+	
+	while (id != "None" && i < 4)
+	{
+		
+		bool bIsFound = false;
+		for (int j = 0; j < _inventory.Num(); ++j)
+		{
+			if (id == _inventory[j].ResourceID) 
+			{
+				bIsFound = true;
+				if (quantity > _inventory[j].ResourceQuantity)
+				{
+					return false;
+				}
+			}
+		}
+
+		if (!bIsFound)
+		{
+			return false;
+		}
+		++i;
+		if (i < 4)
+		{
+			id = item.Recipe[i].ResourceID;
+		}
+		
+	}
+
+	return true;
+}
 
 void ADescendIntoDarknessCharacter::ClimbRope(float value)
 {
