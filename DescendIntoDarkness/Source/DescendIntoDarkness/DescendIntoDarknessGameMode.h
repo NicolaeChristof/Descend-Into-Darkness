@@ -14,12 +14,10 @@ class ADescendIntoDarknessGameMode : public AGameModeBase
 public:
 	ADescendIntoDarknessGameMode();
 
-	//class UDataTable* GetItemDB() const { return ItemDB; }
 
 protected:
 
-	UPROPERTY(EditDefaultsOnly)
-    class UDatatable* ItemDB;
+	
 };
 
 

@@ -57,6 +57,7 @@ ADescendIntoDarknessCharacter::ADescendIntoDarknessCharacter()
     CampCollisionSphere->SetupAttachment(RootComponent);
     CampCollisionSphere->SetSphereRadius(250.f);
 
+	
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
@@ -125,15 +126,58 @@ void ADescendIntoDarknessCharacter::CheckForInteractables()
 
 }
 
-void ADescendIntoDarknessCharacter::AddToInventory(UResource* actor)
+void ADescendIntoDarknessCharacter::AddToInventory(FResource actor)
 {
-	_inventory.Add(actor);
+	if (_inventory.Num() == 0)
+	{
+		_inventory.Add(actor);
+	}
+	else
+	{
+		bool bIsFound = false;
+		for (int32 i = 0; i < _inventory.Num(); ++i) 
+		{
+			if (_inventory[i].ResourceID == actor.ResourceID)
+			{
+				_inventory[i].ResourceQuantity += actor.ResourceQuantity;
+				UE_LOG(LogClass, Log, TEXT("Quantity: %d"), _inventory[i].ResourceQuantity);
+				bIsFound = true;
+			}
+		}
+
+		if (!bIsFound)
+		{
+			_inventory.Add(actor);
+		}
+	}
 	UpdateInventory();
 }
 
-TArray<UResource*> ADescendIntoDarknessCharacter::GetInventory() 
+TArray<FResource> ADescendIntoDarknessCharacter::GetInventory() 
 {
 	return _inventory;
+}
+
+TArray<FCraftable> ADescendIntoDarknessCharacter::GetCrafting()
+{
+	TArray<FName> RowNames = CraftingDB->GetRowNames();
+	TArray<FCraftable> ValidCraftables;
+
+	
+	for (FName Row : RowNames)
+	{
+		UE_LOG(LogClass, Log, TEXT("Row Name: %s"), *Row.ToString());
+		FCraftable* Recipe = CraftingDB->FindRow<FCraftable>(Row, "");
+		if (Recipe)
+		{
+			ValidCraftables.Add(*Recipe);
+		}
+		
+	}
+
+
+
+	return ValidCraftables;
 }
 
 void ADescendIntoDarknessCharacter::UpdateInventory() 
@@ -141,19 +185,94 @@ void ADescendIntoDarknessCharacter::UpdateInventory()
 	
 	FString sInventory = "";
 
-	for (UResource* actor : _inventory)
+	for (FResource actor : _inventory)
 	{
-		sInventory.Append(actor->ResourceName);
+		sInventory.Append(actor.ResourceName);
 		sInventory.Append(" | ");
 	}
 
 	GEngine->AddOnScreenDebugMessage(1, 3, FColor::White, *sInventory);
-	
-
+	UpdateInventoryUI();
 	OnUpdateInventory.Broadcast(_inventory);
 }
 
+void ADescendIntoDarknessCharacter::CraftItem(FCraftable item)
+{
+	if (CheckValidCraft(item))
+	{
+		for (int i = 0; i < 4; ++i)
+		{
+			FName id = item.Recipe[i].ResourceID;
 
+			if (id == "None")
+			{
+				break;
+			}
+
+			for (int j = 0; j < _inventory.Num(); ++j)
+			{
+				if (id == _inventory[j].ResourceID)
+				{
+					int32 quantity = item.Recipe[i].ResourceQuantity;
+					_inventory[j].ResourceQuantity -= quantity;
+					break;
+				}
+			}
+		}
+
+		UE_LOG(LogClass, Log, TEXT("Item Crafted"));
+
+		FResource temp;
+		temp.ResourceName = item.CraftableName;
+		temp.ResourceID = item.CraftableID;
+		temp.ResourceImage = item.CraftableImage;
+		temp.ResourceQuantity = item.CraftableQuantity;
+		_inventory.Add(temp);
+		UpdateInventory();
+	}
+	else
+	{
+		UE_LOG(LogClass, Log, TEXT("Item Failed"));
+		return;
+	}
+}
+
+bool ADescendIntoDarknessCharacter::CheckValidCraft(FCraftable item)
+{
+	int32 i = 0;
+	FName id = item.Recipe[i].ResourceID;
+	int32 quantity = item.Recipe[i].ResourceQuantity;
+	
+	while (id != "None" && i < 4)
+	{
+		
+		bool bIsFound = false;
+		for (int j = 0; j < _inventory.Num(); ++j)
+		{
+			if (id == _inventory[j].ResourceID) 
+			{
+				bIsFound = true;
+				if (quantity > _inventory[j].ResourceQuantity)
+				{
+					return false;
+				}
+			}
+		}
+
+		if (!bIsFound)
+		{
+			return false;
+		}
+		++i;
+		if (i < 4)
+		{
+			id = item.Recipe[i].ResourceID;
+		}
+		
+	}
+
+	return true;
+}
 
 void ADescendIntoDarknessCharacter::ClimbRope(float value)
 {
