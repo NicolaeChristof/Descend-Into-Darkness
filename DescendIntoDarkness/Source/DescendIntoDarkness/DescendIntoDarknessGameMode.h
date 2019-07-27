@@ -13,6 +13,11 @@ class ADescendIntoDarknessGameMode : public AGameModeBase
 
 public:
 	ADescendIntoDarknessGameMode();
+
+
+protected:
+
+	
 };
 
 

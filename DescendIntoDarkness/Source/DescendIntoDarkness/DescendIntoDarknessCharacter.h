@@ -4,7 +4,22 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Engine/DataTable.h"
+#include "Runtime/Engine/Public/EngineGlobals.h"
+#include "Pickup.h"
+#include "Resource.h"
+#include "InventoryWidget.h"
+#include "DescendIntoDarknessGameMode.h"
 #include "DescendIntoDarknessCharacter.generated.h"
+
+
+
+
+
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FUpdateInventoryDelegate, const TArray<FResource>&, InventoryItems);
+
+
 
 UCLASS(config=Game)
 class ADescendIntoDarknessCharacter : public ACharacter
@@ -19,11 +34,19 @@ class ADescendIntoDarknessCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
 
+
+	/** CollectionSphere*/
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = CollectionSphere, meta = (AllowPrivateAccess = "true"))
+	class USphereComponent* CollectionSphere;
+
     /** A sphere that allows the player to search for nearby camps */
     UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camp", meta = (AllowPrivateAccess = "true"))
     class USphereComponent* CampCollisionSphere;
 
+
 protected:
+
+	void CheckForInteractables();
 
 	/** Called for side to side input */
 	//void MoveHorizontal(float Val);
@@ -39,14 +62,49 @@ protected:
     UFUNCTION(BlueprintCallable, Category = "Camp")
     void SpawnCamp();
 
+	UPROPERTY(EditDefaultsOnly)
+	class UDataTable* CraftingDB;
+
 
 public:
 	ADescendIntoDarknessCharacter();
+
+	virtual void Tick(float DeltaTime) override;
+	
+	void AddToInventory(FResource actor);
+
+	UFUNCTION(BlueprintCallable)
+	void UpdateInventory();
+
+	UFUNCTION(BlueprintCallable)
+	TArray<FResource> GetInventory();
+
+	UFUNCTION(BlueprintCallable)
+	TArray<FCraftable> GetCrafting();
+
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+	void UpdateInventoryUI();
+
+	class UDataTable* GetCraftingDB() const { return CraftingDB; }
+
+	UFUNCTION(BlueprintCallable)
+	void CraftItem(FCraftable item);
+
+	bool CheckValidCraft(FCraftable item);
+
+	UPROPERTY(BlueprintAssignable, Category = "Pickup")
+	FUpdateInventoryDelegate OnUpdateInventory;
+	
 
 	/** Returns SideViewCameraComponent subobject **/
 	FORCEINLINE class UCameraComponent* GetSideViewCameraComponent() const { return SideViewCameraComponent; }
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
+
+
+private:
+	TArray<FResource> _inventory;
+
     /** Returns the camp collision sphere **/
     FORCEINLINE class USphereComponent* GetCampCollisionSphere() const { return CampCollisionSphere; }
 
