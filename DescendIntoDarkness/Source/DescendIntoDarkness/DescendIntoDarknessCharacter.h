@@ -8,6 +8,8 @@
 #include "Runtime/Engine/Public/EngineGlobals.h"
 #include "Pickup.h"
 #include "Resource.h"
+#include "InventoryWidget.h"
+#include "DescendIntoDarknessGameMode.h"
 #include "DescendIntoDarknessCharacter.generated.h"
 
 
@@ -15,7 +17,7 @@
 
 
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FUpdateInventoryDelegate, const TArray<UResource*>&, InventoryItems);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FUpdateInventoryDelegate, const TArray<FResource>&, InventoryItems);
 
 
 
@@ -60,23 +62,40 @@ protected:
     UFUNCTION(BlueprintCallable, Category = "Camp")
     void SpawnCamp();
 
+	UPROPERTY(EditDefaultsOnly)
+	class UDataTable* CraftingDB;
+
 
 public:
 	ADescendIntoDarknessCharacter();
 
 	virtual void Tick(float DeltaTime) override;
 	
-	void AddToInventory(UResource* actor);
+	void AddToInventory(FResource actor);
 
 	UFUNCTION(BlueprintCallable)
 	void UpdateInventory();
 
 	UFUNCTION(BlueprintCallable)
-	TArray<UResource*> GetInventory();
+	TArray<FResource> GetInventory();
+
+	UFUNCTION(BlueprintCallable)
+	TArray<FCraftable> GetCrafting();
+
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+	void UpdateInventoryUI();
+
+	class UDataTable* GetCraftingDB() const { return CraftingDB; }
+
+	UFUNCTION(BlueprintCallable)
+	void CraftItem(FCraftable item);
+
+	bool CheckValidCraft(FCraftable item);
 
 	UPROPERTY(BlueprintAssignable, Category = "Pickup")
 	FUpdateInventoryDelegate OnUpdateInventory;
 	
+
 	/** Returns SideViewCameraComponent subobject **/
 	FORCEINLINE class UCameraComponent* GetSideViewCameraComponent() const { return SideViewCameraComponent; }
 	/** Returns CameraBoom subobject **/
@@ -84,7 +103,7 @@ public:
 
 
 private:
-	TArray<UResource*> _inventory;
+	TArray<FResource> _inventory;
 
     /** Returns the camp collision sphere **/
     FORCEINLINE class USphereComponent* GetCampCollisionSphere() const { return CampCollisionSphere; }
