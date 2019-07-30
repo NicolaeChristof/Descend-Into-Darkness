@@ -101,6 +101,7 @@ void ADescendIntoDarknessCharacter::CheckForInteractables()
 		{
 			// Call the Pickup was collected
 			TestPickup->WasCollected();
+			TestPickup->Interact();
 			//Deactivate the pickup
 			TestPickup->SetActive(false);
 		}
