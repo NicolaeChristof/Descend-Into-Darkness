@@ -9,6 +9,7 @@
 #include "Runtime/Engine/Classes/Components/SphereComponent.h"
 #include "Engine/World.h"
 #include "Interactable.h"
+#include "Readable.h"
 #include "Classes/Components/SphereComponent.h"
 #include "NewCampSpawnPole.h"
 
@@ -73,7 +74,7 @@ void ADescendIntoDarknessCharacter::SetupPlayerInputComponent(class UInputCompon
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &ADescendIntoDarknessCharacter::CheckForInteractables);
 	PlayerInputComponent->BindAction("PlaceCamp", IE_Released, this, &ADescendIntoDarknessCharacter::SpawnCamp);
-
+	PlayerInputComponent->BindAction("Talk", IE_Pressed, this, &ADescendIntoDarknessCharacter::CheckForDialogue);
     //PlayerInputComponent->BindAxis("MoveHorizontal", this, &ADescendIntoDarknessCharacter::MoveHorizontal);
     PlayerInputComponent->BindAxis("ClimbRope", this, &ADescendIntoDarknessCharacter::ClimbRope);
 
@@ -125,6 +126,22 @@ void ADescendIntoDarknessCharacter::CheckForInteractables()
 	}
 	*/
 
+}
+
+void ADescendIntoDarknessCharacter::CheckForDialogue()
+{
+	if(!CurrentNPC)
+	{
+		//get all overlapping actors and store them in an array
+		TArray<AActor*> CollectedActors;
+		CollectionSphere->GetOverlappingActors(CollectedActors, AReadable::StaticClass());
+
+		if (CollectedActors.Num() >= 1) {
+			CurrentNPC = Cast<AReadable>(CollectedActors[0]);
+			CurrentNPC->GetCurrentDialogue();
+		}
+	}
+	
 }
 
 void ADescendIntoDarknessCharacter::AddToInventory(FResource actor)
