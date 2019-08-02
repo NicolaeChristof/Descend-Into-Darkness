@@ -2,6 +2,7 @@
 
 
 #include "Readable.h"
+#include "Components/StaticMeshComponent.h"
 
 // Sets default values
 AReadable::AReadable()
@@ -11,6 +12,8 @@ AReadable::AReadable()
 	Name = "Note";
 	CurrentLineID = 1;
 	bisActive = false;
+	PickupMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PickupMesh"));
+	RootComponent = PickupMesh;
 }
 
 // Called when the game starts or when spawned
@@ -33,7 +36,7 @@ void AReadable::GetCurrentDialogue()
     UDataTable* tempDB = gm->DialogueDB;
 
 	TArray<FName> RowNames = tempDB->GetRowNames();
-
+	UE_LOG(LogClass, Log, TEXT("Row Size: %d"), RowNames.Num());
 	for (FName Row : RowNames)
 	{
 		UE_LOG(LogClass, Log, TEXT("Row Name: %s"), *Row.ToString());
@@ -43,9 +46,40 @@ void AReadable::GetCurrentDialogue()
 			if (ID == tempLine->NPCID)
 			{
 				CurrentLine = tempLine->Dialogue;
+				CurrentConversationID = tempLine->ConversationID;
+				CurrentLineID = tempLine->LineID;
 				UpdateDialogue();
 				break;
 			}
 		}
 	}
+}
+
+void AReadable::GetNextDialogue()
+{
+	ADescendIntoDarknessGameMode* gm = (ADescendIntoDarknessGameMode*)GetWorld()->GetAuthGameMode();
+	UDataTable* tempDB = gm->DialogueDB;
+
+	TArray<FName> RowNames = tempDB->GetRowNames();
+	UE_LOG(LogClass, Log, TEXT("Row Size: %d"), RowNames.Num());
+	for (FName Row : RowNames)
+	{
+		UE_LOG(LogClass, Log, TEXT("Row Name: %s"), *Row.ToString());
+		FDialogue* tempLine = tempDB->FindRow<FDialogue>(Row, "");
+		if (tempLine)
+		{
+			if (ID == tempLine->NPCID && CurrentConversationID == tempLine->ConversationID)
+			{
+				if ((CurrentLineID + 1) == tempLine->LineID)
+				{
+					CurrentLine = tempLine->Dialogue;
+					CurrentLineID = tempLine->LineID;
+					UpdateDialogue();
+					return;
+				}
+			}
+		}
+	}
+
+	ClearDialogue();
 }

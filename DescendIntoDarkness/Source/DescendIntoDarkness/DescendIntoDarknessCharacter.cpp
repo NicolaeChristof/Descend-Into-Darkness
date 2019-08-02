@@ -73,8 +73,8 @@ void ADescendIntoDarknessCharacter::SetupPlayerInputComponent(class UInputCompon
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &ADescendIntoDarknessCharacter::CheckForInteractables);
-	PlayerInputComponent->BindAction("PlaceCamp", IE_Released, this, &ADescendIntoDarknessCharacter::SpawnCamp);
 	PlayerInputComponent->BindAction("Talk", IE_Pressed, this, &ADescendIntoDarknessCharacter::CheckForDialogue);
+	PlayerInputComponent->BindAction("PlaceCamp", IE_Released, this, &ADescendIntoDarknessCharacter::SpawnCamp);
     //PlayerInputComponent->BindAxis("MoveHorizontal", this, &ADescendIntoDarknessCharacter::MoveHorizontal);
     PlayerInputComponent->BindAxis("ClimbRope", this, &ADescendIntoDarknessCharacter::ClimbRope);
 
@@ -130,16 +130,28 @@ void ADescendIntoDarknessCharacter::CheckForInteractables()
 
 void ADescendIntoDarknessCharacter::CheckForDialogue()
 {
-	if(!CurrentNPC)
-	{
-		//get all overlapping actors and store them in an array
-		TArray<AActor*> CollectedActors;
-		CollectionSphere->GetOverlappingActors(CollectedActors, AReadable::StaticClass());
+	UE_LOG(LogClass, Log, TEXT("Test"));
 
-		if (CollectedActors.Num() >= 1) {
+	//get all overlapping actors and store them in an array
+	TArray<AActor*> CollectedActors;
+	CollectionSphere->GetOverlappingActors(CollectedActors, AReadable::StaticClass());
+	UE_LOG(LogClass, Log, TEXT("OverlappingActors: %d"), CollectedActors.Num());
+
+	if (CollectedActors.Num() >= 1) {
+		
+		if (CurrentNPC != Cast<AReadable>(CollectedActors[0]))
+		{
 			CurrentNPC = Cast<AReadable>(CollectedActors[0]);
 			CurrentNPC->GetCurrentDialogue();
 		}
+		else
+		{
+			if (CurrentNPC)
+			{
+				CurrentNPC->GetNextDialogue();
+			}
+		}
+		
 	}
 	
 }

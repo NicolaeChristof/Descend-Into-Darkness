@@ -37,6 +37,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Readable)
 	bool bisActive;
 
+	FORCEINLINE class UStaticMeshComponent* GetMesh() const { return PickupMesh; }
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -51,7 +53,12 @@ public:
 
 	void GetCurrentDialogue();
 
+	void GetNextDialogue();
+
 	UFUNCTION(BlueprintImplementableEvent)
 	void UpdateDialogue();
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void ClearDialogue();
 
 };
