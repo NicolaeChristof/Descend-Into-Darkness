@@ -148,10 +148,20 @@ void ADescendIntoDarknessCharacter::CheckForDialogue()
 		{
 			if (CurrentNPC)
 			{
-				CurrentNPC->GetNextDialogue();
+				if (!CurrentNPC->GetNextDialogue())
+				{
+					CurrentNPC = NULL;
+				}
 			}
 		}
 		
+	}
+	else
+	{
+		if (CurrentNPC)
+		{
+			CurrentNPC->ClearDialogue();
+		}
 	}
 	
 }

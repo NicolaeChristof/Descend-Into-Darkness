@@ -12,8 +12,6 @@ AReadable::AReadable()
 	Name = "Note";
 	CurrentLineID = 1;
 	bisActive = false;
-	PickupMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PickupMesh"));
-	RootComponent = PickupMesh;
 }
 
 // Called when the game starts or when spawned
@@ -55,7 +53,7 @@ void AReadable::GetCurrentDialogue()
 	}
 }
 
-void AReadable::GetNextDialogue()
+bool AReadable::GetNextDialogue()
 {
 	ADescendIntoDarknessGameMode* gm = (ADescendIntoDarknessGameMode*)GetWorld()->GetAuthGameMode();
 	UDataTable* tempDB = gm->DialogueDB;
@@ -75,11 +73,19 @@ void AReadable::GetNextDialogue()
 					CurrentLine = tempLine->Dialogue;
 					CurrentLineID = tempLine->LineID;
 					UpdateDialogue();
-					return;
+					return true;
 				}
 			}
 		}
 	}
-
+	
 	ClearDialogue();
+	return false;
+}
+
+// Called to bind functionality to input
+void AReadable::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+{
+	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
 }

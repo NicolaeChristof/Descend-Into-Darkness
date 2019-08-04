@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
+#include "GameFramework/Character.h"
 #include "DescendIntoDarknessGameMode.h"
 #include "Engine/World.h"
 #include "Engine/DataTable.h"
@@ -11,7 +11,7 @@
 #include "Readable.generated.h"
 
 UCLASS()
-class DESCENDINTODARKNESS_API AReadable : public AActor
+class DESCENDINTODARKNESS_API AReadable : public ACharacter
 {
 	GENERATED_BODY()
 	
@@ -37,15 +37,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Readable)
 	bool bisActive;
 
-	FORCEINLINE class UStaticMeshComponent* GetMesh() const { return PickupMesh; }
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-private:
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Interactable", meta = (AllowPrivateAccess = "true"))
-	class UStaticMeshComponent* PickupMesh;
 
 public:	
 	// Called every frame
@@ -53,12 +49,15 @@ public:
 
 	void GetCurrentDialogue();
 
-	void GetNextDialogue();
+	bool GetNextDialogue();
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void UpdateDialogue();
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void ClearDialogue();
+
+	// Called to bind functionality to input
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 };
