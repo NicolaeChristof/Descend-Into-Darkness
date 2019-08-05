@@ -9,6 +9,7 @@
 #include "Runtime/Engine/Classes/Components/SphereComponent.h"
 #include "Engine/World.h"
 #include "Interactable.h"
+#include "Readable.h"
 #include "Classes/Components/SphereComponent.h"
 #include "NewCampSpawnPole.h"
 
@@ -72,8 +73,8 @@ void ADescendIntoDarknessCharacter::SetupPlayerInputComponent(class UInputCompon
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &ADescendIntoDarknessCharacter::CheckForInteractables);
+	PlayerInputComponent->BindAction("Talk", IE_Pressed, this, &ADescendIntoDarknessCharacter::CheckForDialogue);
 	PlayerInputComponent->BindAction("PlaceCamp", IE_Released, this, &ADescendIntoDarknessCharacter::SpawnCamp);
-
     //PlayerInputComponent->BindAxis("MoveHorizontal", this, &ADescendIntoDarknessCharacter::MoveHorizontal);
     PlayerInputComponent->BindAxis("ClimbRope", this, &ADescendIntoDarknessCharacter::ClimbRope);
 
@@ -101,6 +102,7 @@ void ADescendIntoDarknessCharacter::CheckForInteractables()
 		{
 			// Call the Pickup was collected
 			TestPickup->WasCollected();
+			TestPickup->Interact();
 			//Deactivate the pickup
 			TestPickup->SetActive(false);
 		}
@@ -124,6 +126,44 @@ void ADescendIntoDarknessCharacter::CheckForInteractables()
 	}
 	*/
 
+}
+
+void ADescendIntoDarknessCharacter::CheckForDialogue()
+{
+	UE_LOG(LogClass, Log, TEXT("Test"));
+
+	//get all overlapping actors and store them in an array
+	TArray<AActor*> CollectedActors;
+	CollectionSphere->GetOverlappingActors(CollectedActors, AReadable::StaticClass());
+	UE_LOG(LogClass, Log, TEXT("OverlappingActors: %d"), CollectedActors.Num());
+
+	if (CollectedActors.Num() >= 1) {
+		
+		if (CurrentNPC != Cast<AReadable>(CollectedActors[0]))
+		{
+			CurrentNPC = Cast<AReadable>(CollectedActors[0]);
+			CurrentNPC->GetCurrentDialogue();
+		}
+		else
+		{
+			if (CurrentNPC)
+			{
+				if (!CurrentNPC->GetNextDialogue())
+				{
+					CurrentNPC = NULL;
+				}
+			}
+		}
+		
+	}
+	else
+	{
+		if (CurrentNPC)
+		{
+			CurrentNPC->ClearDialogue();
+		}
+	}
+	
 }
 
 void ADescendIntoDarknessCharacter::AddToInventory(FResource actor)

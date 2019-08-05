@@ -24,7 +24,7 @@ public:
 	void SetActive(bool NewState);
 
 	UFUNCTION(BlueprintImplementableEvent)
-    void Interact(APlayerController* Controller);
+    void Interact();
 
 	UFUNCTION(BlueprintNativeEvent)
 	void WasCollected();

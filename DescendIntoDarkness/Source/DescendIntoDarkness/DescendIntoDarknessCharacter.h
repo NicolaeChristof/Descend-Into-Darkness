@@ -48,6 +48,7 @@ protected:
 
 	void CheckForInteractables();
 
+	void CheckForDialogue();
 	/** Called for side to side input */
 	//void MoveHorizontal(float Val);
 
@@ -104,6 +105,8 @@ public:
 
 private:
 	TArray<FResource> _inventory;
+
+	class AReadable* CurrentNPC;
 
     /** Returns the camp collision sphere **/
     FORCEINLINE class USphereComponent* GetCampCollisionSphere() const { return CampCollisionSphere; }

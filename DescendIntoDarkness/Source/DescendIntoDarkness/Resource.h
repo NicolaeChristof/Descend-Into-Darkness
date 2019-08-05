@@ -58,6 +58,24 @@ public:
 
 };
 
+USTRUCT(BlueprintType)
+struct FDialogue : public FTableRowBase
+{
+	GENERATED_BODY()
+
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Dialogue)
+		int32 NPCID;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Craftable)
+		int32 ConversationID;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Craftable)
+		int32 LineID;
+
+	UPROPERTY(EditAnywhere, Category = Craftable)
+		FText Dialogue;
+};
 
 UCLASS(BlueprintType)
 class DESCENDINTODARKNESS_API UFResource : public UObject
