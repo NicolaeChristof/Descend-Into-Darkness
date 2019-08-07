@@ -8,33 +8,33 @@
 #include "Engine/World.h"
 #include "Engine/DataTable.h"
 #include "Resource.h"
-#include "Readable.generated.h"
+#include "NPC.generated.h"
 
 UCLASS()
-class DESCENDINTODARKNESS_API AReadable : public ACharacter
+class DESCENDINTODARKNESS_API ANPC : public ACharacter
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	AReadable();
+	ANPC();
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Readable)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = NPC)
 	FName Name;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Readable)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = NPC)
 	int32 ID;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Readable)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = NPC)
 	int32 CurrentConversationID;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Readable)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = NPC)
     int32 CurrentLineID;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Readable)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = NPC)
 	FText CurrentLine;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Readable)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = NPC)
 	bool bisActive;
 
 
