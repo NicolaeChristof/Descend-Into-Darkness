@@ -98,7 +98,12 @@ void ADescendIntoDarknessCharacter::CheckForInteractables()
 
 	if (CollectedActors.Num() >= 1) {
 		AInteractable* const TestPickup = Cast<AInteractable>(CollectedActors[0]);
-		if (TestPickup && !TestPickup->IsPendingKill() && TestPickup->IsActive())
+		if (TestPickup && !TestPickup->IsPendingKill() && TestPickup->IsNote())
+		{
+			TestPickup->WasCollected();
+			TestPickup->Interact();
+		}
+		else if (TestPickup && !TestPickup->IsPendingKill() && TestPickup->IsActive())
 		{
 			// Call the Pickup was collected
 			TestPickup->WasCollected();

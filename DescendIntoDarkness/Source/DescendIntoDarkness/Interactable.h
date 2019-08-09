@@ -20,6 +20,9 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Interactable")
 	bool IsActive();
 
+	UFUNCTION(BlueprintPure, Category = "Interactable")
+	bool IsNote();
+
 	UFUNCTION(BlueprintCallable, Category = "Interactable")
 	void SetActive(bool NewState);
 
@@ -49,7 +52,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	bool bIsActive;
-	
+	bool bIsNote;
 
 
 private:

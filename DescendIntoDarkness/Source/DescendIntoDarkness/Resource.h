@@ -67,14 +67,30 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Dialogue)
 		int32 NPCID;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Craftable)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Dialogue)
 		int32 ConversationID;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Craftable)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Dialogue)
 		int32 LineID;
 
-	UPROPERTY(EditAnywhere, Category = Craftable)
+	UPROPERTY(EditAnywhere, Category = Dialogue)
 		FText Dialogue;
+};
+
+USTRUCT(BlueprintType)
+struct FNoteContent : public FTableRowBase
+{
+	GENERATED_BODY()
+
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Notes)
+	int32 NoteID;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Notes)
+	int32 LineID;
+
+	UPROPERTY(EditAnywhere, Category = Notes)
+	FText Text;
 };
 
 UCLASS(BlueprintType)

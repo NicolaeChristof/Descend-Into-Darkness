@@ -2,7 +2,6 @@
 
 
 #include "NPC.h"
-#include "Components/StaticMeshComponent.h"
 
 // Sets default values
 ANPC::ANPC()

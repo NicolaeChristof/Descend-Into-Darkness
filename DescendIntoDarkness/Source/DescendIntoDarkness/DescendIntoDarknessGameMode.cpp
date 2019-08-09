@@ -14,12 +14,12 @@ ADescendIntoDarknessGameMode::ADescendIntoDarknessGameMode()
 	}
 }
 
-void ADescendIntoDarknessGameMode::AddToNotes(ANotes Note)
+void ADescendIntoDarknessGameMode::AddToNotes(FNoteContent Note)
 {
 	Notes.Add(Note);
 }
 
-TArray<ANotes> ADescendIntoDarknessGameMode::GetNotes()
+TArray<FNoteContent> ADescendIntoDarknessGameMode::GetNotes()
 {
 	return Notes;
 }
