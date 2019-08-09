@@ -92,7 +92,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Notes)
 	int32 LineID;
 
-	UPROPERTY(EditAnywhere, Category = Notes)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Notes)
 	FText Text;
 };
 

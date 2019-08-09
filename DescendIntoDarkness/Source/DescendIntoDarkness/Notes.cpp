@@ -33,7 +33,8 @@ void ANotes::WasCollected_Implementation()
 			}
 		}
 	}
-	
+
+	Destroy();
 }
 
 FString ANotes::GetNoteName()
