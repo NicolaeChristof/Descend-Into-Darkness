@@ -13,3 +13,13 @@ ADescendIntoDarknessGameMode::ADescendIntoDarknessGameMode()
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
 }
+
+void ADescendIntoDarknessGameMode::AddToNotes(ANotes Note)
+{
+	Notes.Add(Note);
+}
+
+TArray<ANotes> ADescendIntoDarknessGameMode::GetNotes()
+{
+	return Notes;
+}
