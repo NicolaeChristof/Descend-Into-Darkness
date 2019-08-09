@@ -84,6 +84,9 @@ struct FNoteContent : public FTableRowBase
 
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Notes)
+	FString Name;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Notes)
 	int32 NoteID;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Notes)

@@ -24,6 +24,7 @@ void ANotes::WasCollected_Implementation()
 			if (NoteID == tempLine->NoteID)
 			{
 				FNoteContent temp;
+				temp.Name = tempLine->Name;
 				temp.NoteID = tempLine->NoteID;
 				temp.LineID = tempLine->LineID;
 				temp.Text = tempLine->Text;

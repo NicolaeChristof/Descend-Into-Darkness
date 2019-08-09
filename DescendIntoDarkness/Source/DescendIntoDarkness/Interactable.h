@@ -35,9 +35,6 @@ public:
 	virtual void WasCollected_Implementation();
 
 	UFUNCTION(BlueprintCallable, Category = "Interactable")
-	FString GetUseText() const { return FString::Printf(TEXT("%s : Press C to %s"), *Name, *Action); }
-
-	UFUNCTION(BlueprintCallable, Category = "Interactable")
 	FString GetInteractableName();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
