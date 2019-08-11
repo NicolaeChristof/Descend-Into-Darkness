@@ -35,6 +35,7 @@ void ANotes::WasCollected_Implementation()
 	}
 
 	Destroy();
+	gm->UpdateNoteUI();
 }
 
 FString ANotes::GetNoteName()

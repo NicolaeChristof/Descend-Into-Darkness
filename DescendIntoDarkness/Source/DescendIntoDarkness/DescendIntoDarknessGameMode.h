@@ -29,6 +29,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = Notes)
 	TArray<FNoteContent> GetNotes();
 
+	UFUNCTION(BlueprintImplementableEvent)
+	void UpdateNoteUI();
+
 protected:
 
 private:
