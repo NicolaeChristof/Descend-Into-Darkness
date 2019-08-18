@@ -7,9 +7,19 @@
 ADescendIntoDarknessGameMode::ADescendIntoDarknessGameMode()
 {
 	// set default pawn class to our Blueprinted character
-	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/SideScrollerCPP/Blueprints/SideScrollerCharacter"));
+	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/Blueprints/Player"));
 	if (PlayerPawnBPClass.Class != NULL)
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
+}
+
+void ADescendIntoDarknessGameMode::AddToNotes(FNoteContent Note)
+{
+	Notes.Add(Note);
+}
+
+TArray<FNoteContent> ADescendIntoDarknessGameMode::GetNotes()
+{
+	return Notes;
 }

@@ -5,6 +5,8 @@
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
 #include "Engine/DataTable.h"
+#include "Resource.h"
+#include "Notes.h"
 #include "DescendIntoDarknessGameMode.generated.h"
 
 UCLASS(minimalapi)
@@ -18,9 +20,22 @@ public:
 	UPROPERTY(EditDefaultsOnly)
 	class UDataTable* DialogueDB;
 
+	UPROPERTY(EditDefaultsOnly)
+	class UDataTable* NoteDB;
+
+	UFUNCTION(BlueprintCallable, Category = Notes)
+	void AddToNotes(FNoteContent Note);
+
+	UFUNCTION(BlueprintCallable, Category = Notes)
+	TArray<FNoteContent> GetNotes();
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void UpdateNoteUI();
+
 protected:
 
-	
+private:
+	TArray<FNoteContent> Notes;
 };
 
 

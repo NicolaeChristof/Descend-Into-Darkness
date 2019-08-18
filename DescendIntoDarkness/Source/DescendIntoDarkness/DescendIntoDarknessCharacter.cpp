@@ -9,7 +9,7 @@
 #include "Runtime/Engine/Classes/Components/SphereComponent.h"
 #include "Engine/World.h"
 #include "Interactable.h"
-#include "Readable.h"
+#include "NPC.h"
 #include "Classes/Components/SphereComponent.h"
 #include "NewCampSpawnPole.h"
 
@@ -98,7 +98,12 @@ void ADescendIntoDarknessCharacter::CheckForInteractables()
 
 	if (CollectedActors.Num() >= 1) {
 		AInteractable* const TestPickup = Cast<AInteractable>(CollectedActors[0]);
-		if (TestPickup && !TestPickup->IsPendingKill() && TestPickup->IsActive())
+		if (TestPickup && !TestPickup->IsPendingKill() && TestPickup->IsNote())
+		{
+			TestPickup->WasCollected();
+			TestPickup->Interact();
+		}
+		else if (TestPickup && !TestPickup->IsPendingKill() && TestPickup->IsActive())
 		{
 			// Call the Pickup was collected
 			TestPickup->WasCollected();
@@ -134,14 +139,14 @@ void ADescendIntoDarknessCharacter::CheckForDialogue()
 
 	//get all overlapping actors and store them in an array
 	TArray<AActor*> CollectedActors;
-	CollectionSphere->GetOverlappingActors(CollectedActors, AReadable::StaticClass());
+	CollectionSphere->GetOverlappingActors(CollectedActors, ANPC::StaticClass());
 	UE_LOG(LogClass, Log, TEXT("OverlappingActors: %d"), CollectedActors.Num());
 
 	if (CollectedActors.Num() >= 1) {
 		
-		if (CurrentNPC != Cast<AReadable>(CollectedActors[0]))
+		if (CurrentNPC != Cast<ANPC>(CollectedActors[0]))
 		{
-			CurrentNPC = Cast<AReadable>(CollectedActors[0]);
+			CurrentNPC = Cast<ANPC>(CollectedActors[0]);
 			CurrentNPC->GetCurrentDialogue();
 		}
 		else
