@@ -35,8 +35,13 @@ public:
 	FText CurrentLine;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = NPC)
-	bool bisActive;
+    FString NextNodes;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = NPC)
+	bool bisPlayerTalking;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = NPC)
+	TArray<FDialogue> DialogueChoices;
 
 protected:
 	// Called when the game starts or when spawned
@@ -51,12 +56,21 @@ public:
 
 	bool GetNextDialogue();
 
+	void GetLineByID(FString Line);
+
+	UFUNCTION(BlueprintCallable)
+	void GetNPCResponse(FDialogue PlayerResponse);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void DisplayPlayerChoices();
+
 	UFUNCTION(BlueprintImplementableEvent)
 	void UpdateDialogue();
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void ClearDialogue();
 
+	
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 

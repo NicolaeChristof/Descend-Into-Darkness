@@ -77,9 +77,9 @@ public:
 		bool bIsRoot;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Dialogue)
-		FText AdjacencyNodes;
+		FString AdjacencyNodes;
 
-	UPROPERTY(EditAnywhere, Category = Dialogue)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Dialogue)
 		FText Dialogue;
 };
 

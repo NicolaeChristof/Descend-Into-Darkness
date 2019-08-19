@@ -91,6 +91,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void CraftItem(FCraftable item);
 
+	UFUNCTION(BlueprintCallable)
+	class ANPC* GetCurrentNpc() const { return CurrentNPC; }
+
 	bool CheckValidCraft(FCraftable item);
 
 	UPROPERTY(BlueprintAssignable, Category = "Pickup")

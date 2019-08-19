@@ -151,7 +151,7 @@ void ADescendIntoDarknessCharacter::CheckForDialogue()
 		}
 		else
 		{
-			if (CurrentNPC)
+			if (CurrentNPC && (CurrentNPC->bisPlayerTalking == false))
 			{
 				if (!CurrentNPC->GetNextDialogue())
 				{
