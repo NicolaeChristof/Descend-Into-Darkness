@@ -1,34 +1,33 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "Readable.h"
-#include "Components/StaticMeshComponent.h"
+#include "NPC.h"
 
 // Sets default values
-AReadable::AReadable()
+ANPC::ANPC()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
-	Name = "Note";
+	Name = "NPC";
 	CurrentLineID = 1;
 	bisActive = false;
 }
 
 // Called when the game starts or when spawned
-void AReadable::BeginPlay()
+void ANPC::BeginPlay()
 {
 	Super::BeginPlay();
 	
 }
 
 // Called every frame
-void AReadable::Tick(float DeltaTime)
+void ANPC::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
 }
 
-void AReadable::GetCurrentDialogue()
+void ANPC::GetCurrentDialogue()
 {
 	ADescendIntoDarknessGameMode* gm = (ADescendIntoDarknessGameMode*)GetWorld()->GetAuthGameMode();
     UDataTable* tempDB = gm->DialogueDB;
@@ -53,7 +52,7 @@ void AReadable::GetCurrentDialogue()
 	}
 }
 
-bool AReadable::GetNextDialogue()
+bool ANPC::GetNextDialogue()
 {
 	ADescendIntoDarknessGameMode* gm = (ADescendIntoDarknessGameMode*)GetWorld()->GetAuthGameMode();
 	UDataTable* tempDB = gm->DialogueDB;
@@ -84,7 +83,7 @@ bool AReadable::GetNextDialogue()
 }
 
 // Called to bind functionality to input
-void AReadable::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+void ANPC::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 

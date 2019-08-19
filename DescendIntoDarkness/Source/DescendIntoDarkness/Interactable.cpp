@@ -11,6 +11,7 @@ AInteractable::AInteractable()
 	Name = "Name not set";
 	Action = "Interact";
 	bIsActive = true;
+	bIsNote = false;
 	PickupMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PickupMesh"));
 	RootComponent = PickupMesh;
 }
@@ -27,6 +28,11 @@ void AInteractable::BeginPlay()
 bool AInteractable::IsActive()
 {
 	return bIsActive;
+}
+
+bool AInteractable::IsNote()
+{
+	return bIsNote;
 }
 
 void AInteractable::SetActive(bool NewPickupState)

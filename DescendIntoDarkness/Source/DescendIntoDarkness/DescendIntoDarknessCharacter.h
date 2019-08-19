@@ -106,7 +106,7 @@ public:
 private:
 	TArray<FResource> _inventory;
 
-	class AReadable* CurrentNPC;
+	class ANPC* CurrentNPC;
 
     /** Returns the camp collision sphere **/
     FORCEINLINE class USphereComponent* GetCampCollisionSphere() const { return CampCollisionSphere; }
