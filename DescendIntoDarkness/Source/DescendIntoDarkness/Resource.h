@@ -73,7 +73,13 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Dialogue)
 		int32 LineID;
 
-	UPROPERTY(EditAnywhere, Category = Dialogue)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Dialogue)
+		bool bIsRoot;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Dialogue)
+		FString AdjacencyNodes;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Dialogue)
 		FText Dialogue;
 };
 
