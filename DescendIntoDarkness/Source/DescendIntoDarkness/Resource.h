@@ -58,6 +58,49 @@ public:
 
 };
 
+USTRUCT(BlueprintType)
+struct FDialogue : public FTableRowBase
+{
+	GENERATED_BODY()
+
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Dialogue)
+		int32 NPCID;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Dialogue)
+		int32 ConversationID;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Dialogue)
+		int32 LineID;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Dialogue)
+		bool bIsRoot;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Dialogue)
+		FString AdjacencyNodes;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Dialogue)
+		FText Dialogue;
+};
+
+USTRUCT(BlueprintType)
+struct FNoteContent : public FTableRowBase
+{
+	GENERATED_BODY()
+
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Notes)
+	FString Name;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Notes)
+	int32 NoteID;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Notes)
+	int32 LineID;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Notes)
+	FText Text;
+};
 
 UCLASS(BlueprintType)
 class DESCENDINTODARKNESS_API UFResource : public UObject

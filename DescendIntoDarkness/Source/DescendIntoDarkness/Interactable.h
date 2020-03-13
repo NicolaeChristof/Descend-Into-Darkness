@@ -20,19 +20,19 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Interactable")
 	bool IsActive();
 
+	UFUNCTION(BlueprintPure, Category = "Interactable")
+	bool IsNote();
+
 	UFUNCTION(BlueprintCallable, Category = "Interactable")
 	void SetActive(bool NewState);
 
 	UFUNCTION(BlueprintImplementableEvent)
-    void Interact(APlayerController* Controller);
+    void Interact();
 
 	UFUNCTION(BlueprintNativeEvent)
 	void WasCollected();
 
 	virtual void WasCollected_Implementation();
-
-	UFUNCTION(BlueprintCallable, Category = "Interactable")
-	FString GetUseText() const { return FString::Printf(TEXT("%s : Press C to %s"), *Name, *Action); }
 
 	UFUNCTION(BlueprintCallable, Category = "Interactable")
 	FString GetInteractableName();
@@ -49,7 +49,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	bool bIsActive;
-	
+	bool bIsNote;
 
 
 private:

@@ -48,6 +48,7 @@ protected:
 
 	void CheckForInteractables();
 
+	void CheckForDialogue();
 	/** Called for side to side input */
 	//void MoveHorizontal(float Val);
 
@@ -90,6 +91,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void CraftItem(FCraftable item);
 
+	UFUNCTION(BlueprintCallable)
+	class ANPC* GetCurrentNpc() const { return CurrentNPC; }
+
 	bool CheckValidCraft(FCraftable item);
 
 	UPROPERTY(BlueprintAssignable, Category = "Pickup")
@@ -104,6 +108,8 @@ public:
 
 private:
 	TArray<FResource> _inventory;
+
+	class ANPC* CurrentNPC;
 
     /** Returns the camp collision sphere **/
     FORCEINLINE class USphereComponent* GetCampCollisionSphere() const { return CampCollisionSphere; }
